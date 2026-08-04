@@ -19,7 +19,7 @@ TERM_PATH = ROOT / "terminology.yaml"
 GLOSSARY_PATH = ROOT / "glossary.json"
 PROGRESS_PATH = ROOT / "PROOFREADING_PROGRESS.md"
 
-SPEAKER_PREFIX_RE = re.compile(r"^【話者：[^】]*】")
+SPEAKER_PREFIX_RE = re.compile(r"^【話者[:：][^】]*】")
 WHITESPACE_RE = re.compile(r"\s+")
 BLOCKED_FROM = 90
 
@@ -28,6 +28,8 @@ def normalize_source(value: str) -> str:
     text = unicodedata.normalize("NFKC", str(value or ""))
     text = text.strip().lstrip("\u3000")
     text = SPEAKER_PREFIX_RE.sub("", text, count=1)
+    text = re.sub(r"(?<=[\u3400-\u9fff々ヶ])\([ぁ-ゖァ-ヺー]+\)", "", text)
+    text = re.sub(r"<[ぁ-ゖァ-ヺー]+>", "", text)
     return WHITESPACE_RE.sub("", text)
 
 
