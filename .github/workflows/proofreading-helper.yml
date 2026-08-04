@@ -11,6 +11,7 @@ on:
       - 'proofreading/reviewed-batch-*.json'
       - 'proofreading/sync_proofreading_v2.py'
       - 'proofreading/diagnose_misalignment.py'
+      - 'proofreading/analyze_chapter_order.py'
       - 'terminology.yaml'
       - 'glossary.json'
   pull_request:
@@ -73,6 +74,9 @@ jobs:
       - name: Diagnose source-target misalignment
         run: python proofreading/diagnose_misalignment.py
 
+      - name: Analyze chapter ordering
+        run: python proofreading/analyze_chapter_order.py
+
       - name: Commit corrected and generated files
         run: |
           git config user.name 'github-actions[bot]'
@@ -89,7 +93,7 @@ jobs:
           if git diff --cached --quiet; then
             exit 0
           fi
-          git commit -m 'proofread: rebuild reviewed text with local source checks'
+          git commit -m 'proofread: refresh chapter-order diagnostics'
           git fetch origin translation-proofreading-v2
           git rebase origin/translation-proofreading-v2
           git push origin HEAD:translation-proofreading-v2
