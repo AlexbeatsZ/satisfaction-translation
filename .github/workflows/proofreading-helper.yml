@@ -32,40 +32,44 @@ jobs:
           from pathlib import Path
 
           request_path = Path('proofreading/request.json')
-          if request_path.exists():
-              request = json.loads(request_path.read_text(encoding='utf-8'))
-          else:
-              request = {'start': 1, 'count': 40}
-
+          request = json.loads(request_path.read_text(encoding='utf-8')) if request_path.exists() else {'start': 1, 'count': 40}
           start = int(request.get('start', 1))
           count = int(request.get('count', 40))
 
           with Path('satisfaction-text.tsv').open('r', encoding='utf-8-sig', newline='') as f:
               rows = list(csv.DictReader(f, delimiter='\t'))
 
-          selected = rows[start - 1:start - 1 + count]
+          selected = []
+          for index, row in enumerate(rows[start - 1:start - 1 + count], start=start):
+              selected.append({
+                  'index': index,
+                  'file': row.get('file', ''),
+                  'line': row.get('line', ''),
+                  'kind': row.get('kind', ''),
+                  'voice': row.get('voice', ''),
+                  'source': row.get('source', ''),
+                  'translation': row.get('translation', ''),
+              })
+
           out = Path('proofreading')
           out.mkdir(exist_ok=True)
-
+          fields = ['index', 'file', 'line', 'kind', 'voice', 'source', 'translation']
           with (out / 'current-batch.tsv').open('w', encoding='utf-8', newline='') as f:
-              writer = csv.DictWriter(f, fieldnames=['id', 'ja', 'zh', 'en'], delimiter='\t', lineterminator='\n')
+              writer = csv.DictWriter(f, fieldnames=fields, delimiter='\t', lineterminator='\n')
               writer.writeheader()
               writer.writerows(selected)
 
-          md = [
-              '# 当前校对批次',
-              '',
-              f'- 请求范围：第 {start}–{start + len(selected) - 1} 条',
-              f'- 实际条数：{len(selected)}',
-              '',
-          ]
-          for offset, row in enumerate(selected, start=start):
+          last = start + len(selected) - 1
+          md = ['# 当前校对批次', '', f'- 请求范围：第 {start}–{last} 条', f'- 实际条数：{len(selected)}', '']
+          for row in selected:
               md.extend([
-                  f'## 条目 {offset}（ID: {row.get("id", "")}）',
+                  f'## 条目 {row["index"]}',
                   '',
-                  f'- **日文：** {row.get("ja", "")}',
-                  f'- **中文：** {row.get("zh", "")}',
-                  f'- **英文：** {row.get("en", "")}',
+                  f'- **定位：** `{row["file"]}:{row["line"]}`',
+                  f'- **类型：** `{row["kind"]}`',
+                  f'- **语音：** `{row["voice"]}`',
+                  f'- **日文：** {row["source"]}',
+                  f'- **中文：** {row["translation"]}',
                   '',
               ])
           (out / 'current-batch.md').write_text('\n'.join(md), encoding='utf-8')
