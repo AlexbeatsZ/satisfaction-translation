@@ -268,3 +268,8 @@ terms:
   mode: hard
   status: active
   valid_from: 1
+- source: グルヴェイグ
+  target: 古尔薇格
+  mode: preferred
+  status: active
+  valid_from: 4
