@@ -1,0 +1,86 @@
+{
+  "range": {"start": 110, "end": 119},
+  "reviewed_at": "2026-08-05",
+  "entries": [
+    {
+      "index": 110,
+      "source": "【話者：黒澤／中文名：黑泽】「違う……違うな……これも。これも」",
+      "old_target": "「不对……不对……这个也是。这个也是」",
+      "new_target": "「不对……不对……这个也不是。这个也不是」",
+      "status": "corrected",
+      "note": "结合搜寻语境补出被省略的否定结果，避免‘这个也是’被理解为肯定。"
+    },
+    {
+      "index": 111,
+      "source": "尖った革靴のつま先が、消しゴムの欠片を蹴り飛ばした。",
+      "old_target": "尖头皮鞋的鞋尖踢飞了一块橡皮屑。",
+      "new_target": "尖头皮鞋踢飞了一块橡皮屑。",
+      "status": "corrected",
+      "note": "删除‘尖头皮鞋的鞋尖’的重复表达。"
+    },
+    {
+      "index": 112,
+      "source": "それから、色とりどりのクリップ。",
+      "old_target": "接着，是五颜六色的回形针。",
+      "new_target": "接着，是五颜六色的回形针。",
+      "status": "unchanged",
+      "note": "列举节奏和物品含义准确。"
+    },
+    {
+      "index": 113,
+      "source": "爪きり。",
+      "old_target": "指甲刀。",
+      "new_target": "指甲刀。",
+      "status": "unchanged",
+      "note": "准确。"
+    },
+    {
+      "index": 114,
+      "source": "ライター。",
+      "old_target": "打火机。",
+      "new_target": "打火机。",
+      "status": "unchanged",
+      "note": "准确。"
+    },
+    {
+      "index": 115,
+      "source": "研究所内にある売店の領収書。",
+      "old_target": "研究所内小卖部的收据。",
+      "new_target": "研究所内小卖部的收据。",
+      "status": "unchanged",
+      "note": "准确。"
+    },
+    {
+      "index": 116,
+      "source": "いつかの学会でつけたきり、忘れられたネームプレート。",
+      "old_target": "不知哪次学会上佩戴过便被遗忘的名牌。",
+      "new_target": "某次学会上戴过后便被遗忘的名牌。",
+      "status": "corrected",
+      "note": "整理连体修饰，消除‘哪次学会上佩戴过便’的生硬语序。"
+    },
+    {
+      "index": 117,
+      "source": "天崎製薬主任研究員・天崎今日子PhD 、と記されたそのプラスチックの切片は、",
+      "old_target": "印有「天崎制药主任研究员·天崎今日子PhD」字样的那块塑料碎片，",
+      "new_target": "印有「天崎制药主任研究员·天崎今日子PhD」字样的那块塑料碎片，",
+      "status": "unchanged",
+      "note": "作为跨段句子的前半部分，信息与悬接关系准确。"
+    },
+    {
+      "index": 118,
+      "source": "【話者：黒澤／中文名：黑泽】「ゴミだ」",
+      "old_target": "「是垃圾」",
+      "new_target": "「垃圾」",
+      "status": "corrected",
+      "note": "删除中文独立判断句中多余的‘是’，恢复冷硬短句。"
+    },
+    {
+      "index": 119,
+      "source": "黒澤の靴のかかとの下で、粉々に砕けて割れた。",
+      "old_target": "在黑泽鞋跟踩踏之下，彻底碎裂粉碎。",
+      "new_target": "它在黑泽的鞋跟下彻底碎裂。",
+      "status": "corrected",
+      "note": "补出承接对象，删除‘碎裂粉碎’的同义重复。"
+    }
+  ]
+}
