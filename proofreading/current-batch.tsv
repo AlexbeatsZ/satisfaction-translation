@@ -20,7 +20,7 @@ index	chapter	file	line	kind	voice	source	translation	terms
 49	0	noel0_001.dsf	211	narration		　――命という命を、狩り尽くせ。	——将一切生命猎杀殆尽。	[]
 50	0	noel0_001.dsf	221	narration		　真下から顔面にぶち当たる風圧、浅く何度か呼吸。	风压从正下方狠狠撞上脸庞。几次浅浅的呼吸。	[]
 51	0	noel0_001.dsf	223	narration		　吐息に混じる血腥(ちなまぐさ)さ、瞳孔は脈打つように収縮と散開を繰り返し、	呼吸间混杂着血腥味，瞳孔如脉动般反复收缩与散开，	[]
-52	0	noel0_001.dsf	226	dialogue	vfnoel0_001noe004	"「…… ""エマノンの正義と、新世界のために"" 」"	「…… 「为了埃玛农的正义，与新世界」 」	"[{""source"": ""エマノン"", ""target"": ""埃玛农"", ""mode"": ""hard"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""组织"", ""note"": ""沿用已有对照表""}, {""source"": ""新世界"", ""target"": ""新世界"", ""mode"": ""hard"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""术语"", ""note"": ""众部下呼喊的目标与理念""}]"
+52	0	noel0_001.dsf	226	dialogue	vfnoel0_001noe004	"「…… ""エマノンの正義と、新世界のために"" 」"	「…… 「为了埃玛农的正义，与新世界」 」	"[{""source"": ""エマノンの正義"", ""target"": ""埃玛农的正义"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": null, ""note"": null}, {""source"": ""新世界"", ""target"": ""新世界"", ""mode"": ""hard"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""术语"", ""note"": ""众部下呼喊的目标与理念""}]"
 53	0	noel0_001.dsf	228	narration		　逆賊誅すべし。	逆贼当诛。	[]
 54	0	noel0_001.dsf	230	narration		　声は、かき消された。	声音，被淹没了。	[]
 55	0	noel0_001.dsf	232	narration		　グリップから指が離れた。	手指离开了握把。	[]
