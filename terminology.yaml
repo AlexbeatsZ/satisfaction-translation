@@ -258,3 +258,13 @@ terms:
   mode: preferred
   status: active
   valid_from: 2
+- source: 白鷺
+  target: 白鹭
+  mode: hard
+  status: active
+  valid_from: 1
+- source: 白<しらさぎ>鷺
+  target: 白鹭
+  mode: hard
+  status: active
+  valid_from: 1
