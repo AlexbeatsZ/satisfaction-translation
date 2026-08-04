@@ -1,21 +1,21 @@
 index	chapter	file	line	kind	voice	source	translation	terms
-590	2	noel1_002.dsf	1062	narration		白いのは、シュノーバルツァー。雪のワルツ。	白色的是施奈瓦尔策——雪之华尔兹。	"[{""source"": ""シュノーバルツァー"", ""target"": ""施奈瓦尔策"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""术语"", ""note"": ""玫瑰品种名/确认本批出现""}, {""source"": ""雪のワルツ"", ""target"": ""雪之华尔兹"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""术语"", ""note"": ""玫瑰花名意译/确认本批出现""}]"
-591	2	noel1_002.dsf	1066	narration		散って落ちる、くすんだピンク。	暗淡的粉色花瓣飘零而落。	[]
-592	2	noel1_002.dsf	1070	narration		誇らしげな紅。清らかな黄。	傲然的鲜红，纯净的明黄。	[]
-593	2	noel1_002.dsf	1074	narration		葉陰から差し込む日差しは黄金のぬくもり。	从叶荫间洒下的阳光，带着黄金般的暖意。	[]
-594	2	noel1_002.dsf	1078	narration		それらはただ、眼球に映りこんでいるだけで、ノエルにはまったく関係がない。	那些景色不过映在眼中，与诺艾尔毫无关系。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
-595	2	noel1_002.dsf	1082	narration		多分、美しい、というのだろう。ノエルは思う。こういう光景のことを、ひとは、美しいとか綺麗とか呼ぶのだろう。	大概，这就叫作美吧。诺艾尔想。人们大概会把这样的景象称为美丽、漂亮。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
-596	2	noel1_002.dsf	1087	dialogue	vfnoel1_002noe041	【話者：吉川ノエル／中文名：吉川诺艾尔】「……兄さん。この薔薇、いつ散るの」	「……哥哥。这些蔷薇什么时候会凋谢？」	[]
-597	2	noel1_002.dsf	1092	dialogue	vmnoel1_002hro058	【話者：吉川裕樹／中文名：吉川裕树】「こういう飾りにしてあるってことは、四季咲きの薔薇ばかり集めてると思うよ。一年中咲きつづけるんじゃないかな？」	「既然用来做这种装饰，我想这里种的应该全是四季开花的蔷薇。大概一年到头都会不断开花吧？」	[]
-598	2	noel1_002.dsf	1097	dialogue	vfnoel1_002noe042	【話者：吉川ノエル／中文名：吉川诺艾尔】「そう……」	「是吗……」	[]
-599	2	noel1_002.dsf	1101	narration		ふと、考えてしまう――ここを再び通ってこの学園から出るとき、自分はどんな顔をして、なにを思って、そして誰の隣にいるのだろうか。	她忽然忍不住想——再次经过这里、离开这所学园时，自己会是什么表情，会想着什么，又会有谁陪在身边？	[]
-600	2	noel1_002.dsf	1105	narration		変わらずにいたいわけではない。	她并不是想一直维持原样。	[]
-601	2	noel1_002.dsf	1109	narration		変わりたいわけでもない。だけど、あまりにもここは見たことのない色彩と光に輝いていて――	却也不是想要改变。只是，这里闪耀着太多她从未见过的色彩与光芒——	[]
-602	2	noel1_002.dsf	1113	narration		目を閉じて、息をついた。	她闭上眼，轻轻呼出一口气。	[]
-603	2	noel1_002.dsf	1117	narration		なんだか自分は変だ。意味のないことばかり考えている。	自己好像有些不对劲，净想着这些毫无意义的事。	[]
-604	2	noel1_002.dsf	1124	dialogue	vmnoel1_002hro059	【話者：吉川裕樹／中文名：吉川裕树】「……ご覧、見えてきたよ」	「……你看，已经能看见了」	[]
-605	2	noel1_002.dsf	1128	narration		裕樹の声に前を向けば、煉瓦造りの尖塔のてっぺんが、薔薇のトンネルの向こうに見えた。	听见裕树的声音，她朝前望去，只见红砖砌成的尖塔顶端出现在蔷薇隧道另一头。	[]
-606	2	noel1_002.dsf	1132	narration		あれが、ノエルの戦場になる。裕樹はおどけて口笛を吹いた。	那里将成为诺艾尔的战场。裕树故作轻松地吹了声口哨。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
-607	2	noel1_002.dsf	1136	narration		目の前に聳(そび)え立つは伝統の亡霊――	矗立在眼前的，是传统的亡灵——	[]
-608	2	noel1_002.dsf	1157	narration		――アーデルハイド学園。	——阿德尔海德学园。	"[{""source"": ""アーデルハイド学園"", ""target"": ""阿德尔海德学园"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""地名"", ""note"": ""毕业典礼举办的学园""}]"
-609	2	noel1_002.dsf	1162	dialogue	vmnoel1_002hro060	【話者：吉川裕樹／中文名：吉川裕树】「なんて造りだ。さすが東洋一の名門」	「好气派的建筑。不愧是东洋第一名校」	[]
+610	2	noel1_002.dsf	1166	narration		徐々に姿をあらわす学園の校舎は、古城を思わせる荘厳な姿で、創立２００年の伝統と格式を体現している。	渐渐显露全貌的学园校舍，有着令人联想起古城的庄严姿态，体现着创立200年的传统与格调。	[]
+611	2	noel1_002.dsf	1179	narration		やがて薔薇のトンネルを抜け、裕樹は駐車場に車を停めた。	不久，穿过蔷薇隧道，裕树将车停在了停车场。	[]
+612	2	noel1_002.dsf	1183	narration		兄妹は、優雅な仕草で、学園の敷地に降り立つ。	兄妹二人姿态优雅地踏上了学园的土地。	[]
+613	2	noel1_002.dsf	1187	narration		ネクタイを締めなおし、裕樹が言う。	裕树重新系了系领带，说道。	[]
+614	2	noel1_002.dsf	1192	dialogue	vmnoel1_002hro061	"【話者：吉川裕樹／中文名：吉川裕树】「…… ""さあ、行こう"" 」"	「…… 「来吧，出发吧」 」	[]
+615	2	noel1_002.dsf	1196	narration		ノエルは頷いて、白い美貌を静かに上げた。	吉川诺艾尔点了点头，静静扬起白皙的面庞。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+616	2	noel1_002.dsf	1200	narration		最優先事項は、天崎理理の身体の安全。	最优先事项，是天崎理理的人身安全。	"[{""source"": ""天崎理理"", ""target"": ""天崎理理"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+617	2	noel1_002.dsf	1204	narration		対象者には明かさずに、その命を守り抜くこと。	在不向对象透露的前提下，守护其性命到底。	[]
+618	2	noel1_002.dsf	1209	dialogue	vmnoel1_002hro062	"【話者：吉川裕樹／中文名：吉川裕树】「 ""エマノンの正義と、新世界のために"" 」"	「 「为了埃玛农的正义，为了新世界」 」	"[{""source"": ""エマノンの正義"", ""target"": ""埃玛农的正义"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": null, ""note"": null}, {""source"": ""新世界"", ""target"": ""新世界"", ""mode"": ""hard"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""术语"", ""note"": ""众部下呼喊的目标与理念""}]"
+619	2	noel1_002.dsf	1214	dialogue	vfnoel1_002noe043	"【話者：吉川ノエル／中文名：吉川诺艾尔】「…… ""エマノンの正義と、新世界のために"" 」"	「…… 「为了埃玛农的正义，为了新世界」 」	"[{""source"": ""エマノンの正義"", ""target"": ""埃玛农的正义"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": null, ""note"": null}, {""source"": ""新世界"", ""target"": ""新世界"", ""mode"": ""hard"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""术语"", ""note"": ""众部下呼喊的目标与理念""}]"
+620	2	noel1_002.dsf	1218	narration		兄妹は呪文のように定句を口にし、手の平の傷に口付け、それを心臓にもっていく。ノエルの傷痕は左手。裕樹は、両手の傷痕に。	兄妹二人如念咒般说出固定的誓词，吻过掌心的伤痕，再将手移到心脏处。吉川诺艾尔的伤痕在左手。裕树则吻了双手的伤痕。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+621	2	noel1_002.dsf	1229	narration		エマノンの正義のために。	为了埃玛农的正义。	"[{""source"": ""エマノンの正義"", ""target"": ""埃玛农的正义"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": null, ""note"": null}]"
+622	2	noel1_002.dsf	1233	narration		新世界のために。	为了新世界。	"[{""source"": ""新世界"", ""target"": ""新世界"", ""mode"": ""hard"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""术语"", ""note"": ""众部下呼喊的目标与理念""}]"
+623	2	noel1_002.dsf	1237	narration		さあ行こう。	来吧，出发吧。	[]
+624	2	noel1_002.dsf	1241	narration		この血の一滴。	这一滴血。	[]
+625	2	noel1_002.dsf	1245	narration		命の最期の一絞りまで捧げよう。	直至生命被榨尽最后一滴，也都献上吧。	[]
+626	2	noel1_002.dsf	1249	narration		さあ行こう。	来吧，出发吧。	[]
+627	2	noel1_002.dsf	1254	narration		さあ行こう。	来吧，出发吧。	[]
+628	2	noel1_002.dsf	1258	narration		エマノンのための地獄を。	为了埃玛农的地狱。	"[{""source"": ""エマノン"", ""target"": ""埃玛农"", ""mode"": ""hard"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""组织"", ""note"": ""沿用已有对照表""}]"
+629	2	noel1_002.dsf	1262	narration		地獄のためのエマノンを。	为了地狱的埃玛农。	"[{""source"": ""エマノン"", ""target"": ""埃玛农"", ""mode"": ""hard"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""组织"", ""note"": ""沿用已有对照表""}]"
