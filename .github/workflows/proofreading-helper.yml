@@ -9,6 +9,7 @@ on:
       - 'proofreading/request.json'
       - 'proofreading/reviewed-batch-*.json'
       - 'proofreading/sync_proofreading.py'
+      - 'proofreading/diagnose_misalignment.py'
       - 'terminology.yaml'
       - 'glossary.json'
   pull_request:
@@ -47,6 +48,9 @@ jobs:
       - name: Align, apply reviews, and build next batch
         run: python proofreading/sync_proofreading.py
 
+      - name: Diagnose source-target misalignment
+        run: python proofreading/diagnose_misalignment.py
+
       - name: Commit corrected and generated files
         run: |
           git config user.name 'github-actions[bot]'
@@ -62,7 +66,7 @@ jobs:
           if git diff --cached --quiet; then
             exit 0
           fi
-          git commit -m 'proofread: apply source-aligned reviews and refresh batch'
+          git commit -m 'proofread: apply source-aligned reviews and refresh diagnostics'
           git fetch origin translation-proofreading
           git rebase origin/translation-proofreading
           git push origin HEAD:translation-proofreading
