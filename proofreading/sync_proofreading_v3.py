@@ -168,7 +168,8 @@ def visible_terms(
             continue
         if valid_to is not None and chapter_index > int(valid_to):
             continue
-        if str(term["source"]) in source:
+        visible_source = SPEAKER_PREFIX_RE.sub("", source, count=1)
+        if str(term["source"]) in visible_source:
             matches.append(term)
 
     matches.sort(key=lambda term: len(str(term["source"])), reverse=True)
