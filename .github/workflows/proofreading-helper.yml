@@ -9,7 +9,7 @@ on:
       - '.github/workflows/proofreading-helper.yml'
       - 'proofreading/request.json'
       - 'proofreading/reviewed-batch-*.json'
-      - 'proofreading/sync_proofreading.py'
+      - 'proofreading/sync_proofreading_v2.py'
       - 'proofreading/diagnose_misalignment.py'
       - 'terminology.yaml'
       - 'glossary.json'
@@ -39,18 +39,17 @@ jobs:
           git fetch origin main translation-proofreading
           mkdir -p proofreading
           git ls-tree -r --name-only origin/translation-proofreading proofreading \
-            | grep -E '^proofreading/(reviewed-batch-.*\.json|request\.json|sync_proofreading\.py|diagnose_misalignment\.py)$' \
+            | grep -E '^proofreading/(reviewed-batch-.*\.json|request\.json|diagnose_misalignment\.py)$' \
             | while read -r path; do
                 git show "origin/translation-proofreading:$path" > "$path"
               done
-          git show origin/translation-proofreading:PROOFREADING_PROGRESS.md > PROOFREADING_PROGRESS.md
           git show origin/translation-proofreading:terminology.yaml > terminology.yaml
 
       - name: Install YAML parser
         run: python -m pip install --quiet pyyaml
 
-      - name: Align, apply reviews, and build next batch
-        run: python proofreading/sync_proofreading.py
+      - name: Verify and apply reviewed entries
+        run: python proofreading/sync_proofreading_v2.py
 
       - name: Diagnose source-target misalignment
         run: python proofreading/diagnose_misalignment.py
@@ -71,7 +70,7 @@ jobs:
           if git diff --cached --quiet; then
             exit 0
           fi
-          git commit -m 'proofread: rebuild reviewed text on clean main baseline'
+          git commit -m 'proofread: rebuild reviewed text with local source checks'
           git fetch origin translation-proofreading-v2
           git rebase origin/translation-proofreading-v2
           git push origin HEAD:translation-proofreading-v2
