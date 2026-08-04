@@ -7,6 +7,7 @@ on:
     paths:
       - '.github/workflows/proofreading-helper.yml'
       - 'proofreading/request.json'
+      - 'proofreading/reviewed-batch-*.json'
   pull_request:
     branches:
       - main
@@ -24,23 +25,78 @@ jobs:
           ref: translation-proofreading
           fetch-depth: 0
 
-      - name: Build readable batch
+      - name: Apply reviewed batches and build readable batch
         shell: python
         run: |
           import csv
           import json
+          import re
           from pathlib import Path
 
-          request_path = Path('proofreading/request.json')
+          out = Path('proofreading')
+          out.mkdir(exist_ok=True)
+
+          # Load canonical files.
+          json_path = Path('satisfaction-scripts.zh.json')
+          md_path = Path('satisfaction-scripts.zh.md')
+          txt_path = Path('satisfaction-scripts.zh.txt')
+          tsv_path = Path('satisfaction-text.tsv')
+
+          data = json.loads(json_path.read_text(encoding='utf-8-sig'))
+          segments = [segment for chapter in data['chapters'] for segment in chapter['segments']]
+
+          md_lines = md_path.read_text(encoding='utf-8-sig').splitlines()
+          txt_lines = txt_path.read_text(encoding='utf-8-sig').splitlines()
+          md_nonempty = [i for i, line in enumerate(md_lines) if line.strip()]
+          txt_nonempty = [i for i, line in enumerate(txt_lines) if line.strip()]
+
+          with tsv_path.open('r', encoding='utf-8-sig', newline='') as f:
+              reader = csv.DictReader(f, delimiter='\t')
+              tsv_fields = reader.fieldnames
+              tsv_rows = list(reader)
+
+          manifests = sorted(out.glob('reviewed-batch-*.json'))
+          applied = []
+          for manifest_path in manifests:
+              manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+              for entry in manifest['entries']:
+                  index = int(entry['index'])
+                  old = entry['old_target']
+                  new = entry['new_target']
+                  pos = index - 1
+
+                  if pos >= len(segments) or pos >= len(tsv_rows) or pos >= len(md_nonempty) or pos >= len(txt_nonempty):
+                      raise IndexError(f'Entry {index} exceeds one or more canonical files')
+
+                  json_current = segments[pos].get('target', '')
+                  md_current = md_lines[md_nonempty[pos]]
+                  txt_current = txt_lines[txt_nonempty[pos]]
+                  for label, current in [('JSON', json_current), ('Markdown', md_current), ('TXT', txt_current)]:
+                      if current not in (old, new):
+                          raise ValueError(f'{label} entry {index} mismatch: {current!r}')
+
+                  segments[pos]['target'] = new
+                  md_lines[md_nonempty[pos]] = new
+                  txt_lines[txt_nonempty[pos]] = new
+                  tsv_rows[pos]['translation'] = new
+                  applied.append(entry)
+
+          # Keep formatting deterministic.
+          json_path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          md_path.write_text('\n'.join(md_lines) + '\n', encoding='utf-8')
+          txt_path.write_text('\n'.join(txt_lines) + '\n', encoding='utf-8')
+          with tsv_path.open('w', encoding='utf-8', newline='') as f:
+              writer = csv.DictWriter(f, fieldnames=tsv_fields, delimiter='\t', lineterminator='\n')
+              writer.writeheader()
+              writer.writerows(tsv_rows)
+
+          # Build the requested readable batch from the updated TSV.
+          request_path = out / 'request.json'
           request = json.loads(request_path.read_text(encoding='utf-8')) if request_path.exists() else {'start': 1, 'count': 40}
           start = int(request.get('start', 1))
           count = int(request.get('count', 40))
-
-          with Path('satisfaction-text.tsv').open('r', encoding='utf-8-sig', newline='') as f:
-              rows = list(csv.DictReader(f, delimiter='\t'))
-
           selected = []
-          for index, row in enumerate(rows[start - 1:start - 1 + count], start=start):
+          for index, row in enumerate(tsv_rows[start - 1:start - 1 + count], start=start):
               selected.append({
                   'index': index,
                   'file': row.get('file', ''),
@@ -51,8 +107,6 @@ jobs:
                   'translation': row.get('translation', ''),
               })
 
-          out = Path('proofreading')
-          out.mkdir(exist_ok=True)
           fields = ['index', 'file', 'line', 'kind', 'voice', 'source', 'translation']
           with (out / 'current-batch.tsv').open('w', encoding='utf-8', newline='') as f:
               writer = csv.DictWriter(f, fieldnames=fields, delimiter='\t', lineterminator='\n')
@@ -60,77 +114,46 @@ jobs:
               writer.writerows(selected)
 
           last = start + len(selected) - 1
-          md = ['# 当前校对批次', '', f'- 请求范围：第 {start}–{last} 条', f'- 实际条数：{len(selected)}', '']
+          batch_md = ['# 当前校对批次', '', f'- 请求范围：第 {start}–{last} 条', f'- 实际条数：{len(selected)}', '']
           for row in selected:
-              md.extend([
-                  f'## 条目 {row["index"]}',
-                  '',
+              batch_md.extend([
+                  f'## 条目 {row["index"]}', '',
                   f'- **定位：** `{row["file"]}:{row["line"]}`',
                   f'- **类型：** `{row["kind"]}`',
                   f'- **语音：** `{row["voice"]}`',
                   f'- **日文：** {row["source"]}',
-                  f'- **中文：** {row["translation"]}',
-                  '',
+                  f'- **中文：** {row["translation"]}', ''
               ])
-          (out / 'current-batch.md').write_text('\n'.join(md), encoding='utf-8')
+          (out / 'current-batch.md').write_text('\n'.join(batch_md), encoding='utf-8')
 
-          # Export the beginning of the actual Chinese Markdown/TXT files.
-          for source_name, output_name, limit in [
-              ('satisfaction-scripts.zh.md', 'translated-markdown-head.md', 320),
-              ('satisfaction-scripts.zh.txt', 'translated-text-head.txt', 240),
-          ]:
-              source_path = Path(source_name)
-              if source_path.exists():
-                  lines = source_path.read_text(encoding='utf-8-sig').splitlines()
-                  (out / output_name).write_text('\n'.join(lines[:limit]), encoding='utf-8')
+          # Export compact heads for inspection.
+          (out / 'translated-markdown-head.md').write_text('\n'.join(md_lines[:320]), encoding='utf-8')
+          (out / 'translated-text-head.txt').write_text('\n'.join(txt_lines[:240]), encoding='utf-8')
 
-          # Inspect JSON shape and representative nested objects without copying the full file.
-          json_path = Path('satisfaction-scripts.zh.json')
-          report = ['# 翻译 JSON 结构检查', '']
-          if json_path.exists():
-              data = json.loads(json_path.read_text(encoding='utf-8-sig'))
-              report.append(f'- 顶层类型：`{type(data).__name__}`')
-              if isinstance(data, dict):
-                  report.append(f'- 顶层键：`{list(data.keys())}`')
-              elif isinstance(data, list):
-                  report.append(f'- 顶层长度：`{len(data)}`')
-              report.append('')
+          corrected = sum(1 for entry in applied if entry.get('status') == 'corrected')
+          summary = [
+              '# 已应用校对批次', '',
+              f'- 审阅条目：{len(applied)}',
+              f'- 实质修正：{corrected}',
+              f'- 同步文件：JSON、Markdown、TXT、TSV', ''
+          ]
+          for entry in applied:
+              summary.extend([
+                  f'## 条目 {entry["index"]}', '',
+                  f'- 状态：`{entry["status"]}`',
+                  f'- 原译：{entry["old_target"]}',
+                  f'- 定稿：{entry["new_target"]}',
+                  f'- 说明：{entry["note"]}', ''
+              ])
+          (out / 'applied-review.md').write_text('\n'.join(summary), encoding='utf-8')
 
-              seen = 0
-              def walk(node, path='$'):
-                  global seen
-                  if seen >= 60:
-                      return
-                  if isinstance(node, dict):
-                      strings = {k: v for k, v in node.items() if isinstance(v, str) and v.strip()}
-                      if strings:
-                          report.extend([f'## `{path}`', '', f'- 键：`{list(node.keys())}`'])
-                          for key, value in list(strings.items())[:10]:
-                              compact = value.replace('\n', '\\n')
-                              report.append(f'- **{key}：** {compact[:240]}')
-                          report.append('')
-                          seen += 1
-                      for key, value in node.items():
-                          walk(value, f'{path}.{key}')
-                          if seen >= 60:
-                              return
-                  elif isinstance(node, list):
-                      for i, value in enumerate(node[:200]):
-                          walk(value, f'{path}[{i}]')
-                          if seen >= 60:
-                              return
-              walk(data)
-          else:
-              report.append('- 未找到 JSON 文件。')
-          (out / 'json-inspection.md').write_text('\n'.join(report), encoding='utf-8')
-
-      - name: Commit generated batch
+      - name: Commit generated and corrected files
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add proofreading
+          git add satisfaction-scripts.zh.json satisfaction-scripts.zh.md satisfaction-scripts.zh.txt satisfaction-text.tsv proofreading
           if git diff --cached --quiet; then
             exit 0
           fi
-          git commit -m 'chore: inspect translated script sources'
+          git commit -m 'proofread: apply reviewed entries and refresh batch'
           git push origin HEAD:translation-proofreading
