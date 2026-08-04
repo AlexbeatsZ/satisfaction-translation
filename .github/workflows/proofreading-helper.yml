@@ -74,13 +74,63 @@ jobs:
               ])
           (out / 'current-batch.md').write_text('\n'.join(md), encoding='utf-8')
 
+          # Export the beginning of the actual Chinese Markdown/TXT files.
+          for source_name, output_name, limit in [
+              ('satisfaction-scripts.zh.md', 'translated-markdown-head.md', 320),
+              ('satisfaction-scripts.zh.txt', 'translated-text-head.txt', 240),
+          ]:
+              source_path = Path(source_name)
+              if source_path.exists():
+                  lines = source_path.read_text(encoding='utf-8-sig').splitlines()
+                  (out / output_name).write_text('\n'.join(lines[:limit]), encoding='utf-8')
+
+          # Inspect JSON shape and representative nested objects without copying the full file.
+          json_path = Path('satisfaction-scripts.zh.json')
+          report = ['# 翻译 JSON 结构检查', '']
+          if json_path.exists():
+              data = json.loads(json_path.read_text(encoding='utf-8-sig'))
+              report.append(f'- 顶层类型：`{type(data).__name__}`')
+              if isinstance(data, dict):
+                  report.append(f'- 顶层键：`{list(data.keys())}`')
+              elif isinstance(data, list):
+                  report.append(f'- 顶层长度：`{len(data)}`')
+              report.append('')
+
+              seen = 0
+              def walk(node, path='$'):
+                  global seen
+                  if seen >= 60:
+                      return
+                  if isinstance(node, dict):
+                      strings = {k: v for k, v in node.items() if isinstance(v, str) and v.strip()}
+                      if strings:
+                          report.extend([f'## `{path}`', '', f'- 键：`{list(node.keys())}`'])
+                          for key, value in list(strings.items())[:10]:
+                              compact = value.replace('\n', '\\n')
+                              report.append(f'- **{key}：** {compact[:240]}')
+                          report.append('')
+                          seen += 1
+                      for key, value in node.items():
+                          walk(value, f'{path}.{key}')
+                          if seen >= 60:
+                              return
+                  elif isinstance(node, list):
+                      for i, value in enumerate(node[:200]):
+                          walk(value, f'{path}[{i}]')
+                          if seen >= 60:
+                              return
+              walk(data)
+          else:
+              report.append('- 未找到 JSON 文件。')
+          (out / 'json-inspection.md').write_text('\n'.join(report), encoding='utf-8')
+
       - name: Commit generated batch
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add proofreading/current-batch.tsv proofreading/current-batch.md
+          git add proofreading
           if git diff --cached --quiet; then
             exit 0
           fi
-          git commit -m 'chore: prepare proofreading batch'
+          git commit -m 'chore: inspect translated script sources'
           git push origin HEAD:translation-proofreading
