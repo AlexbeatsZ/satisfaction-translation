@@ -9,8 +9,7 @@ on:
       - '.github/workflows/proofreading-helper.yml'
       - 'proofreading/request.json'
       - 'proofreading/reviewed-batch-*.json'
-      - 'proofreading/sync_proofreading_v2.py'
-      - 'proofreading/diagnose_misalignment.py'
+      - 'proofreading/sync_proofreading_v3.py'
       - 'proofreading/analyze_chapter_order.py'
       - 'terminology.yaml'
       - 'glossary.json'
@@ -40,7 +39,7 @@ jobs:
           git fetch origin main translation-proofreading
           mkdir -p proofreading
           git ls-tree -r --name-only origin/translation-proofreading proofreading \
-            | grep -E '^proofreading/(reviewed-batch-.*\.json|request\.json|diagnose_misalignment\.py)$' \
+            | grep -E '^proofreading/(reviewed-batch-.*\.json|request\.json)$' \
             | while read -r path; do
                 git show "origin/translation-proofreading:$path" > "$path"
               done
@@ -49,30 +48,8 @@ jobs:
       - name: Install YAML parser
         run: python -m pip install --quiet pyyaml
 
-      - name: Normalize source metadata for verification
-        shell: python
-        run: |
-          from pathlib import Path
-          path = Path('proofreading/sync_proofreading_v2.py')
-          text = path.read_text(encoding='utf-8')
-          text = text.replace(
-              're.compile(r"^【話者：[^】]*】")',
-              're.compile(r"^【話者[:：][^】]*】")',
-          )
-          text = text.replace(
-              '    text = SPEAKER_PREFIX_RE.sub("", text, count=1)\n    return WHITESPACE_RE.sub("", text)',
-              '    text = SPEAKER_PREFIX_RE.sub("", text, count=1)\n'
-              '    text = re.sub(r"(?<=[\\u3400-\\u9fff々ヶ])\\([ぁ-ゖァ-ヺー]+\\)", "", text)\n'
-              '    text = re.sub(r"<[ぁ-ゖァ-ヺー]+>", "", text)\n'
-              '    return WHITESPACE_RE.sub("", text)',
-          )
-          path.write_text(text, encoding='utf-8')
-
-      - name: Verify and apply reviewed entries
-        run: python proofreading/sync_proofreading_v2.py
-
-      - name: Diagnose source-target misalignment
-        run: python proofreading/diagnose_misalignment.py
+      - name: Apply reviews and align TSV by file-local order
+        run: python proofreading/sync_proofreading_v3.py
 
       - name: Analyze chapter ordering
         run: python proofreading/analyze_chapter_order.py
@@ -93,7 +70,7 @@ jobs:
           if git diff --cached --quiet; then
             exit 0
           fi
-          git commit -m 'proofread: refresh chapter-order diagnostics'
+          git commit -m 'proofread: align TSV and prepare entries from 90'
           git fetch origin translation-proofreading-v2
           git rebase origin/translation-proofreading-v2
           git push origin HEAD:translation-proofreading-v2
