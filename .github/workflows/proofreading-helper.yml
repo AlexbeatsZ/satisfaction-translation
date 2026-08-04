@@ -1,6 +1,6 @@
 name: Prepare proofreading batch
 # Canonical working branch: translation-proofreading-v2
-# Refresh request: entry 570
+# Refresh request: entries 750-789
 
 on:
   push:
