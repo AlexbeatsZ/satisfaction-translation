@@ -1,21 +1,21 @@
 index	chapter	file	line	kind	voice	source	translation	terms
-610	2	noel1_002.dsf	1166	narration		徐々に姿をあらわす学園の校舎は、古城を思わせる荘厳な姿で、創立２００年の伝統と格式を体現している。	渐渐显露全貌的学园校舍，有着令人联想起古城的庄严姿态，体现着创立200年的传统与格调。	[]
-611	2	noel1_002.dsf	1179	narration		やがて薔薇のトンネルを抜け、裕樹は駐車場に車を停めた。	不久，穿过蔷薇隧道，裕树将车停在了停车场。	[]
-612	2	noel1_002.dsf	1183	narration		兄妹は、優雅な仕草で、学園の敷地に降り立つ。	兄妹二人姿态优雅地踏上了学园的土地。	[]
-613	2	noel1_002.dsf	1187	narration		ネクタイを締めなおし、裕樹が言う。	裕树重新系了系领带，说道。	[]
-614	2	noel1_002.dsf	1192	dialogue	vmnoel1_002hro061	"【話者：吉川裕樹／中文名：吉川裕树】「…… ""さあ、行こう"" 」"	「…… 「来吧，出发吧」 」	[]
-615	2	noel1_002.dsf	1196	narration		ノエルは頷いて、白い美貌を静かに上げた。	吉川诺艾尔点了点头，静静扬起白皙的面庞。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
-616	2	noel1_002.dsf	1200	narration		最優先事項は、天崎理理の身体の安全。	最优先事项，是天崎理理的人身安全。	"[{""source"": ""天崎理理"", ""target"": ""天崎理理"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
-617	2	noel1_002.dsf	1204	narration		対象者には明かさずに、その命を守り抜くこと。	在不向对象透露的前提下，守护其性命到底。	[]
-618	2	noel1_002.dsf	1209	dialogue	vmnoel1_002hro062	"【話者：吉川裕樹／中文名：吉川裕树】「 ""エマノンの正義と、新世界のために"" 」"	「 「为了埃玛农的正义，为了新世界」 」	"[{""source"": ""エマノンの正義"", ""target"": ""埃玛农的正义"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": null, ""note"": null}, {""source"": ""新世界"", ""target"": ""新世界"", ""mode"": ""hard"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""术语"", ""note"": ""众部下呼喊的目标与理念""}]"
-619	2	noel1_002.dsf	1214	dialogue	vfnoel1_002noe043	"【話者：吉川ノエル／中文名：吉川诺艾尔】「…… ""エマノンの正義と、新世界のために"" 」"	「…… 「为了埃玛农的正义，为了新世界」 」	"[{""source"": ""エマノンの正義"", ""target"": ""埃玛农的正义"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": null, ""note"": null}, {""source"": ""新世界"", ""target"": ""新世界"", ""mode"": ""hard"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""术语"", ""note"": ""众部下呼喊的目标与理念""}]"
-620	2	noel1_002.dsf	1218	narration		兄妹は呪文のように定句を口にし、手の平の傷に口付け、それを心臓にもっていく。ノエルの傷痕は左手。裕樹は、両手の傷痕に。	兄妹二人如念咒般说出固定的誓词，吻过掌心的伤痕，再将手移到心脏处。吉川诺艾尔的伤痕在左手。裕树则吻了双手的伤痕。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+610	2	noel1_002.dsf	1166	narration		徐々に姿をあらわす学園の校舎は、古城を思わせる荘厳な姿で、創立２００年の伝統と格式を体現している。	学园校舍渐渐显露全貌，庄严得令人联想起古城，体现着两百年历史积淀的传统与格调。	[]
+611	2	noel1_002.dsf	1179	narration		やがて薔薇のトンネルを抜け、裕樹は駐車場に車を停めた。	穿过蔷薇隧道后，裕树将车停进停车场。	[]
+612	2	noel1_002.dsf	1183	narration		兄妹は、優雅な仕草で、学園の敷地に降り立つ。	兄妹二人以优雅的姿态下了车，踏入学园。	[]
+613	2	noel1_002.dsf	1187	narration		ネクタイを締めなおし、裕樹が言う。	裕树重新整理了一下领带，开口说道。	[]
+614	2	noel1_002.dsf	1192	dialogue	vmnoel1_002hro061	"【話者：吉川裕樹／中文名：吉川裕树】「…… ""さあ、行こう"" 」"	「……来吧，走吧」	[]
+615	2	noel1_002.dsf	1196	narration		ノエルは頷いて、白い美貌を静かに上げた。	诺艾尔点点头，静静抬起白皙的面庞。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+616	2	noel1_002.dsf	1200	narration		最優先事項は、天崎理理の身体の安全。	最优先事项是确保天崎理理的人身安全。	"[{""source"": ""天崎理理"", ""target"": ""天崎理理"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+617	2	noel1_002.dsf	1204	narration		対象者には明かさずに、その命を守り抜くこと。	不能让保护对象知情，同时必须守住她的性命。	[]
+618	2	noel1_002.dsf	1209	dialogue	vmnoel1_002hro062	"【話者：吉川裕樹／中文名：吉川裕树】「 ""エマノンの正義と、新世界のために"" 」"	「为了埃玛农的正义，也为了新世界」	"[{""source"": ""エマノンの正義"", ""target"": ""埃玛农的正义"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": null, ""note"": null}, {""source"": ""新世界"", ""target"": ""新世界"", ""mode"": ""hard"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""术语"", ""note"": ""众部下呼喊的目标与理念""}]"
+619	2	noel1_002.dsf	1214	dialogue	vfnoel1_002noe043	"【話者：吉川ノエル／中文名：吉川诺艾尔】「…… ""エマノンの正義と、新世界のために"" 」"	「……为了埃玛农的正义，也为了新世界」	"[{""source"": ""エマノンの正義"", ""target"": ""埃玛农的正义"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": null, ""note"": null}, {""source"": ""新世界"", ""target"": ""新世界"", ""mode"": ""hard"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""术语"", ""note"": ""众部下呼喊的目标与理念""}]"
+620	2	noel1_002.dsf	1218	narration		兄妹は呪文のように定句を口にし、手の平の傷に口付け、それを心臓にもっていく。ノエルの傷痕は左手。裕樹は、両手の傷痕に。	兄妹二人如念咒般说出固定誓词，吻过掌心的伤痕，再把手按在心口。诺艾尔吻的是左手伤痕，裕树则吻过双手的伤痕。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
 621	2	noel1_002.dsf	1229	narration		エマノンの正義のために。	为了埃玛农的正义。	"[{""source"": ""エマノンの正義"", ""target"": ""埃玛农的正义"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": null, ""note"": null}]"
 622	2	noel1_002.dsf	1233	narration		新世界のために。	为了新世界。	"[{""source"": ""新世界"", ""target"": ""新世界"", ""mode"": ""hard"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""术语"", ""note"": ""众部下呼喊的目标与理念""}]"
-623	2	noel1_002.dsf	1237	narration		さあ行こう。	来吧，出发吧。	[]
-624	2	noel1_002.dsf	1241	narration		この血の一滴。	这一滴血。	[]
-625	2	noel1_002.dsf	1245	narration		命の最期の一絞りまで捧げよう。	直至生命被榨尽最后一滴，也都献上吧。	[]
-626	2	noel1_002.dsf	1249	narration		さあ行こう。	来吧，出发吧。	[]
-627	2	noel1_002.dsf	1254	narration		さあ行こう。	来吧，出发吧。	[]
-628	2	noel1_002.dsf	1258	narration		エマノンのための地獄を。	为了埃玛农的地狱。	"[{""source"": ""エマノン"", ""target"": ""埃玛农"", ""mode"": ""hard"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""组织"", ""note"": ""沿用已有对照表""}]"
-629	2	noel1_002.dsf	1262	narration		地獄のためのエマノンを。	为了地狱的埃玛农。	"[{""source"": ""エマノン"", ""target"": ""埃玛农"", ""mode"": ""hard"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""组织"", ""note"": ""沿用已有对照表""}]"
+623	2	noel1_002.dsf	1237	narration		さあ行こう。	来吧，前行。	[]
+624	2	noel1_002.dsf	1241	narration		この血の一滴。	献上这一滴血。	[]
+625	2	noel1_002.dsf	1245	narration		命の最期の一絞りまで捧げよう。	直至榨尽生命的最后一滴，也全部献上。	[]
+626	2	noel1_002.dsf	1249	narration		さあ行こう。	来吧，前行。	[]
+627	2	noel1_002.dsf	1254	narration		さあ行こう。	来吧，前行。	[]
+628	2	noel1_002.dsf	1258	narration		エマノンのための地獄を。	为埃玛农献上地狱。	"[{""source"": ""エマノン"", ""target"": ""埃玛农"", ""mode"": ""hard"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""组织"", ""note"": ""沿用已有对照表""}]"
+629	2	noel1_002.dsf	1262	narration		地獄のためのエマノンを。	为地狱献上埃玛农。	"[{""source"": ""エマノン"", ""target"": ""埃玛农"", ""mode"": ""hard"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""组织"", ""note"": ""沿用已有对照表""}]"
