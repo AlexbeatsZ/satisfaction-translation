@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-      - translation-proofreading
+      - translation-proofreading-v2
     paths:
       - '.github/workflows/proofreading-helper.yml'
       - 'proofreading/request.json'
@@ -31,17 +31,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: translation-proofreading
+          ref: translation-proofreading-v2
           fetch-depth: 0
 
-      - name: Import terminology files from main once
+      - name: Import reviewed state from backup branch
         run: |
-          git fetch origin main
-          for file in terminology.yaml glossary.json; do
-            if [ ! -f "$file" ]; then
-              git checkout origin/main -- "$file"
-            fi
-          done
+          git fetch origin main translation-proofreading
+          mkdir -p proofreading
+          git ls-tree -r --name-only origin/translation-proofreading proofreading \
+            | grep -E '^proofreading/(reviewed-batch-.*\.json|request\.json|sync_proofreading\.py|diagnose_misalignment\.py)$' \
+            | while read -r path; do
+                git show "origin/translation-proofreading:$path" > "$path"
+              done
+          git show origin/translation-proofreading:PROOFREADING_PROGRESS.md > PROOFREADING_PROGRESS.md
+          git show origin/translation-proofreading:terminology.yaml > terminology.yaml
 
       - name: Install YAML parser
         run: python -m pip install --quiet pyyaml
@@ -63,11 +66,12 @@ jobs:
             satisfaction-text.tsv \
             terminology.yaml \
             glossary.json \
+            PROOFREADING_PROGRESS.md \
             proofreading
           if git diff --cached --quiet; then
             exit 0
           fi
-          git commit -m 'proofread: apply source-aligned reviews and refresh diagnostics'
-          git fetch origin translation-proofreading
-          git rebase origin/translation-proofreading
-          git push origin HEAD:translation-proofreading
+          git commit -m 'proofread: rebuild reviewed text on clean main baseline'
+          git fetch origin translation-proofreading-v2
+          git rebase origin/translation-proofreading-v2
+          git push origin HEAD:translation-proofreading-v2
