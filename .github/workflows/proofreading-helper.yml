@@ -8,6 +8,8 @@ on:
       - '.github/workflows/proofreading-helper.yml'
       - 'proofreading/request.json'
       - 'proofreading/reviewed-batch-*.json'
+      - 'terminology.yaml'
+      - 'glossary.json'
   pull_request:
     branches:
       - main
@@ -25,25 +27,44 @@ jobs:
           ref: translation-proofreading
           fetch-depth: 0
 
+      - name: Import terminology files from main once
+        run: |
+          git fetch origin main
+          for file in terminology.yaml glossary.json; do
+            if [ ! -f "$file" ]; then
+              git checkout origin/main -- "$file"
+            fi
+          done
+
+      - name: Install YAML parser
+        run: python -m pip install --quiet pyyaml
+
       - name: Apply reviewed batches and build readable batch
         shell: python
         run: |
           import csv
           import json
-          import re
           from pathlib import Path
+
+          import yaml
 
           out = Path('proofreading')
           out.mkdir(exist_ok=True)
 
-          # Load canonical files.
           json_path = Path('satisfaction-scripts.zh.json')
           md_path = Path('satisfaction-scripts.zh.md')
           txt_path = Path('satisfaction-scripts.zh.txt')
           tsv_path = Path('satisfaction-text.tsv')
+          term_path = Path('terminology.yaml')
+          glossary_path = Path('glossary.json')
 
           data = json.loads(json_path.read_text(encoding='utf-8-sig'))
-          segments = [segment for chapter in data['chapters'] for segment in chapter['segments']]
+          flattened = []
+          for chapter_position, chapter in enumerate(data['chapters']):
+              chapter_index = chapter.get('index', chapter_position)
+              for segment in chapter['segments']:
+                  flattened.append((chapter_index, segment))
+          segments = [segment for _, segment in flattened]
 
           md_lines = md_path.read_text(encoding='utf-8-sig').splitlines()
           txt_lines = txt_path.read_text(encoding='utf-8-sig').splitlines()
@@ -52,15 +73,29 @@ jobs:
 
           with tsv_path.open('r', encoding='utf-8-sig', newline='') as f:
               reader = csv.DictReader(f, delimiter='\t')
-              tsv_fields = reader.fieldnames
+              tsv_fields = list(reader.fieldnames or [])
               tsv_rows = list(reader)
+
+          if len(segments) != len(tsv_rows):
+              raise ValueError(f'JSON/TSV length mismatch: {len(segments)} != {len(tsv_rows)}')
+          if len(md_nonempty) < len(segments) or len(txt_nonempty) < len(segments):
+              raise ValueError('Markdown/TXT have fewer non-empty text lines than JSON segments')
+
+          # JSON is the authoritative translated text. Populate every TSV row, not only
+          # already reviewed rows, so future batches always contain their current Chinese.
+          for pos, segment in enumerate(segments):
+              tsv_rows[pos]['translation'] = segment.get('target', '')
 
           manifests = sorted(out.glob('reviewed-batch-*.json'))
           applied = []
+          seen_indexes = set()
           for manifest_path in manifests:
               manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
               for entry in manifest['entries']:
                   index = int(entry['index'])
+                  if index in seen_indexes:
+                      raise ValueError(f'Duplicate reviewed entry: {index}')
+                  seen_indexes.add(index)
                   old = entry['old_target']
                   new = entry['new_target']
                   pos = index - 1
@@ -81,7 +116,6 @@ jobs:
                   tsv_rows[pos]['translation'] = new
                   applied.append(entry)
 
-          # Keep formatting deterministic.
           json_path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
           md_path.write_text('\n'.join(md_lines) + '\n', encoding='utf-8')
           txt_path.write_text('\n'.join(txt_lines) + '\n', encoding='utf-8')
@@ -90,43 +124,135 @@ jobs:
               writer.writeheader()
               writer.writerows(tsv_rows)
 
-          # Build the requested readable batch from the updated TSV.
+          terminology = {'groups': {}, 'terms': []}
+          if term_path.exists():
+              terminology = yaml.safe_load(term_path.read_text(encoding='utf-8')) or terminology
+
+          glossary_by_source = {}
+          if glossary_path.exists():
+              glossary_data = json.loads(glossary_path.read_text(encoding='utf-8-sig'))
+              for item in glossary_data.get('glossary', []):
+                  source = str(item.get('source', '')).strip()
+                  if source:
+                      glossary_by_source[source] = item
+
+          active_terms = [
+              term for term in terminology.get('terms', [])
+              if term.get('status', 'active') == 'active' and term.get('source')
+          ]
+
+          def visible_terms(chapter_index, source, target):
+              matches = []
+              for term in active_terms:
+                  valid_from = term.get('valid_from')
+                  valid_to = term.get('valid_to')
+                  if valid_from is not None and chapter_index < int(valid_from):
+                      continue
+                  if valid_to is not None and chapter_index > int(valid_to):
+                      continue
+                  term_source = str(term['source'])
+                  if term_source not in source:
+                      continue
+                  matches.append(term)
+
+              # Follow Wenyi Direct's longest-match preference for nested terms.
+              matches.sort(key=lambda term: len(str(term['source'])), reverse=True)
+              selected = []
+              for term in matches:
+                  term_source = str(term['source'])
+                  if any(term_source in str(existing['source']) for existing in selected):
+                      continue
+                  selected.append(term)
+
+              result = []
+              for term in selected:
+                  glossary = glossary_by_source.get(str(term['source']), {})
+                  expected = str(term.get('target', ''))
+                  result.append({
+                      'source': str(term['source']),
+                      'target': expected,
+                      'mode': term.get('mode', 'preferred'),
+                      'pronoun': term.get('pronoun'),
+                      'present_in_target': bool(expected and expected in target),
+                      'type': glossary.get('type'),
+                      'note': glossary.get('note'),
+                  })
+              return result
+
           request_path = out / 'request.json'
           request = json.loads(request_path.read_text(encoding='utf-8')) if request_path.exists() else {'start': 1, 'count': 40}
           start = int(request.get('start', 1))
           count = int(request.get('count', 40))
           selected = []
           for index, row in enumerate(tsv_rows[start - 1:start - 1 + count], start=start):
+              pos = index - 1
+              chapter_index = flattened[pos][0]
+              source = row.get('source', '')
+              translation = segments[pos].get('target', '')
               selected.append({
                   'index': index,
+                  'chapter': chapter_index,
                   'file': row.get('file', ''),
                   'line': row.get('line', ''),
                   'kind': row.get('kind', ''),
                   'voice': row.get('voice', ''),
-                  'source': row.get('source', ''),
-                  'translation': row.get('translation', ''),
+                  'source': source,
+                  'translation': translation,
+                  'terms': visible_terms(chapter_index, source, translation),
               })
 
-          fields = ['index', 'file', 'line', 'kind', 'voice', 'source', 'translation']
+          fields = ['index', 'chapter', 'file', 'line', 'kind', 'voice', 'source', 'translation', 'terms']
           with (out / 'current-batch.tsv').open('w', encoding='utf-8', newline='') as f:
               writer = csv.DictWriter(f, fieldnames=fields, delimiter='\t', lineterminator='\n')
               writer.writeheader()
-              writer.writerows(selected)
+              for row in selected:
+                  writer.writerow({**row, 'terms': json.dumps(row['terms'], ensure_ascii=False)})
 
           last = start + len(selected) - 1
-          batch_md = ['# 当前校对批次', '', f'- 请求范围：第 {start}–{last} 条', f'- 实际条数：{len(selected)}', '']
+          batch_md = [
+              '# 当前校对批次', '',
+              f'- 请求范围：第 {start}–{last} 条',
+              f'- 实际条数：{len(selected)}',
+              '- 词库说明：词条是可编辑的校对依据；hard 项会突出显示，但发现词条不当时应修改词库，而非扭曲译文。',
+              '',
+          ]
+          term_review = ['# 当前批次词库命中', '', f'- 范围：第 {start}–{last} 条', '']
           for row in selected:
               batch_md.extend([
                   f'## 条目 {row["index"]}', '',
                   f'- **定位：** `{row["file"]}:{row["line"]}`',
+                  f'- **章节索引：** `{row["chapter"]}`',
                   f'- **类型：** `{row["kind"]}`',
                   f'- **语音：** `{row["voice"]}`',
                   f'- **日文：** {row["source"]}',
-                  f'- **中文：** {row["translation"]}', ''
+                  f'- **中文：** {row["translation"]}',
               ])
-          (out / 'current-batch.md').write_text('\n'.join(batch_md), encoding='utf-8')
+              if row['terms']:
+                  batch_md.append('- **词库命中：**')
+                  for term in row['terms']:
+                      state = '已采用' if term['present_in_target'] else '未采用，需结合语境复核'
+                      extra = []
+                      if term.get('pronoun'):
+                          extra.append(f'代词提示={term["pronoun"]}')
+                      if term.get('type'):
+                          extra.append(f'类型={term["type"]}')
+                      suffix = f'（{"；".join(extra)}）' if extra else ''
+                      batch_md.append(
+                          f'  - `{term["mode"]}`：`{term["source"]}` → `{term["target"]}`；{state}{suffix}'
+                      )
+                      term_review.extend([
+                          f'## 条目 {row["index"]}：`{term["source"]}`', '',
+                          f'- 建议译法：`{term["target"]}`',
+                          f'- 模式：`{term["mode"]}`',
+                          f'- 当前译文是否包含：`{term["present_in_target"]}`',
+                          f'- 词库备注：{term.get("note") or "无"}', '',
+                      ])
+              else:
+                  batch_md.append('- **词库命中：** 无')
+              batch_md.append('')
 
-          # Export compact heads for inspection.
+          (out / 'current-batch.md').write_text('\n'.join(batch_md), encoding='utf-8')
+          (out / 'terminology-review.md').write_text('\n'.join(term_review), encoding='utf-8')
           (out / 'translated-markdown-head.md').write_text('\n'.join(md_lines[:320]), encoding='utf-8')
           (out / 'translated-text-head.txt').write_text('\n'.join(txt_lines[:240]), encoding='utf-8')
 
@@ -151,9 +277,9 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add satisfaction-scripts.zh.json satisfaction-scripts.zh.md satisfaction-scripts.zh.txt satisfaction-text.tsv proofreading
+          git add satisfaction-scripts.zh.json satisfaction-scripts.zh.md satisfaction-scripts.zh.txt satisfaction-text.tsv terminology.yaml glossary.json proofreading
           if git diff --cached --quiet; then
             exit 0
           fi
-          git commit -m 'proofread: apply reviewed entries and refresh batch'
+          git commit -m 'proofread: apply reviews and refresh terminology-aware batch'
           git push origin HEAD:translation-proofreading
