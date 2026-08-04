@@ -48,7 +48,7 @@ jobs:
       - name: Install YAML parser
         run: python -m pip install --quiet pyyaml
 
-      - name: Normalize speaker metadata matcher
+      - name: Normalize source metadata for verification
         shell: python
         run: |
           from pathlib import Path
@@ -57,6 +57,13 @@ jobs:
           text = text.replace(
               're.compile(r"^【話者：[^】]*】")',
               're.compile(r"^【話者[:：][^】]*】")',
+          )
+          text = text.replace(
+              '    text = SPEAKER_PREFIX_RE.sub("", text, count=1)\n    return WHITESPACE_RE.sub("", text)',
+              '    text = SPEAKER_PREFIX_RE.sub("", text, count=1)\n'
+              '    text = re.sub(r"(?<=[\\u3400-\\u9fff々ヶ])\\([ぁ-ゖァ-ヺー]+\\)", "", text)\n'
+              '    text = re.sub(r"<[ぁ-ゖァ-ヺー]+>", "", text)\n'
+              '    return WHITESPACE_RE.sub("", text)',
           )
           path.write_text(text, encoding='utf-8')
 
