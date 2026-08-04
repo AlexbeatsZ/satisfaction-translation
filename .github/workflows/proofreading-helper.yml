@@ -4,13 +4,13 @@ on:
   push:
     branches:
       - main
-      - translation-proofreading
+      - translation-proofreading-v2
     paths:
       - '.github/workflows/proofreading-helper.yml'
       - 'proofreading/request.json'
       - 'proofreading/reviewed-batch-*.json'
-      - 'proofreading/sync_proofreading.py'
-      - 'proofreading/diagnose_misalignment.py'
+      - 'proofreading/sync_proofreading_v3.py'
+      - 'proofreading/analyze_chapter_order.py'
       - 'terminology.yaml'
       - 'glossary.json'
   pull_request:
@@ -18,7 +18,7 @@ on:
       - main
 
 concurrency:
-  group: proofreading-${{ github.repository }}-${{ github.ref }}
+  group: proofreading-${{ github.repository }}
   cancel-in-progress: true
 
 permissions:
@@ -31,26 +31,29 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: translation-proofreading
+          ref: translation-proofreading-v2
           fetch-depth: 0
 
-      - name: Import terminology files from main once
+      - name: Import missing historical review manifests
         run: |
-          git fetch origin main
-          for file in terminology.yaml glossary.json; do
-            if [ ! -f "$file" ]; then
-              git checkout origin/main -- "$file"
-            fi
-          done
+          git fetch origin translation-proofreading
+          mkdir -p proofreading
+          git ls-tree -r --name-only origin/translation-proofreading proofreading \
+            | grep -E '^proofreading/reviewed-batch-.*\.json$' \
+            | while read -r path; do
+                if [ ! -f "$path" ]; then
+                  git show "origin/translation-proofreading:$path" > "$path"
+                fi
+              done
 
       - name: Install YAML parser
         run: python -m pip install --quiet pyyaml
 
-      - name: Align, apply reviews, and build next batch
-        run: python proofreading/sync_proofreading.py
+      - name: Apply reviews and align TSV by file-local order
+        run: python proofreading/sync_proofreading_v3.py
 
-      - name: Diagnose source-target misalignment
-        run: python proofreading/diagnose_misalignment.py
+      - name: Analyze chapter ordering
+        run: python proofreading/analyze_chapter_order.py
 
       - name: Commit corrected and generated files
         run: |
@@ -63,11 +66,12 @@ jobs:
             satisfaction-text.tsv \
             terminology.yaml \
             glossary.json \
+            PROOFREADING_PROGRESS.md \
             proofreading
           if git diff --cached --quiet; then
             exit 0
           fi
-          git commit -m 'proofread: apply source-aligned reviews and refresh diagnostics'
-          git fetch origin translation-proofreading
-          git rebase origin/translation-proofreading
-          git push origin HEAD:translation-proofreading
+          git commit -m 'proofread: apply reviewed batch and refresh next window'
+          git fetch origin translation-proofreading-v2
+          git rebase origin/translation-proofreading-v2
+          git push origin HEAD:translation-proofreading-v2
