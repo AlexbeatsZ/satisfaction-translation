@@ -1,0 +1,78 @@
+{
+  "range": {"start": 81, "end": 89},
+  "reviewed_at": "2026-08-05",
+  "entries": [
+    {
+      "index": 81,
+      "source": "一つ大きく尾を振ると、咥えた臓物を大地に吐き出し、血に塗れた鼻先を舌で舐め清めた。",
+      "old_target": "它大大地甩了一下尾巴，将叼着的内脏吐在大地之上，用舌头把沾满鲜血的鼻尖舔舐干净。",
+      "new_target": "它猛地甩了一下尾巴，将嘴里叼着的内脏吐到地上，又伸舌舔净了沾满鲜血的鼻尖。",
+      "status": "corrected",
+      "note": "修正‘大大地甩’与‘吐在大地之上’的直译腔，并明确动作衔接。"
+    },
+    {
+      "index": 82,
+      "source": "ここは、地獄。",
+      "old_target": "这里，是地狱。",
+      "new_target": "这里，是地狱。",
+      "status": "unchanged",
+      "note": "短句停顿与宣告感准确。"
+    },
+    {
+      "index": 83,
+      "source": "獣がヒトを狩る地獄。",
+      "old_target": "野兽狩猎人类的地狱。",
+      "new_target": "野兽狩猎人类的地狱。",
+      "status": "unchanged",
+      "note": "主客体关系准确。"
+    },
+    {
+      "index": 84,
+      "source": "力が魂を滅する地獄。",
+      "old_target": "力量毁灭灵魂的地狱。",
+      "new_target": "力量毁灭灵魂的地狱。",
+      "status": "unchanged",
+      "note": "与上一条保持平行结构。"
+    },
+    {
+      "index": 85,
+      "source": "足の踏み場もないほどにヒトの欠片が散乱し、まだ暖かい肉からは、けぶるような湯気が立つ。",
+      "old_target": "人类的碎片散乱得令人无处落脚，从尚存余温的鲜肉上，升腾起如烟般的热气。",
+      "new_target": "人的残片散落得让人无处落脚，尚有余温的鲜肉上，升起烟雾般的热气。",
+      "status": "corrected",
+      "note": "修正‘人类的碎片’这一不自然搭配，并压缩重复介词。"
+    },
+    {
+      "index": 86,
+      "source": "誰も知らない。",
+      "old_target": "无人知晓。",
+      "new_target": "无人知晓。",
+      "status": "unchanged",
+      "note": "准确。"
+    },
+    {
+      "index": 87,
+      "source": "誰も許さない。",
+      "old_target": "无人饶恕。",
+      "new_target": "无人饶恕。",
+      "status": "unchanged",
+      "note": "保留主语悬置与冷硬宣告感，不强行补出指代。"
+    },
+    {
+      "index": 88,
+      "source": "踏み込んだ者は、引きちぎられる。",
+      "old_target": "踏入此地者，皆被撕成碎片。",
+      "new_target": "踏入此地者，必被撕裂。",
+      "status": "corrected",
+      "note": "删除原文没有的‘碎片’结果扩写，保留必然性和暴力感。"
+    },
+    {
+      "index": 89,
+      "source": "ここは、ノエルの世界。",
+      "old_target": "这里，是吉川诺艾尔的世界。",
+      "new_target": "这里，是诺艾尔的世界。",
+      "status": "corrected",
+      "note": "源文使用简称ノエル，不应无依据扩写为全名；同时符合词库首选译名。"
+    }
+  ]
+}
