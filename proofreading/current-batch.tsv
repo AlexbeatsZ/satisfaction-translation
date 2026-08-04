@@ -1,14 +1,14 @@
 index	chapter	file	line	kind	voice	source	translation	terms
-110	1	noel1_001.dsf	123	dialogue	vmnoel1_001kro006	【話者：黒澤／中文名：黑泽】「違う……違うな……これも。これも」	「不对……不对……这个也是。这个也是」	[]
-111	1	noel1_001.dsf	126	narration		尖った革靴のつま先が、消しゴムの欠片を蹴り飛ばした。	尖头皮鞋的鞋尖踢飞了一块橡皮屑。	[]
+110	1	noel1_001.dsf	123	dialogue	vmnoel1_001kro006	【話者：黒澤／中文名：黑泽】「違う……違うな……これも。これも」	「不对……不对……这个也不是。这个也不是」	[]
+111	1	noel1_001.dsf	126	narration		尖った革靴のつま先が、消しゴムの欠片を蹴り飛ばした。	尖头皮鞋踢飞了一块橡皮屑。	[]
 112	1	noel1_001.dsf	128	narration		それから、色とりどりのクリップ。	接着，是五颜六色的回形针。	[]
 113	1	noel1_001.dsf	130	narration		爪きり。	指甲刀。	[]
 114	1	noel1_001.dsf	132	narration		ライター。	打火机。	[]
 115	1	noel1_001.dsf	134	narration		研究所内にある売店の領収書。	研究所内小卖部的收据。	[]
-116	1	noel1_001.dsf	136	narration		いつかの学会でつけたきり、忘れられたネームプレート。	不知哪次学会上佩戴过便被遗忘的名牌。	[]
+116	1	noel1_001.dsf	136	narration		いつかの学会でつけたきり、忘れられたネームプレート。	某次学会上戴过后便被遗忘的名牌。	[]
 117	1	noel1_001.dsf	138	narration		天崎製薬主任研究員・天崎今日子PhD 、と記されたそのプラスチックの切片は、	印有「天崎制药主任研究员·天崎今日子PhD」字样的那块塑料碎片，	"[{""source"": ""天崎今日子"", ""target"": ""天崎今日子"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}, {""source"": ""天崎製薬"", ""target"": ""天崎制药"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""组织"", ""note"": ""沿用对照表""}]"
-118	1	noel1_001.dsf	148	dialogue	vmnoel1_001kro007	【話者：黒澤／中文名：黑泽】「ゴミだ」	「是垃圾」	[]
-119	1	noel1_001.dsf	153	narration		黒澤の靴のかかとの下で、粉々に砕けて割れた。	在黑泽鞋跟踩踏之下，彻底碎裂粉碎。	"[{""source"": ""黒澤"", ""target"": ""黑泽"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+118	1	noel1_001.dsf	148	dialogue	vmnoel1_001kro007	【話者：黒澤／中文名：黑泽】「ゴミだ」	「垃圾」	[]
+119	1	noel1_001.dsf	153	narration		黒澤の靴のかかとの下で、粉々に砕けて割れた。	它在黑泽的鞋跟下彻底碎裂。	"[{""source"": ""黒澤"", ""target"": ""黑泽"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
 120	1	noel1_001.dsf	157	dialogue	vmnoel1_001kro008	【話者：黒澤／中文名：黑泽】「ゴミだゴミだゴミしかない……くそ……なぜだ……なぜ、なぜ……」	「垃圾，垃圾，全都是垃圾……可恶……为什么……为什么，为什么……」	[]
 121	1	noel1_001.dsf	160	narration		主人をなくした椅子に腰を落し、乱れたオールバックをかきむしる。ポマードが臭う。かきむしってかきむしって、両手を見る。爪の間に、血とかさぶたの混じった脂。	瘫坐在失去主人的椅子上，他狠狠抓挠着凌乱的大背头。发油散发出难闻的气味。抓了又抓，看向自己的双手。指甲缝里，混杂着血液与血痂的油脂。	[]
 122	1	noel1_001.dsf	162	narration		パンプスの足元にファイルを散乱させたまま、アシスタントが声を震わせた。	女助手任由文件夹散落在浅口高跟鞋旁，发出了颤抖的声音。	[]
