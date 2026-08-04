@@ -11,6 +11,8 @@ on:
       - '.github/workflows/proofreading-helper.yml'
       - 'proofreading/request.json'
       - 'proofreading/reviewed-batch-*.json'
+      - 'proofreading/skipped-ranges.json'
+      - 'proofreading/update_progress_with_skips.py'
       - 'proofreading/sync_proofreading_v3.py'
       - 'proofreading/analyze_chapter_order.py'
       - 'terminology.yaml'
@@ -53,6 +55,9 @@ jobs:
 
       - name: Apply reviews and align TSV by file-local order
         run: python proofreading/sync_proofreading_v3.py
+
+      - name: Rebuild progress with skipped ranges
+        run: python proofreading/update_progress_with_skips.py
 
       - name: Analyze chapter ordering
         run: python proofreading/analyze_chapter_order.py
