@@ -192,7 +192,7 @@ terms:
   target: 埃玛农的正义
   mode: preferred
   status: active
-  valid_from: 2
+  valid_from: 0
 - source: 実行部隊
   target: 执行部队
   mode: preferred
