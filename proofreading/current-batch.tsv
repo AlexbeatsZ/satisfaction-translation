@@ -1,14 +1,14 @@
 index	chapter	file	line	kind	voice	source	translation	terms
-170	1	noel1_001.dsf	353	narration		そうでなくては、ならなかった。	必须，如此才行。	[]
+170	1	noel1_001.dsf	353	narration		そうでなくては、ならなかった。	必须如此才行。	[]
 171	1	noel1_001.dsf	355	narration		それなのに。	然而。	[]
 172	1	noel1_001.dsf	366	narration		デスクの電話が突然鳴り響く。	办公桌上的电话突然响了起来。	[]
-173	1	noel1_001.dsf	370	dialogue	vmnoel1_001kro017	【話者：黒澤／中文名：黑泽】「……っ！」	「……唔！」	[]
+173	1	noel1_001.dsf	370	dialogue	vmnoel1_001kro017	【話者：黒澤／中文名：黑泽】「……っ！」	「……！」	[]
 174	1	noel1_001.dsf	373	narration		ほとんど飛び上がり、黒澤は平凡な電話機を恐怖に満ちた眼差しで見つめた。アシスタントが受話器を取る。	黑泽几乎跳了起来，用充满恐惧的眼神凝视着那台平凡无奇的电话。助手拿起了听筒。	"[{""source"": ""黒澤"", ""target"": ""黑泽"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
-175	1	noel1_001.dsf	379	narration		口紅のはげた唇が、事務的な会話を交わす様子を、黒澤はただ息を詰めて窺う。	口红脱落的双唇交谈着例行公事般的对话，黑泽只是屏住呼吸伺机窥探。	"[{""source"": ""黒澤"", ""target"": ""黑泽"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
-176	1	noel1_001.dsf	410	dialogue	vfnoel1_001rri000	【話者：天崎理理／中文名：天崎理理】「ひとーつ」	「一――个」	[]
-177	1	noel1_001.dsf	416	dialogue	vfnoel1_001rri001	【話者：天崎理理／中文名：天崎理理】「ふたーつ」	「二――个」	[]
-178	1	noel1_001.dsf	423	dialogue	vfnoel1_001rri002	【話者：天崎理理／中文名：天崎理理】「みーっつ」	「三――个」	[]
-179	1	noel1_001.dsf	429	narration		鎮魂の鐘が、三度鳴った。	镇魂之钟，敲响了三次。	[]
+175	1	noel1_001.dsf	379	narration		口紅のはげた唇が、事務的な会話を交わす様子を、黒澤はただ息を詰めて窺う。	黑泽屏住呼吸，只是注视着那双口红斑驳的嘴唇进行公事公办的交谈。	"[{""source"": ""黒澤"", ""target"": ""黑泽"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+176	1	noel1_001.dsf	410	dialogue	vfnoel1_001rri000	【話者：天崎理理／中文名：天崎理理】「ひとーつ」	「一——」	[]
+177	1	noel1_001.dsf	416	dialogue	vfnoel1_001rri001	【話者：天崎理理／中文名：天崎理理】「ふたーつ」	「二——」	[]
+178	1	noel1_001.dsf	423	dialogue	vfnoel1_001rri002	【話者：天崎理理／中文名：天崎理理】「みーっつ」	「三——」	[]
+179	1	noel1_001.dsf	429	narration		鎮魂の鐘が、三度鳴った。	镇魂钟敲响了三次。	[]
 180	1	noel1_001.dsf	431	narration		淡い余韻を吹き飛ばしたのは、冷たく湿った秋の風。	吹散那淡淡余韵的，是寒冷而湿润的秋风。	[]
 181	1	noel1_001.dsf	435	dialogue	vfnoel1_001rri003	【話者：天崎理理／中文名：天崎理理】「理理は、百まで、数えられる」	「理理，能数到，一百哦」	[]
 182	1	noel1_001.dsf	438	narration		そっと呟いてみた。	她悄悄轻喃道。	[]
