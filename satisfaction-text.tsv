@@ -19,16 +19,16 @@ noel0_001.dsf:113	noel0_001.dsf	113	narration		　全身の筋肉に、指の一
 noel0_001.dsf:122	noel0_001.dsf	122	narration		　目を閉じて、肺を限界まで膨張させる深呼吸。	闭上双眼，深深吸气，直至肺部膨胀到极限。
 noel0_001.dsf:124	noel0_001.dsf	124	narration		　息を吐き出し、音が消える。	吐出气息，声音随之消失。
 noel0_001.dsf:126	noel0_001.dsf	126	narration		　すべての神経が、すべての細胞が、震え、響き、冴え、研がれ、どこまでもどこまでも駆り立てられて、叫びだしそうに熱くなる。	所有的神经，所有的细胞，都在颤动、共鸣，变得敏锐而锋利；它们被无止境地驱策着，炽热得仿佛就要放声尖叫。
-noel0_001.dsf:135	noel0_001.dsf	135	dialogue	vfnoel0_001noe001	「……まだなの？」	
-noel0_001.dsf:137	noel0_001.dsf	137	narration		　こみ上げる、制御しきれぬ力が、ノエルの声を掠(かす)れさせた。	
-noel0_001.dsf:139	noel0_001.dsf	139	narration		　と、通信回線が開く。	
-noel0_001.dsf:141	noel0_001.dsf	141	narration		　ノエルはヘッドホンを耳に押し付け、風の叫びに吹き散らされそうなオペレーターの声を貪る。	
-noel0_001.dsf:144	noel0_001.dsf	144	dialogue	vfnoel0_001ope000	『地上部隊は作戦を完了。撤退を開始する。降下戦闘準備は』	
-noel0_001.dsf:147	noel0_001.dsf	147	dialogue	vfnoel0_001noe002	「できてる。いつでも出られる」	
-noel0_001.dsf:149	noel0_001.dsf	149	narration		　インカムに応え、操縦士を見る。操縦士は片手を上げて、こちらも了解の合図。	
-noel0_001.dsf:155	noel0_001.dsf	155	narration		　ブラックホークは優雅に機首を下げ、なめらかに旋回を開始する。	
-noel0_001.dsf:158	noel0_001.dsf	158	dialogue	vfnoel0_001ope001	『残存勢力を殲滅し、部隊の撤退を援護せよ。一匹も叩き漏らすな。完全なる任務の遂行を期待する。行動開始』	
-noel0_001.dsf:161	noel0_001.dsf	161	dialogue	vfnoel0_001noe003	「了解」	
+noel0_001.dsf:135	noel0_001.dsf	135	dialogue	vfnoel0_001noe001	「……まだなの？」	「……还没好吗？」
+noel0_001.dsf:137	noel0_001.dsf	137	narration		　こみ上げる、制御しきれぬ力が、ノエルの声を掠(かす)れさせた。	涌动而出、无法抑制的力量，让诺艾尔的声音变得喑哑。
+noel0_001.dsf:139	noel0_001.dsf	139	narration		　と、通信回線が開く。	这时，通讯线路开启了。
+noel0_001.dsf:141	noel0_001.dsf	141	narration		　ノエルはヘッドホンを耳に押し付け、風の叫びに吹き散らされそうなオペレーターの声を貪る。	诺艾尔将耳机紧紧压在耳上，贪婪地捕捉着几乎要被呼啸风声吹散的通讯员话音。
+noel0_001.dsf:144	noel0_001.dsf	144	dialogue	vfnoel0_001ope000	『地上部隊は作戦を完了。撤退を開始する。降下戦闘準備は』	『地面部队已完成作战，开始撤退。空降作战准备情况如何？』
+noel0_001.dsf:147	noel0_001.dsf	147	dialogue	vfnoel0_001noe002	「できてる。いつでも出られる」	「准备好了。随时可以出击」
+noel0_001.dsf:149	noel0_001.dsf	149	narration		　インカムに応え、操縦士を見る。操縦士は片手を上げて、こちらも了解の合図。	通过耳麦作答后，她看向飞行员。飞行员举起一只手，示意自己也已明白。
+noel0_001.dsf:155	noel0_001.dsf	155	narration		　ブラックホークは優雅に機首を下げ、なめらかに旋回を開始する。	「黑鹰」直升机优雅地压低机头，平稳地开始转向。
+noel0_001.dsf:158	noel0_001.dsf	158	dialogue	vfnoel0_001ope001	『残存勢力を殲滅し、部隊の撤退を援護せよ。一匹も叩き漏らすな。完全なる任務の遂行を期待する。行動開始』	『歼灭残余势力，掩护部队撤退。一只都不准放过。务必彻底完成任务。开始行动』
+noel0_001.dsf:161	noel0_001.dsf	161	dialogue	vfnoel0_001noe003	「了解」	「了解」
 noel0_001.dsf:163	noel0_001.dsf	163	narration		　ノエルはヘッドセットを外した。	
 noel0_001.dsf:165	noel0_001.dsf	165	narration		　出撃命令は、あまりにも短い。	
 noel0_001.dsf:167	noel0_001.dsf	167	narration		　しかし、十分。	
