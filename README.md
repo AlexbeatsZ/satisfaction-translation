@@ -14,6 +14,8 @@
 | [`satisfaction-scripts.zh.txt`](satisfaction-scripts.zh.txt) | Plain Text | 纯文本格式剧本，方便搜索与文本处理。 |
 | [`satisfaction-scripts.zh.json`](satisfaction-scripts.zh.json) | JSON Interchange | 结构化剧本数据，包含章节标题、日文原文、中文译文、说话者角色名及引擎定位 ID。 |
 | [`satisfaction-text.tsv`](satisfaction-text.tsv) | TSV | 全书 21,204 条对齐双语表，包含语音 ID (WVP) 与物理行定位。 |
+| [`terminology.yaml`](terminology.yaml) | YAML | 术语表与规则配置（人名、专有名词、代词映射与强制/建议翻译规则）。 |
+| [`glossary.json`](glossary.json) | JSON Dump | 自动抽取的全书术语库、叙事实体映射与事实知识库。 |
 
 ---
 
