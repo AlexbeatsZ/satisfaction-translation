@@ -1,14 +1,4 @@
 index	file	line	kind	voice	source	translation
-21	noel0_001.dsf	135	dialogue	vfnoel0_001noe001	「……まだなの？」	「……还没好吗？」
-22	noel0_001.dsf	137	narration		　こみ上げる、制御しきれぬ力が、ノエルの声を掠(かす)れさせた。	涌动而出、无法抑制的力量，让诺艾尔的声音变得喑哑。
-23	noel0_001.dsf	139	narration		　と、通信回線が開く。	这时，通讯线路开启了。
-24	noel0_001.dsf	141	narration		　ノエルはヘッドホンを耳に押し付け、風の叫びに吹き散らされそうなオペレーターの声を貪る。	诺艾尔将耳机紧紧压在耳上，贪婪地捕捉着几乎要被呼啸风声吹散的通讯员话音。
-25	noel0_001.dsf	144	dialogue	vfnoel0_001ope000	『地上部隊は作戦を完了。撤退を開始する。降下戦闘準備は』	『地面部队已完成作战，开始撤退。空降作战准备情况如何？』
-26	noel0_001.dsf	147	dialogue	vfnoel0_001noe002	「できてる。いつでも出られる」	「准备好了。随时可以出击」
-27	noel0_001.dsf	149	narration		　インカムに応え、操縦士を見る。操縦士は片手を上げて、こちらも了解の合図。	通过耳麦作答后，她看向飞行员。飞行员举起一只手，示意自己也已明白。
-28	noel0_001.dsf	155	narration		　ブラックホークは優雅に機首を下げ、なめらかに旋回を開始する。	「黑鹰」直升机优雅地压低机头，平稳地开始转向。
-29	noel0_001.dsf	158	dialogue	vfnoel0_001ope001	『残存勢力を殲滅し、部隊の撤退を援護せよ。一匹も叩き漏らすな。完全なる任務の遂行を期待する。行動開始』	『歼灭残余势力，掩护部队撤退。一只都不准放过。务必彻底完成任务。开始行动』
-30	noel0_001.dsf	161	dialogue	vfnoel0_001noe003	「了解」	「了解」
 31	noel0_001.dsf	163	narration		　ノエルはヘッドセットを外した。	诺艾尔摘下了耳麦。
 32	noel0_001.dsf	165	narration		　出撃命令は、あまりにも短い。	出击命令短得过分。
 33	noel0_001.dsf	167	narration		　しかし、十分。	但是，足够了。
@@ -39,3 +29,13 @@ index	file	line	kind	voice	source	translation
 58	noel0_001.dsf	260	narration		　真っ逆さま。	
 59	noel0_001.dsf	262	narration		　身体を垂直にして空気の層を貫く。ブラックホークの腹が離れていく。容赦のない上空の風は、ただまっすぐに貫けばいい。	
 60	noel0_001.dsf	264	narration		　地上へ。	
+61	noel0_001.dsf	266	narration		　拡大されていく視界。照明弾に照らし出された男の顔が真下。	
+62	noel0_001.dsf	268	narration		　口を叫ぶ形に開き、しかし彼の声はノエルには届かない。	
+63	noel0_001.dsf	276	narration		　銃口が天を向く。	
+64	noel0_001.dsf	278	narration		　滅茶苦茶な発砲で弾丸が爆ぜる。	
+65	noel0_001.dsf	280	narration		　四肢を開く。風を制する。落下の速度をわずかに殺す。重力も引力も支配下において、風圧の力場を叩き潰す。	
+66	noel0_001.dsf	291	narration		　――閃光。	
+67	noel0_001.dsf	300	narration		　もしかしたら。	
+68	noel0_001.dsf	302	narration		　地面に激突するまで残り一秒とちょっとだけになった頃、	
+69	noel0_001.dsf	303	narration		無意識にノエルが眇(すが)めた瞳は肉食獣の獰猛さで男を見据えたかもしれない。	
+70	noel0_001.dsf	305	narration		　風圧に歪んだ口元は欲望に濡れた笑みを浮かべたように見えたかもしれない。	
