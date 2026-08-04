@@ -1,0 +1,86 @@
+{
+  "range": {"start": 41, "end": 50},
+  "reviewed_at": "2026-08-04",
+  "entries": [
+    {
+      "index": 41,
+      "source": "右手。",
+      "old_target": "右手。",
+      "new_target": "右手。",
+      "status": "unchanged",
+      "note": "短促的身体部位列举准确。"
+    },
+    {
+      "index": 42,
+      "source": "左手。",
+      "old_target": "左手。",
+      "new_target": "左手。",
+      "status": "unchanged",
+      "note": "短促的身体部位列举准确。"
+    },
+    {
+      "index": 43,
+      "source": "右足。",
+      "old_target": "右脚。",
+      "new_target": "右脚。",
+      "status": "unchanged",
+      "note": "结合身体控制语境，译为右脚自然准确。"
+    },
+    {
+      "index": 44,
+      "source": "左足。",
+      "old_target": "左脚。",
+      "new_target": "左脚。",
+      "status": "unchanged",
+      "note": "结合身体控制语境，译为左脚自然准确。"
+    },
+    {
+      "index": 45,
+      "source": "私の身体。眼球。鼓膜。すべての臓器。",
+      "old_target": "我的身体。眼球。鼓膜。所有的器官。",
+      "new_target": "我的身体。眼球。鼓膜。所有的器官。",
+      "status": "unchanged",
+      "note": "保留逐项点名身体组织的冷硬、破碎节奏。"
+    },
+    {
+      "index": 46,
+      "source": "脳。",
+      "old_target": "大脑。",
+      "new_target": "大脑。",
+      "status": "unchanged",
+      "note": "准确。"
+    },
+    {
+      "index": 47,
+      "source": "神経。",
+      "old_target": "神经。",
+      "new_target": "神经。",
+      "status": "unchanged",
+      "note": "准确。"
+    },
+    {
+      "index": 48,
+      "source": "私を作る、細胞たち。",
+      "old_target": "构成我的，细胞们。",
+      "new_target": "构成我的细胞们。",
+      "status": "corrected",
+      "note": "删除日语修饰结构残留的异常逗号，同时保留对细胞的拟人化呼唤。"
+    },
+    {
+      "index": 49,
+      "source": "――命という命を、狩り尽くせ。",
+      "old_target": "——将所有的生命，猎杀殆尽。",
+      "new_target": "——将一切生命猎杀殆尽。",
+      "status": "corrected",
+      "note": "还原‘命という命’的穷尽意味，并删除破坏中文动宾结构的逗号。"
+    },
+    {
+      "index": 50,
+      "source": "真下から顔面にぶち当たる風圧、浅く何度か呼吸。",
+      "old_target": "从正下方正面撞击脸庞的风压，浅浅呼吸了几下。",
+      "new_target": "风压从正下方狠狠撞上脸庞。几次浅浅的呼吸。",
+      "status": "corrected",
+      "note": "拆开两个并列感官片段，修正‘正下方正面撞击’的重复和悬空句法。"
+    }
+  ]
+}
