@@ -1,21 +1,21 @@
 index	chapter	file	line	kind	voice	source	translation	terms
-450	2	noel1_002.dsf	382	narration		ただ、それがエマノンの仕事なのか、自分の仕事なのかと考えると、納得することは難しかった。	可是，一想到这究竟是不是埃玛农该做的工作、是不是自己该做的工作，她就很难接受。	"[{""source"": ""エマノン"", ""target"": ""埃玛农"", ""mode"": ""hard"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""组织"", ""note"": ""沿用已有对照表""}]"
-451	2	noel1_002.dsf	386	narration		裕樹はノエルをなだめるように、絡めた指に力を込めた。	裕树像是在安抚诺艾尔，轻轻收紧了与她交缠的手指。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
-452	2	noel1_002.dsf	391	dialogue	vmnoel1_002hro022	【話者：吉川裕樹／中文名：吉川裕树】「依頼者の天崎は、あの天崎製薬の会長だよ」	「委托人天崎，可是天崎制药的会长」	"[{""source"": ""天崎製薬"", ""target"": ""天崎制药"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""组织"", ""note"": ""沿用对照表""}]"
-453	2	noel1_002.dsf	396	dialogue	vfnoel1_002noe014	【話者：吉川ノエル／中文名：吉川诺艾尔】「……知ってる」	「……我知道」	[]
-454	2	noel1_002.dsf	402	dialogue	vmnoel1_002hro023	【話者：吉川裕樹／中文名：吉川裕树】「天崎製薬といえば、先の大戦において、その開発力で環太平洋側を勝利へと導いた影の立役者。当然、軍事機密も握っている」	「说起天崎制药，它可是上一场大战中凭借研发实力引领环太平洋阵营获胜的幕后功臣，当然也掌握着军事机密」	"[{""source"": ""環太平洋側"", ""target"": ""环太平洋阵营"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": null, ""note"": null}, {""source"": ""天崎製薬"", ""target"": ""天崎制药"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""组织"", ""note"": ""沿用对照表""}]"
-455	2	noel1_002.dsf	407	dialogue	vmnoel1_002hro024	【話者：吉川裕樹／中文名：吉川裕树】「その天崎が、何者かから脅迫を受けているという。エマノンが天崎の依頼を受けるのも、そう不思議ではないと思うよ、僕は。エマノンはなんのためにある？」	「而那个天崎，据说正受到某个身份不明者的威胁。所以在我看来，埃玛农接下他的委托并不奇怪。埃玛农是为了什么而存在的？」	"[{""source"": ""エマノン"", ""target"": ""埃玛农"", ""mode"": ""hard"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""组织"", ""note"": ""沿用已有对照表""}]"
-456	2	noel1_002.dsf	412	dialogue	vfnoel1_002noe015	【話者：吉川ノエル／中文名：吉川诺艾尔】「エマノンは、新世界の安定のため。過去から未来へ世界を進めるためにある」	「埃玛农为维护新世界的稳定而存在，为了推动世界从过去迈向未来」	"[{""source"": ""エマノン"", ""target"": ""埃玛农"", ""mode"": ""hard"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""组织"", ""note"": ""沿用已有对照表""}, {""source"": ""新世界"", ""target"": ""新世界"", ""mode"": ""hard"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""术语"", ""note"": ""众部下呼喊的目标与理念""}]"
-457	2	noel1_002.dsf	417	dialogue	vmnoel1_002hro025	【話者：吉川裕樹／中文名：吉川裕树】「そう。だから、天崎には、旧世界の秘密に蓋をしておいてもらわなくちゃいけない。脅迫なんかに屈せずに、ね。それを助けるのが我々エマノンだ」	「没错。所以，必须让天崎继续封住旧世界的秘密，不能向威胁屈服。而帮助他做到这一点的，就是我们埃玛农」	"[{""source"": ""エマノン"", ""target"": ""埃玛农"", ""mode"": ""hard"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""组织"", ""note"": ""沿用已有对照表""}, {""source"": ""旧世界"", ""target"": ""旧世界"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": null, ""note"": null}]"
-458	2	noel1_002.dsf	422	dialogue	vfnoel1_002noe016	【話者：吉川ノエル／中文名：吉川诺艾尔】「……天崎が蓋をしなくちゃいけない秘密って、なんなの」	「……天崎必须隐瞒的秘密，究竟是什么？」	[]
-459	2	noel1_002.dsf	427	dialogue	vmnoel1_002hro026	【話者：吉川裕樹／中文名：吉川裕树】「知らされていない」	「我们也没被告知」	[]
-460	2	noel1_002.dsf	432	dialogue	vfnoel1_002noe017	【話者：吉川ノエル／中文名：吉川诺艾尔】「……私にはいえない、何かがあるのね」	「……是有什么不能告诉我的隐情吧」	[]
-461	2	noel1_002.dsf	438	dialogue	vmnoel1_002hro027	【話者：吉川裕樹／中文名：吉川裕树】「ノエルにはいえない、じゃないよ。僕も本当に、具体的なことはなにも知らないんだ。天崎製薬のなにが狙われているのか。会長を脅迫したとされる敵対勢力の素性さえ、我々実行部隊には知らされていない」	「不是不能告诉诺艾尔。我是真的对具体情况一无所知。天崎制药究竟有什么遭到觊觎，甚至连据说胁迫了会长的敌对势力究竟是什么来头，我们执行部队都没被告知」	"[{""source"": ""天崎製薬"", ""target"": ""天崎制药"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""组织"", ""note"": ""沿用对照表""}, {""source"": ""実行部隊"", ""target"": ""执行部队"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": null, ""note"": null}, {""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
-462	2	noel1_002.dsf	442	dialogue	vmnoel1_002hro028	【話者：吉川裕樹／中文名：吉川裕树】「まあ、上の連中がどこまで掴んだ上で、この仕事を受けたのかもわからないけどね」	「不过，高层那帮人究竟掌握了多少情况才接下这份工作，我也说不准」	[]
-463	2	noel1_002.dsf	447	dialogue	vfnoel1_002noe018	【話者：吉川ノエル／中文名：吉川诺艾尔】「とにかく、天崎の一人娘の身の安全を守れ、と」	「总之，就是要保护天崎独生女的人身安全，对吧？」	[]
-464	2	noel1_002.dsf	452	dialogue	vmnoel1_002hro029	【話者：吉川裕樹／中文名：吉川裕树】「その通り。会長は海外に雲隠れしたらしい。娘にはきな臭いことは何一つ知らせるな、と僕らに言い残してね。やれる？」	「没错。听说会长已经躲到海外去了，临走前还嘱咐我们，绝不能让女儿知道任何危险内幕。能办到吗？」	[]
-465	2	noel1_002.dsf	457	dialogue	vfnoel1_002noe019	【話者：吉川ノエル／中文名：吉川诺艾尔】「……やれる」	「……能办到」	[]
-466	2	noel1_002.dsf	461	narration		ノエルは人形めいた顔立ちに、獣の凄みを纏わせる。	诺艾尔那人偶般精致的脸庞，浮现出野兽般的凶戾。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
-467	2	noel1_002.dsf	466	dialogue	vfnoel1_002noe020	【話者：吉川ノエル／中文名：吉川诺艾尔】「守る。命にかえても。そういう命令なんだもの」	「我会保护她，哪怕拼上性命。因为这就是命令」	[]
-468	2	noel1_002.dsf	470	narration		血腥さは、しかし一瞬。	然而，那股凶戾只持续了一瞬。	[]
-469	2	noel1_002.dsf	474	narration		すぐに美貌は臭いを消して、温度さえない造り物めく。	转眼间，那张美丽面容便敛去一切气息，重新显得像件毫无温度的人工制品。	[]
+470	2	noel1_002.dsf	478	narration		見下ろす裕樹は目を細め、満足そうに笑みを濃くした。	居高临下俯视着她的吉川裕树眯起双眼，满意的笑容愈发浓郁。	[]
+471	2	noel1_002.dsf	483	dialogue	vmnoel1_002hro030	"【話者：吉川裕樹／中文名：吉川裕树】「……頼もしいね。昨日まで ""行きたくない"" とごねていた君とは思えない」"	「……真靠得住呢。真让人想不到你直到昨天还在闹脾气说『不想去』。」	[]
+472	2	noel1_002.dsf	488	dialogue	vfnoel1_002noe021	【話者：吉川ノエル／中文名：吉川诺艾尔】「迷いはないの。自信がないわけでもない。ただ、いつもとは違うから、ちょっと――」	「我没有犹豫，也不是没有自信。只是因为这次和以往不同，稍微有那么点——」	[]
+473	2	noel1_002.dsf	493	dialogue	vmnoel1_002hro031	【話者：吉川裕樹／中文名：吉川裕树】「ちょっと？」	「稍微有那么点？」	[]
+474	2	noel1_002.dsf	497	narration		運転席から身を乗り出して、裕樹はノエルに身を寄せる。	吉川裕树从驾驶席探出身体，向吉川诺艾尔贴近。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+475	2	noel1_002.dsf	501	narration		吐息がくすぐるのは、耳の下、白い首筋。	吐息轻拂着耳下那白皙的颈项。	[]
+476	2	noel1_002.dsf	505	narration		裕樹のスーツから、甘い煙草の残り香が匂う。	吉川裕树的西装上散发着甜腻的烟草余香。	[]
+477	2	noel1_002.dsf	510	dialogue	vfnoel1_002noe022	【話者：吉川ノエル／中文名：吉川诺艾尔】「……いいの」	「……没什么。」	[]
+478	2	noel1_002.dsf	514	narration		ノエルは身じろぎもせず、兄の尖った舌先が、喉を舐め上げるのを目を閉じて受け入れた。	吉川诺艾尔纹丝不动，闭上双眼任凭哥哥尖尖的舌尖舔过自己的喉咙。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+479	2	noel1_002.dsf	518	narration		触れた瞬間、熱さとぬめりにわずかに震えて、しかし言葉は淡々と紡ぐ。	接触到的瞬间，她因那份炽热与湿滑微不可察地颤抖了一下，但说出的话语依旧平淡。	[]
+480	2	noel1_002.dsf	523	dialogue	vfnoel1_002noe023	【話者：吉川ノエル／中文名：吉川诺艾尔】「動き出したのだから、私はただ、それを完遂するだけ。エマノンの正義のために。それ以外のことは、考えないことにする」	「既然已经行动，我便只需将其贯彻到底。为了埃玛农的正义。除此之外的事，我一概不去思考。」	"[{""source"": ""エマノンの正義"", ""target"": ""埃玛农的正义"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": null, ""note"": null}]"
+481	2	noel1_002.dsf	527	narration		いつもどおりに。	一如往常。	[]
+482	2	noel1_002.dsf	531	narration		ずっとそうしてきたのだ。	一直以来都是如此。	[]
+483	2	noel1_002.dsf	535	narration		ノエルは口をつぐむ。	吉川诺艾尔缄口不言。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+484	2	noel1_002.dsf	539	narration		エマノンの正義――それにどれだけの価値があるかは分からない。自分がそれを、どれだけ大切にしているかも分からない。そんなことを考えたことはない。	埃玛农的正义——究竟有多大的价值，她不得而知。自己究竟有多珍视它，她同样不得而知。她从未思考过这种事。	"[{""source"": ""エマノンの正義"", ""target"": ""埃玛农的正义"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": null, ""note"": null}]"
+485	2	noel1_002.dsf	543	narration		それでも、それがノエルだから。	即便如此，因为这就是吉川诺艾尔。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+486	2	noel1_002.dsf	547	narration		エマノンの正義のために戦うのが、ノエルだから。	为了埃玛农的正义而战，这就是吉川诺艾尔。	"[{""source"": ""エマノンの正義"", ""target"": ""埃玛农的正义"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": null, ""note"": null}, {""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+487	2	noel1_002.dsf	551	narration		ノエルは、失敗しない。間違えない。迷わない。	吉川诺艾尔不会失败。不会犯错。不会迷茫。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+488	2	noel1_002.dsf	555	narration		そういう生き物だから。	因为她就是这样的生物。	[]
+489	2	noel1_002.dsf	584	dialogue	vmnoel1_002hro032	【話者：吉川裕樹／中文名：吉川裕树】「……寂しくなるね」	「……会让人感到寂寞呢。」	[]
