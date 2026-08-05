@@ -45,4 +45,4 @@
 
 ## 恢复说明
 
-从第 1230 条继续；逐条记录保存在 `proofreading/reviewed-batch-*.json`，跳过记录保存在 `proofreading/skipped-ranges.json`。
+从第 1230 条继续；逐条修正保存在 `proofreading/reviewed-batch-*.json`，其 `range` 表示整批已审范围；跳过记录保存在 `proofreading/skipped-ranges.json`。
