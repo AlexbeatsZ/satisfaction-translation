@@ -17,7 +17,7 @@
 - 总进度：**3,729/21,204**
 - 实际校对：**3,584/21,204**
 - 跳过：**145/21,204**
-- 当前机器可读占用记录：[`003730-004229-openai-chatgpt.json`](/home/runner/work/satisfaction-translation/satisfaction-translation/proofreading/claims/active/003730-004229-openai-chatgpt.json)
+- 当前机器可读占用记录：[`003730-004229-openai-chatgpt.json`](proofreading/claims/active/003730-004229-openai-chatgpt.json)
 - 完整断点与统计：[`PROOFREADING_PROGRESS.md`](PROOFREADING_PROGRESS.md)
 
 README 中的表格用于快速查看；发生差异时，以 `proofreading/claims/active/*.json` 和 `PROOFREADING_PROGRESS.md` 为准。
