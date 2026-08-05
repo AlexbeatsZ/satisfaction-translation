@@ -35,11 +35,11 @@ index	chapter	file	line	kind	voice	source	translation	terms
 1103	5	noel1_005.dsf	535	dialogue	vfnoel1_005joa001	【話者：女性端役（JOA）／中文名：女性端役（JOA）】「貴子お姉さま、執行委員会のお姉さまがた、ごきげんよう！」	「贵子姐姐，执行委员会的各位姐姐，贵安！」	"[{""source"": ""ごきげんよう"", ""target"": ""贵安"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": null, ""note"": null}]"
 1104	5	noel1_005.dsf	543	dialogue	vfnoel1_005tkk006	【話者：小日向貴子／中文名：小日向贵子】「皆さん、ごきげんよう。今日も規律を守って誇りある学園生活を」	「各位贵安。今天也请严守纪律，度过值得自豪的校园生活」	"[{""source"": ""ごきげんよう"", ""target"": ""贵安"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": null, ""note"": null}]"
 1105	5	noel1_005.dsf	550	narration		華麗な笑顔で高らかに貴子が述べると、黄色い歓声と、うっとりしたようなため息が辺りを満たした。	贵子带着华美的笑容高声说完，少女们尖亮的欢呼与陶醉的叹息顿时充满四周。	[]
-1106	5	noel1_005.dsf	555	dialogue	vfnoel1_005rri020	【話者：天崎理理／中文名：天崎理理】「貴子お姉さまは、この学園の『クイーン』でいらっしゃるのよ」	「贵子姐姐可是这所学园的‘女王’」	[]
+1106	5	noel1_005.dsf	555	dialogue	vfnoel1_005rri020	【話者：天崎理理／中文名：天崎理理】「貴子お姉さまは、この学園の『クイーン』でいらっしゃるのよ」	「贵子姐姐可是这所学园的‘女王’」	"[{""source"": ""クイーン"", ""target"": ""女王"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""术语"", ""note"": ""指代小日向贵子的称号""}]"
 1107	5	noel1_005.dsf	559	narration		怪訝な顔で一人立ち尽くすノエルの指を小さくつつき、理理がそっと耳打ちしてくれる。	理理轻轻戳了戳独自僵在原地、一脸疑惑的诺艾尔的手指，凑到她耳边低声解释。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
-1108	5	noel1_005.dsf	564	dialogue	vfnoel1_005noe010	【話者：吉川ノエル／中文名：吉川诺艾尔】「……クイーン？」	「……女王？」	[]
+1108	5	noel1_005.dsf	564	dialogue	vfnoel1_005noe010	【話者：吉川ノエル／中文名：吉川诺艾尔】「……クイーン？」	「……女王？」	"[{""source"": ""クイーン"", ""target"": ""女王"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""术语"", ""note"": ""指代小日向贵子的称号""}]"
 1109	5	noel1_005.dsf	569	dialogue	vfnoel1_005rri021	【話者：天崎理理／中文名：天崎理理】「そう。誰より美しく、気高くていらっしゃるから」	「对。因为她比任何人都美丽、高贵」	[]
-1110	5	noel1_005.dsf	573	narration		クイーンというのは、この学園における特殊な権力構造の段階の隠語なのだろうか。	所谓“女王”，难道是这所学园特殊权力结构中某一阶级的暗称？	[]
+1110	5	noel1_005.dsf	573	narration		クイーンというのは、この学園における特殊な権力構造の段階の隠語なのだろうか。	所谓“女王”，难道是这所学园特殊权力结构中某一阶级的暗称？	"[{""source"": ""クイーン"", ""target"": ""女王"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""术语"", ""note"": ""指代小日向贵子的称号""}]"
 1111	5	noel1_005.dsf	577	narration		任務をスムーズに進めるには、知っておく必要があるかもしれない。なにしろこの影響力だ――彼女一人の登場で、少女たちはみな歩みを止め、貴子の周りから動こうとしない。	任务要顺利推进，或许有必要弄清楚。毕竟她有如此影响力——仅仅现身，所有少女便停下脚步，围在贵子周围不肯离去。	[]
 1112	5	noel1_005.dsf	581	narration		ノエルはもっと詳しく聞こうと理理の指先を引っ張り返すが、	诺艾尔想追问更多，便回拉理理的手指，然而——	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
 1113	5	noel1_005.dsf	589	dialogue	vfnoel1_005tkk007	【話者：小日向貴子／中文名：小日向贵子】「さて、吉川ノエル」	「那么，吉川诺艾尔」	"[{""source"": ""吉川ノエル"", ""target"": ""吉川诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
