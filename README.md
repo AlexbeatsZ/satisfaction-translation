@@ -14,8 +14,8 @@
 |---|---|---|---|---|---|
 | 第 4,230–4,729 条 | 日中翻译校对 | OpenAI ChatGPT | `translation-proofreading-4230-4729` | 正在校对 | 2026-08-05 |
 
-- 总进度：**4,329/21,204**
-- 实际校对：**4,184/21,204**
+- 总进度：**4,429/21,204**
+- 实际校对：**4,284/21,204**
 - 跳过：**145/21,204**
 - 当前机器可读占用记录：[`004230-004729-openai-chatgpt.json`](proofreading/claims/active/004230-004729-openai-chatgpt.json)
 - 完整断点与统计：[`PROOFREADING_PROGRESS.md`](PROOFREADING_PROGRESS.md)
