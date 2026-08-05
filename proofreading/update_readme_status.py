@@ -46,7 +46,8 @@ def main() -> None:
             f"{claim['owner']} | `{claim['branch']}` | "
             f"{STATUS_LABELS.get(status, status)} | {updated_date} |"
         )
-        claim_links.append(f"[`{path.name}`]({path.as_posix()})")
+        relative_path = path.relative_to(ROOT).as_posix()
+        claim_links.append(f"[`{path.name}`]({relative_path})")
 
     if not table_rows:
         table_rows.append("| 无 | 无 | 无 | 无 | 当前没有活动占用 | — |")
