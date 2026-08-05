@@ -1,0 +1,26 @@
+{
+  "range": {"start": 890, "end": 909},
+  "reviewed_at": "2026-08-05",
+  "entries": [
+    {"index":890,"source":"つまり、落ちそうということだろうか。","old_target":"也就是说，她快要掉下来了吧。","new_target":"也就是说，她快要掉下来了？","status":"corrected","note":"恢复诺艾尔即时判断的疑问语气。"},
+    {"index":891,"source":"ノエルはそのまま、両腕を広げた。","old_target":"吉川诺艾尔顺势张开了双臂。","new_target":"诺艾尔当即张开双臂。","status":"corrected","note":"删除无必要全名，并准确表达そのまま的连续动作。"},
+    {"index":892,"source":"【話者：吉川ノエル／中文名：吉川诺艾尔】「飛び降りて」","old_target":"「跳下来」","new_target":"「跳下来」","status":"unchanged","note":"准确。"},
+    {"index":893,"source":"【話者：天崎理理／中文名：天崎理理】「え！？」","old_target":"「诶！？」","new_target":"「诶！？」","status":"unchanged","note":"准确。"},
+    {"index":894,"source":"【話者：吉川ノエル／中文名：吉川诺艾尔】「大丈夫よ、飛び降りて。私、受け止めるから」","old_target":"「没关系的，跳下来吧。我会接住你的」","new_target":"「没事，跳下来。我会接住你」","status":"corrected","note":"压缩重复语气，使诺艾尔的判断简短坚定。"},
+    {"index":895,"source":"【話者：天崎理理／中文名：天崎理理】「だめ！」","old_target":"「不行！」","new_target":"「不行！」","status":"unchanged","note":"准确。"},
+    {"index":896,"source":"【話者：吉川ノエル／中文名：吉川诺艾尔】「なぜ」","old_target":"「为什么」","new_target":"「为什么？」","status":"corrected","note":"补疑问标点。"},
+    {"index":897,"source":"【話者：天崎理理／中文名：天崎理理】「わ、私、見た目よりずっと、ずっっっと重いの！」","old_target":"「我、我，比看起来要重得多、重——得多哦！」","new_target":"「我、我比看起来重得多，重——得多！」","status":"corrected","note":"保留夸张拖长音，删除不合情绪的句尾哦。"},
+    {"index":898,"source":"【話者：吉川ノエル／中文名：吉川诺艾尔】「平気」","old_target":"「没事」","new_target":"「没问题」","status":"corrected","note":"此处表示有能力接住，不是身体没事。"},
+    {"index":899,"source":"【話者：天崎理理／中文名：天崎理理】「だめだってば！」","old_target":"「都说了不行啦！」","new_target":"「都说不行了！」","status":"corrected","note":"收紧急迫语气。"},
+    {"index":900,"source":"【話者：吉川ノエル／中文名：吉川诺艾尔】「重くても重いなんていわない」","old_target":"「就算重我也不会说重」","new_target":"「就算你很重，我也不会说你重」","status":"corrected","note":"补出两处宾语，否则中文语义残缺。"},
+    {"index":901,"source":"【話者：吉川ノエル／中文名：吉川诺艾尔】「平気よ」","old_target":"「没事的」","new_target":"「没问题的」","status":"corrected","note":"承接能否接住的能力判断。"},
+    {"index":902,"source":"【話者：天崎理理／中文名：天崎理理】「……ほんと？」","old_target":"「……真的？」","new_target":"「……真的？」","status":"unchanged","note":"准确。"},
+    {"index":903,"source":"本当。","old_target":"真的。","new_target":"真的。","status":"unchanged","note":"作为诺艾尔心中回答，准确。"},
+    {"index":904,"source":"そう答えるより早く、","old_target":"还没等这样回答，","new_target":"诺艾尔还没来得及回答，","status":"corrected","note":"补出主语并自然表达动作先后。"},
+    {"index":905,"source":"【話者：天崎理理／中文名：天崎理理】「えい！」","old_target":"「诶！」","new_target":"「嘿！」","status":"corrected","note":"えい是发力时的喊声，不是惊讶语气。"},
+    {"index":906,"source":"思い切りの良すぎる声がして、ノエルの腕の中に確かな重みが落ちてきた。","old_target":"伴随着一声干脆利落的呼喊，一股沉实的重量落入了吉川诺艾尔的怀中。","new_target":"伴着一声过分干脆的呼喊，一股实实在在的重量落进诺艾尔怀中。","status":"corrected","note":"体现良すぎる略带意外的评价，删除无必要全名。"},
+    {"index":907,"source":"床に届く前に、両腕で抱きしめ、捕まえる。そうして重みを殺してから、そっと地面に下ろしてやった。","old_target":"在她落到地板前，用双臂牢牢抱住接下了她。随后化解掉这股冲力，轻轻将她放到地面上。","new_target":"在理理落地前，诺艾尔用双臂抱住她，卸去下坠的冲力，再轻轻将她放到地上。","status":"corrected","note":"补足动作主客体，并将重みを殺す准确表达为卸去冲力。"},
+    {"index":908,"source":"だが、","old_target":"但是，","new_target":"然而——","status":"corrected","note":"作为悬句承接突发状况，用破折号更自然。"},
+    {"index":909,"source":"【話者：天崎理理／中文名：天崎理理】「……あ、ありが……きゃあ！」","old_target":"「……谢、谢谢……呀啊！」","new_target":"「……谢、谢谢……呀啊！」","status":"unchanged","note":"准确表现道谢中断后惊叫。"}
+  ]
+}
