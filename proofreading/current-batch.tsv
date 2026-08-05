@@ -33,15 +33,15 @@ index	chapter	file	line	kind	voice	source	translation	terms
 1021	4	noel1_004.dsf	1472	narration		誰の耳にも届かない声音で、ノエルは目を伏せ、呟いた。	诺艾尔垂下眼，以谁也听不见的声音低语：	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
 1022	4	noel1_004.dsf	1477	dialogue	vfnoel1_004noe038	【話者：吉川ノエル／中文名：吉川诺艾尔】「天使みたいに見えたのは……あなたの方よ」	「看起来像天使的……是你才对」	[]
 1023	5	noel1_005.dsf	22	narration		石段を一段飛ばしで駆け上がり、校内に飛び込んだ理理は、魔法のような鮮やかさで、世界を再起動させていく。	理理一步跨过两级石阶，飞奔进校舍，以魔法般鲜明的存在感让世界重新运转起来。	[]
-1024	5	noel1_005.dsf	34	dialogue	vfnoel1_005rri000	【話者：天崎理理／中文名：天崎理理】「ごきげんよう！」	「贵安！」	[]
-1025	5	noel1_005.dsf	42	dialogue	vfnoel1_005joa000	【話者：女性端役（JOA）／中文名：女性端役（JOA）】「あら、天崎さん、今日はお早くていらっしゃるのね。ごきげんよう」	「哎呀，天崎同学，今天来得真早。贵安」	[]
+1024	5	noel1_005.dsf	34	dialogue	vfnoel1_005rri000	【話者：天崎理理／中文名：天崎理理】「ごきげんよう！」	「贵安！」	"[{""source"": ""ごきげんよう"", ""target"": ""贵安"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": null, ""note"": null}]"
+1025	5	noel1_005.dsf	42	dialogue	vfnoel1_005joa000	【話者：女性端役（JOA）／中文名：女性端役（JOA）】「あら、天崎さん、今日はお早くていらっしゃるのね。ごきげんよう」	「哎呀，天崎同学，今天来得真早。贵安」	"[{""source"": ""ごきげんよう"", ""target"": ""贵安"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": null, ""note"": null}]"
 1026	5	noel1_005.dsf	46	narration		ノエルの手は離さないまま、小さな声で耳打ち。	理理仍牵着诺艾尔的手，压低声音在她耳边说道：	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
-1027	5	noel1_005.dsf	53	dialogue	vfnoel1_005rri001	【話者：天崎理理／中文名：天崎理理】「この学園では、すれ違ったら、相手が友達だろうと先輩だろうと、今みたいにごきげんよう、って会釈するのよ。前の学園の作法ではそうではなかったの？」	「在这所学园里，和人擦肩而过时，无论对方是朋友还是前辈，都要像刚才那样说声‘贵安’，再点头致意。你以前的学校不是这样吗？」	[]
+1027	5	noel1_005.dsf	53	dialogue	vfnoel1_005rri001	【話者：天崎理理／中文名：天崎理理】「この学園では、すれ違ったら、相手が友達だろうと先輩だろうと、今みたいにごきげんよう、って会釈するのよ。前の学園の作法ではそうではなかったの？」	「在这所学园里，和人擦肩而过时，无论对方是朋友还是前辈，都要像刚才那样说声‘贵安’，再点头致意。你以前的学校不是这样吗？」	"[{""source"": ""ごきげんよう"", ""target"": ""贵安"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": null, ""note"": null}]"
 1028	5	noel1_005.dsf	61	dialogue	vfnoel1_005noe000	【話者：吉川ノエル／中文名：吉川诺艾尔】「ええ、前は……違うわ」	「是，以前……不一样」	[]
 1029	5	noel1_005.dsf	68	narration		すれ違いざまに、頭を撃ち抜いたことならあるけれど。	倒是曾在擦肩而过时，一枪打穿过别人的头。	[]
-1030	5	noel1_005.dsf	76	dialogue	vfnoel1_005rri002	【話者：天崎理理／中文名：天崎理理】「ごきげんよう。――ほら、やってみて」	「贵安。——来，你也试试」	[]
-1031	5	noel1_005.dsf	84	dialogue	vfnoel1_005noe001	【話者：吉川ノエル／中文名：吉川诺艾尔】「……ごきげんよう」	「……贵安」	[]
-1032	5	noel1_005.dsf	89	dialogue	vfnoel1_005job000	【話者：女性端役（JOB）／中文名：女性端役（JOB）】「ごきげんよう」	「贵安」	[]
+1030	5	noel1_005.dsf	76	dialogue	vfnoel1_005rri002	【話者：天崎理理／中文名：天崎理理】「ごきげんよう。――ほら、やってみて」	「贵安。——来，你也试试」	"[{""source"": ""ごきげんよう"", ""target"": ""贵安"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": null, ""note"": null}]"
+1031	5	noel1_005.dsf	84	dialogue	vfnoel1_005noe001	【話者：吉川ノエル／中文名：吉川诺艾尔】「……ごきげんよう」	「……贵安」	"[{""source"": ""ごきげんよう"", ""target"": ""贵安"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": null, ""note"": null}]"
+1032	5	noel1_005.dsf	89	dialogue	vfnoel1_005job000	【話者：女性端役（JOB）／中文名：女性端役（JOB）】「ごきげんよう」	「贵安」	"[{""source"": ""ごきげんよう"", ""target"": ""贵安"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": null, ""note"": null}]"
 1033	5	noel1_005.dsf	93	narration		見知らぬ学生に笑顔を返され、ノエルは小さく息をつく。	陌生学生微笑回应，诺艾尔轻轻吐了口气。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
 1034	5	noel1_005.dsf	97	narration		さっきまで静まり返り、誰もいなかった校内の廊下には、いまや登校してきたらしい少女たちがひっきりなしに行き来している。まさか行き会う生徒全員に、こんなふうにあいさつしろというのだろうか。	刚才还寂静无人的校内走廊，如今挤满了似乎刚到校、来往不绝的少女。难道每遇到一名学生，都要这样打招呼吗？	[]
 1035	5	noel1_005.dsf	101	narration		廊下のあちこちで揺れる、結んだ髪のしなやかなしっぽ。	走廊各处，束起的长发如柔软的尾巴般摇曳。	[]
