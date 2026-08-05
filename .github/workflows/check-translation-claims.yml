@@ -1,0 +1,31 @@
+name: Check translation claims
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'proofreading/claims/**'
+      - 'proofreading/check_active_claims.py'
+      - 'satisfaction-scripts.zh.json'
+      - '.github/workflows/check-translation-claims.yml'
+  push:
+    branches:
+      - main
+    paths:
+      - 'proofreading/claims/**'
+      - 'proofreading/check_active_claims.py'
+      - 'satisfaction-scripts.zh.json'
+      - '.github/workflows/check-translation-claims.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate-claims:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate active translation ranges
+        run: python proofreading/check_active_claims.py

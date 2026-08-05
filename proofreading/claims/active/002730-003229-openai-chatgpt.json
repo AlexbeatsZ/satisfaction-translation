@@ -1,0 +1,13 @@
+{
+  "range": {
+    "start": 2730,
+    "end": 3229
+  },
+  "owner": "OpenAI ChatGPT",
+  "work_type": "translation-proofreading",
+  "branch": "translation-proofreading-v2",
+  "status": "reviewing",
+  "started_at": "2026-08-05T10:53:00+08:00",
+  "updated_at": "2026-08-05T10:53:00+08:00",
+  "note": "从 PROOFREADING_PROGRESS.md 的下一起点继续；完成后创建正式 PR 并合并到 main。"
+}
