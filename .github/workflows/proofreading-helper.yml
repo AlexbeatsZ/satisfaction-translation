@@ -12,8 +12,10 @@ on:
       - 'proofreading/request.json'
       - 'proofreading/reviewed-batch-*.json'
       - 'proofreading/skipped-ranges.json'
+      - 'proofreading/claims/**'
       - 'proofreading/expand_compact_manifests.py'
       - 'proofreading/update_progress_with_skips.py'
+      - 'proofreading/update_readme_status.py'
       - 'proofreading/sync_proofreading_v3.py'
       - 'proofreading/analyze_chapter_order.py'
       - 'terminology.yaml'
@@ -63,6 +65,9 @@ jobs:
       - name: Rebuild progress with skipped ranges
         run: python proofreading/update_progress_with_skips.py
 
+      - name: Rebuild README status
+        run: python proofreading/update_readme_status.py
+
       - name: Analyze chapter ordering
         run: python proofreading/analyze_chapter_order.py
 
@@ -71,6 +76,7 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add \
+            README.md \
             satisfaction-scripts.zh.json \
             satisfaction-scripts.zh.md \
             satisfaction-scripts.zh.txt \
