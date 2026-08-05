@@ -1,0 +1,41 @@
+{
+  "range": {
+    "start": 5588,
+    "end": 5629
+  },
+  "reviewed_at": "2026-08-05",
+  "format": "compact-v1",
+  "entries": [
+    {"index":5588,"new_target":"裕树向后退了一大步，故作轻松地举起双手，摆出投降的姿势。","status":"corrected","note":"修正动作描写。"},
+    {"index":5591,"new_target":"刀刃尚未弹出。但对知道‘埃玛农的死神’之名的人而言，这已经是足够的威胁。","status":"corrected","note":"修正武器动作与称谓表达。"},
+    {"index":5592,"new_target":"诺艾尔盯着裕树，面无表情地将古尔薇格收回袖口。","status":"corrected","note":"修正动作与中文语序。"},
+    {"index":5593,"new_target":"「……我要走了。」","status":"corrected","note":"修正不自然断句。"},
+    {"index":5594,"new_target":"她拿起装满药的手提箱，迈步离开。","status":"corrected","note":"统一物件译名并明确动作。"},
+    {"index":5597,"new_target":"「没有。」","status":"corrected","note":"按对话语境翻译别に。"},
+    {"index":5598,"new_target":"她并不是生气，只是着急。","status":"corrected","note":"修正不自然表达。"},
+    {"index":5599,"new_target":"她得先回宿舍把手提箱放进房间，再折回教学楼——即使以诺艾尔的速度跑回去，恐怕也只能勉强赶上。","status":"corrected","note":"统一物件译名并修正语序。"},
+    {"index":5600,"new_target":"她把袜子向上拉好，做好奔跑的准备，回头喊道。","status":"corrected","note":"清除突兀英文并调整动作表达。"},
+    {"index":5601,"new_target":"「哥哥也快点走。下课后就是午休，难保不会有来客使用这里。」","status":"corrected","note":"修正日语式表达。"},
+    {"index":5602,"new_target":"「‘快点走’吗？真冷淡。青春期的女孩子果然难伺候。」","status":"corrected","note":"修正对话口吻。"},
+    {"index":5603,"new_target":"裕树故意夸张地叹了口气，却忽然严厉地眯起眼镜后的双眼。","status":"corrected","note":"修正嵌套定语与中文表达。"},
+    {"index":5604,"new_target":"「——千万别忘了服药。有不明白的地方就联系医生团队。知道了吗？」","status":"corrected","note":"统一药物与团队用词。"},
+    {"index":5606,"new_target":"她点头示意，轻轻挥了挥手。","status":"corrected","note":"修正动作表达。"},
+    {"index":5609,"new_target":"宣告下课的铃声响了。","status":"corrected","note":"修正冗余表达。"},
+    {"index":5610,"new_target":"全体起立，行了漫长得令人窒息的礼。教师一走出教室，四周顿时涌起交谈声。","status":"corrected","note":"修正断句与日语式表达。"},
+    {"index":5611,"new_target":"诺艾尔在课程结束前悄悄溜回教室，混在其他学生中站起身。","status":"corrected","note":"修正语序与时态。"},
+    {"index":5612,"new_target":"她来到走廊，松了口气。幸好这堂合堂课使用的是宽敞的阶梯教室，出入不显眼，她才没被任何人发现，成功逃课。","status":"corrected","note":"修正日语式长句。"},
+    {"index":5613,"new_target":"就在这时——","status":"corrected","note":"修正叙事承接。"},
+    {"index":5615,"new_target":"理理大幅挥着手，黑眼睛像小狗般闪闪发亮，一路跑了过来。她似乎也没发现诺艾尔逃课，才刚扑上来，第一句话便是——","status":"corrected","note":"修正嵌套定语与叙事节奏。"},
+    {"index":5618,"new_target":"诺艾尔半是安心，半是无奈地耸了耸肩。","status":"corrected","note":"修正日语式表达。"},
+    {"index":5619,"new_target":"「真是的。」","status":"corrected","note":"删除原文没有的扩写。"},
+    {"index":5620,"new_target":"「因为老师偏偏在午饭前讲旧欧洲地区的饮食文化，还配了照片！我简直以为那是酷刑。」","status":"corrected","note":"修正冗余与中文口吻。"},
+    {"index":5621,"new_target":"「内容有那么馋人吗？」","status":"corrected","note":"保留饮食话题中的双关语气。"},
+    {"index":5622,"new_target":"「欸——！？」","status":"corrected","note":"修正不自然拟声。"},
+    {"index":5623,"new_target":"哎呀——。","status":"corrected","note":"修正语气词表达。"},
+    {"index":5624,"new_target":"理理没有出声，只做出这个口型，不知为何还摆出万岁姿势。","status":"corrected","note":"修正冗余表达。"},
+    {"index":5626,"new_target":"——自己说了那么糟糕的话吗？","status":"corrected","note":"修正日语式自问。"},
+    {"index":5627,"new_target":"诺艾尔大半节课都没听。","status":"corrected","note":"修正量词与口吻。"},
+    {"index":5628,"new_target":"她只是想掩饰自己接不上这个话题，才随口反问，没想到——","status":"corrected","note":"修正误译与语序。"},
+    {"index":5629,"new_target":"「简、直、难、以、置、信！你这句话是对全世界所有意大利面的严重亵渎，诺艾尔！」","status":"corrected","note":"修正词序与中文表达。"}
+  ]
+}
