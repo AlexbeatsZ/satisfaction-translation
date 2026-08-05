@@ -1,0 +1,13 @@
+{
+  "range": {
+    "start": 5230,
+    "end": 5729
+  },
+  "owner": "OpenAI ChatGPT",
+  "work_type": "translation-proofreading",
+  "branch": "translation-proofreading-5230-5729",
+  "status": "claimed",
+  "started_at": "2026-08-05T19:45:00+08:00",
+  "updated_at": "2026-08-05T19:45:00+08:00",
+  "note": "下一批固定占用 500 条；尚未开始正文校对。"
+}
