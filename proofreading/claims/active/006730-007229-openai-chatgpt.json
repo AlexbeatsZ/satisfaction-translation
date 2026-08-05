@@ -6,8 +6,8 @@
   "owner": "OpenAI ChatGPT",
   "work_type": "translation-proofreading",
   "branch": "translation-proofreading-6730-7229",
-  "status": "claimed",
+  "status": "reviewing",
   "started_at": "2026-08-05T21:21:00+08:00",
-  "updated_at": "2026-08-05T21:21:00+08:00",
-  "note": "下一批固定占用 500 条；尚未开始正文校对。"
+  "updated_at": "2026-08-05T22:56:00+08:00",
+  "note": "正在校对第 6,730–7,229 条。"
 }
