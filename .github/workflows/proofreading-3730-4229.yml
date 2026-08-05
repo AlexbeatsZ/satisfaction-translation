@@ -7,6 +7,7 @@ on:
     paths:
       - '.github/workflows/proofreading-3730-4229.yml'
       - 'proofreading/request.json'
+      - 'proofreading/claims/**'
       - 'proofreading/split_current_batch.py'
       - 'proofreading/reviewed-batch-*.json'
 
@@ -35,6 +36,7 @@ jobs:
           python proofreading/expand_compact_manifests.py
           python proofreading/sync_proofreading_v3.py
           python proofreading/update_progress_with_skips.py
+          python proofreading/update_readme_status.py
           python proofreading/analyze_chapter_order.py
           python proofreading/split_current_batch.py
 
@@ -43,6 +45,7 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add \
+            README.md \
             satisfaction-scripts.zh.json \
             satisfaction-scripts.zh.md \
             satisfaction-scripts.zh.txt \
