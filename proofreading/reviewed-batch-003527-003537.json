@@ -1,1 +1,82 @@
-{"range":{"start":3527,"end":3537},"reviewed_at":"2026-08-05","format":"compact-v1","entries":[{"index":3527,"new_target":"下一瞬，那张脸忽然模糊地扭曲起来。","status":"corrected","note":"修正直译、语序或人物口吻。"},{"index":3528,"new_target":"呜……","status":"corrected","note":"修正直译、语序或人物口吻。"},{"index":3530,"new_target":"诺艾尔察觉到了，却来不及做什么，只能举起一只手挡在脸前。就在这时——","status":"corrected","note":"修正直译、语序或人物口吻。"},{"index":3531,"new_target":"呜……阿嚏！","status":"corrected","note":"修正直译、语序或人物口吻。"},{"index":3532,"new_target":"是喷嚏。","status":"corrected","note":"修正直译、语序或人物口吻。"},{"index":3533,"new_target":"而且她还特意朝着诺艾尔——幸好提前挡住了。","status":"corrected","note":"修正直译、语序或人物口吻。"},{"index":3535,"new_target":"两人保持原样观察了一会儿——","status":"corrected","note":"修正直译、语序或人物口吻。"},{"index":3536,"new_target":"……安全。","status":"corrected","note":"修正直译、语序或人物口吻。"},{"index":3537,"new_target":"理理吸了吸鼻子，比出胜利手势。","status":"corrected","note":"修正直译、语序或人物口吻。"}]}
+{
+  "range": {
+    "start": 3527,
+    "end": 3537
+  },
+  "reviewed_at": "2026-08-05",
+  "format": "compact-v1",
+  "entries": [
+    {
+      "index": 3527,
+      "new_target": "下一瞬，那张脸忽然模糊地扭曲起来。",
+      "status": "corrected",
+      "note": "修正直译、语序或人物口吻。",
+      "source": "瞬間、その顔がぼんやりと歪む。",
+      "old_target": "瞬间，她的脸模糊地扭曲起来。"
+    },
+    {
+      "index": 3528,
+      "new_target": "呜……",
+      "status": "corrected",
+      "note": "修正直译、语序或人物口吻。",
+      "source": "【話者：天崎理理／中文名：天崎理理】「ふぇ……」",
+      "old_target": "「呜……」"
+    },
+    {
+      "index": 3530,
+      "new_target": "诺艾尔察觉到了，却来不及做什么，只能举起一只手挡在脸前。就在这时——",
+      "status": "corrected",
+      "note": "修正直译、语序或人物口吻。",
+      "source": "気づいても、ノエルにはどうすることもできない。片手を顔の前にかざしてガードしたのと同時。",
+      "old_target": "即使察觉到了，吉川诺艾尔也无能为力。就在她举起一只手挡在脸前防御的同时。"
+    },
+    {
+      "index": 3531,
+      "new_target": "呜……阿嚏！",
+      "status": "corrected",
+      "note": "修正直译、语序或人物口吻。",
+      "source": "【話者：天崎理理／中文名：天崎理理】「ふぇ……っくしゅ！」",
+      "old_target": "「呜……阿嚏！」"
+    },
+    {
+      "index": 3532,
+      "new_target": "是喷嚏。",
+      "status": "corrected",
+      "note": "修正直译、语序或人物口吻。",
+      "source": "くしゃみ。",
+      "old_target": "喷嚏。"
+    },
+    {
+      "index": 3533,
+      "new_target": "而且她还特意朝着诺艾尔——幸好提前挡住了。",
+      "status": "corrected",
+      "note": "修正直译、语序或人物口吻。",
+      "source": "ご丁寧に、ノエルの方を振り向いたまま――ガードしておいて正解だ。",
+      "old_target": "还挺贴心地一直对着吉川诺艾尔的方向——幸好做好了防御。"
+    },
+    {
+      "index": 3535,
+      "new_target": "两人保持原样观察了一会儿——",
+      "status": "corrected",
+      "note": "修正直译、语序或人物口吻。",
+      "source": "しばしそのまま様子を窺い、",
+      "old_target": "就这么观察了一会儿情况，"
+    },
+    {
+      "index": 3536,
+      "new_target": "……安全。",
+      "status": "corrected",
+      "note": "修正直译、语序或人物口吻。",
+      "source": "【話者：天崎理理／中文名：天崎理理】「……セーフ……」",
+      "old_target": "「……安全……」"
+    },
+    {
+      "index": 3537,
+      "new_target": "理理吸了吸鼻子，比出胜利手势。",
+      "status": "corrected",
+      "note": "修正直译、语序或人物口吻。",
+      "source": "鼻をすすりながら、理理はブイサイン。",
+      "old_target": "理理一边吸着鼻子，一边比了个 V 字手势。"
+    }
+  ]
+}
