@@ -1,79 +1,586 @@
 {
-  "range": {"start": 7595, "end": 7694},
+  "range": {
+    "start": 7595,
+    "end": 7694
+  },
   "reviewed_at": "2026-08-05",
   "format": "compact-v1",
   "entries": [
-    {"index": 7595, "new_target": "「好，准备好了。把她扔出去。」", "status": "corrected", "note": "人工校对。"},
-    {"index": 7596, "new_target": "「……？」", "status": "corrected", "note": "人工校对。"},
-    {"index": 7606, "new_target": "「小心点。预备——」", "status": "corrected", "note": "人工校对。"},
-    {"index": 7608, "new_target": "她被从座椅上抬了起来。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7609, "new_target": "那具失去意识、仍在抽搐的身体被扔到柏油路上。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7610, "new_target": "重重摔落。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7611, "new_target": "又高高弹起一次。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7612, "new_target": "滚了出去。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7613, "new_target": "最后停在道路正中央。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7614, "new_target": "车在前方不远处急刹停下。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7615, "new_target": "轮胎尖叫着，车辆掉头。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7616, "new_target": "为确保万无一失。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7617, "new_target": "引擎轰鸣起来。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7618, "new_target": "车辆再次冲了出去。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7619, "new_target": "「天气真好。」", "status": "corrected", "note": "人工校对。"},
-    {"index": 7620, "new_target": "「是我最喜欢的天空颜色。」", "status": "corrected", "note": "人工校对。"},
-    {"index": 7621, "new_target": "「可我不知为什么，觉得好寂寞。」", "status": "corrected", "note": "人工校对。"},
-    {"index": 7622, "new_target": "「不……一直以来，我都很寂寞。」", "status": "corrected", "note": "人工校对。"},
-    {"index": 7623, "new_target": "「天空越蓝、越美，我就越不安。」", "status": "corrected", "note": "人工校对。"},
-    {"index": 7624, "new_target": "「我害怕一切都会毁掉。」", "status": "corrected", "note": "人工校对。"},
-    {"index": 7625, "new_target": "「可我大概……其实一直在等待。」", "status": "corrected", "note": "人工校对。"},
-    {"index": 7626, "new_target": "「等报应降临。」", "status": "corrected", "note": "人工校对。"},
-    {"index": 7627, "new_target": "「等着有人来责备我。」", "status": "corrected", "note": "人工校对。"},
-    {"index": 7628, "new_target": "「等着这一切毁掉。」", "status": "corrected", "note": "人工校对。"},
-    {"index": 7629, "new_target": "「因为这种事本来就不可能被允许。」", "status": "corrected", "note": "人工校对。"},
-    {"index": 7631, "new_target": "「我什么也没能守住。」", "status": "corrected", "note": "人工校对。"},
-    {"index": 7633, "new_target": "她什么也没能守住。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7634, "new_target": "珍视的一切，全都毁坏、消失了。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7636, "new_target": "没有一样能再回来。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7637, "new_target": "「可是……可是啊，我——」", "status": "corrected", "note": "人工校对。"},
-    {"index": 7642, "new_target": "还有本该出生的孩子，", "status": "corrected", "note": "人工校对。"},
-    {"index": 7644, "new_target": "「——你愿意和我做朋友吗？……我想和你做朋友。」", "status": "corrected", "note": "人工校对。"},
-    {"index": 7647, "new_target": "虽然全都失去了，可我确实曾经拥有过。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7648, "new_target": "恋人、家人，还有朋友——", "status": "corrected", "note": "人工校对。"},
-    {"index": 7649, "new_target": "四只车轮依次将她的身体卷了进去。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7650, "new_target": "柔软的身体轻易撕裂，碎块飞散四周。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7651, "new_target": "车辆驶过后再次倒回，轮胎又一次从那些碎块上碾过。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7652, "new_target": "这样的碾压持续了片刻，痛苦终于结束。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7653, "new_target": "名为寂静的救赎终于降临到她身上。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7654, "new_target": "随后，宁静的午后过去。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7655, "new_target": "黄昏骤然转冷，染成靛蓝。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7656, "new_target": "雨无声地落下。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7657, "new_target": "冰冷的夜色掩盖了一切。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7658, "new_target": "过了很久，她终于被人发现。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7659, "new_target": "她被装进一个小小的塑料袋，回到了温暖的屋檐下。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7660, "new_target": "可她大部分的身体早已被雨水冲走。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7661, "new_target": "她的身体只剩下零星碎片。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7662, "new_target": "已经过了晚上九点。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7665, "new_target": "她站起身梳理头发，勉强让自己平静下来。深呼吸三次后，手指终于不再发抖。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7667, "new_target": "她下定决心，握住门把手正要开门。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7671, "new_target": "房门比她动手早一瞬打开了。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7672, "new_target": "贵子站在门外。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7673, "new_target": "理理看到眼前贵子的装束，惊讶地睁大眼睛。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7674, "new_target": "她穿着礼装。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7675, "new_target": "那是按规定只有典礼时才能穿的特殊服装。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7676, "new_target": "「贵子姐姐……您、怎么了……」", "status": "corrected", "note": "人工校对。"},
-    {"index": 7677, "new_target": "「我有急事。倒是你怎么了？外出时间早就过了。这么晚要去哪里？」", "status": "corrected", "note": "人工校对。"},
-    {"index": 7679, "new_target": "理理不知道该从何说起，只能支支吾吾地低下头。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7680, "new_target": "她本来打算出去找人。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7682, "new_target": "自那以后便再没有任何消息。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7683, "new_target": "然后是诺艾尔。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7684, "new_target": "自从在洗手间分别后，诺艾尔也不见了。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7685, "new_target": "那之后，理理根本无法继续躺在保健室里，很快便回到了教室。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7686, "new_target": "可诺艾尔到处都找不到。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7687, "new_target": "直到上课时间，她也没有出现。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7688, "new_target": "理理原本打算等老师来了，就告诉老师诺艾尔不见了。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7689, "new_target": "可老师迟迟没有出现。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7690, "new_target": "随后，广播突然宣布停课。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7691, "new_target": "所有学生都被送回宿舍。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7692, "new_target": "接着又安排了一场用来打发时间的特别讲习——学生们被要求用一本题为《社会福利与税制》的老旧教材自习，并在下午五点前提交十KB的报告。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7693, "new_target": "即使交完报告也不准回房间，所有学生被直接集合到食堂。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7694, "new_target": "首先进行的是回收委员会上一年度的成果报告。", "status": "corrected", "note": "人工校对。"}
+    {
+      "index": 7595,
+      "new_target": "「好，准备好了。把她扔出去。」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：男性端役（YUA）／中文名：男性端役（YUA）】「よし、準備はいいぞ。投げ出せ」",
+      "old_target": "【話者：男性端役（YUA）／中文名：男性端役（YUA）】「好，准备好了。扔出去。」"
+    },
+    {
+      "index": 7596,
+      "new_target": "「……？」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：松井雪野／中文名：松井雪野】「……？」",
+      "old_target": "【話者：松井雪野／中文名：松井雪野】「……？」"
+    },
+    {
+      "index": 7606,
+      "new_target": "「小心点。预备——」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：男性端役（YUA）／中文名：男性端役（YUA）】「気をつけろよ。せえの、」",
+      "old_target": "【話者：男性端役（YUA）／中文名：男性端役（YUA）】「小心点。预备，」"
+    },
+    {
+      "index": 7608,
+      "new_target": "她被从座椅上抬了起来。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "シートから、抱え上げられた。",
+      "old_target": "我被从座位上抱了起来。"
+    },
+    {
+      "index": 7609,
+      "new_target": "那具失去意识、仍在抽搐的身体被扔到柏油路上。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "意識をなくしたまま痙攣していたそれは、アスファルトに投げ出された。",
+      "old_target": "那个处于无意识状态中不断痉挛的身躯，被抛到了柏油路面上。"
+    },
+    {
+      "index": 7610,
+      "new_target": "重重摔落。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "叩きつけられ。",
+      "old_target": "重重砸在地上。"
+    },
+    {
+      "index": 7611,
+      "new_target": "又高高弹起一次。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "一度大きくバウンドして。",
+      "old_target": "大大弹起了一下。"
+    },
+    {
+      "index": 7612,
+      "new_target": "滚了出去。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "転がった。",
+      "old_target": "滚动着。"
+    },
+    {
+      "index": 7613,
+      "new_target": "最后停在道路正中央。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "そうして、道路の真中で、止まった。",
+      "old_target": "就这样，停在了马路正中央。"
+    },
+    {
+      "index": 7614,
+      "new_target": "车在前方不远处急刹停下。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "少し先で、車が急停止する。",
+      "old_target": "稍靠前的地方，汽车急刹停住。"
+    },
+    {
+      "index": 7615,
+      "new_target": "轮胎尖叫着，车辆掉头。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "タイヤをきしませ、ユーターン。",
+      "old_target": "轮胎发出刺耳摩擦声，调头。"
+    },
+    {
+      "index": 7616,
+      "new_target": "为确保万无一失。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "念には念を入れて。",
+      "old_target": "为了保险起见。"
+    },
+    {
+      "index": 7617,
+      "new_target": "引擎轰鸣起来。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "エンジンをふかす。",
+      "old_target": "轰响引擎。"
+    },
+    {
+      "index": 7618,
+      "new_target": "车辆再次冲了出去。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "再び、発進する。",
+      "old_target": "再次，启动加速。"
+    },
+    {
+      "index": 7619,
+      "new_target": "「天气真好。」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：松井雪野／中文名：松井雪野】「なんていいお天気」",
+      "old_target": "【話者：松井雪野／中文名：松井雪野】「天气真好啊」"
+    },
+    {
+      "index": 7620,
+      "new_target": "「是我最喜欢的天空颜色。」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：松井雪野／中文名：松井雪野】「大好きな空の色」",
+      "old_target": "【話者：松井雪野／中文名：松井雪野】「是我最喜欢的天空的颜色」"
+    },
+    {
+      "index": 7621,
+      "new_target": "「可我不知为什么，觉得好寂寞。」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：松井雪野／中文名：松井雪野】「だけど私、なんだか寂しい」",
+      "old_target": "【話者：松井雪野／中文名：松井雪野】「可是我，不知为何总觉得寂寞」"
+    },
+    {
+      "index": 7622,
+      "new_target": "「不……一直以来，我都很寂寞。」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：松井雪野／中文名：松井雪野】「ううん、いつも。いつも、寂しかった」",
+      "old_target": "【話者：松井雪野／中文名：松井雪野】「不，一直都是。我一直，都很寂寞」"
+    },
+    {
+      "index": 7623,
+      "new_target": "「天空越蓝、越美，我就越不安。」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：松井雪野／中文名：松井雪野】「空は青くて、きれいならきれいなだけ、私はいつも不安だった」",
+      "old_target": "【話者：松井雪野／中文名：松井雪野】「天空越是湛蓝美丽，我就越是感到不安」"
+    },
+    {
+      "index": 7624,
+      "new_target": "「我害怕一切都会毁掉。」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：松井雪野／中文名：松井雪野】「なにもかもが壊れてしまうんじゃないかってこわかった」",
+      "old_target": "【話者：松井雪野／中文名：松井雪野】「我好害怕，害怕一切都会毁灭崩塌」"
+    },
+    {
+      "index": 7625,
+      "new_target": "「可我大概……其实一直在等待。」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：松井雪野／中文名：松井雪野】「でも私、多分、本当は、待っていたんだわ」",
+      "old_target": "【話者：松井雪野／中文名：松井雪野】「但是我，也许，其实，一直在等待着吧」"
+    },
+    {
+      "index": 7626,
+      "new_target": "「等报应降临。」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：松井雪野／中文名：松井雪野】「バチがあたるのを」",
+      "old_target": "【話者：松井雪野／中文名：松井雪野】「等待着报应降临」"
+    },
+    {
+      "index": 7627,
+      "new_target": "「等着有人来责备我。」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：松井雪野／中文名：松井雪野】「誰かが、叱ってくれるのを」",
+      "old_target": "【話者：松井雪野／中文名：松井雪野】「等待着有人，能来斥责我」"
+    },
+    {
+      "index": 7628,
+      "new_target": "「等着这一切毁掉。」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：松井雪野／中文名：松井雪野】「壊れるのを」",
+      "old_target": "【話者：松井雪野／中文名：松井雪野】「等待着毁灭」"
+    },
+    {
+      "index": 7629,
+      "new_target": "「因为这种事本来就不可能被允许。」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：松井雪野／中文名：松井雪野】「こんなことが、許されるわけ、ないんだもの」",
+      "old_target": "【話者：松井雪野／中文名：松井雪野】「毕竟，这种事情，怎么可能会被原谅呢」"
+    },
+    {
+      "index": 7631,
+      "new_target": "「我什么也没能守住。」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：松井雪野／中文名：松井雪野】「なにひとつ、守れなかったよ」",
+      "old_target": "【話者：松井雪野／中文名：松井雪野】「我什么都没能守护住啊」"
+    },
+    {
+      "index": 7633,
+      "new_target": "她什么也没能守住。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "なにひとつ、守れなかった。",
+      "old_target": "我什么，也没能守护住。"
+    },
+    {
+      "index": 7634,
+      "new_target": "珍视的一切，全都毁坏、消失了。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "大事なものは、すべて、壊れてなくなった。",
+      "old_target": "重要的事物，全都，破碎消失了。"
+    },
+    {
+      "index": 7636,
+      "new_target": "没有一样能再回来。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "なにひとつ、帰ってはこない。",
+      "old_target": "一件东西，都不会再回来。"
+    },
+    {
+      "index": 7637,
+      "new_target": "「可是……可是啊，我——」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：松井雪野／中文名：松井雪野】「だけど、だけどね、私、」",
+      "old_target": "「但是，但是啊，我，」"
+    },
+    {
+      "index": 7642,
+      "new_target": "还有本该出生的孩子，",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "生まれるはずだった私の赤ちゃん、",
+      "old_target": "原本应该出生的我的宝宝，"
+    },
+    {
+      "index": 7644,
+      "new_target": "「——你愿意和我做朋友吗？……我想和你做朋友。」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：天崎理理／中文名：天崎理理】「――お友達に、なってくれる？　……なりたいな」",
+      "old_target": "「——能和我，做朋友吗？……好想成为朋友啊」"
+    },
+    {
+      "index": 7647,
+      "new_target": "虽然全都失去了，可我确实曾经拥有过。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "なくしてしまったけれど、確かに、もっていたんだよ。",
+      "old_target": "虽然失去了，但我确实，曾经拥有过的啊。"
+    },
+    {
+      "index": 7648,
+      "new_target": "恋人、家人，还有朋友——",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "恋人や、家族や、友達を――",
+      "old_target": "恋人、家人、朋友——"
+    },
+    {
+      "index": 7649,
+      "new_target": "四只车轮依次将她的身体卷了进去。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "４つの車輪が、彼女の身体をそれぞれに巻き込んだ。",
+      "old_target": "四个车轮，分别将她的身体卷入其中。"
+    },
+    {
+      "index": 7650,
+      "new_target": "柔软的身体轻易撕裂，碎块飞散四周。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "柔らかな身体は簡単に裂けて、あたりに飛び散った。",
+      "old_target": "柔软的身体轻易被撕裂，飞溅在周围。"
+    },
+    {
+      "index": 7651,
+      "new_target": "车辆驶过后再次倒回，轮胎又一次从那些碎块上碾过。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "再び行き過ぎ、戻ってきたタイヤは、それをさらに、踏みつけた。",
+      "old_target": "再次驶过并折返回来的轮胎，又将它们更进一步地，碾踏。"
+    },
+    {
+      "index": 7652,
+      "new_target": "这样的碾压持续了片刻，痛苦终于结束。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "そんな行為がしばらく続いて、ようやく苦痛の時間が去った。",
+      "old_target": "这样的行为持续了一会儿，痛苦的时间终于离去。"
+    },
+    {
+      "index": 7653,
+      "new_target": "名为寂静的救赎终于降临到她身上。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "静寂という救済が、彼女に与えられた。",
+      "old_target": "名为寂静的救赎，被赐予了她。"
+    },
+    {
+      "index": 7654,
+      "new_target": "随后，宁静的午后过去。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "そして、静かな昼下がり。",
+      "old_target": "然后，是安宁的午后。"
+    },
+    {
+      "index": 7655,
+      "new_target": "黄昏骤然转冷，染成靛蓝。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "急に冷えた、藍の夕。",
+      "old_target": "骤然寒冷的，深蓝黄昏。"
+    },
+    {
+      "index": 7656,
+      "new_target": "雨无声地落下。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "音を立てずに、雨が降った。",
+      "old_target": "悄无声息地，下起了雨。"
+    },
+    {
+      "index": 7657,
+      "new_target": "冰冷的夜色掩盖了一切。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "冷たい夜が、すべてを隠した。",
+      "old_target": "冰冷的夜晚，掩盖了一切。"
+    },
+    {
+      "index": 7658,
+      "new_target": "过了很久，她终于被人发现。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "随分時間が経ってから、彼女はようやく、見つけてもらえた。",
+      "old_target": "过了相当长的时间，她才终于，被找到了。"
+    },
+    {
+      "index": 7659,
+      "new_target": "她被装进一个小小的塑料袋，回到了温暖的屋檐下。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "小さなビニール袋に入れられて、暖かな屋根の下に帰って行った。",
+      "old_target": "被装进小塑料袋里，回到了温暖的屋檐下。"
+    },
+    {
+      "index": 7660,
+      "new_target": "可她大部分的身体早已被雨水冲走。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "だけど彼女の大半は、すでに雨に流されていた。",
+      "old_target": "可是她的大半，早已被雨水冲走。"
+    },
+    {
+      "index": 7661,
+      "new_target": "她的身体只剩下零星碎片。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "欠片ほどしか、彼女の身体は残らなかった。",
+      "old_target": "她的身体，只剩下了碎片般的一丁点。"
+    },
+    {
+      "index": 7662,
+      "new_target": "已经过了晚上九点。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "２１時を回ってしまった。",
+      "old_target": "已经过了二十一点。"
+    },
+    {
+      "index": 7665,
+      "new_target": "她站起身梳理头发，勉强让自己平静下来。深呼吸三次后，手指终于不再发抖。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "立ち上がり、髪をブラッシングして、気持ちをなんとか落ち着かせる。深呼吸を３回で、指の震えはおさまった。",
+      "old_target": "站起身，梳了梳头发，总算让心情平静下来。三次深呼吸后，手指的颤抖停了下来。"
+    },
+    {
+      "index": 7667,
+      "new_target": "她下定决心，握住门把手正要开门。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "意を決して、部屋のドアノブを握り、開こうとした。",
+      "old_target": "下定决心，握住房间的门把手，准备打开。"
+    },
+    {
+      "index": 7671,
+      "new_target": "房门比她动手早一瞬打开了。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "自分が押し開くより、一瞬早く開いたドア。",
+      "old_target": "比自己推开门更快了一瞬打开的房门。"
+    },
+    {
+      "index": 7672,
+      "new_target": "贵子站在门外。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "そこには、貴子が立っていた。",
+      "old_target": "小日向贵子站在那里。"
+    },
+    {
+      "index": 7673,
+      "new_target": "理理看到眼前贵子的装束，惊讶地睁大眼睛。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "理理は目の前の貴子の服装を見て、目を丸くする。",
+      "old_target": "理理看着眼前小日向贵子的服装，瞪大了眼睛。"
+    },
+    {
+      "index": 7674,
+      "new_target": "她穿着礼装。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "礼装姿。",
+      "old_target": "那是一身礼装。"
+    },
+    {
+      "index": 7675,
+      "new_target": "那是按规定只有典礼时才能穿的特殊服装。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "式典にしか着用しないことになっている、それは特別の服装だ。",
+      "old_target": "按规定只有在典礼上才会穿上的，那属于特别的服装。"
+    },
+    {
+      "index": 7676,
+      "new_target": "「贵子姐姐……您、怎么了……」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：天崎理理／中文名：天崎理理】「貴子お姉さま……どう、なさった、の……」",
+      "old_target": "「贵子姐姐……您，怎么，了……」"
+    },
+    {
+      "index": 7677,
+      "new_target": "「我有急事。倒是你怎么了？外出时间早就过了。这么晚要去哪里？」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：小日向貴子／中文名：小日向贵子】「緊急の要件よ。あなたこそ、どうしたの。外出時間は過ぎていてよ。こんな時間にどこに行くの」",
+      "old_target": "「是有紧急要事哦。倒是你，怎么了。早就过了外出时间了哦。这么晚了要往哪儿去」"
+    },
+    {
+      "index": 7679,
+      "new_target": "理理不知道该从何说起，只能支支吾吾地低下头。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "なにから伝えればいいのかわからず、理理は口篭もり、俯いた。",
+      "old_target": "不知该从何说起，理理吞吞吐吐地低下了头。"
+    },
+    {
+      "index": 7680,
+      "new_target": "她本来打算出去找人。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "探しに行こうと思ったのだ。",
+      "old_target": "她是打算去找人的。"
+    },
+    {
+      "index": 7682,
+      "new_target": "自那以后便再没有任何消息。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "あれからなんの情報もない。",
+      "old_target": "自那以后没有任何信息。"
+    },
+    {
+      "index": 7683,
+      "new_target": "然后是诺艾尔。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "そして、ノエル。",
+      "old_target": "还有，吉川诺艾尔。"
+    },
+    {
+      "index": 7684,
+      "new_target": "自从在洗手间分别后，诺艾尔也不见了。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "トイレで別れてから、ノエルも姿を消してしまっていた。",
+      "old_target": "自从在洗手间分开后，吉川诺艾尔也消匿了踪影。"
+    },
+    {
+      "index": 7685,
+      "new_target": "那之后，理理根本无法继续躺在保健室里，很快便回到了教室。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "あの後、保健室で寝ていることもできず、理理はすぐに教室に戻ったのだ。",
+      "old_target": "在那之后，理理根本无法在保健室躺着，立刻回到了教室。"
+    },
+    {
+      "index": 7686,
+      "new_target": "可诺艾尔到处都找不到。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "しかし、ノエルはどこにもいなかった。",
+      "old_target": "然而，吉川诺艾尔哪里都不在。"
+    },
+    {
+      "index": 7687,
+      "new_target": "直到上课时间，她也没有出现。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "授業が始まる時間になっても、姿を見せない。",
+      "old_target": "到了上课时间，也没露出踪影。"
+    },
+    {
+      "index": 7688,
+      "new_target": "理理原本打算等老师来了，就告诉老师诺艾尔不见了。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "教師が来たら、ノエルの不在を訴えようと思った。",
+      "old_target": "本想着等老师来了，就说明吉川诺艾尔不在的事情。"
+    },
+    {
+      "index": 7689,
+      "new_target": "可老师迟迟没有出现。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "だが、教師は、いつまでたっても現れなかった。",
+      "old_target": "然而，老师却无论等多久都没有出现。"
+    },
+    {
+      "index": 7690,
+      "new_target": "随后，广播突然宣布停课。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "そして、放送で、突然の休校が知らされた。",
+      "old_target": "随后，广播通知了突然停课。"
+    },
+    {
+      "index": 7691,
+      "new_target": "所有学生都被送回宿舍。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "生徒は全員、寮に戻された。",
+      "old_target": "学生们全都被赶回了宿舍。"
+    },
+    {
+      "index": 7692,
+      "new_target": "接着又安排了一场用来打发时间的特别讲习——学生们被要求用一本题为《社会福利与税制》的老旧教材自习，并在下午五点前提交十KB的报告。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "それから、時間つぶしの特別講習――社会福祉と税制、などというタイトルの、古びたテキストを使っての自習が言い渡され、午後五時までに十キロバイトのレポートを提出しろ、と。",
+      "old_target": "接着，大家接到了打发时间的特别讲座通知——使用标题为《社会福利与税制》之类的陈旧教材自习，并命令在下午五点前提交一份十KB的报告。"
+    },
+    {
+      "index": 7693,
+      "new_target": "即使交完报告也不准回房间，所有学生被直接集合到食堂。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "提出が済んでも部屋には帰らせてもらえず、生徒はそのまま、全員食堂に集合させられた。",
+      "old_target": "即使交了报告也不允许回房间，学生们就这样全员被集中到了食堂。"
+    },
+    {
+      "index": 7694,
+      "new_target": "首先进行的是回收委员会上一年度的成果报告。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "始まったのは、リサイクル委員からの前年度成果報告。",
+      "old_target": "开始的是来自资源回收委员会的上年度成果报告。"
+    }
   ]
 }
