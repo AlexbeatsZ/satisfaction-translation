@@ -12,12 +12,12 @@
 
 | 范围 | 工作内容 | 负责人 | 工作分支 | 状态 | 更新时间 |
 |---|---|---|---|---|---|
-| 第 6,730–7,229 条 | 日中翻译校对 | OpenAI ChatGPT | `translation-proofreading-6730-7229` | 已占用，尚未开始 | 2026-08-05 |
+| 第 7,230–7,729 条 | 日中翻译校对 | OpenAI ChatGPT | `translation-proofreading-7230-7729` | 已占用，尚未开始 | 2026-08-05 |
 
-- 总进度：**6,729/21,204**
-- 实际校对：**6,400/21,204**
+- 总进度：**7,229/21,204**
+- 实际校对：**6,900/21,204**
 - 跳过：**329/21,204**
-- 当前机器可读占用记录：[`006730-007229-openai-chatgpt.json`](proofreading/claims/active/006730-007229-openai-chatgpt.json)
+- 当前机器可读占用记录：[`007230-007729-openai-chatgpt.json`](proofreading/claims/active/007230-007729-openai-chatgpt.json)
 - 完整断点与统计：[`PROOFREADING_PROGRESS.md`](PROOFREADING_PROGRESS.md)
 
 README 中的表格用于快速查看；发生差异时，以 `proofreading/claims/active/*.json` 和 `PROOFREADING_PROGRESS.md` 为准。
