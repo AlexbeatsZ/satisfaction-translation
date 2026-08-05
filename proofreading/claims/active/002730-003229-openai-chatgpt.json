@@ -8,6 +8,6 @@
   "branch": "translation-proofreading-v2",
   "status": "reviewing",
   "started_at": "2026-08-05T10:53:00+08:00",
-  "updated_at": "2026-08-05T10:53:00+08:00",
-  "note": "从 PROOFREADING_PROGRESS.md 的下一起点继续；完成后创建正式 PR 并合并到 main。"
+  "updated_at": "2026-08-05T11:05:00+08:00",
+  "note": "正在校对第 2730–3229 条；完成后创建正式 PR、合并到 main，并释放该范围。"
 }
