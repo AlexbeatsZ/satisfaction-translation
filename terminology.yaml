@@ -273,3 +273,8 @@ terms:
   mode: preferred
   status: active
   valid_from: 4
+- source: ごきげんよう
+  target: 贵安
+  mode: preferred
+  status: active
+  valid_from: 5
