@@ -6,8 +6,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SOURCE = ROOT / "proofreading" / "current-batch.tsv"
-OUT = ROOT / "proofreading" / "work" / "003730-004229"
+WORK_ROOT = ROOT / "proofreading" / "work"
 CHUNK_SIZE = 50
+EXPECTED_COUNT = 500
 
 
 def main() -> None:
@@ -16,19 +17,22 @@ def main() -> None:
         fields = list(reader.fieldnames or [])
         rows = list(reader)
 
-    if len(rows) != 500 or int(rows[0]["index"]) != 3730 or int(rows[-1]["index"]) != 4229:
-        raise ValueError(
-            f"Unexpected batch: count={len(rows)}, "
-            f"range={rows[0]['index'] if rows else '-'}-{rows[-1]['index'] if rows else '-'}"
-        )
+    if len(rows) != EXPECTED_COUNT:
+        raise ValueError(f"Unexpected batch count: {len(rows)}")
 
-    if OUT.exists():
-        shutil.rmtree(OUT)
-    OUT.mkdir(parents=True)
+    start = int(rows[0]["index"])
+    end = int(rows[-1]["index"])
+    if end - start + 1 != EXPECTED_COUNT:
+        raise ValueError(f"Batch is not contiguous: {start}-{end}")
+
+    out = WORK_ROOT / f"{start:06d}-{end:06d}"
+    if out.exists():
+        shutil.rmtree(out)
+    out.mkdir(parents=True)
 
     for offset in range(0, len(rows), CHUNK_SIZE):
         chunk = rows[offset : offset + CHUNK_SIZE]
-        path = OUT / f"chunk-{offset // CHUNK_SIZE + 1:02d}.tsv"
+        path = out / f"chunk-{offset // CHUNK_SIZE + 1:02d}.tsv"
         with path.open("w", encoding="utf-8", newline="") as handle:
             writer = csv.DictWriter(
                 handle,
