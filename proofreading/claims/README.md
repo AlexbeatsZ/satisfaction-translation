@@ -8,6 +8,7 @@
 - 完成并合并后，应删除活动文件，或迁移到后续建立的完成记录目录。
 - 一个占用文件只表示一个连续区间。
 - 不同占用文件之间不得有任何索引重叠。
+- 已经合并的范围不得继续留在 `active/` 中。
 
 ## 文件名
 
@@ -50,7 +51,7 @@
 | `owner` | 负责人、账号或 Agent 名称 |
 | `work_type` | `translation`、`proofreading` 或 `translation-proofreading` |
 | `branch` | 实际提交工作的 Git 分支 |
-| `status` | `claimed`、`reviewing`、`ready_to_merge`、`blocked` 或 `merged` |
+| `status` | `claimed`、`reviewing`、`ready_to_merge` 或 `blocked` |
 | `started_at` | 开始占用时间，ISO 8601 格式 |
 | `updated_at` | 最近更新时间，ISO 8601 格式 |
 
@@ -62,8 +63,9 @@
 4. 扩大或缩小范围时必须先更新占用文件，并重新运行检查脚本。
 5. 工作完成后将状态改为 `ready_to_merge`。
 6. PR 合并后立即释放该范围，不得长期保留过期的活动占用。
-7. 禁止通过修改索引、拆分文件或另开分支绕过已有占用。
-8. 占用只防止协作冲突，不代表该范围已经校对完成；完成情况仍以 manifest 和 `PROOFREADING_PROGRESS.md` 为准。
+7. `merged` 不是活动状态；合并完成应删除或归档记录，而不是把状态改成 `merged` 后继续留在 `active/`。
+8. 禁止通过修改索引、拆分文件或另开分支绕过已有占用。
+9. 占用只防止协作冲突，不代表该范围已经校对完成；完成情况仍以 manifest 和 `PROOFREADING_PROGRESS.md` 为准。
 
 ## 本地检查
 
