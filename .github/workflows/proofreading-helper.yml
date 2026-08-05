@@ -1,6 +1,6 @@
 name: Prepare proofreading batch
 # Canonical working branch: translation-proofreading-v2
-# Refresh request: entries 1230-1309
+# Large-batch compact manifest support
 
 on:
   push:
@@ -12,6 +12,7 @@ on:
       - 'proofreading/request.json'
       - 'proofreading/reviewed-batch-*.json'
       - 'proofreading/skipped-ranges.json'
+      - 'proofreading/expand_compact_manifests.py'
       - 'proofreading/update_progress_with_skips.py'
       - 'proofreading/sync_proofreading_v3.py'
       - 'proofreading/analyze_chapter_order.py'
@@ -52,6 +53,9 @@ jobs:
 
       - name: Install YAML parser
         run: python -m pip install --quiet pyyaml
+
+      - name: Expand compact review manifests
+        run: python proofreading/expand_compact_manifests.py
 
       - name: Apply reviews and align TSV by file-local order
         run: python proofreading/sync_proofreading_v3.py
