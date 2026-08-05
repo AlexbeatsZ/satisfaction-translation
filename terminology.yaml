@@ -278,3 +278,8 @@ terms:
   mode: preferred
   status: active
   valid_from: 5
+- source: クイーン
+  target: 女王
+  mode: preferred
+  status: active
+  valid_from: 5
