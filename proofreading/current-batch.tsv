@@ -1,86 +1,86 @@
 index	chapter	file	line	kind	voice	source	translation	terms
 6230	26	noel3_004.dsf	667	narration		まだぶっ倒れたままの草薙を振り返りながら訊ねてみる。	她一边回头看向依然瘫倒在地的草薙，一边开口问道。	"[{""source"": ""草薙"", ""target"": ""草薙"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
-6231	26	noel3_004.dsf	672	dialogue	vfnoel3_004aoi015	【話者：葵／中文名：葵】「別に構わない。いずれは葵の名で宣戦布告しなきゃいけない相手だもの」	【话者：葵／中文名：葵】「无所谓。反正早晚都是得用葵的名义向其宣战的对手」	"[{""source"": ""葵"", ""target"": ""葵"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+6231	26	noel3_004.dsf	672	dialogue	vfnoel3_004aoi015	【話者：葵／中文名：葵】「別に構わない。いずれは葵の名で宣戦布告しなきゃいけない相手だもの」	「无所谓。反正迟早要以葵的名义向他们宣战。」	"[{""source"": ""葵"", ""target"": ""葵"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
 6232	26	noel3_004.dsf	676	narration		蜂蜜色の髪をかきあげ、葵はさらに笑った。	葵撩起蜂蜜色的头发，笑得更灿烂了。	"[{""source"": ""葵"", ""target"": ""葵"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
-6233	26	noel3_004.dsf	680	narration		怖いものなどないかのような、王者の笑顔だ。	那是仿佛无所畏惧一般的、属于王者般的笑容。	[]
-6234	26	noel3_004.dsf	684	narration		不意に、聞いてみたくなる。一体なぜ、葵はこれほどまでに自信に満ちているのだろうか。	突然，很想问问看。究竟为何，葵会如此充满自信呢。	"[{""source"": ""葵"", ""target"": ""葵"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
-6235	26	noel3_004.dsf	688	narration		葵の、強烈な輝き。	葵身上那强烈的耀眼光芒。	"[{""source"": ""葵"", ""target"": ""葵"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+6233	26	noel3_004.dsf	680	narration		怖いものなどないかのような、王者の笑顔だ。	那是仿佛无所畏惧的王者之笑。	[]
+6234	26	noel3_004.dsf	684	narration		不意に、聞いてみたくなる。一体なぜ、葵はこれほどまでに自信に満ちているのだろうか。	她忽然想问：葵为什么会如此充满自信？	"[{""source"": ""葵"", ""target"": ""葵"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+6235	26	noel3_004.dsf	688	narration		葵の、強烈な輝き。	葵身上那股强烈的光芒。	"[{""source"": ""葵"", ""target"": ""葵"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
 6236	26	noel3_004.dsf	692	narration		それは溢れんばかりの『自信』の輝きではないかと、叢雲は思うのだ。	丛云觉得，那恐怕就是满溢而出的『自信』之光吧。	"[{""source"": ""叢雲"", ""target"": ""丛云"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
 6237	26	noel3_004.dsf	696	narration		ならば、その裏付けはどこにある？	那么，这份自信的依据究竟在哪里？	[]
 6238	26	noel3_004.dsf	700	narration		考えられるのは――	能想到的只有——	[]
 6239	26	noel3_004.dsf	705	dialogue	vfnoel3_004kmo021	【話者：叢雲／中文名：丛云】「……葵ちゃんは……んーと、……強いの？」	「……葵酱……嗯——……很强吗？」	"[{""source"": ""葵"", ""target"": ""葵"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
-6240	26	noel3_004.dsf	709	narration		不器用な質問に、葵は眉を緩め、子供のように首を傾げた。	面对这个笨拙的问题，葵舒展眉头，像个孩子般歪了歪头。	"[{""source"": ""葵"", ""target"": ""葵"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+6240	26	noel3_004.dsf	709	narration		不器用な質問に、葵は眉を緩め、子供のように首を傾げた。	面对这个笨拙的问题，葵眉梢一松，像个孩子般歪了歪头。	"[{""source"": ""葵"", ""target"": ""葵"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
 6241	26	noel3_004.dsf	714	dialogue	vfnoel3_004aoi016	【話者：葵／中文名：葵】「なに、いきなり」	「干嘛啊，这么突然。」	[]
-6242	26	noel3_004.dsf	719	dialogue	vfnoel3_004kmo022	【話者：叢雲／中文名：丛云】「答えてよ、お願い」	「回答我嘛，求你了。」	[]
-6243	26	noel3_004.dsf	724	dialogue	vfnoel3_004aoi017	【話者：葵／中文名：葵】「……肉体的に強いか、って？　そうだな、荒事に向いてないのは確実。これに、これだもの」	「……问我是不是肉体上很强？也是呢，我肯定不适合打打杀杀。毕竟又是这个，又是那个的。」	[]
-6244	26	noel3_004.dsf	728	narration		長く整えられた手の爪と、華奢なハイヒールを叢雲に見せた。	她向丛云展示了修剪得很长的指甲，以及纤细的高跟鞋。	"[{""source"": ""叢雲"", ""target"": ""丛云"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
-6245	26	noel3_004.dsf	732	narration		しかしその答えでは納得できない。	然而这个回答无法让人服气。	[]
+6242	26	noel3_004.dsf	719	dialogue	vfnoel3_004kmo022	【話者：叢雲／中文名：丛云】「答えてよ、お願い」	「告诉我嘛，求你了。」	[]
+6243	26	noel3_004.dsf	724	dialogue	vfnoel3_004aoi017	【話者：葵／中文名：葵】「……肉体的に強いか、って？　そうだな、荒事に向いてないのは確実。これに、これだもの」	「……你是问我身体强不强？这个嘛，我肯定不适合打打杀杀。你看这个，还有这个。」	[]
+6244	26	noel3_004.dsf	728	narration		長く整えられた手の爪と、華奢なハイヒールを叢雲に見せた。	她向丛云展示了修得整整齐齐的长指甲和纤细的高跟鞋。	"[{""source"": ""叢雲"", ""target"": ""丛云"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+6245	26	noel3_004.dsf	732	narration		しかしその答えでは納得できない。	可这个回答说服不了丛云。	[]
 6246	26	noel3_004.dsf	736	narration		爪など切ればいいし、靴だって脱げばいい。	指甲剪掉就好了，鞋子脱掉就行了。	[]
 6247	26	noel3_004.dsf	740	narration		質問を変えてみる。	她试着换了个问题。	[]
 6248	26	noel3_004.dsf	745	dialogue	vfnoel3_004kmo023	【話者：叢雲／中文名：丛云】「……殺したこと、ある？」	「……你杀过人吗？」	[]
 6249	26	noel3_004.dsf	750	dialogue	vfnoel3_004aoi018	【話者：葵／中文名：葵】「あるよ」	「杀过啊。」	[]
 6250	26	noel3_004.dsf	754	narration		返事に、躊躇いはなかった。	她的回答没有丝毫犹豫。	[]
-6251	26	noel3_004.dsf	758	narration		息を飲む。	屏住呼吸。	[]
+6251	26	noel3_004.dsf	758	narration		息を飲む。	丛云倒吸了一口气。	[]
 6252	26	noel3_004.dsf	763	dialogue	vfnoel3_004kmo024	【話者：叢雲／中文名：丛云】「……何人ぐらい？」	「……大概多少人？」	[]
-6253	26	noel3_004.dsf	768	dialogue	vfnoel3_004aoi019	【話者：葵／中文名：葵】「直接手にかけたのは、片手に足りる。兵隊使って殺ったのは、両手両足でも足りないかもね」	「亲手杀的，一只手就数得过来。用手下的兵干掉的，恐怕加上双手双脚都不够呢。」	[]
-6254	26	noel3_004.dsf	773	dialogue	vfnoel3_004kmo025	【話者：叢雲／中文名：丛云】「殺されそうになったことは？」	「那有差点被杀掉的经历吗？」	[]
-6255	26	noel3_004.dsf	778	dialogue	vfnoel3_004aoi020	【話者：葵／中文名：葵】「プロフェッショナル」	「按专业水准来说的话。」	[]
+6253	26	noel3_004.dsf	768	dialogue	vfnoel3_004aoi019	【話者：葵／中文名：葵】「直接手にかけたのは、片手に足りる。兵隊使って殺ったのは、両手両足でも足りないかもね」	「亲手杀的，一只手就数得过来。指使手下杀的，恐怕双手双脚都数不过来。」	[]
+6254	26	noel3_004.dsf	773	dialogue	vfnoel3_004kmo025	【話者：叢雲／中文名：丛云】「殺されそうになったことは？」	「你有过险些被杀的经历吗？」	[]
+6255	26	noel3_004.dsf	778	dialogue	vfnoel3_004aoi020	【話者：葵／中文名：葵】「プロフェッショナル」	「职业杀手？」	[]
 6256	26	noel3_004.dsf	783	dialogue	vfnoel3_004kmo026	【話者：叢雲／中文名：丛云】「え？」	「欸？」	[]
 6257	26	noel3_004.dsf	788	dialogue	vfnoel3_004aoi021	【話者：葵／中文名：葵】「めっちゃくちゃ、ある。生きのびてるのが、自分でも不思議よ」	「超级多。能活到现在，连我自己都觉得神奇。」	[]
 6258	26	noel3_004.dsf	793	dialogue	vfnoel3_004kmo027	【話者：叢雲／中文名：丛云】「そ、っか……」	「是、这样啊……」	[]
 6259	26	noel3_004.dsf	797	narration		少し迷ってから、	犹豫片刻后，	[]
 6260	26	noel3_004.dsf	802	dialogue	vfnoel3_004kmo028	【話者：叢雲／中文名：丛云】「……葵ちゃん」	「……葵酱。」	"[{""source"": ""葵"", ""target"": ""葵"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
 6261	26	noel3_004.dsf	806	narration		小さな声で、さらに問うた。	她压低声音，继续问道。	[]
-6262	26	noel3_004.dsf	810	narration		妹を、目覚めさせないように。聞こえないように。	为了不吵醒妹妹。为了不让妹妹听见。	[]
-6263	26	noel3_004.dsf	815	dialogue	vfnoel3_004kmo029	【話者：叢雲／中文名：丛云】「……こわくない？　殺されそうになるのって」	「……不害怕吗？差点被杀掉这种事。」	[]
+6262	26	noel3_004.dsf	810	narration		妹を、目覚めさせないように。聞こえないように。	为了不吵醒妹妹，也不让她听见。	[]
+6263	26	noel3_004.dsf	815	dialogue	vfnoel3_004kmo029	【話者：叢雲／中文名：丛云】「……こわくない？　殺されそうになるのって」	「……险些被杀，不害怕吗？」	[]
 6264	26	noel3_004.dsf	819	narration		こんな震えた声は、聞かせられない。	绝不能让她听见这样发颤的声音。	[]
 6265	26	noel3_004.dsf	823	narration		絶対に。	绝对不行。	[]
 6266	26	noel3_004.dsf	828	dialogue	vfnoel3_004aoi022	【話者：葵／中文名：葵】「こわいよ」	「很害怕啊。」	[]
-6267	26	noel3_004.dsf	832	narration		あっさり答えた葵に、なんとなく、拍子抜けした。	面对回答得干脆利落的葵，不知怎的，她感到有些出乎意料地泄气。	"[{""source"": ""葵"", ""target"": ""葵"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+6267	26	noel3_004.dsf	832	narration		あっさり答えた葵に、なんとなく、拍子抜けした。	葵答得太干脆，反而让她有些泄气。	"[{""source"": ""葵"", ""target"": ""葵"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
 6268	26	noel3_004.dsf	837	dialogue	vfnoel3_004kmo030	【話者：叢雲／中文名：丛云】「なんだ……葵ちゃんにも、こわいこと、あるんだ」	「什么嘛……原来葵酱也有害怕的事啊。」	"[{""source"": ""葵"", ""target"": ""葵"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
-6269	26	noel3_004.dsf	842	dialogue	vfnoel3_004aoi023	【話者：葵／中文名：葵】「当たり前。でも、もっとこわいのは、それを恐れて、こそこそ生きて、生の価値を失うこと。……なんていっても、まだあんたにはわかんないかな」	「理所当然的吧。不过，更可怕的是因为害怕那个而偷偷摸摸地活着，失去活着的价值。……话虽这么说，现在的你可能还不懂吧。」	[]
+6269	26	noel3_004.dsf	842	dialogue	vfnoel3_004aoi023	【話者：葵／中文名：葵】「当たり前。でも、もっとこわいのは、それを恐れて、こそこそ生きて、生の価値を失うこと。……なんていっても、まだあんたにはわかんないかな」	「当然会怕。但比那更可怕的是，因为恐惧而躲躲藏藏地活着，失去生命的价值。……不过现在跟你说这些，你大概还不懂吧。」	[]
 6270	26	noel3_004.dsf	847	dialogue	vfnoel3_004kmo031	【話者：叢雲／中文名：丛云】「……うん」	「……嗯。」	[]
-6271	26	noel3_004.dsf	852	dialogue	vfnoel3_004aoi024	【話者：葵／中文名：葵】「あんたもこわかったでしょ。死神とやりあって」	「你也很害怕吧。和死神交过手。」	[]
-6272	26	noel3_004.dsf	856	narration		猫のような目を光らせ、葵は問い返してきた。	葵那如猫一般的眼睛闪烁着光芒，反问过来。	"[{""source"": ""葵"", ""target"": ""葵"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+6271	26	noel3_004.dsf	852	dialogue	vfnoel3_004aoi024	【話者：葵／中文名：葵】「あんたもこわかったでしょ。死神とやりあって」	「你跟死神交手时，也很害怕吧。」	[]
+6272	26	noel3_004.dsf	856	narration		猫のような目を光らせ、葵は問い返してきた。	葵猫般的双眼一亮，反问道。	"[{""source"": ""葵"", ""target"": ""葵"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
 6273	26	noel3_004.dsf	860	narration		似合わないパイプ椅子に深く腰掛け、スリットから覗く下着を隠そうともせずに、長い足を高々と組む。	她深深窝在并不合拍的折叠椅里，完全没有要遮掩从开衩处露出的内衣的意思，大剌剌地翘起长腿。	[]
-6274	26	noel3_004.dsf	865	dialogue	vfnoel3_004aoi025	【話者：葵／中文名：葵】「あんたたち、本気の『殺し合い』は初めてだったんでしょ？　しかも相手がアレ。こわいに決まってる」	「你们也是第一次来真的，和对方『拼个你死我活』吧？而且对手还是那家伙。肯定会害怕。」	[]
-6275	26	noel3_004.dsf	869	narration		素直に頷いた。	老老实实地点了点头。	[]
-6276	26	noel3_004.dsf	873	narration		葵に、隠し事などしても無駄だ。	向葵隐瞒事情是没有用的。	"[{""source"": ""葵"", ""target"": ""葵"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+6274	26	noel3_004.dsf	865	dialogue	vfnoel3_004aoi025	【話者：葵／中文名：葵】「あんたたち、本気の『殺し合い』は初めてだったんでしょ？　しかも相手がアレ。こわいに決まってる」	「你们也是第一次真正拼命厮杀吧？而且对手还是那种怪物，当然会害怕。」	[]
+6275	26	noel3_004.dsf	869	narration		素直に頷いた。	丛云老实地点了点头。	[]
+6276	26	noel3_004.dsf	873	narration		葵に、隠し事などしても無駄だ。	在葵面前隐瞒什么都没用。	"[{""source"": ""葵"", ""target"": ""葵"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
 6277	26	noel3_004.dsf	878	dialogue	vfnoel3_004kmo032	【話者：叢雲／中文名：丛云】「うん、こわかった。すっごく、こわかった。……ちびった」	「嗯，好怕。真的超级怕。……都吓尿了。」	[]
 6278	26	noel3_004.dsf	883	dialogue	vfnoel3_004aoi026	【話者：葵／中文名：葵】「あはっ！　マジ？」	「啊哈！真的假的？」	[]
-6279	26	noel3_004.dsf	888	dialogue	vfnoel3_004kmo033	【話者：叢雲／中文名：丛云】「……マジで、殺られるって思った。やばいよ、あいつ――エマノンの死神。あいつの目、あたしを殺そうとする瞬間でさえ、すこしも揺れないんだ。迷わないんだ」	「……是真的觉得要被干掉了。那家伙太离谱了——埃玛农的死神。那家伙的眼睛，甚至在企图杀死我的瞬间，都没有一丝摇摆。没有任何犹豫。」	"[{""source"": ""エマノンの死神"", ""target"": ""埃玛农的死神"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""称谓"", ""note"": ""守护天崎今日子女儿的强者称谓""}]"
-6280	26	noel3_004.dsf	893	dialogue	vfnoel3_004aoi027	【話者：葵／中文名：葵】「へーえ？」	「诶——是吗？」	[]
-6281	26	noel3_004.dsf	898	dialogue	vfnoel3_004kmo034	【話者：叢雲／中文名：丛云】「まるで、書き間違った紙でも破るみたいに、鼻かんだティッシュでも丸めるみたいに、当たり前の目をして、あたしのここ」	「简直就像撕掉写错的纸张、拧团擤过鼻涕的纸巾一样，用理所当然的眼神，对着我的这里——」	[]
-6282	26	noel3_004.dsf	902	narration		眉間に、指先。	眉间，指尖。	[]
-6283	26	noel3_004.dsf	907	dialogue	vfnoel3_004kmo035	【話者：叢雲／中文名：丛云】「狙ってきた」	「瞄准了过来。」	[]
-6284	26	noel3_004.dsf	911	narration		グロスで光る唇を歪め、葵は男のように目を眇め、笑う。	葵歪起因唇彩而闪亮的双唇，像男人似地眯起眼睛笑了起来。	"[{""source"": ""葵"", ""target"": ""葵"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
-6285	26	noel3_004.dsf	916	dialogue	vfnoel3_004aoi028	【話者：葵／中文名：葵】「そんなもんだ、プロの殺し屋なんか」	「职业杀手不过就是那样的东西罢了。」	[]
+6279	26	noel3_004.dsf	888	dialogue	vfnoel3_004kmo033	【話者：叢雲／中文名：丛云】「……マジで、殺られるって思った。やばいよ、あいつ――エマノンの死神。あいつの目、あたしを殺そうとする瞬間でさえ、すこしも揺れないんだ。迷わないんだ」	「……我真的以为自己会被杀。那家伙太可怕了——埃玛农的死神。她甚至在要杀我的那一刻，眼神也没有丝毫动摇，没有半点犹豫。」	"[{""source"": ""エマノンの死神"", ""target"": ""埃玛农的死神"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""称谓"", ""note"": ""守护天崎今日子女儿的强者称谓""}]"
+6280	26	noel3_004.dsf	893	dialogue	vfnoel3_004aoi027	【話者：葵／中文名：葵】「へーえ？」	「哦——？」	[]
+6281	26	noel3_004.dsf	898	dialogue	vfnoel3_004kmo034	【話者：叢雲／中文名：丛云】「まるで、書き間違った紙でも破るみたいに、鼻かんだティッシュでも丸めるみたいに、当たり前の目をして、あたしのここ」	「就像撕掉写错的纸，或把擤过鼻涕的纸巾揉成一团那样，她用理所当然的眼神瞄准了我的这里——」	[]
+6282	26	noel3_004.dsf	902	narration		眉間に、指先。	她用指尖点了点眉心。	[]
+6283	26	noel3_004.dsf	907	dialogue	vfnoel3_004kmo035	【話者：叢雲／中文名：丛云】「狙ってきた」	「朝这里瞄准了。」	[]
+6284	26	noel3_004.dsf	911	narration		グロスで光る唇を歪め、葵は男のように目を眇め、笑う。	葵扭起涂着唇彩的嘴角，像个男人般眯眼笑了。	"[{""source"": ""葵"", ""target"": ""葵"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+6285	26	noel3_004.dsf	916	dialogue	vfnoel3_004aoi028	【話者：葵／中文名：葵】「そんなもんだ、プロの殺し屋なんか」	「职业杀手就是那样。」	[]
 6286	26	noel3_004.dsf	921	dialogue	vfnoel3_004kmo036	【話者：叢雲／中文名：丛云】「……あたしも、草薙も、そのうちああなるのかな……」	「……我和草薙，早晚也会变成那样吗……」	"[{""source"": ""草薙"", ""target"": ""草薙"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
 6287	26	noel3_004.dsf	926	dialogue	vfnoel3_004aoi029	【話者：葵／中文名：葵】「なりたくないなら、ならなきゃいい」	「不想变成那样的话，不变不就好了。」	[]
-6288	26	noel3_004.dsf	931	dialogue	vfnoel3_004kmo037	【話者：叢雲／中文名：丛云】「……そう、なの？」	「……是、这样吗？」	[]
+6288	26	noel3_004.dsf	931	dialogue	vfnoel3_004kmo037	【話者：叢雲／中文名：丛云】「……そう、なの？」	「……真的、可以吗？」	[]
 6289	26	noel3_004.dsf	936	dialogue	vfnoel3_004aoi030	【話者：葵／中文名：葵】「そうよ。人間らしさをなくさなければ、人間を殺せないわけじゃない。ただ――その方がよほど、つらいだろうけど」	「是啊。又不是非得失去人性才能杀人。只不过——那样做会痛苦得多就是了。」	[]
-6290	26	noel3_004.dsf	941	dialogue	vfnoel3_004kmo038	【話者：叢雲／中文名：丛云】「……難しいね」	「……好难懂啊。」	[]
-6291	26	noel3_004.dsf	946	dialogue	vfnoel3_004aoi031	【話者：葵／中文名：葵】「分からなくてもまだいいよ。それより」	「不懂也没关系的。比起那个，」	[]
-6292	26	noel3_004.dsf	950	narration		葵が瞬きするたびに、長い睫毛がなめらかな頬に影を落とし、不思議な陰影を作る。	葵每眨一次眼，长长的睫毛就在光滑的脸颊上投下阴影，显现出奇妙的光影交织。	"[{""source"": ""葵"", ""target"": ""葵"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+6290	26	noel3_004.dsf	941	dialogue	vfnoel3_004kmo038	【話者：叢雲／中文名：丛云】「……難しいね」	「……真复杂。」	[]
+6291	26	noel3_004.dsf	946	dialogue	vfnoel3_004aoi031	【話者：葵／中文名：葵】「分からなくてもまだいいよ。それより」	「现在不懂也没关系。先不说这个——」	[]
+6292	26	noel3_004.dsf	950	narration		葵が瞬きするたびに、長い睫毛がなめらかな頬に影を落とし、不思議な陰影を作る。	每当葵眨眼，长睫毛便在光滑的脸颊上投下阴影，勾勒出神秘的明暗。	"[{""source"": ""葵"", ""target"": ""葵"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
 6293	26	noel3_004.dsf	955	dialogue	vfnoel3_004aoi032	【話者：葵／中文名：葵】「やられた目は、どう？　義眼入れたの？」	「被伤到的眼睛怎么样了？装义眼了吗？」	[]
-6294	26	noel3_004.dsf	959	narration		うー、と叢雲は顔をしかめる。	「呜——」，丛云皱起了脸。	"[{""source"": ""叢雲"", ""target"": ""丛云"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
-6295	26	noel3_004.dsf	963	narration		鎮痛剤がよくきいているせいで自分でも忘れかけているが、今、このツラは、ひびの入った空洞の眼<がんか>窩に、保冷バッグを詰められるという、最悪なことになっているのだ。	多亏止痛药效果很好，连我自己都快忘了，但现在，我这张脸正处于最糟糕的状况——开裂而空洞的眼<がんか>窝里被塞进了保冷袋。	[]
-6296	26	noel3_004.dsf	967	narration		潰れた眼球はとっくに捨てられてしまった。	废掉的眼球早就被扔掉了。	[]
-6297	26	noel3_004.dsf	972	dialogue	vfnoel3_004kmo039	【話者：叢雲／中文名：丛云】「今日の夕方に、黒澤先生がオペしてくれるって。前から、人工網膜の人体実験はしてみたかったからちょうどいい、って言ってた」	「今天傍晚，黑泽医生会帮我做手术。他说之前就一直想做人工视网膜的人体实验，刚好凑巧了」	"[{""source"": ""黒澤"", ""target"": ""黑泽"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
-6298	26	noel3_004.dsf	977	dialogue	vfnoel3_004aoi033	【話者：葵／中文名：葵】「人工網膜か。私の『お友達』にも、そんなのがいたっけ――ちょうど今、がんばってくれてる頃だけど……ふ、まあいい。痛みは？」	「人工视网膜啊。我的『朋友』里，好像也有那么一个人来着——正好现在，应该正在努力干活吧……呵，算了。疼吗？」	[]
-6299	26	noel3_004.dsf	982	dialogue	vfnoel3_004kmo040	【話者：叢雲／中文名：丛云】「平気。草薙は……まだ不調みたい。足、こーんなでかいナイフでぐっさりやられてさ。一応再生処置は済んでるんだけど、今日はまだ、スピードも出ないみたいだった。スパーリング、いつもは五分だけど、今日はあたしの六勝一敗」	「没事。草薙……好像还没恢复好。脚被那——么大的一把刀深深扎了一下呢。虽然一应再生处理已经做过了，但今天好像还是提不起速度。对练的话，平时都是五五开，今天是我六胜一败」	"[{""source"": ""草薙"", ""target"": ""草薙"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
-6300	26	noel3_004.dsf	986	narration		獣型をとったまま、草薙はいまだに起き上がらない。	保持着兽型，草薙至今没有站起身来。	"[{""source"": ""草薙"", ""target"": ""草薙"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
-6301	26	noel3_004.dsf	990	narration		六勝目で、まともに腹に入ってしまった膝が利いたのだろうか。そろそろすこし、心配になってきた。	是第六胜时结结实实顶在她肚子上的一膝盖奏效了吧。渐渐地，有点开始担心了。	[]
-6302	26	noel3_004.dsf	994	narration		と、あくびまじり、葵が大きく伸びをして呟く。	这时，葵夹杂着哈欠，大大地伸了个懒腰嘀咕道。	"[{""source"": ""葵"", ""target"": ""葵"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+6294	26	noel3_004.dsf	959	narration		うー、と叢雲は顔をしかめる。	丛云皱起脸，发出一声「呜——」。	"[{""source"": ""叢雲"", ""target"": ""丛云"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+6295	26	noel3_004.dsf	963	narration		鎮痛剤がよくきいているせいで自分でも忘れかけているが、今、このツラは、ひびの入った空洞の眼<がんか>窩に、保冷バッグを詰められるという、最悪なことになっているのだ。	止痛药药效很好，她自己都快忘了：此刻她的脸惨不忍睹——裂开的空眼窝里塞着冰袋。	[]
+6296	26	noel3_004.dsf	967	narration		潰れた眼球はとっくに捨てられてしまった。	已经损毁的眼球早被扔掉了。	[]
+6297	26	noel3_004.dsf	972	dialogue	vfnoel3_004kmo039	【話者：叢雲／中文名：丛云】「今日の夕方に、黒澤先生がオペしてくれるって。前から、人工網膜の人体実験はしてみたかったからちょうどいい、って言ってた」	「黑泽医生说今天傍晚会给我做手术。他早就想做人工视网膜的人体实验，正好派上用场。」	"[{""source"": ""黒澤"", ""target"": ""黑泽"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+6298	26	noel3_004.dsf	977	dialogue	vfnoel3_004aoi033	【話者：葵／中文名：葵】「人工網膜か。私の『お友達』にも、そんなのがいたっけ――ちょうど今、がんばってくれてる頃だけど……ふ、まあいい。痛みは？」	「人工视网膜啊。我的『朋友』里好像也有个这样的——现在大概正在努力干活吧……呵，算了。疼吗？」	[]
+6299	26	noel3_004.dsf	982	dialogue	vfnoel3_004kmo040	【話者：叢雲／中文名：丛云】「平気。草薙は……まだ不調みたい。足、こーんなでかいナイフでぐっさりやられてさ。一応再生処置は済んでるんだけど、今日はまだ、スピードも出ないみたいだった。スパーリング、いつもは五分だけど、今日はあたしの六勝一敗」	「没事。草薙……好像还没恢复。腿被那——么大一把刀扎穿了。虽然已经做过再生治疗，但今天似乎还是提不起速度。对练平时都是五五开，今天我六胜一败。」	"[{""source"": ""草薙"", ""target"": ""草薙"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+6300	26	noel3_004.dsf	986	narration		獣型をとったまま、草薙はいまだに起き上がらない。	草薙仍保持着兽形，至今没有起身。	"[{""source"": ""草薙"", ""target"": ""草薙"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+6301	26	noel3_004.dsf	990	narration		六勝目で、まともに腹に入ってしまった膝が利いたのだろうか。そろそろすこし、心配になってきた。	第六场获胜时，自己那记结结实实撞进她腹部的膝击看来奏效了。丛云也渐渐有些担心起来。	[]
+6302	26	noel3_004.dsf	994	narration		と、あくびまじり、葵が大きく伸びをして呟く。	葵打着哈欠伸了个大懒腰，嘀咕道。	"[{""source"": ""葵"", ""target"": ""葵"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
 6303	26	noel3_004.dsf	999	dialogue	vfnoel3_004aoi034	【話者：葵／中文名：葵】「しっかし、まあ……こんな殺風景な部屋に押し込められて、姉妹二人でやることといえばスパーリング、か。びんぼったらしいよねえ、こんなの」	「话说回来，真是的……被挤在这么简陋凄凉的房间里，姐妹俩能做的事居然只有对练啊。这种生活还真是寒酸呢」	[]
 6304	26	noel3_004.dsf	1004	dialogue	vfnoel3_004kmo041	【話者：叢雲／中文名：丛云】「……ふふっ」	「……噗嗤」	[]
-6305	26	noel3_004.dsf	1008	narration		その言い草がおかしくて、思わず笑ってしまった。	听到她这种说法实在太滑稽，忍不住笑了出来。	[]
+6305	26	noel3_004.dsf	1008	narration		その言い草がおかしくて、思わず笑ってしまった。	她这说法太好笑，丛云忍不住笑了。	[]
 6306	26	noel3_004.dsf	1013	dialogue	vfnoel3_004aoi035	【話者：葵／中文名：葵】「なあに？　私、ヘンなこと言った？」	「干嘛啦？我说什么奇怪的话了吗？」	[]
-6307	26	noel3_004.dsf	1018	dialogue	vfnoel3_004kmo042	【話者：叢雲／中文名：丛云】「びんぼったらしい、って――葵ちゃんがド派手なんだよ」	「说寒酸什么的——是葵酱太招摇浮夸了啦」	"[{""source"": ""葵"", ""target"": ""葵"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
-6308	26	noel3_004.dsf	1023	dialogue	vfnoel3_004aoi036	【話者：葵／中文名：葵】「成金趣味でしょ。最悪だよね。特にコレ」	「是暴发户品味对吧。最差劲了呢。特别是这个」	[]
+6307	26	noel3_004.dsf	1018	dialogue	vfnoel3_004kmo042	【話者：叢雲／中文名：丛云】「びんぼったらしい、って――葵ちゃんがド派手なんだよ」	「与其说寒酸——不如说葵酱你太花哨了啦。」	"[{""source"": ""葵"", ""target"": ""葵"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+6308	26	noel3_004.dsf	1023	dialogue	vfnoel3_004aoi036	【話者：葵／中文名：葵】「成金趣味でしょ。最悪だよね。特にコレ」	「暴发户品味嘛。糟透了。尤其是这个。」	[]
 6309	26	noel3_004.dsf	1027	narration		おもむろに立ち上がり、スカートをめくって葵が見せたのは、	葵不紧不慢地站起身，撩起裙子展示出来的是，	"[{""source"": ""葵"", ""target"": ""葵"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
 6310	26	noel3_004.dsf	1032	dialogue	vfnoel3_004kmo043	【話者：叢雲／中文名：丛云】「うっわあ！」	「哇啊！」	[]
-6311	26	noel3_004.dsf	1036	narration		凄まじい色と柄の、面積の小さすぎる下着。	花色极其惊人、布料面积过于细小的内裤。	[]
+6311	26	noel3_004.dsf	1036	narration		凄まじい色と柄の、面積の小さすぎる下着。	颜色和花纹都夸张得惊人、布料少得过分的内裤。	[]
 6312	26	noel3_004.dsf	1041	dialogue	vfnoel3_004kmo044	【話者：叢雲／中文名：丛云】「それ、履いてる意味ないじゃん！」	「那个，根本没有穿的意义嘛！」	[]
 6313	26	noel3_004.dsf	1046	dialogue	vfnoel3_004aoi037	【話者：葵／中文名：葵】「ねえ。でも、こういうのが結構はまっちゃうと、癖になるんだ」	「就是说啊。不过，这种东西要是沉迷进去，可是会上瘾的哦」	[]
 6314	26	noel3_004.dsf	1051	dialogue	vfnoel3_004kmo045	【話者：叢雲／中文名：丛云】「変なの！」	「真怪！」	[]
@@ -90,14 +90,14 @@ index	chapter	file	line	kind	voice	source	translation	terms
 6318	26	noel3_004.dsf	1071	dialogue	vfnoel3_004kmo047	【話者：叢雲／中文名：丛云】「いい、いい！　ノーパンでいいって！」	「不用了不用了！真空就好啦！」	[]
 6319	26	noel3_004.dsf	1076	dialogue	vfnoel3_004aoi040	【話者：葵／中文名：葵】「さっそく持ってきてあげる。絶対似合うから」	「我马上拿来给你们。保证超级适合你们的」	[]
 6320	26	noel3_004.dsf	1080	narration		上機嫌で笑いながら、葵は草薙に歩み寄った。	葵兴高采烈地笑着，走到了草薙身边。	"[{""source"": ""草薙"", ""target"": ""草薙"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}, {""source"": ""葵"", ""target"": ""葵"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
-6321	26	noel3_004.dsf	1085	dialogue	vfnoel3_004aoi041	【話者：葵／中文名：葵】「こっちのチビの分も、次のおみやげは決まりだ」	「这边这个小家伙的份，下次的伴手礼也定好了」	[]
-6322	26	noel3_004.dsf	1089	narration		膝を折り、そっと白い手を伸ばす。	她屈下双膝，轻轻伸出白皙的手。	[]
+6321	26	noel3_004.dsf	1085	dialogue	vfnoel3_004aoi041	【話者：葵／中文名：葵】「こっちのチビの分も、次のおみやげは決まりだ」	「这边这个小家伙的礼物也决定了。」	[]
+6322	26	noel3_004.dsf	1089	narration		膝を折り、そっと白い手を伸ばす。	她屈膝蹲下，轻轻伸出白皙的手。	[]
 6323	26	noel3_004.dsf	1094	dialogue	vfnoel3_004kmo048	【話者：叢雲／中文名：丛云】「あっ――」	「啊——」	[]
-6324	26	noel3_004.dsf	1098	narration		叢雲が止める間もなく。	还没等丛云阻止。	"[{""source"": ""叢雲"", ""target"": ""丛云"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+6324	26	noel3_004.dsf	1098	narration		叢雲が止める間もなく。	丛云还来不及阻止——	"[{""source"": ""叢雲"", ""target"": ""丛云"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
 6325	26	noel3_004.dsf	1103	dialogue	vfnoel3_004aoi042	【話者：葵／中文名：葵】「……柔らかい」	「……好软」	[]
-6326	26	noel3_004.dsf	1107	narration		見事な毛並みを、ゆっくりと撫でた。	她顺着那漂亮的毛发，缓缓抚摸起来。	[]
-6327	26	noel3_004.dsf	1111	narration		一つ目をぱちくりさせている叢雲に気付いたのか、葵は顔を上げ、首を傾げた。	似乎是注意到正在眨巴着单眼的丛云，葵抬起头，歪了歪脑袋。	"[{""source"": ""叢雲"", ""target"": ""丛云"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}, {""source"": ""葵"", ""target"": ""葵"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
-6328	26	noel3_004.dsf	1116	dialogue	vfnoel3_004aoi043	【話者：葵／中文名：葵】「チビに触ったら、まずかった？」	「摸了这个小家伙，不太妙吗？」	[]
+6326	26	noel3_004.dsf	1107	narration		見事な毛並みを、ゆっくりと撫でた。	她慢慢抚摸那身漂亮的毛皮。	[]
+6327	26	noel3_004.dsf	1111	narration		一つ目をぱちくりさせている叢雲に気付いたのか、葵は顔を上げ、首を傾げた。	葵注意到丛云正用仅剩的一只眼睛眨巴着看她，便抬起脸歪了歪头。	"[{""source"": ""叢雲"", ""target"": ""丛云"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}, {""source"": ""葵"", ""target"": ""葵"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+6328	26	noel3_004.dsf	1116	dialogue	vfnoel3_004aoi043	【話者：葵／中文名：葵】「チビに触ったら、まずかった？」	「摸这小家伙不行吗？」	[]
 6329	26	noel3_004.dsf	1120	narration		頷いてみせる。	丛云冲她点点头。	[]
 6330	26	noel3_004.dsf	1125	dialogue	vfnoel3_004kmo049	【話者：叢雲／中文名：丛云】「こいつ、寝ぼけてる時に触られると、噛付くことあるんだ」	「这家伙在迷迷糊糊睡着时要是被人碰了，有时候会下嘴咬人的」	[]
 6331	26	noel3_004.dsf	1130	dialogue	vfnoel3_004aoi044	【話者：葵／中文名：葵】「そうなの？　落ち着いてるみたいだけど」	「是吗？不过看起来倒是挺安分的」	[]
