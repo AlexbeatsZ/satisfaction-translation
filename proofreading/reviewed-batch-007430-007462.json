@@ -1,0 +1,130 @@
+{
+  "range": {
+    "start": 7430,
+    "end": 7462
+  },
+  "reviewed_at": "2026-08-05",
+  "format": "compact-v1",
+  "entries": [
+    {
+      "index": 7430,
+      "new_target": "男人伸出的手臂轻而易举地缠住了她的腰身。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "いとも簡単に、伸ばされた男の腕は、胴体に絡みついていた。",
+      "old_target": "那男人伸出的手臂极其轻易地缠住了躯干。"
+    },
+    {
+      "index": 7431,
+      "new_target": "回过神时，她已经被抛到了空中。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "気がついたときには、宙を、舞っていた。",
+      "old_target": "当意识到的时候，人在空中、飞舞着。"
+    },
+    {
+      "index": 7432,
+      "new_target": "天花板缓缓逼近眼前，视野翻转一周，接着是地板——",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "ゆっくり、ゆっくり、天井が目の前に近づき、一回転して、床が、",
+      "old_target": "缓缓地、缓缓地，天花板逼近眼前，旋转一圈，地面——"
+    },
+    {
+      "index": 7433,
+      "new_target": "她喘不过气来。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "息が止まる。",
+      "old_target": "呼吸停止。"
+    },
+    {
+      "index": 7434,
+      "new_target": "她什么都弄不明白了。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "なにも分からなくなる。",
+      "old_target": "变得什么也搞不清了。"
+    },
+    {
+      "index": 7435,
+      "new_target": "男人的嘴在动，可她听不清他说了什么。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "男の口が動いているが、なにを話しているかは分からない。",
+      "old_target": "男人的嘴在动，却听不懂他在说些什么。"
+    },
+    {
+      "index": 7438,
+      "new_target": "——要让、你、见识绝望？",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "――ぜつぼうを、おしえて、やる？",
+      "old_target": "——要教给、你、绝望？"
+    },
+    {
+      "index": 7440,
+      "new_target": "她的手臂被抓住，向前拉直。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "腕を掴まれた。伸ばされる。",
+      "old_target": "手臂被抓住了。被拉伸开。"
+    },
+    {
+      "index": 7442,
+      "new_target": "他们将她双手十指并拢——",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "指を揃えて、両手を、",
+      "old_target": "并拢手指，把双手——"
+    },
+    {
+      "index": 7446,
+      "new_target": "不要这个姿势。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "この格好はやだ。",
+      "old_target": "这个姿势不要。"
+    },
+    {
+      "index": 7453,
+      "new_target": "男人高高抬起脚——",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "足を高々と上げて、",
+      "old_target": "高高抬起脚，"
+    },
+    {
+      "index": 7455,
+      "new_target": "朝她并拢的手指踩了下去。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "そろえた指の上に、",
+      "old_target": "踩向并拢的手指之上，"
+    },
+    {
+      "index": 7458,
+      "new_target": "——接下来是左手。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "――つぎはひだりだ",
+      "old_target": "——接下来是左边"
+    },
+    {
+      "index": 7460,
+      "new_target": "——真可怜，都被踩得稀烂了。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "――かわいそうに。ぐちゃぐちゃだな",
+      "old_target": "——真是可怜。都烂成一团了呢"
+    },
+    {
+      "index": 7461,
+      "new_target": "——别说钢琴，连一支铅笔都拿不起来了。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "――ぴあのどころか、えんぴついっぽんもてないぞ、これは",
+      "old_target": "——别说弹钢琴了，连一支铅笔都拿不住了啊，这下子"
+    }
+  ]
+}
