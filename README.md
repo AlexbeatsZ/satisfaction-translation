@@ -16,8 +16,8 @@
 | 第 7,730–8,229 条 | 日中翻译校对 | OpenAI ChatGPT — alternating lane A | `translation-proofreading-7730-8229` | 已占用，尚未开始 | 2026-08-05 |
 | 第 8,230–8,729 条 | 日中翻译校对 | OpenAI ChatGPT（本对话，交错批次 A） | `translation-proofreading-8230-8729` | 已占用，尚未开始 | 2026-08-05 |
 
-- 总进度：**7,694/21,204**
-- 实际校对：**7,233/21,204**
+- 总进度：**7,729/21,204**
+- 实际校对：**7,268/21,204**
 - 跳过：**461/21,204**
 - 当前机器可读占用记录：[`007230-007729-openai-chatgpt.json`](proofreading/claims/active/007230-007729-openai-chatgpt.json)、[`007730-008229-openai-chatgpt-alternating.json`](proofreading/claims/active/007730-008229-openai-chatgpt-alternating.json)、[`008230-008729-openai-chatgpt.json`](proofreading/claims/active/008230-008729-openai-chatgpt.json)
 - 完整断点与统计：[`PROOFREADING_PROGRESS.md`](PROOFREADING_PROGRESS.md)

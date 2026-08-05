@@ -1,30 +1,194 @@
 {
-  "range": {"start": 7695, "end": 7729},
+  "range": {
+    "start": 7695,
+    "end": 7729
+  },
   "reviewed_at": "2026-08-05",
   "format": "compact-v1",
   "entries": [
-    {"index": 7695, "new_target": "接着是生活委员会提出的问题：关于延长食堂开放时间的申请。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7696, "new_target": "美化委员会则就如何纠正各组清扫任务分配不公征求意见。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7700, "new_target": "等所有会议结束，已经到了晚饭时间。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7701, "new_target": "紧接着就是晚饭。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7702, "new_target": "学生们总算各自回到房间。然后——", "status": "corrected", "note": "人工校对。"},
-    {"index": 7703, "new_target": "雪野和诺艾尔都没有回来。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7704, "new_target": "她已经无法继续等待。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7706, "new_target": "——理理想方设法要把这些情况告诉贵子，却又闭上了嘴。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7708, "new_target": "一开口，声音一定会发抖。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7709, "new_target": "理理咬紧嘴唇，甚至咬出了血。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7710, "new_target": "她反复深呼吸，尽量平静地开口。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7712, "new_target": "她低下头，避开贵子的目光。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7713, "new_target": "「还有诺艾尔也不见了……」", "status": "corrected", "note": "人工校对。"},
-    {"index": 7716, "new_target": "那是像亲姐姐一样满含担忧的、贵子的温柔声音。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7717, "new_target": "理理点点头，抬起脸。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7718, "new_target": "「……所以……我实在放心不下！正想去找她们——」", "status": "corrected", "note": "人工校对。"},
-    {"index": 7719, "new_target": "——她察觉到一丝异样。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7721, "new_target": "是贵子的脸色。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7722, "new_target": "她脸色煞白。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7725, "new_target": "那个总是完美无缺、宛如太阳女王般的人，竟然会这样。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7726, "new_target": "「……我该从哪里说起才好呢……」", "status": "corrected", "note": "人工校对。"},
-    {"index": 7727, "new_target": "贵子的下巴微微绷紧。", "status": "corrected", "note": "人工校对。"},
-    {"index": 7729, "new_target": "理理还是第一次见到这样的贵子。", "status": "corrected", "note": "人工校对。"}
+    {
+      "index": 7695,
+      "new_target": "接着是生活委员会提出的问题：关于延长食堂开放时间的申请。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "生活委員からの、問題提起。食堂利用時間延長の申し立てについて。",
+      "old_target": "来自生活委员会的问题提出。关于申请延长食堂使用时间。"
+    },
+    {
+      "index": 7696,
+      "new_target": "美化委员会则就如何纠正各组清扫任务分配不公征求意见。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "美化委員は、班清掃の割り当ての不公平を是正するための意見聴取。",
+      "old_target": "美化委员会是为了纠正小队清扫分配不公而进行的意见听取。"
+    },
+    {
+      "index": 7700,
+      "new_target": "等所有会议结束，已经到了晚饭时间。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "すべての会議が終わった時には、夕食の時間になっていた。",
+      "old_target": "当所有的会议结束时，已经到了晚餐时间。"
+    },
+    {
+      "index": 7701,
+      "new_target": "紧接着就是晚饭。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "そのまま、夕食。",
+      "old_target": "就这样直接吃了晚餐。"
+    },
+    {
+      "index": 7702,
+      "new_target": "学生们总算各自回到房间。然后——",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "生徒たちはようやくそれぞれの部屋に引き上げて、そして。",
+      "old_target": "学生们好不容易才各自撤回房间，然后。"
+    },
+    {
+      "index": 7703,
+      "new_target": "雪野和诺艾尔都没有回来。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "雪野も、ノエルも、帰っては来なくて。",
+      "old_target": "雪野也好，吉川诺艾尔也好，都没有回来。"
+    },
+    {
+      "index": 7704,
+      "new_target": "她已经无法继续等待。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "もう、待っていることなどできなかった。",
+      "old_target": "已经，再也无法苦苦等待下去了。"
+    },
+    {
+      "index": 7706,
+      "new_target": "——理理想方设法要把这些情况告诉贵子，却又闭上了嘴。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "――そんな事情を、貴子になんとか話そうとして、口をつぐむ。",
+      "old_target": "——她设法想把这些情况告诉小日向贵子，却又闭上了嘴。"
+    },
+    {
+      "index": 7708,
+      "new_target": "一开口，声音一定会发抖。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "声が震える。",
+      "old_target": "声音会发颤。"
+    },
+    {
+      "index": 7709,
+      "new_target": "理理咬紧嘴唇，甚至咬出了血。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "理理は、血が滲むほど唇を噛み締めた。",
+      "old_target": "理理用力咬紧唇瓣，甚至渗出了血。"
+    },
+    {
+      "index": 7710,
+      "new_target": "她反复深呼吸，尽量平静地开口。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "大きく深呼吸を繰り返し、できるだけ静かに声を出した。",
+      "old_target": "她反复地深呼吸，尽量平静地发出声音。"
+    },
+    {
+      "index": 7712,
+      "new_target": "她低下头，避开贵子的目光。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "俯いて、貴子の顔から目をそらす。",
+      "old_target": "低下头，避开小日向贵子的脸。"
+    },
+    {
+      "index": 7713,
+      "new_target": "「还有诺艾尔也不见了……」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：天崎理理／中文名：天崎理理】「それからノエルもいなくて……」",
+      "old_target": "「还有吉川诺艾尔也不在了……」"
+    },
+    {
+      "index": 7716,
+      "new_target": "那是像亲姐姐一样满含担忧的、贵子的温柔声音。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "本当のお姉さまのような、心配そうな、貴子の声。",
+      "old_target": "犹如亲姐姐一般、充满担心的，小日向贵子的声音。"
+    },
+    {
+      "index": 7717,
+      "new_target": "理理点点头，抬起脸。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "頷いて、顔を上げた。",
+      "old_target": "点了点头，抬起了头。"
+    },
+    {
+      "index": 7718,
+      "new_target": "「……所以……我实在放心不下！正想去找她们——」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：天崎理理／中文名：天崎理理】「……だから……私、どうしても心配で！　……探しに、」",
+      "old_target": "「……所以……我实在太担心了！……正想去找、」"
+    },
+    {
+      "index": 7719,
+      "new_target": "——她察觉到一丝异样。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "――異変に、気付いた。",
+      "old_target": "――察觉到了，异常。"
+    },
+    {
+      "index": 7721,
+      "new_target": "是贵子的脸色。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "貴子の、顔色だ。",
+      "old_target": "是贵子的，脸色。"
+    },
+    {
+      "index": 7722,
+      "new_target": "她脸色煞白。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "真っ青なのだ。",
+      "old_target": "一片惨白。"
+    },
+    {
+      "index": 7725,
+      "new_target": "那个总是完美无缺、宛如太阳女王般的人，竟然会这样。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "いつも完璧で、太陽の女王みたいなこのひとが。",
+      "old_target": "这个总是完美无缺、宛如太阳女王般的人。"
+    },
+    {
+      "index": 7726,
+      "new_target": "「……我该从哪里说起才好呢……」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：小日向貴子／中文名：小日向贵子】「……なにから話したらいいだろうね……」",
+      "old_target": "「……该从何说起呢……」"
+    },
+    {
+      "index": 7727,
+      "new_target": "贵子的下巴微微绷紧。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "ク、と、貴子の顎が、強張った。",
+      "old_target": "咯的一声，贵子的下巴僵住了。"
+    },
+    {
+      "index": 7729,
+      "new_target": "理理还是第一次见到这样的贵子。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "こんな貴子を見るのは、初めてだ。",
+      "old_target": "还是第一次见到这样的贵子。"
+    }
   ]
 }
