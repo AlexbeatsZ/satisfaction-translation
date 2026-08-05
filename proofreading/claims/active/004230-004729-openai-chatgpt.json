@@ -1,0 +1,13 @@
+{
+  "range": {
+    "start": 4230,
+    "end": 4729
+  },
+  "owner": "OpenAI ChatGPT",
+  "work_type": "translation-proofreading",
+  "branch": "translation-proofreading-4230-4729",
+  "status": "reviewing",
+  "started_at": "2026-08-05T17:36:00+08:00",
+  "updated_at": "2026-08-05T17:36:00+08:00",
+  "note": "正在校对第 4230–4729 条；本批固定占用 500 条，完成后同步并合并到 main。"
+}
