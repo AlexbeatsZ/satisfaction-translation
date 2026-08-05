@@ -6,8 +6,8 @@
   "owner": "OpenAI ChatGPT",
   "work_type": "translation-proofreading",
   "branch": "translation-proofreading-v2",
-  "status": "reviewing",
+  "status": "ready_to_merge",
   "started_at": "2026-08-05T10:53:00+08:00",
   "updated_at": "2026-08-05T11:05:00+08:00",
-  "note": "正在校对第 2730–3229 条；完成后创建正式 PR、合并到 main，并释放该范围。"
+  "note": "第 2730–3229 条已完成校对，共记录 293 处实质修改，等待同步并合并。"
 }
