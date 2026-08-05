@@ -42,14 +42,38 @@ def main() -> None:
     reviewed: set[int] = set()
     corrected = 0
     terminology_changes: list[dict[str, str]] = []
+
     for path in sorted(OUT.glob("reviewed-batch-*.json")):
         payload = json.loads(path.read_text(encoding="utf-8"))
         terminology_changes.extend(payload.get("terminology_changes", []))
+
+        range_payload = payload.get("range")
+        if range_payload:
+            start = int(range_payload["start"])
+            end = int(range_payload["end"])
+            if start < 1 or end < start or end > total:
+                raise ValueError(f"Invalid reviewed range in {path.name}: {start}-{end}")
+            batch_indices = set(range(start, end + 1))
+        else:
+            batch_indices = {int(entry["index"]) for entry in payload.get("entries", [])}
+
+        overlap = reviewed.intersection(batch_indices)
+        if overlap:
+            raise ValueError(
+                f"Duplicate reviewed range/index in {path.name}: {sorted(overlap)[:10]}"
+            )
+        reviewed.update(batch_indices)
+
+        seen_entries: set[int] = set()
         for entry in payload.get("entries", []):
             index = int(entry["index"])
-            if index in reviewed:
-                raise ValueError(f"Duplicate reviewed index: {index}")
-            reviewed.add(index)
+            if index in seen_entries:
+                raise ValueError(f"Duplicate entry in {path.name}: {index}")
+            seen_entries.add(index)
+            if range_payload and index not in batch_indices:
+                raise ValueError(
+                    f"Entry {index} is outside reviewed range {start}-{end} in {path.name}"
+                )
             if entry.get("status") == "corrected":
                 corrected += 1
 
@@ -64,7 +88,9 @@ def main() -> None:
         if overlap:
             raise ValueError(f"Reviewed/skipped overlap: {sorted(overlap)[:10]}")
         skipped.update(range(start, end + 1))
-        skip_rows.append({"start": start, "end": end, "reason": str(item.get("reason", ""))})
+        skip_rows.append(
+            {"start": start, "end": end, "reason": str(item.get("reason", ""))}
+        )
 
     handled = reviewed | skipped
     processed_through = 0
@@ -145,7 +171,8 @@ def main() -> None:
             "",
             "## 恢复说明",
             "",
-            f"从第 {next_start} 条继续；逐条记录保存在 `proofreading/reviewed-batch-*.json`，跳过记录保存在 `proofreading/skipped-ranges.json`。",
+            f"从第 {next_start} 条继续；逐条修正保存在 `proofreading/reviewed-batch-*.json`，"
+            "其 `range` 表示整批已审范围；跳过记录保存在 `proofreading/skipped-ranges.json`。",
         ]
     )
     PROGRESS.write_text("\n".join(lines) + "\n", encoding="utf-8")
