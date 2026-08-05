@@ -1,0 +1,39 @@
+name: Prepare proofreading 7730-8229
+
+on:
+  push:
+    branches:
+      - translation-proofreading-7730-8229
+    paths:
+      - ".github/workflows/prepare-proofreading-7730-8229.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out work branch
+        uses: actions/checkout@v4
+        with:
+          ref: translation-proofreading-7730-8229
+          fetch-depth: 0
+
+      - name: Generate requested batch
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install --quiet pyyaml
+          python proofreading/expand_compact_manifests.py
+          python proofreading/sync_proofreading_v3.py
+          python proofreading/update_progress_with_skips.py
+          python proofreading/analyze_chapter_order.py
+          python proofreading/check_active_claims.py
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add proofreading/current-batch.tsv proofreading/current-batch.md proofreading/terminology-review.md proofreading/applied-review.md proofreading/tsv-alignment-report.md proofreading/chapter-order-analysis.md PROOFREADING_PROGRESS.md satisfaction-scripts.zh.json satisfaction-scripts.zh.md satisfaction-scripts.zh.txt satisfaction-text.tsv
+          if ! git diff --cached --quiet; then
+            git commit -m "proofread: generate entries 7730-8229"
+            git push origin HEAD:translation-proofreading-7730-8229
+          fi
