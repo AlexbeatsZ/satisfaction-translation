@@ -39,26 +39,26 @@ index	chapter	file	line	kind	voice	source	translation	terms
 1107	5	noel1_005.dsf	559	narration		怪訝な顔で一人立ち尽くすノエルの指を小さくつつき、理理がそっと耳打ちしてくれる。	理理轻轻戳了戳独自僵在原地、一脸疑惑的诺艾尔的手指，凑到她耳边低声解释。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
 1108	5	noel1_005.dsf	564	dialogue	vfnoel1_005noe010	【話者：吉川ノエル／中文名：吉川诺艾尔】「……クイーン？」	「……女王？」	[]
 1109	5	noel1_005.dsf	569	dialogue	vfnoel1_005rri021	【話者：天崎理理／中文名：天崎理理】「そう。誰より美しく、気高くていらっしゃるから」	「对。因为她比任何人都美丽、高贵」	[]
-1110	5	noel1_005.dsf	573	narration		クイーンというのは、この学園における特殊な権力構造の段階の隠語なのだろうか。	所谓的Queen，难道是这所学园中某种特殊权力结构阶层的暗语吗？	[]
-1111	5	noel1_005.dsf	577	narration		任務をスムーズに進めるには、知っておく必要があるかもしれない。なにしろこの影響力だ――彼女一人の登場で、少女たちはみな歩みを止め、貴子の周りから動こうとしない。	想要顺畅推进任务的话，或许有必要了解一下。毕竟光是这股影响力就非同寻常——仅仅因为她一人的出现，少女们便纷纷停下脚步，围在贵子身边不肯离开。	[]
-1112	5	noel1_005.dsf	581	narration		ノエルはもっと詳しく聞こうと理理の指先を引っ張り返すが、	诺艾尔为了询问更多细节而反手拉了拉理理的指尖，然而，	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
-1113	5	noel1_005.dsf	589	dialogue	vfnoel1_005tkk007	【話者：小日向貴子／中文名：小日向贵子】「さて、吉川ノエル」	「那么，吉川诺艾尔。」	"[{""source"": ""吉川ノエル"", ""target"": ""吉川诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
-1114	5	noel1_005.dsf	593	narration		貴子の視線が、ノエルに向けられる。	贵子的视线，落到了诺艾尔身上。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
-1115	5	noel1_005.dsf	598	dialogue	vfnoel1_005tkk008	【話者：小日向貴子／中文名：小日向贵子】「我が学園にようこそ、とまずは言っておこうか」	「首先，就让我对你说一句，欢迎来到我们的学园吧。」	[]
-1116	5	noel1_005.dsf	616	dialogue	vfnoel1_005tkk009	【話者：小日向貴子／中文名：小日向贵子】「返事を、おし」	「做出你的回答吧。」	[]
-1117	5	noel1_005.dsf	620	narration		貴子は杖をノエルに伸べた。	贵子将手杖伸向了诺艾尔。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
-1118	5	noel1_005.dsf	624	narration		ノエルは黙って、されるがままになる。	诺艾尔保持沉默，任凭对方摆布。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
-1119	5	noel1_005.dsf	628	narration		杖の先は、そっとノエルの細い顎に触れ、クイ、と顔を上げさせた。	手杖的尖端轻轻触碰诺艾尔纤细的下巴，轻轻一挑，让她抬起脸来。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
-1120	5	noel1_005.dsf	633	dialogue	vfnoel1_005tkk010	【話者：小日向貴子／中文名：小日向贵子】「綺麗な顔をしていること」	「长得真是一张漂亮的脸蛋呢。」	[]
-1121	5	noel1_005.dsf	641	dialogue	vfnoel1_005noe012	【話者：吉川ノエル／中文名：吉川诺艾尔】「……お礼の言葉が、ご所望でいらっしゃるの」	「……您这是在索要致谢的话语吗。」	[]
-1122	5	noel1_005.dsf	649	dialogue	vfnoel1_005tkk011	【話者：小日向貴子／中文名：小日向贵子】「……おまえの顔は綺麗だけれど、その目。死んでいるね。おかしな子……そんな目をして、おまえは一体どこから来たの」	「……虽然你的脸很漂亮，但那双眼睛，却是死寂的呢。真奇怪的孩子……带着那样的眼神，你究竟是从哪里来的。」	[]
-1123	5	noel1_005.dsf	656	narration		身じろぎもせず、ノエルは返す。	诺艾尔纹丝不动，回道。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
-1124	5	noel1_005.dsf	664	dialogue	vfnoel1_005noe013	【話者：吉川ノエル／中文名：吉川诺艾尔】「私がどこから来たか……。本当にそれが、知りたくて？」	「我究竟是从哪里来的……。你就真的那么想知道吗？」	[]
-1125	5	noel1_005.dsf	668	narration		――地獄の色が、見てみたい？	——难道你想亲眼看看，地狱的颜色吗？	[]
-1126	5	noel1_005.dsf	672	narration		声には出さずに呟いて、空洞の瞳で貴子を見返した。	她并未出声，只在心中喃喃自语，用那双空洞的瞳孔回视着贵子。	[]
+1110	5	noel1_005.dsf	573	narration		クイーンというのは、この学園における特殊な権力構造の段階の隠語なのだろうか。	所谓“女王”，难道是这所学园特殊权力结构中某一阶级的暗称？	[]
+1111	5	noel1_005.dsf	577	narration		任務をスムーズに進めるには、知っておく必要があるかもしれない。なにしろこの影響力だ――彼女一人の登場で、少女たちはみな歩みを止め、貴子の周りから動こうとしない。	任务要顺利推进，或许有必要弄清楚。毕竟她有如此影响力——仅仅现身，所有少女便停下脚步，围在贵子周围不肯离去。	[]
+1112	5	noel1_005.dsf	581	narration		ノエルはもっと詳しく聞こうと理理の指先を引っ張り返すが、	诺艾尔想追问更多，便回拉理理的手指，然而——	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+1113	5	noel1_005.dsf	589	dialogue	vfnoel1_005tkk007	【話者：小日向貴子／中文名：小日向贵子】「さて、吉川ノエル」	「那么，吉川诺艾尔」	"[{""source"": ""吉川ノエル"", ""target"": ""吉川诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+1114	5	noel1_005.dsf	593	narration		貴子の視線が、ノエルに向けられる。	贵子的视线落到诺艾尔身上。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+1115	5	noel1_005.dsf	598	dialogue	vfnoel1_005tkk008	【話者：小日向貴子／中文名：小日向贵子】「我が学園にようこそ、とまずは言っておこうか」	「首先该对你说一声：欢迎来到本学园」	[]
+1116	5	noel1_005.dsf	616	dialogue	vfnoel1_005tkk009	【話者：小日向貴子／中文名：小日向贵子】「返事を、おし」	「回话」	[]
+1117	5	noel1_005.dsf	620	narration		貴子は杖をノエルに伸べた。	贵子将手杖伸到诺艾尔面前。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+1118	5	noel1_005.dsf	624	narration		ノエルは黙って、されるがままになる。	诺艾尔沉默着，任她摆布。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+1119	5	noel1_005.dsf	628	narration		杖の先は、そっとノエルの細い顎に触れ、クイ、と顔を上げさせた。	杖尖轻触诺艾尔纤细的下巴，往上一挑，抬起她的脸。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+1120	5	noel1_005.dsf	633	dialogue	vfnoel1_005tkk010	【話者：小日向貴子／中文名：小日向贵子】「綺麗な顔をしていること」	「真是一张漂亮的脸」	[]
+1121	5	noel1_005.dsf	641	dialogue	vfnoel1_005noe012	【話者：吉川ノエル／中文名：吉川诺艾尔】「……お礼の言葉が、ご所望でいらっしゃるの」	「……您是想听我道谢吗？」	[]
+1122	5	noel1_005.dsf	649	dialogue	vfnoel1_005tkk011	【話者：小日向貴子／中文名：小日向贵子】「……おまえの顔は綺麗だけれど、その目。死んでいるね。おかしな子……そんな目をして、おまえは一体どこから来たの」	「……你的脸很漂亮，可这双眼睛——已经死了。真是奇怪的孩子……带着这样的眼神，你究竟从哪里来？」	[]
+1123	5	noel1_005.dsf	656	narration		身じろぎもせず、ノエルは返す。	诺艾尔一动不动地回答：	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+1124	5	noel1_005.dsf	664	dialogue	vfnoel1_005noe013	【話者：吉川ノエル／中文名：吉川诺艾尔】「私がどこから来たか……。本当にそれが、知りたくて？」	「我从哪里来……你真的想知道？」	[]
+1125	5	noel1_005.dsf	668	narration		――地獄の色が、見てみたい？	——想看看地狱是什么颜色吗？	[]
+1126	5	noel1_005.dsf	672	narration		声には出さずに呟いて、空洞の瞳で貴子を見返した。	她没有出声，只在心中低语，以空洞的双眼回望贵子。	[]
 1127	5	noel1_005.dsf	676	narration		そのとき。	就在这时。	[]
-1128	5	noel1_005.dsf	683	dialogue	vfnoel1_005rri022	【話者：天崎理理／中文名：天崎理理】「貴子お姉さま！」	「贵子姐姐大人！」	[]
-1129	5	noel1_005.dsf	700	narration		二人の間に割って入ったのは、理理。	闯入两人之间的，是理理。	[]
+1128	5	noel1_005.dsf	683	dialogue	vfnoel1_005rri022	【話者：天崎理理／中文名：天崎理理】「貴子お姉さま！」	「贵子姐姐！」	[]
+1129	5	noel1_005.dsf	700	narration		二人の間に割って入ったのは、理理。	插到两人之间的是理理。	[]
 1130	5	noel1_005.dsf	704	narration		杖を押しのけると、両手を広げてノエルを背にかばい、貴子の前に立ちはだかる。	她推开手杖，张开双臂将诺艾尔护在身后，挡在了贵子面前。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
 1131	5	noel1_005.dsf	708	narration		驚いたのはノエルだ。いったいなにをする気なのかと、やさしい栗色の後頭部を見つめる。	感到惊讶的是诺艾尔。她凝视着那温柔栗色的后脑勺，不知道对方究竟打算做什么。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
 1132	5	noel1_005.dsf	713	dialogue	vfnoel1_005rri023	【話者：天崎理理／中文名：天崎理理】「ノエルは今朝、この学園にやってきたばかりなんです。あの……だから」	「诺艾尔今天早晨才刚来到这所学园的。那个……所以」	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
