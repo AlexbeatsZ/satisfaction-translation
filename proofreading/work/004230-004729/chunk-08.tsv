@@ -1,0 +1,51 @@
+index	chapter	file	line	kind	voice	source	translation	terms
+4580	19	noel2_009.dsf	1732	dialogue	vfnoel2_009kmo019	【話者：叢雲／中文名：丛云】「さぁて、ね」	「这个嘛，谁知道呢」	[]
+4581	19	noel2_009.dsf	1739	narration		――そう、なのか。	——是这样，吗。	[]
+4582	19	noel2_009.dsf	1743	narration		叢雲を見上げ、ノエルの瞳が凶暴にぎらつく。	仰望着丛云，诺艾尔的双眸凶暴地闪烁着寒光。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}, {""source"": ""叢雲"", ""target"": ""丛云"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+4583	19	noel2_009.dsf	1748	dialogue	vfnoel2_009noe038	【話者：吉川ノエル／中文名：吉川诺艾尔】「……さっき殺しておけばよかった」	「……刚才要是把你们杀掉就好了」	[]
+4584	19	noel2_009.dsf	1752	narration		ノエルをはさんで二人の少女は、同じように口元をゆがめて笑ってみせた。	将诺艾尔夹在中间的两名少女，露出了如出一辙的扭曲笑容。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+4585	19	noel2_009.dsf	1757	dialogue	vfnoel2_009noe039	【話者：吉川ノエル／中文名：吉川诺艾尔】「おまえたちが私と『同じ』だと知っていれば、もっと早く、その頭、落としてケリをつけたのに」	「早知道你们和我『一样』的话，我就该更早砍下你们的头解决掉这一切」	[]
+4586	19	noel2_009.dsf	1769	dialogue	vfnoel2_009kmo020	【話者：叢雲／中文名：丛云】「同じ、だって？」	「一样？」	[]
+4587	19	noel2_009.dsf	1785	dialogue	vfnoel2_009ngi026	【話者：草薙／中文名：草薙】「一緒にしないでもらおうか」	「别拿我们混为一谈好吗」	[]
+4588	19	noel2_009.dsf	1791	narration		ノエルを中心に、二人はゆっくりと円を描いてしなやかに歩き始める。隙だらけにも見えるが、ノエルは決して襲いかかろうとはしない。	以诺艾尔为中心，两人缓缓画着圆圈，姿态柔韧地迈开步伐。虽然看起来满是破绽，但诺艾尔绝不上前扑杀。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+4589	19	noel2_009.dsf	1795	narration		慎重に動きを目で追って、全身の筋を緩め、腱をリラックスさせる。	谨慎地用目光追逐着对方的动作，放松全身的肌肉，让筋腱放松下来。	[]
+4590	19	noel2_009.dsf	1799	narration		なにがあっても、損傷を最小限でとどめられるよう。	无论发生什么，都要将损伤控制在最小限度。	[]
+4591	19	noel2_009.dsf	1808	dialogue	vfnoel2_009ngi027	【話者：草薙／中文名：草薙】「気がついていないわけではないだろう？　あたしと叢雲は、あんたととてもよく似ているけれど、同じでは、ない」	「你不可能没有注意到吧？我和丛云虽然和你非常相似，但并不是相同的」	"[{""source"": ""叢雲"", ""target"": ""丛云"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+4592	19	noel2_009.dsf	1826	dialogue	vfnoel2_009kmo021	【話者：叢雲／中文名：丛云】「あたしたちは、あんたを造った技術の、さらに十年先の技術で造られた」	「我们是用比制造你的技术还要先进十年的技术制造出来的」	[]
+4593	19	noel2_009.dsf	1844	dialogue	vfnoel2_009ngi028	【話者：草薙／中文名：草薙】「あたしたちに、カンフルはいらない」	「我们不需要强心剂」	[]
+4594	19	noel2_009.dsf	1861	dialogue	vfnoel2_009kmo022	【話者：叢雲／中文名：丛云】「時間もいらない」	「也不需要时间」	[]
+4595	19	noel2_009.dsf	1879	dialogue	vfnoel2_009ngi029	【話者：草薙／中文名：草薙】「ここで、すべては制御できる」	「在这里，一切都能得到控制」	[]
+4596	19	noel2_009.dsf	1886	narration		草薙が指差して見せたのは、自分の頭――脳。	草薙指着给对方看的，是自己的头部——大脑。	"[{""source"": ""草薙"", ""target"": ""草薙"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+4597	19	noel2_009.dsf	1902	dialogue	vfnoel2_009kmo023	【話者：叢雲／中文名：丛云】「脳内分泌物の作用によって、あたしたちは、」	「通过脑内分泌物的作用，我们，」	[]
+4598	19	noel2_009.dsf	1922	dialogue	vfnoel2_009ngi030	【話者：草薙／中文名：草薙】「あんたを倒す、力を得る」	「就能获得打倒你的，力量」	[]
+4599	19	noel2_009.dsf	1932	dialogue	vfnoel2_009noe040	【話者：吉川ノエル／中文名：吉川诺艾尔】「……それが、なに」	「……那又怎样」	[]
+4600	19	noel2_009.dsf	1948	dialogue	vfnoel2_009kmo024	【話者：叢雲／中文名：丛云】「――あんたはここで、死ぬ、ってこと。本気を見せなきゃ、すぐにでもね」	「——意思是说，你死期到了。要是再不拿出真格的，马上就会丢掉性命哦」	[]
+4601	19	noel2_009.dsf	1967	dialogue	vfnoel2_009ngi031	【話者：草薙／中文名：草薙】「さぁて……そろそろ行こうか」	「那么……差不多该上了吧」	[]
+4602	19	noel2_009.dsf	1984	dialogue	vfnoel2_009kmo025	【話者：叢雲／中文名：丛云】「あんたも本気、見せてよね」	「你也让我好好见识一下真格的吧」	[]
+4603	19	noel2_009.dsf	1995	narration		草薙と叢雲は歩みを止めた。	草薙与丛云停下了脚步。	"[{""source"": ""草薙"", ""target"": ""草薙"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}, {""source"": ""叢雲"", ""target"": ""丛云"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+4604	19	noel2_009.dsf	1999	narration		二人の口元から笑みが消えた。	两人嘴角的笑容消失了。	[]
+4605	19	noel2_009.dsf	2003	narration		照らすは夕陽の残照、血色の紅。	照亮四周的是夕阳的余晖，宛如血般的绯红。	[]
+4606	19	noel2_009.dsf	2007	narration		草薙と叢雲のなめらかな皮膚の表面が、一瞬、風に吹かれた薄のようにざわめいた。	草薙与丛云光滑的皮肤表面，在一瞬间犹如被风吹拂的芒草般骚动起来。	"[{""source"": ""草薙"", ""target"": ""草薙"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}, {""source"": ""叢雲"", ""target"": ""丛云"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+4607	19	noel2_009.dsf	2011	narration		高く、遠く、響いたのは、獣声。	高亢而辽远响起的，是兽吼声。	[]
+4608	19	noel2_009.dsf	2015	narration		戦いは、二頭の咆哮で幕を開けた。	战斗在两头野兽的咆哮声中拉开了帷幕。	[]
+4609	19	noel2_009.dsf	2035	dialogue	vfnoel2_009kmo025	【話者：叢雲／中文名：丛云】「ウゥォォォォォオオオオオオ―――ッッ！！！」	「嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷―――ッッ！！！」	[]
+4610	19	noel2_009.dsf	2044	narration		凄まじい速度。駆ける四肢。シェイクされた空気は雷にも似た音声を発する。	极其惊人的速度。奔跑的四肢。被剧烈震荡的空气发出宛如雷鸣般的声音。	[]
+4611	19	noel2_009.dsf	2048	narration		一気に壁を駆け上がったのは、草薙――狐ほどの大きさをしたしなやかな獣の姿で、垂直の壁を一蹴り、天井付近からノエルめがけて仕掛けていく。	一口气沿墙疾冲而上的，正是草薙——她化作一头狐狸大小、身姿矫健的野兽，在垂直的墙壁上猛蹬一脚，从靠近天花板的位置朝吉川诺艾尔发动袭击。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}, {""source"": ""草薙"", ""target"": ""草薙"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+4612	19	noel2_009.dsf	2052	narration		ノエルは見上げ、動かない。ただ瞳だけを爛々と光らせ、草薙の爪を追う。ノエルの首元めがけ、容赦のない軌道で鋭い爪が空を薙ぐ。	诺艾尔抬头仰望，岿然不动。只有双眼发着璀璨夺目的光芒，追随着草薙的利爪。锐利的爪子划破虚空，以毫不留情的轨迹直奔诺艾尔的颈部掠去。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}, {""source"": ""草薙"", ""target"": ""草薙"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+4613	19	noel2_009.dsf	2056	narration		その爪がかすめることわずか数ミリ、ノエルは身をかわして跳躍、草薙を飛び越えて側転で着地。膝を撓めて横跳びに距離を取るが、	那利爪仅以数毫米之差擦过，吉川诺艾尔闪身跃起，越过草薙，以侧手翻落地。她屈膝发力，横跃拉开距离，然而，	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}, {""source"": ""草薙"", ""target"": ""草薙"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+4614	19	noel2_009.dsf	2061	dialogue	vfnoel2_009kmo025	【話者：叢雲／中文名：丛云】「グルグルグルルルルルッッッ！！」	「咕噜咕噜噜噜噜噜噜ッッッ！！」	[]
+4615	19	noel2_009.dsf	2065	narration		唸りをあげてその背後、毛色の違うもう一頭――叢雲が襲い掛かる。	伴随着低吼，在她身后，毛色不同的另一头野兽——丛云袭了过来。	"[{""source"": ""叢雲"", ""target"": ""丛云"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+4616	19	noel2_009.dsf	2069	narration		ノエルは皮靴の底を滑らせて、割れたガラスの敷かれた石床を勢いのままにスピン、轟音を上げる四肢でのアタックを、思い切り身を伏せてかわす。	诺艾尔滑动皮靴的鞋底，在铺满碎玻璃的石板地上顺势旋转，极力压低身体避开了那伴随着如轰鸣般四肢攻击的猛扑。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+4617	19	noel2_009.dsf	2074	dialogue	vfnoel2_009noe041	【話者：吉川ノエル／中文名：吉川诺艾尔】「っ！」	「っ！」	[]
+4618	19	noel2_009.dsf	2078	narration		そのまま飛びつくように床に身を投げ、尻で床を滑り、肩が外れるほどに腕を伸ばす。	顺势宛如扑向地面般将身体投向地板，用臀部在地面滑行，手臂伸展至仿佛肩关节脱臼般的程度。	[]
+4619	19	noel2_009.dsf	2082	narration		あと１メートル、あと５０センチ、指先が求めるのは床に突き立つグルヴェイグ。	还差1米，还差50厘米，指尖渴求的是刺在石板地上的古尔薇格。	"[{""source"": ""グルヴェイグ"", ""target"": ""古尔薇格"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""术语"", ""note"": ""沿用已有对照表""}]"
+4620	19	noel2_009.dsf	2087	dialogue	vfnoel2_009noe042	【話者：吉川ノエル／中文名：吉川诺艾尔】「来い！　グルヴェイグっ！」	「过来！古尔薇格！」	"[{""source"": ""グルヴェイグ"", ""target"": ""古尔薇格"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""术语"", ""note"": ""沿用已有对照表""}]"
+4621	19	noel2_009.dsf	2092	dialogue	vfnoel2_009kmo026	【話者：叢雲／中文名：丛云】「させるかぁぁっ！」	「岂能让你得逞啊啊！」	[]
+4622	19	noel2_009.dsf	2114	narration		宙で身を一振り、少女の姿に戻り、叢雲はグルヴェイグを蹴り飛ばす。夕の紅に光りながら、グルヴェイグは高く高く跳ね飛ばされ、天井付近の壁に音を立てて突き立った。	丛云在空中一甩身子，变回少女的模样，将古尔薇格一脚踢飞。古尔薇格闪耀着夕阳的绯红，被高高弹飞出去，伴着一声巨响，深深扎进了靠近天花板的墙壁。	"[{""source"": ""グルヴェイグ"", ""target"": ""古尔薇格"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""术语"", ""note"": ""沿用已有对照表""}, {""source"": ""叢雲"", ""target"": ""丛云"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+4623	19	noel2_009.dsf	2127	dialogue	vfnoel2_009noe043	【話者：吉川ノエル／中文名：吉川诺艾尔】「チッ！」	「切！」	[]
+4624	19	noel2_009.dsf	2131	narration		手をさらに伸ばすが、レギンレイブには触れもできず、ガラスの床で指の皮膚を裂かれる。	进一步伸展手臂，却连莱金雷夫都没能触碰到，手指的皮肤被碎玻璃满地的地面割裂开来。	[]
+4625	19	noel2_009.dsf	2135	narration		厄介だ――ノエルとの決定的な差。これだ。	棘手——与吉川诺艾尔的决定性差距。就是这个。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+4626	19	noel2_009.dsf	2139	narration		叢雲と草薙は、一瞬にして自在に獣化し、また、それを解いてみせる。	丛云与草薙能在一瞬间自由地兽化，又能重新解除。	"[{""source"": ""草薙"", ""target"": ""草薙"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}, {""source"": ""叢雲"", ""target"": ""丛云"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+4627	19	noel2_009.dsf	2143	narration		ノエルは腹筋をしならせて跳ね起きた。	吉川诺艾尔绷紧腹肌，弹身而起。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+4628	19	noel2_009.dsf	2148	dialogue	vfnoel2_009kmo027	【話者：叢雲／中文名：丛云】「草薙っ！」	「草薙！」	"[{""source"": ""草薙"", ""target"": ""草薙"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+4629	19	noel2_009.dsf	2161	dialogue	vfnoel2_009kmo027	【話者：叢雲／中文名：丛云】「ガルルルルッッッ！」	「嘎噜噜噜噜！！！」	[]

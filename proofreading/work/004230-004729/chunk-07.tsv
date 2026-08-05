@@ -1,0 +1,51 @@
+index	chapter	file	line	kind	voice	source	translation	terms
+4530	19	noel2_009.dsf	1412	dialogue	vfnoel2_009noe028	【話者：吉川ノエル／中文名：吉川诺艾尔】「ウオォォォ――――ッッ！」	「嗷呜呜呜呜——！！」	[]
+4531	19	noel2_009.dsf	1425	dialogue	vfnoel2_009noe029	【話者：吉川ノエル／中文名：吉川诺艾尔】「っ！？」	「っ！？」	[]
+4532	19	noel2_009.dsf	1429	narration		獣の咆哮。	野兽的咆哮。	[]
+4533	19	noel2_009.dsf	1442	narration		目を見開き、跳ね起きる。	睁大双眼，挺身跃起。	[]
+4534	19	noel2_009.dsf	1446	narration		いまだにかすむ視界は真っ赤――アーチを描く天井の破れ目から、ノエルを照らし出すように差込む夕陽だ。	依旧模糊的视野一片血红——那是从拱形穹顶的破口斜射而入、仿佛要将吉川诺艾尔照亮的夕阳。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+4535	19	noel2_009.dsf	1450	narration		来る――	要来了——	[]
+4536	19	noel2_009.dsf	1454	narration		ノエルは振り向きもせずにそのまま転がって身をかわすが、	诺艾尔头也不回地顺势翻滚闪避，但是，	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+4537	19	noel2_009.dsf	1459	dialogue	vfnoel2_009noe030	【話者：吉川ノエル／中文名：吉川诺艾尔】「くっ！」	「咕！」	[]
+4538	19	noel2_009.dsf	1463	narration		夕陽を一瞬翳らせた黒い影。	一瞬间遮蔽了夕阳的黑色阴影。	[]
+4539	19	noel2_009.dsf	1474	narration		逃れた肩に熱い衝撃、四つんばいになってさらに飛び退る。続けて轟音、傍らの床石が衝撃に砕け散る。あのまま倒れていれば、砕けていたのはノエルの身体だ。	躲开的肩膀承受了灼热冲击，四肢着地进一步向后跃开。紧接着一声巨响，旁边的地板石块在冲击下碎裂飞溅。要是刚才就那样倒着，碎裂的就是诺艾尔的身体了。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+4540	19	noel2_009.dsf	1478	narration		白い頬を歪める。肌が裂けた。	白皙的脸颊一阵扭曲。皮肤裂开了。	[]
+4541	19	noel2_009.dsf	1482	narration		事態の詳細は不明。影は漆黒に溶けて消え、辺りには異様な静寂が満ちる。	事态的详情尚不明确。阴影融入漆黑之中消逝，四周充斥着异样的静寂。	[]
+4542	19	noel2_009.dsf	1486	narration		地に伏せる獣のような体勢で、ノエルは獰猛な眼差しを四方に走らせた。	保持着伏地如兽般的姿势，诺艾尔将狞猛的目光扫向四方。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+4543	19	noel2_009.dsf	1490	narration		制服の裂け目を手で押さえるが、その指の隙間から、真っ赤な血液が溢れ出す。舌打ちをして、眉をしかめた。	用手按住制服的裂口，鲜红的血液却从指缝间溢出。她咂了一声舌，皱起了眉头。	[]
+4544	19	noel2_009.dsf	1494	narration		ステンドグラスをぶち破って、教会の中に落ちたらしい。	看来是砸碎了花窗玻璃，掉进了教堂里面。	[]
+4545	19	noel2_009.dsf	1498	narration		あの、ほんの数秒の失明。	刚才那短短几秒的失明。	[]
+4546	19	noel2_009.dsf	1502	narration		逃した勝機が殊(こと)のほか悔やまれる。	错失的胜机令人无比懊悔。	[]
+4547	19	noel2_009.dsf	1506	narration		あの咆哮は……あの影は、おそらく――	刚才的咆哮……刚才的影子，恐怕是——	[]
+4548	19	noel2_009.dsf	1511	dialogue	vfnoel2_009noe031	【話者：吉川ノエル／中文名：吉川诺艾尔】「……おまえ、草薙……」	「……你这家伙，草薙……」	"[{""source"": ""草薙"", ""target"": ""草薙"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+4549	19	noel2_009.dsf	1515	narration		名を呼ぶと、気配がさざめいた。	喊出名字后，气息骚动了起来。	[]
+4550	19	noel2_009.dsf	1519	narration		ゆっくりと、影の中から生まれたように、少女が一人、立ち上がる。	缓缓地，仿佛从阴影中孕育而出一般，一名少女站起了身。	[]
+4551	19	noel2_009.dsf	1523	narration		鼻からも口からも血を流し、顎を真っ赤に染めてはいるが、	虽然鼻中口中都在流血，将下巴染得鲜红，但	[]
+4552	19	noel2_009.dsf	1536	dialogue	vfnoel2_009ngi020	【話者：草薙／中文名：草薙】「はぁい」	「在～呢」	[]
+4553	19	noel2_009.dsf	1544	narration		歪めた口元、滴る血液を舌で舐めとり、草薙は笑う。	勾起扭曲的嘴角，草薙用舌头舔去滴落的鲜血，笑了起来。	"[{""source"": ""草薙"", ""target"": ""草薙"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+4554	19	noel2_009.dsf	1552	dialogue	vfnoel2_009ngi021	【話者：草薙／中文名：草薙】「さっきはよくもやってくれたじゃん。顎に、奥歯。……砕いてくれた代償は、きっちり払ってもらおうか」	「刚才你可真敢下手啊。下巴，还有槽牙。……打碎它们的代价，就让你一分不少地付清吧」	[]
+4555	19	noel2_009.dsf	1564	narration		ノエルは黙って、手の下の傷を見た。	诺艾尔沉默着，看向了手掌下的伤口。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+4556	19	noel2_009.dsf	1568	narration		肌を深く抉って血を滴らせているのは、爪の跡――叢雲の鉄爪ではありえない。	深深抉开皮肤并滴着血的，是爪痕——绝不可能是丛云的铁爪。	"[{""source"": ""叢雲"", ""target"": ""丛云"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+4557	19	noel2_009.dsf	1572	narration		これは、獣の爪だ。	这是野兽的爪痕。	[]
+4558	19	noel2_009.dsf	1576	narration		ノエルには、分かる。	诺艾尔明白。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+4559	19	noel2_009.dsf	1580	narration		ノエルも持っているものだから。	因为这也是诺艾尔所拥有的东西。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+4560	19	noel2_009.dsf	1589	dialogue	vfnoel2_009ngi022	【話者：草薙／中文名：草薙】「どうした？　そんなに痛かった？」	「怎么了？有那么痛吗？」	[]
+4561	19	noel2_009.dsf	1597	dialogue	vfnoel2_009noe033	【話者：吉川ノエル／中文名：吉川诺艾尔】「……そうなのね」	「……是这样啊」	[]
+4562	19	noel2_009.dsf	1605	dialogue	vfnoel2_009ngi023	【話者：草薙／中文名：草薙】「なんの話かな」	「在说些什么呢」	[]
+4563	19	noel2_009.dsf	1613	dialogue	vfnoel2_009noe034	【話者：吉川ノエル／中文名：吉川诺艾尔】「おまえも……おまえたちも」	「你也是……你们也是」	[]
+4564	19	noel2_009.dsf	1617	narration		その後は、言葉にはしない。	这之后的话，并没有说出口。	[]
+4565	19	noel2_009.dsf	1621	narration		十分だ。	足够了。	[]
+4566	19	noel2_009.dsf	1625	narration		草薙の笑みを見れば、十分。	只要看着草薙的笑容，就已经足够。	"[{""source"": ""草薙"", ""target"": ""草薙"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+4567	19	noel2_009.dsf	1633	dialogue	vfnoel2_009ngi024	【話者：草薙／中文名：草薙】「ふ……あんた一人に『死神』の名は、背負わせないさ」	「呵……可不会让你一个人背负『死神』之名的」	[]
+4568	19	noel2_009.dsf	1640	narration		血色の唾を吐き飛ばし、草薙は揺らした指先でノエルを誘う。	吐掉带血的唾液，草薙摇晃着指尖挑衅着诺艾尔。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}, {""source"": ""草薙"", ""target"": ""草薙"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+4569	19	noel2_009.dsf	1648	dialogue	vfnoel2_009ngi025	【話者：草薙／中文名：草薙】「来なよ……エマノンの死神。遠慮はいらないって分かっただろ？　本気、見せてみな」	「来吧……埃玛农的死神。你应该明白不用客气了吧？把真格的，展现给我看看啊」	"[{""source"": ""エマノンの死神"", ""target"": ""埃玛农的死神"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""称谓"", ""note"": ""守护天崎今日子女儿的强者称谓""}]"
+4570	19	noel2_009.dsf	1657	dialogue	vfnoel2_009noe035	【話者：吉川ノエル／中文名：吉川诺艾尔】「……っ」	「……っ」	[]
+4571	19	noel2_009.dsf	1661	narration		背後の気配に、振り向いた。	察觉到身后的气息，转过了身。	[]
+4572	19	noel2_009.dsf	1672	narration		破られたステンドグラスの窓枠。	被打破的花窗玻璃窗框。	[]
+4573	19	noel2_009.dsf	1688	dialogue	vfnoel2_009kmo017	【話者：叢雲／中文名：丛云】「……『これ』が本気、でもあるまい」	「……『这』可算不上是真格的吧」	[]
+4574	19	noel2_009.dsf	1695	narration		細い足場に身軽に立って、微笑む叢雲の両手には、	轻盈地站在狭窄的脚手架上，微笑着的丛云双手中，	"[{""source"": ""叢雲"", ""target"": ""丛云"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+4575	19	noel2_009.dsf	1700	dialogue	vfnoel2_009noe036	【話者：吉川ノエル／中文名：吉川诺艾尔】「……グルヴェイグ。レギンレイブ」	「……古尔薇格。莱金雷夫」	"[{""source"": ""グルヴェイグ"", ""target"": ""古尔薇格"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""术语"", ""note"": ""沿用已有对照表""}]"
+4576	19	noel2_009.dsf	1704	narration		獰猛な刃を剥き出しにした、二本のナイフ。ノエルの戦友。	握着两把亮出凶猛刃口的短刀。那是诺艾尔的战友。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+4577	19	noel2_009.dsf	1708	narration		音もなく飛び降りると、叢雲は己の足元、石の敷床の隙間に、力をこめて二本を突き立てた。	丛云悄无声息地跃下，将力量贯注于双臂，把两把短刀狠狠刺入脚下石质地板的缝隙。	"[{""source"": ""叢雲"", ""target"": ""丛云"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+4578	19	noel2_009.dsf	1716	dialogue	vfnoel2_009kmo018	【話者：叢雲／中文名：丛云】「さっきは惜しかったけど、まだまだ。あんたの本気はあんなもんじゃないはずだ」	「刚才虽然很可惜，但还差得远呢。你的真格实力应该不止那种程度才对」	[]
+4579	19	noel2_009.dsf	1724	dialogue	vfnoel2_009noe037	【話者：吉川ノエル／中文名：吉川诺艾尔】「……おまえもなの。叢雲」	「……你也是吗。丛云」	"[{""source"": ""叢雲"", ""target"": ""丛云"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"

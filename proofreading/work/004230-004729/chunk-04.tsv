@@ -1,0 +1,51 @@
+index	chapter	file	line	kind	voice	source	translation	terms
+4380	19	noel2_009.dsf	557	dialogue	vfnoel2_009noe011	【話者：吉川ノエル／中文名：吉川诺艾尔】「……覚えておくわ。その名前」	「……我记住了。那两个名字」	[]
+4381	19	noel2_009.dsf	562	dialogue	vfnoel2_009ngi014	【話者：草薙／中文名：草薙】「そいつはどーも」	「那还多～多谢啦」	[]
+4382	19	noel2_009.dsf	567	dialogue	vfnoel2_009kmo008	【話者：叢雲／中文名：丛云】「せいぜい何度も呼ぶといい。それがあんたを殺す者の名だよ」	「就尽管多叫几次吧。那可是要杀死你的人的名字啊」	[]
+4383	19	noel2_009.dsf	572	dialogue	vfnoel2_009noe012	【話者：吉川ノエル／中文名：吉川诺艾尔】「――ふ」	「——呵」	[]
+4384	19	noel2_009.dsf	583	narration		長くついた吐息が、震えた。	长长呼出的一口气，在颤抖。	[]
+4385	19	noel2_009.dsf	587	narration		熱くなった血液が、殺せ殺せと脳に噴き付ける。	发烫的血液将「杀吧杀吧」的念头喷洒至大脑。	[]
+4386	19	noel2_009.dsf	591	narration		手の中のグルヴェイグが、指先の震えを伝えてカタカタと鳴る。	手中的古尔薇格传递着指尖的震颤，发出嗒嗒轻响。	"[{""source"": ""グルヴェイグ"", ""target"": ""古尔薇格"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""术语"", ""note"": ""沿用已有对照表""}]"
+4387	19	noel2_009.dsf	595	narration		殺したくてたまらないと、叫ぶみたいな。	简直就像是在呐喊着，迫不及待想要杀人。	[]
+4388	19	noel2_009.dsf	599	narration		そうね、殺したくてたまらないのは私も同じ――声には出さずにノエルは呟く。	没错呢，迫不及待想要杀人的我也一样——吉川诺艾尔没有出声地嘀咕着。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+4389	19	noel2_009.dsf	607	narration		殺したい。	想杀。	[]
+4390	19	noel2_009.dsf	611	narration		恐怖と絶望を、教えてあげたい。	想让她们好好体验一下，何谓恐怖与绝望。	[]
+4391	19	noel2_009.dsf	615	narration		おまえ達に求めるのは、ただひとつ――死神に捧げる、畏怖という供物。	向你们索取的只有一样——那献给死神的，名为敬畏的祭品。	[]
+4392	19	noel2_009.dsf	620	dialogue	vfnoel2_009noe013	【話者：吉川ノエル／中文名：吉川诺艾尔】「……感謝するわ」	「……真是感谢你们」	[]
+4393	19	noel2_009.dsf	624	narration		笑っていた。	她在笑着。	[]
+4394	19	noel2_009.dsf	628	narration		――これでいいのだ。	——这样就好。	[]
+4395	19	noel2_009.dsf	633	dialogue	vfnoel2_009noe014	【話者：吉川ノエル／中文名：吉川诺艾尔】「おかしな夢から、目が覚めた。おまえたちのおかげで」	「我从怪异的梦中醒过来了。多亏了你们」	[]
+4396	19	noel2_009.dsf	637	narration		駆けたいと震える足。跳ねたいと膨らむ筋肉。火傷しそうな温度に沸く血。脳を犯す猛烈な殺意。	渴望奔跑而颤抖的双腿。渴望跃起而鼓胀的肌肉。灼伤般炽热沸腾的血液。侵蚀着大脑的猛烈杀意。	[]
+4397	19	noel2_009.dsf	641	narration		悦びに、胸が張り裂けそうだ。	那份喜悦，几乎要撑裂胸膛。	[]
+4398	19	noel2_009.dsf	645	narration		これでいい、間違っていない。	这样就好，没有错。	[]
+4399	19	noel2_009.dsf	649	narration		これが、私。	这就是，我。	[]
+4400	19	noel2_009.dsf	653	narration		これがノエル。	这就是吉川诺艾尔。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+4401	19	noel2_009.dsf	657	narration		ノエルは、こういう獣だ。	吉川诺艾尔，就是这样的野兽。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+4402	19	noel2_009.dsf	661	narration		そしてヒトは、ノエルの前に、畏怖で縛られた身体を捧げる。	而人类，会在吉川诺艾尔面前献上被畏怖所束缚的身体。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+4403	19	noel2_009.dsf	665	narration		世界は、そういうふうに、できている。	世界，本就是这样构成的。	[]
+4404	19	noel2_009.dsf	669	narration		そういう世界しか、ノエルは知らない。	吉川诺艾尔所知道的，也只有这样的世界。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+4405	19	noel2_009.dsf	673	narration		右手にグルヴェイグ、空いた左でレギンレイブを抜く。長短二本のナイフを胸の前で交差して重ね、	右手握着古尔薇格，空出的左手拔出莱金雷夫。长短两把匕首在胸前交叉叠放，	"[{""source"": ""グルヴェイグ"", ""target"": ""古尔薇格"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""术语"", ""note"": ""沿用已有对照表""}]"
+4406	19	noel2_009.dsf	687	dialogue	vfnoel2_009noe015	【話者：吉川ノエル／中文名：吉川诺艾尔】「お礼に、見せてあげる」	「作为谢礼，我就展示给你们看」	[]
+4407	19	noel2_009.dsf	691	narration		創り出す、墓標。	打造出的，墓碑。	[]
+4408	19	noel2_009.dsf	695	narration		ノエルの顔が、十字の影に塗り潰される。	吉川诺艾尔的脸，被十字阴影抹黑盖过。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+4409	19	noel2_009.dsf	699	narration		夕焼けの黄金が輪郭を輝かせ、ノエルは死を告げる天使の如く、穏やかな光を肌に孕む。	晚霞的黄金光芒镀亮轮廓，吉川诺艾尔如宣告死亡的天使般，肌肤蕴含着平稳的光辉。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+4410	19	noel2_009.dsf	703	narration		微笑んだ。	她微微一笑。	[]
+4411	19	noel2_009.dsf	708	dialogue	vfnoel2_009noe016	【話者：吉川ノエル／中文名：吉川诺艾尔】「恐怖。絶望。死――ノエルが、見せて、あげる」	「恐怖。绝望。死亡——就由吉川诺艾尔，展示，给你们看」	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+4412	19	noel2_009.dsf	712	narration		眇めた瞳、瞳孔がふわりと緩む。	眯起的双眸，瞳孔微微松弛散开。	[]
+4413	19	noel2_009.dsf	716	narration		風が止み、一瞬の静寂。	风停了，一瞬间的死寂。	[]
+4414	19	noel2_009.dsf	720	narration		――さあ行こう。	——来吧，走吧。	[]
+4415	19	noel2_009.dsf	724	narration		エマノンの正義と、新世界のために。	为了埃玛农的正义，与新世界。	"[{""source"": ""エマノンの正義"", ""target"": ""埃玛农的正义"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": null, ""note"": null}, {""source"": ""新世界"", ""target"": ""新世界"", ""mode"": ""hard"", ""pronoun"": null, ""present_in_target"": true, ""type"": ""术语"", ""note"": ""众部下呼喊的目标与理念""}]"
+4416	19	noel2_009.dsf	733	dialogue	vfnoel2_009noe017	【話者：吉川ノエル／中文名：吉川诺艾尔】「……逆賊、誅すべし」	「……逆贼，当诛」	[]
+4417	19	noel2_009.dsf	743	narration		落ちる刻。	坠落的时刻。	[]
+4418	19	noel2_009.dsf	747	narration		収縮する鼓動。	收缩的心跳。	[]
+4419	19	noel2_009.dsf	751	narration		行け、	去吧，	[]
+4420	19	noel2_009.dsf	755	narration		ゆっくり顔を上げる。	缓缓抬头。	[]
+4421	19	noel2_009.dsf	759	narration		行け、	去吧，	[]
+4422	19	noel2_009.dsf	763	narration		紅の眼差しに、静謐な狂気。	绯红的眼神中，满是静谧的狂气。	[]
+4423	19	noel2_009.dsf	767	narration		行け、	去吧，	[]
+4424	19	noel2_009.dsf	771	narration		繰り返す呼吸。	重复的呼吸。	[]
+4425	19	noel2_009.dsf	775	narration		行け、	去吧，	[]
+4426	19	noel2_009.dsf	779	narration		死神を呼ぶ声はこの胸を抉る。	呼唤死神的声音剜刺着胸膛。	[]
+4427	19	noel2_009.dsf	783	narration		行け、殺せ、叫ぶ、高鳴る、踊る、殺せ、『殺せ！』	去吧、杀吧、咆哮、高涨、狂舞、杀吧、『杀了吧！』	[]
+4428	19	noel2_009.dsf	788	narration		十字の刃は――私の翼。	十字的刃锋是——我的翅膀。	[]
+4429	19	noel2_009.dsf	793	narration		そうだ、翼は、あったじゃないか。	对了，翅膀，这不是一直都在吗。	[]
