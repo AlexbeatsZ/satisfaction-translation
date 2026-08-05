@@ -12,10 +12,10 @@
 
 | 范围 | 工作内容 | 负责人 | 工作分支 | 状态 | 更新时间 |
 |---|---|---|---|---|---|
-| 第 4,730–5,229 条 | 日中翻译校对 | OpenAI ChatGPT | `translation-proofreading-4730-5229` | 已占用，尚未开始 | 2026-08-05 |
+| 第 4,730–5,229 条 | 日中翻译校对 | OpenAI ChatGPT | `translation-proofreading-4730-5229` | 正在校对 | 2026-08-05 |
 
-- 总进度：**4,729/21,204**
-- 实际校对：**4,584/21,204**
+- 总进度：**5,229/21,204**
+- 实际校对：**5,084/21,204**
 - 跳过：**145/21,204**
 - 当前机器可读占用记录：[`004730-005229-openai-chatgpt.json`](proofreading/claims/active/004730-005229-openai-chatgpt.json)
 - 完整断点与统计：[`PROOFREADING_PROGRESS.md`](PROOFREADING_PROGRESS.md)
