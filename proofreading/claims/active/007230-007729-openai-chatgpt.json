@@ -3,11 +3,11 @@
     "start": 7230,
     "end": 7729
   },
-  "owner": "OpenAI ChatGPT",
+  "owner": "OpenAI ChatGPT（本对话，交错批次 A）",
   "work_type": "translation-proofreading",
   "branch": "translation-proofreading-7230-7729",
   "status": "reviewing",
   "started_at": "2026-08-05T22:56:00+08:00",
-  "updated_at": "2026-08-05T23:41:00+08:00",
-  "note": "正在校对第 7,230–7,729 条。"
+  "updated_at": "2026-08-05T23:45:00+08:00",
+  "note": "固定交错分工 A：本对话处理 7,230–7,729；明确跳过 7,730–8,229；下一处理范围为 8,230–8,729。"
 }
