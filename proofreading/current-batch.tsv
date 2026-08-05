@@ -1,24 +1,24 @@
 index	chapter	file	line	kind	voice	source	translation	terms
 1070	5	noel1_005.dsf	325	dialogue	vfnoel1_005ska000	【話者：女性端役（SKA）／中文名：女性端役（SKA）】「スト――――――ップ！」	「停――――――下！」	[]
-1071	5	noel1_005.dsf	336	dialogue	vfnoel1_005rri015	【話者：天崎理理／中文名：天崎理理】「はひっ！？」	「哈嘻！？」	[]
-1072	5	noel1_005.dsf	346	narration		ノエルの背後から、突如廊下に響き渡った朗々たる声に、理理の動きがピタリと止まる。	从诺艾尔身后突然响彻走廊的朗朗声音，让理理的动作骤然停止。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
-1073	5	noel1_005.dsf	351	dialogue	vfnoel1_005ska001	【話者：女性端役（SKA）／中文名：女性端役（SKA）】「二年Ａクラスナンバー十四、天崎理理！　絶対規律二章の十二を暗誦せよ！」	「二年级A班14号，天崎理理！背诵绝对戒律第二章第十二条！」	"[{""source"": ""天崎理理"", ""target"": ""天崎理理"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
-1074	5	noel1_005.dsf	359	dialogue	vfnoel1_005rri016	【話者：天崎理理／中文名：天崎理理】「え、えっと……二章の十二……ええとぉ」	「额、那个……第二章第十二条……嗯——」	[]
-1075	5	noel1_005.dsf	365	narration		笑顔を引きつらせた理理に、さらに別の声。	对着笑容僵住的理理，紧接着传来了另一个声音。	[]
-1076	5	noel1_005.dsf	370	dialogue	vfnoel1_005tkk000	【話者：小日向貴子／中文名：小日向贵子】「……『静寂』」	「……『静寂』」	[]
-1077	5	noel1_005.dsf	378	dialogue	vfnoel1_005rri017	【話者：天崎理理／中文名：天崎理理】「あ、あ、そっか……我ら、静寂を愛し、いかなるときも慎ましく、楚々たる所作にて儀を知るべし……でしたっけ」	「啊、啊，对哦……我等当热爱静寂，无论何时皆须谦逊，以端庄举止明晓礼仪……是这样来着吧」	[]
-1078	5	noel1_005.dsf	386	dialogue	vfnoel1_005tkk001	【話者：小日向貴子／中文名：小日向贵子】「……はあ……」	「……哈……」	[]
+1071	5	noel1_005.dsf	336	dialogue	vfnoel1_005rri015	【話者：天崎理理／中文名：天崎理理】「はひっ！？」	「咿！？」	[]
+1072	5	noel1_005.dsf	346	narration		ノエルの背後から、突如廊下に響き渡った朗々たる声に、理理の動きがピタリと止まる。	诺艾尔身后，一道洪亮的声音突然响彻走廊，理理瞬间僵住。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+1073	5	noel1_005.dsf	351	dialogue	vfnoel1_005ska001	【話者：女性端役（SKA）／中文名：女性端役（SKA）】「二年Ａクラスナンバー十四、天崎理理！　絶対規律二章の十二を暗誦せよ！」	「二年A班十四号，天崎理理！背诵《绝对纪律》第二章第十二条！」	"[{""source"": ""天崎理理"", ""target"": ""天崎理理"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+1074	5	noel1_005.dsf	359	dialogue	vfnoel1_005rri016	【話者：天崎理理／中文名：天崎理理】「え、えっと……二章の十二……ええとぉ」	「呃、那个……第二章第十二条……呃——」	[]
+1075	5	noel1_005.dsf	365	narration		笑顔を引きつらせた理理に、さらに別の声。	理理的笑容僵在脸上，另一道声音又响起。	[]
+1076	5	noel1_005.dsf	370	dialogue	vfnoel1_005tkk000	【話者：小日向貴子／中文名：小日向贵子】「……『静寂』」	「……‘静寂’」	[]
+1077	5	noel1_005.dsf	378	dialogue	vfnoel1_005rri017	【話者：天崎理理／中文名：天崎理理】「あ、あ、そっか……我ら、静寂を愛し、いかなるときも慎ましく、楚々たる所作にて儀を知るべし……でしたっけ」	「啊、啊，对了……我等应爱静寂，无论何时都须谨言慎行，以端庄举止知礼……是这样来着吧？」	[]
+1078	5	noel1_005.dsf	386	dialogue	vfnoel1_005tkk001	【話者：小日向貴子／中文名：小日向贵子】「……はあ……」	「……唉……」	[]
 1079	5	noel1_005.dsf	390	narration		ため息。	一声叹息。	[]
-1080	5	noel1_005.dsf	403	narration		続いて、コツン、と硬いものが床板をたたく音。	紧接着，嗒的一声，是坚硬物体敲击地板的声音。	[]
-1081	5	noel1_005.dsf	407	narration		振り向かないままノエルが探る気配は、４人分の足音。床を打ったのは、一本の杖。	吉川诺艾尔没有回头，凭气息探查到的是四个人的脚步声。叩击地板的，是一根手杖。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
-1082	5	noel1_005.dsf	411	narration		材質は木で、重さはおよそ１キロ程度。重心はトップにある。おそらく、石と貴金属の飾り。	材质为木，重量大约一公斤左右。重心位于顶部。恐怕装饰着宝石与贵金属。	[]
-1083	5	noel1_005.dsf	415	narration		静寂、と理理に助け舟を出した声が、涼しげな鈴の音のように語りだした。	刚才说出静寂、为理理解围的那道声音，如清爽的铃音般响起。	[]
-1084	5	noel1_005.dsf	428	dialogue	vfnoel1_005tkk002	【話者：小日向貴子／中文名：小日向贵子】「天崎理理。おまえはとってもいい子だけれど、少々お行儀がなっていない」	「天崎理理。你虽然是个非常讨人喜欢的好孩子，但规矩可有点不太好呢。」	"[{""source"": ""天崎理理"", ""target"": ""天崎理理"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
-1085	5	noel1_005.dsf	436	dialogue	vfnoel1_005rri018	【話者：天崎理理／中文名：天崎理理】「ご、ごきげんよう……貴子お姉さま……」	「您、您好……贵子姐姐大人……」	"[{""source"": ""ごきげんよう"", ""target"": ""贵安"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": false, ""type"": null, ""note"": null}]"
-1086	5	noel1_005.dsf	444	dialogue	vfnoel1_005tkk003	【話者：小日向貴子／中文名：小日向贵子】「ごきげんよう」	「您好。」	"[{""source"": ""ごきげんよう"", ""target"": ""贵安"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": false, ""type"": null, ""note"": null}]"
-1087	5	noel1_005.dsf	452	dialogue	vfnoel1_005rri019	【話者：天崎理理／中文名：天崎理理】「執行委員会のお姉さまがたも、ごきげんよう」	「执行委员会的各位姐姐大人，您们好。」	"[{""source"": ""ごきげんよう"", ""target"": ""贵安"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": false, ""type"": null, ""note"": null}]"
-1088	5	noel1_005.dsf	457	dialogue	vfnoel1_005ska002	【話者：女性端役（SKA）／中文名：女性端役（SKA）】「ごきげんよう、天崎理理」	「您好，天崎理理。」	"[{""source"": ""ごきげんよう"", ""target"": ""贵安"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": false, ""type"": null, ""note"": null}, {""source"": ""天崎理理"", ""target"": ""天崎理理"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
-1089	5	noel1_005.dsf	462	dialogue	vfnoel1_005skb000	【話者：女性端役（SKB）／中文名：女性端役（SKB）】「今朝は遅刻ではないわね。その点だけはよろしくてよ。ごきげんよう」	「今天早上倒是没迟到呢。只有这一点值得夸奖哦。您好。」	"[{""source"": ""ごきげんよう"", ""target"": ""贵安"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": false, ""type"": null, ""note"": null}]"
+1080	5	noel1_005.dsf	403	narration		続いて、コツン、と硬いものが床板をたたく音。	紧接着，传来硬物轻叩地板的“嗒”声。	[]
+1081	5	noel1_005.dsf	407	narration		振り向かないままノエルが探る気配は、４人分の足音。床を打ったのは、一本の杖。	诺艾尔没有回头，仅凭气息便辨出四人的脚步。敲击地板的是一根手杖。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
+1082	5	noel1_005.dsf	411	narration		材質は木で、重さはおよそ１キロ程度。重心はトップにある。おそらく、石と貴金属の飾り。	木制，约重一公斤，重心在顶端。大概镶有宝石和贵金属装饰。	[]
+1083	5	noel1_005.dsf	415	narration		静寂、と理理に助け舟を出した声が、涼しげな鈴の音のように語りだした。	刚才以“静寂”替理理解围的声音，如清凉的铃音般继续说道。	[]
+1084	5	noel1_005.dsf	428	dialogue	vfnoel1_005tkk002	【話者：小日向貴子／中文名：小日向贵子】「天崎理理。おまえはとってもいい子だけれど、少々お行儀がなっていない」	「天崎理理。你是个很好的孩子，但举止稍欠规矩」	"[{""source"": ""天崎理理"", ""target"": ""天崎理理"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+1085	5	noel1_005.dsf	436	dialogue	vfnoel1_005rri018	【話者：天崎理理／中文名：天崎理理】「ご、ごきげんよう……貴子お姉さま……」	「贵、贵安……贵子姐姐……」	"[{""source"": ""ごきげんよう"", ""target"": ""贵安"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": null, ""note"": null}]"
+1086	5	noel1_005.dsf	444	dialogue	vfnoel1_005tkk003	【話者：小日向貴子／中文名：小日向贵子】「ごきげんよう」	「贵安」	"[{""source"": ""ごきげんよう"", ""target"": ""贵安"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": null, ""note"": null}]"
+1087	5	noel1_005.dsf	452	dialogue	vfnoel1_005rri019	【話者：天崎理理／中文名：天崎理理】「執行委員会のお姉さまがたも、ごきげんよう」	「执行委员会的各位姐姐，贵安」	"[{""source"": ""ごきげんよう"", ""target"": ""贵安"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": null, ""note"": null}]"
+1088	5	noel1_005.dsf	457	dialogue	vfnoel1_005ska002	【話者：女性端役（SKA）／中文名：女性端役（SKA）】「ごきげんよう、天崎理理」	「贵安，天崎理理」	"[{""source"": ""ごきげんよう"", ""target"": ""贵安"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": null, ""note"": null}, {""source"": ""天崎理理"", ""target"": ""天崎理理"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": ""人物"", ""note"": ""Satisfaction 汉化人工确认人名""}]"
+1089	5	noel1_005.dsf	462	dialogue	vfnoel1_005skb000	【話者：女性端役（SKB）／中文名：女性端役（SKB）】「今朝は遅刻ではないわね。その点だけはよろしくてよ。ごきげんよう」	「今天早上倒是没迟到。只有这一点还算值得肯定。贵安」	"[{""source"": ""ごきげんよう"", ""target"": ""贵安"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": true, ""type"": null, ""note"": null}]"
 1090	5	noel1_005.dsf	467	dialogue	vfnoel1_005skc000	【話者：女性端役（SKC）／中文名：女性端役（SKC）】「ごきげんよう。そちらのあなた、ご挨拶はどうしたの」	「您好。那边的那位，你的问候呢？」	"[{""source"": ""ごきげんよう"", ""target"": ""贵安"", ""mode"": ""preferred"", ""pronoun"": null, ""present_in_target"": false, ""type"": null, ""note"": null}]"
 1091	5	noel1_005.dsf	471	narration		問う声に、ノエルはようやく振り返る。	听到询问的声音，吉川诺艾尔这才转过身来。	"[{""source"": ""ノエル"", ""target"": ""诺艾尔"", ""mode"": ""preferred"", ""pronoun"": ""她"", ""present_in_target"": true, ""type"": null, ""note"": null}]"
 1092	5	noel1_005.dsf	475	narration		鋭敏過ぎる反応をあえて殺し、あくまでも冷静に、しなやかな身のこなしで、かけられた声に向き合った。	她刻意压制住过于敏锐的本能反应，始终保持冷静，以轻盈柔韧的姿态转过身去面对出声之人。	[]
