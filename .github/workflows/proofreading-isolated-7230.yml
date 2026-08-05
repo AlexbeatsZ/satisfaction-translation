@@ -1,0 +1,57 @@
+name: Isolated proofreading 7230-7729
+
+on:
+  push:
+    branches:
+      - translation-proofreading-7230-7729-isolated
+    paths:
+      - '.github/workflows/proofreading-isolated-7230.yml'
+      - 'proofreading/reviewed-batch-007*.json'
+      - 'proofreading/skipped-ranges.json'
+      - 'proofreading/claims/active/007230-007729-openai-chatgpt.json'
+
+concurrency:
+  group: proofreading-isolated-7230
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: translation-proofreading-7230-7729-isolated
+          fetch-depth: 0
+
+      - name: Install YAML parser
+        run: python -m pip install --quiet pyyaml
+
+      - name: Expand compact manifests
+        run: python proofreading/expand_compact_manifests.py
+
+      - name: Apply reviews
+        run: python proofreading/sync_proofreading_v3.py
+
+      - name: Rebuild progress
+        run: python proofreading/update_progress_with_skips.py
+
+      - name: Rebuild README status
+        run: python proofreading/update_readme_status.py
+
+      - name: Analyze chapter ordering
+        run: python proofreading/analyze_chapter_order.py
+
+      - name: Commit generated files
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md satisfaction-scripts.zh.json satisfaction-scripts.zh.md satisfaction-scripts.zh.txt satisfaction-text.tsv PROOFREADING_PROGRESS.md proofreading
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m 'proofread: apply isolated entries 7230-7729'
+          git push origin HEAD:translation-proofreading-7230-7729-isolated
