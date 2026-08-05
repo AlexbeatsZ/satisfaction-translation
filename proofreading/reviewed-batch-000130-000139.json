@@ -1,0 +1,86 @@
+{
+  "range": {"start": 130, "end": 139},
+  "reviewed_at": "2026-08-05",
+  "entries": [
+    {
+      "index": 130,
+      "source": "【話者：黒澤／中文名：黑泽】「ないわけがないのに、」",
+      "old_target": "「明明不可能没有的，」",
+      "new_target": "「明明不可能找不到……」",
+      "status": "corrected",
+      "note": "承接搜寻语境补出‘找’，并将日语续接逗号改为中文未尽停顿。"
+    },
+    {
+      "index": 131,
+      "source": "手の届くところはすべて探した。",
+      "old_target": "能找的地方全都找过了。",
+      "new_target": "能找的地方全都找过了。",
+      "status": "unchanged",
+      "note": "语义与范围准确。"
+    },
+    {
+      "index": 132,
+      "source": "【話者：黒澤／中文名：黑泽】「全然見つからない。ない。ない。ない」",
+      "old_target": "「完全找不到。没有。没有。没有」",
+      "new_target": "「怎么也找不到。没有。没有。没有」",
+      "status": "corrected",
+      "note": "‘完全找不到’带有翻译腔，改为自然中文，同时保留强迫式重复。"
+    },
+    {
+      "index": 133,
+      "source": "それでもないなら、あとはどうしたらいい。",
+      "old_target": "即使这样还是没有的话，接下来该怎么办。",
+      "new_target": "这样都找不到，接下来该怎么办。",
+      "status": "corrected",
+      "note": "重组条件关系，删除日语式‘即使这样还是没有的话’。"
+    },
+    {
+      "index": 134,
+      "source": "【話者：黒澤／中文名：黑泽】「誰に聞けばわかる誰が知ってる誰が教えてくれる？」",
+      "old_target": "「问谁能知道谁会了解谁能告诉我？」",
+      "new_target": "「该问谁才能弄明白？谁知道？谁能告诉我？」",
+      "status": "corrected",
+      "note": "修复主谓关系混乱的逐词直译，并保留连续逼问的失控节奏。"
+    },
+    {
+      "index": 135,
+      "source": "天崎主任？",
+      "old_target": "天崎主任？",
+      "new_target": "天崎主任？",
+      "status": "unchanged",
+      "note": "词库与思考短句均准确。"
+    },
+    {
+      "index": 136,
+      "source": "違う。",
+      "old_target": "不对。",
+      "new_target": "不对。",
+      "status": "unchanged",
+      "note": "准确。"
+    },
+    {
+      "index": 137,
+      "source": "彼女はおととい死んだ。",
+      "old_target": "她在前天死了。",
+      "new_target": "她在前天死了。",
+      "status": "unchanged",
+      "note": "时间和事实准确。"
+    },
+    {
+      "index": 138,
+      "source": "かわいそうに、末期癌で、誰も彼女を救えなかった。",
+      "old_target": "真可怜，因为癌症晚期，谁也没能救得了她。",
+      "new_target": "真可怜。癌症晚期，谁也没能救她。",
+      "status": "corrected",
+      "note": "删除生硬的‘因为癌症晚期’结构，保留冷淡的自语节奏。"
+    },
+    {
+      "index": 139,
+      "source": "さあ考えろ、それなら誰が教えてくれる？",
+      "old_target": "来吧想想看，既然如此谁能告诉我？",
+      "new_target": "快想。既然如此，谁能告诉我？",
+      "status": "corrected",
+      "note": "还原对自己的命令语气，删除‘来吧想想看’的翻译腔。"
+    }
+  ]
+}

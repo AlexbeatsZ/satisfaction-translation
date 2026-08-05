@@ -192,7 +192,7 @@ terms:
   target: 埃玛农的正义
   mode: preferred
   status: active
-  valid_from: 2
+  valid_from: 0
 - source: 実行部隊
   target: 执行部队
   mode: preferred
@@ -258,3 +258,28 @@ terms:
   mode: preferred
   status: active
   valid_from: 2
+- source: 白鷺
+  target: 白鹭
+  mode: hard
+  status: active
+  valid_from: 1
+- source: 白<しらさぎ>鷺
+  target: 白鹭
+  mode: hard
+  status: active
+  valid_from: 1
+- source: グルヴェイグ
+  target: 古尔薇格
+  mode: preferred
+  status: active
+  valid_from: 4
+- source: ごきげんよう
+  target: 贵安
+  mode: preferred
+  status: active
+  valid_from: 5
+- source: クイーン
+  target: 女王
+  mode: preferred
+  status: active
+  valid_from: 5
