@@ -1,17 +1,24 @@
-# 2026-08-05 校对阶段摘要
+# 校对会话摘要（2026-08-05）
 
-- 已校对范围：第 1–229 条
-- 已校对条数：229
-- 累计实质修改：148 条
-- 下一起点：第 230 条
 - 工作分支：`translation-proofreading-v2`
 - 草稿 PR：#2
+- 数据总量：21,204 条
+- 总进度：1,729/21,204
+- 实际校对：1,652/21,204
+- 跳过：77/21,204
+- 累计实质修改：1,238/21,204
+- 已校对范围：第 1–509 条、第 587–1729 条
+- 跳过范围：第 510–586 条
+- 下一起点：第 1730 条
+- 下一窗口：第 1730–2229 条（500 条）
 
-## 本阶段关键处理
+## 本轮
 
-- 修复 TSV 与 JSON 因全局文件排序不同造成的假性错位；TSV 改按脚本文件名与文件内序号映射。
-- 统一辅助工作流，不再从旧备份分支覆盖当前 `terminology.yaml`。
-- 新增核心专名：`白鷺` / `白<しらさぎ>鷺` → `白鹭`（hard、active、valid_from: 1）。
-- 所有定稿同步写入 JSON、Markdown、TXT、TSV。
+- 一次审阅第 1230–1729 条，共 500 条。
+- 记录实质修正 288 处。
+- 引入大批次紧凑 manifest：`range` 表示整批已审范围，`entries` 只保存需要修改的条目；工作流在应用前自动补齐原文与旧译，保留完整审计记录。
+- JSON、Markdown、TXT、TSV 已同步。
 
-详细逐条理由见 `proofreading/reviewed-batch-*.json`，准确断点见 `PROOFREADING_PROGRESS.md`。
+## 恢复
+
+从第 1730 条继续。逐条记录位于 `proofreading/reviewed-batch-*.json`，当前待审窗口位于 `proofreading/current-batch.md` 与 `proofreading/current-batch.tsv`。
