@@ -6,8 +6,8 @@
   "owner": "OpenAI ChatGPT",
   "work_type": "translation-proofreading",
   "branch": "translation-proofreading-3730-4229",
-  "status": "reviewing",
+  "status": "ready_to_merge",
   "started_at": "2026-08-05T16:51:00+08:00",
-  "updated_at": "2026-08-05T16:51:00+08:00",
-  "note": "顺延现有第 3,230–3,729 条占用范围，校对第 3,730–4,229 条。"
+  "updated_at": "2026-08-05T17:36:00+08:00",
+  "note": "第 3730–4229 条已完成校对与同步，等待合并到 main。"
 }
