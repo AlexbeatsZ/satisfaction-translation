@@ -15,7 +15,7 @@
 | 第 8,230–8,729 条 | 日中翻译校对 | OpenAI ChatGPT（本对话，交错批次 A） | `translation-proofreading-8230-8729` | 正在校对 | 2026-08-06 |
 
 - 总进度：**7,729/21,204**
-- 实际校对：**7,268/21,204**
+- 实际校对：**7,768/21,204**
 - 跳过：**461/21,204**
 - 当前机器可读占用记录：[`008230-008729-openai-chatgpt.json`](proofreading/claims/active/008230-008729-openai-chatgpt.json)
 - 完整断点与统计：[`PROOFREADING_PROGRESS.md`](PROOFREADING_PROGRESS.md)
