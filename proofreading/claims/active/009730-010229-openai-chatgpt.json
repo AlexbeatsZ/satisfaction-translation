@@ -1,0 +1,13 @@
+{
+  "range": {
+    "start": 9730,
+    "end": 10229
+  },
+  "owner": "OpenAI ChatGPT（本对话，交错批次 B）",
+  "work_type": "translation-proofreading",
+  "branch": "translation-proofreading-9730-10229",
+  "status": "reviewing",
+  "started_at": "2026-08-06T22:31:00+08:00",
+  "updated_at": "2026-08-06T22:31:00+08:00",
+  "note": "固定交错分工 B：跳过另一位负责的 9,230–9,729，仅处理本范围；后续再跳过 10,230–10,729。"
+}
