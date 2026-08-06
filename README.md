@@ -13,7 +13,7 @@
 | 范围 | 工作内容 | 负责人 | 工作分支 | 状态 | 更新时间 |
 |---|---|---|---|---|---|
 | 第 8,230–8,729 条 | 日中翻译校对 | OpenAI ChatGPT（本对话，交错批次 A） | `translation-proofreading-8230-8729` | 已占用，尚未开始 | 2026-08-05 |
-| 第 10,730–11,229 条 | 日中翻译校对 | openai-chatgpt-alternating-a | `translation-proofreading-10730-11229` | active | 未知 |
+| 第 10,730–11,229 条 | 日中翻译校对 | OpenAI ChatGPT（本对话，交错批次 B） | `translation-proofreading-10730-11229` | 已占用，尚未开始 | 2026-08-06 |
 
 - 总进度：**8,229/21,204**
 - 实际校对：**8,655/21,204**
