@@ -31,6 +31,8 @@ def main() -> None:
         )
 
     covered: set[int] = set()
+    noops: list[int] = []
+    written = 0
     for start, end in ranges:
         current = set(range(start, end + 1))
         overlap = covered & current
@@ -44,7 +46,8 @@ def main() -> None:
             old_target = row["translation"]
             new_target = corrections[index]
             if old_target == new_target:
-                raise ValueError(f"Correction {index} does not change the target")
+                noops.append(index)
+                continue
             entries.append(
                 {
                     "index": index,
@@ -56,6 +59,7 @@ def main() -> None:
                 }
             )
 
+        written += len(entries)
         manifest = {
             "range": {"start": start, "end": end},
             "reviewed_at": reviewed_at,
@@ -75,7 +79,10 @@ def main() -> None:
         extra = sorted(set(corrections) - expected)
         raise ValueError(f"Correction indexes outside batch: {extra[:10]}")
 
-    print(f"Generated {len(ranges)} manifests with {len(corrections)} corrections.")
+    print(
+        f"Generated {len(ranges)} manifests with {written} corrections; "
+        f"ignored no-op indexes: {noops}"
+    )
 
 
 if __name__ == "__main__":
