@@ -1,0 +1,618 @@
+{
+  "range": {
+    "start": 9330,
+    "end": 9429
+  },
+  "reviewed_at": "2026-08-06",
+  "format": "compact-v1",
+  "entries": [
+    {
+      "index": 9330,
+      "new_target": "她强撑着发麻的四肢站起身，轻轻抚摸妮娜的背。",
+      "source": "痺れる四肢を奮い起こし、立ち上がった。ニナの背をそっと撫でる。",
+      "old_target": "鼓起发麻的四肢，站了起来。轻轻抚摸着妮娜的背。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9331,
+      "new_target": "「……转过去，把眼睛闭上……」",
+      "source": "【話者：葵／中文名：葵】「……向こうを向いて、目を閉じていな……」",
+      "old_target": "「……看向那边，把眼睛闭上……」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9333,
+      "new_target": "这样的光景绝不能让她看见。",
+      "source": "こんな光景は、絶対に、見せられない。",
+      "old_target": "这样的光景，绝不能，让她看见。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9334,
+      "new_target": "无头的妈妈仍保持着当时的姿势，倒在地板上。",
+      "source": "頭を失ったお母さんが、あのときのまま、床に倒れていた。",
+      "old_target": "失去头颅的妈妈，依然和那时一样，倒在地上。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9336,
+      "new_target": "墙上溅出的血点勾勒出一片图案。",
+      "source": "壁には、飛沫が描いた模様。",
+      "old_target": "墙上，是血沫描绘出的图案。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9337,
+      "new_target": "像是有人把莓果酱泼得到处都是。",
+      "source": "まるで、ベリーのジャムを、ぶちまけたみたいな。",
+      "old_target": "简直就像把野莓果酱，洒了一地似的。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9338,
+      "new_target": "「……我该怎么办……？」",
+      "source": "【話者：葵／中文名：葵】「……どう、したら、いいの……？」",
+      "old_target": "「……该，怎么，办才好……？」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9340,
+      "new_target": "她僵在原地，呼唤着那具一动不动的身体。",
+      "source": "立ちすくんだまま、動かない体を呼んだ。",
+      "old_target": "僵立在原地，呼唤着不听使唤的身体。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9342,
+      "new_target": "她弯下腰，伸手碰了碰妈妈的背。",
+      "source": "腰を折って、背中に触れた。",
+      "old_target": "弯下腰，触碰着背。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9343,
+      "new_target": "「我们摘了好多莓果。妮娜也帮忙了。这些该怎么办？以后谁来给我们做成果酱……？」",
+      "source": "【話者：葵／中文名：葵】「ベリー、たくさん摘んだの。ニナも手伝ってくれたの。これ、どうするの？　誰がジャムに、してくれるの……？」",
+      "old_target": "「野莓，摘了好多。妮娜也帮了我。这些，要怎么办？谁来帮我们做成果酱……？」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9344,
+      "new_target": "她摇了摇妈妈的肩膀。",
+      "source": "肩を揺り動かした。",
+      "old_target": "摇晃着肩膀。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9345,
+      "new_target": "冰冷。",
+      "source": "冷たい。",
+      "old_target": "好冷。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9348,
+      "new_target": "她注意到了妈妈的指尖。",
+      "source": "その指先に、気がついた。",
+      "old_target": "注意到了那手指。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9351,
+      "new_target": "那是“立刻带上妮娜逃跑”的意思。",
+      "source": "それは『すぐにニナを連れて逃げろ』の意味。",
+      "old_target": "那是『立刻带上妮娜逃跑』的意思。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9352,
+      "new_target": "还有“要和妈妈永别了”的意思。",
+      "source": "そして、『お母さんとは、お別れ』の、意味。",
+      "old_target": "并且，是『要和妈妈说再见』的意思。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9353,
+      "new_target": "那是妈妈留下的最后讯息。",
+      "source": "お母さんからの、最期のメッセージ。",
+      "old_target": "来自妈妈的，最后的信息。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9354,
+      "new_target": "她抬起头。",
+      "source": "顔を上げた。",
+      "old_target": "抬起了头。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9355,
+      "new_target": "她叫来了妮娜。",
+      "source": "ニナを呼んだ。",
+      "old_target": "呼唤了妮娜。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9356,
+      "new_target": "她从摘来的莓果中挑出最漂亮的两颗，放进妈妈手心。",
+      "source": "摘んだベリーの、一番綺麗に見えたところを２粒、おかあさんの手の中に。",
+      "old_target": "摘下的野莓里，看起来最漂亮的２颗，放进了妈妈的手心里。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9357,
+      "new_target": "这样就算告别了。",
+      "source": "これで、お別れ。",
+      "old_target": "就这样，告别。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9358,
+      "new_target": "也和爸爸告别。",
+      "source": "お父さんとも、お別れ。",
+      "old_target": "和爸爸，也告别。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9359,
+      "new_target": "也和这个家告别。",
+      "source": "このおうちと、お別れ。",
+      "old_target": "和这个家，告别。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9360,
+      "new_target": "厨房最上层的抽屉里放着钱。她把钱全攥在手里，塞进袜子。",
+      "source": "台所の引出しの、一番上。ここに、お金がおいてある。すべてを握り締め、ソックスの中に突っ込む。",
+      "old_target": "厨房抽屉的最上面。这里放着钱。攥紧所有的钱，塞进袜子里面。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9361,
+      "new_target": "接着撬开抽屉底板，取出一把手枪，塞进内衣里。",
+      "source": "そして、その引出しの底板を引き剥がし、持ち出したのは一丁の拳銃。それは下着の中に。",
+      "old_target": "然后，剥开那个抽屉的底板，掏出的是一把手枪。把它塞进内衣里。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9362,
+      "new_target": "她握住妮娜小小的手，把她拉了起来。",
+      "source": "ニナの小さな手を握り、立ち上がらせた。",
+      "old_target": "握住妮娜幼小的手，让她站了起来。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9363,
+      "new_target": "她给妮娜穿上鞋和外套，打开了门。",
+      "source": "靴を履かせ、コートを着させ、ドアを開いた。",
+      "old_target": "给她穿上鞋子，套上外套，推开了门。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9364,
+      "new_target": "门一开，迎面而来的寒气几乎把她推回屋里。",
+      "source": "途端に身体を押し戻す冷気に圧倒される。",
+      "old_target": "瞬间被扑面而来将身体往回压的寒气所吞没。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9366,
+      "new_target": "她没有屈服，迈步走到屋外。",
+      "source": "負けずに外に踏み出した。",
+      "old_target": "不甘示弱地迈向室外。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9370,
+      "new_target": "「……绝对不能松开姐姐的手。姐姐也绝对不会松开妮娜的手。」",
+      "source": "【話者：葵／中文名：葵】「……お姉ちゃんの手、ぜったい、離しちゃダメだよ。お姉ちゃんもニナの手、ぜったいに離さないから」",
+      "old_target": "「……绝对，不能松开姐姐的手哦。姐姐也绝对不会松开妮娜的手的。」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9371,
+      "new_target": "她紧紧、紧紧地握住妹妹的手，",
+      "source": "強く、強く握り締め、",
+      "old_target": "紧紧地、紧紧地握住，",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9372,
+      "new_target": "「——我们跑！」",
+      "source": "【話者：葵／中文名：葵】「――走るよ！」",
+      "old_target": "「——跑起来！」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9373,
+      "new_target": "两人飞奔而出。",
+      "source": "駆け出した。",
+      "old_target": "飞奔起来。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9374,
+      "new_target": "朝森林的另一侧跑，总之先下山去镇上。",
+      "source": "森の反対側、とにかく街へ降りよう。",
+      "old_target": "森林的另一侧，总之先下山去镇上吧。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9375,
+      "new_target": "要哭，等以后再哭。",
+      "source": "泣くのは、後で。",
+      "old_target": "哭泣，留在以后。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9376,
+      "new_target": "现在只管跑。",
+      "source": "今はとにかく走れ。",
+      "old_target": "现在总之快跑。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9377,
+      "new_target": "不回头看熟悉的家，也不回头看熟悉的森林，舍弃一切。",
+      "source": "懐かしい家を振り返らず、懐かしい森も振り返らず、すべてを捨てて。",
+      "old_target": "不去回头看怀念的家，也不去回头看怀念的森林，抛下一切。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9378,
+      "new_target": "忘掉爸爸和妈妈。",
+      "source": "お父さんもお母さんも忘れて。",
+      "old_target": "抛开爸爸，也抛开妈妈。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9379,
+      "new_target": "她咬紧嘴唇，沿着穿行林间的雪路跌跌撞撞地狂奔。",
+      "source": "唇を噛み締め、森を縫う雪道を、転がるように走る。",
+      "old_target": "咬紧唇瓣，在穿梭于森林的雪道上狂奔。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9380,
+      "new_target": "她紧握那只小手，绝不松开，只顾不停向前跑。",
+      "source": "小さな手を決して離さぬよう握り締め、ひたすら足を動かす。",
+      "old_target": "紧紧握住那只幼小的手决不放开，一刻不停地迈动双脚。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9381,
+      "new_target": "她甚至快要喘不过气来。",
+      "source": "息さえ止まりそうだった。",
+      "old_target": "连呼吸都仿佛要停滞。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9382,
+      "new_target": "悲痛不已，恐惧不已——",
+      "source": "悲しくて悲しくて、恐ろしくて――",
+      "old_target": "悲伤至极，恐惧至极——",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9384,
+      "new_target": "她终于察觉到不对，失声喊了出来。",
+      "source": "いつしかそれに気がついて、叫んだ。",
+      "old_target": "不知何时察觉到了那一点，喊了出来。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9385,
+      "new_target": "不在。",
+      "source": "ない。",
+      "old_target": "没有。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9386,
+      "new_target": "本该紧握在手中的妮娜的手。",
+      "source": "手の中に握り締めていた、ニナの手が。",
+      "old_target": "握在手心里的，妮娜的手。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9388,
+      "new_target": "没有。",
+      "source": "ない。",
+      "old_target": "不见了。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9389,
+      "new_target": "没有，没有——",
+      "source": "ない、ない――",
+      "old_target": "不见了，不见了——",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9390,
+      "new_target": "妮娜不见了。",
+      "source": "いない。",
+      "old_target": "人不在。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9391,
+      "new_target": "妮娜，妮娜不见了。",
+      "source": "ニナが、ニナがいない。",
+      "old_target": "妮娜，妮娜不在。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9392,
+      "new_target": "「妮娜……妮娜！不……不要……为什么！？」",
+      "source": "【話者：葵／中文名：葵】「ニナ……ニナ！　やだ……やだよ……なんで！？」",
+      "old_target": "「妮娜……妮娜！不要……不要啊……为什么！？」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9393,
+      "new_target": "掌心空空荡荡。",
+      "source": "手の中は、からっぽ。",
+      "old_target": "手心里，空空如也。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9394,
+      "new_target": "明明那只刚才还紧握着她的手，余温尚存。",
+      "source": "握り締めていたはずの手の中には、まだぬくもりも残っているというのに。",
+      "old_target": "明明原本紧紧握着的手心里，还残留着一丝余温。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9395,
+      "new_target": "——不知什么时候从掌心滑脱了。",
+      "source": "――いつの間にか、すり抜けてしまったんだ。",
+      "old_target": "――不知不觉间，竟已滑落溜走了。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9396,
+      "new_target": "我在某个地方松开了她的手。",
+      "source": "どこかで、離してしまったんだ。",
+      "old_target": "不知在何处，松开了手。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9400,
+      "new_target": "一片漆黑。",
+      "source": "真っ黒の、闇。",
+      "old_target": "漆黑的、黑暗。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9401,
+      "new_target": "没有太阳、星星、月亮或灯火——没有半点光亮，只有深不见底的黑暗。",
+      "source": "太陽も星も月も灯りも――光はひとかけらもない、深い、深い闇。",
+      "old_target": "无论是太阳、星星、月亮还是灯光――没有一丝一毫的光芒，深沉的、深沉的黑暗。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9402,
+      "new_target": "那么小的孩子，竟然独自一人留在这种地方——",
+      "source": "あんなちいさな子が、こんなところで、ひとりぼっちに――",
+      "old_target": "那么小的孩子，在这种地方，孤零零一个人――",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9403,
+      "new_target": "「不可能……怎么会……怎么会……」",
+      "source": "【話者：葵／中文名：葵】「うそ……そんな……そんな……」",
+      "old_target": "「骗人……怎么会……怎么会……」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9404,
+      "new_target": "她像疯了一样伸出手，在黑暗中寻找刚才明明还握在手里的温度。",
+      "source": "気が狂ったように手を伸ばし、確かに掴んでいたはずのぬくもりを探す。",
+      "old_target": "发疯似地伸出手去，寻找那原本确实紧握着的余温。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9405,
+      "new_target": "可无论怎么抓，抓到的都只有虚空。",
+      "source": "だが、掴んでも、掴んでも、空。",
+      "old_target": "然而，抓了又抓，都是一场空。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9407,
+      "new_target": "我究竟是什么时候松开的？",
+      "source": "いつ、離してしまったのだろう。",
+      "old_target": "究竟是什么时候，松开了手呢。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9409,
+      "new_target": "怎么办，大家都会不见的。",
+      "source": "どうしよう、みんな、いなくなってしまう。",
+      "old_target": "该怎么办，大家，全都不见了。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9410,
+      "new_target": "「……呜、哇……啊……」",
+      "source": "【話者：葵／中文名：葵】「……わ、う、わぁ……っ……あ……」",
+      "old_target": "「……哇、呜、哇……っ……啊……」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9413,
+      "new_target": "怎么办啊，爸爸。",
+      "source": "どうしようお父さん。",
+      "old_target": "该怎么办，爸爸。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9414,
+      "new_target": "怎么办啊，妈妈。",
+      "source": "どうしようお母さん。",
+      "old_target": "该怎么办，妈妈。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9416,
+      "new_target": "「哇啊啊啊啊啊啊啊啊啊啊啊啊啊啊！！！」",
+      "source": "【話者：葵／中文名：葵】「わぁぁぁあああぁぁぁぁぁぁぁぁぁっ！！！」",
+      "old_target": "「哇啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊っ！！！」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9418,
+      "new_target": "她拼命攥紧双手，仿佛在挣扎着抓住已经失去的东西——",
+      "source": "夢中で手を握る。なくしてしまったものを掴みとろうともがくみたいに――",
+      "old_target": "拼命地握紧双手。仿佛在挣扎着想要抓住那早已失去的东西——",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9419,
+      "new_target": "「……啊……」",
+      "source": "【話者：葵／中文名：葵】「……あ……っ」",
+      "old_target": "【話者：葵／中文名：葵】「……啊……っ」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9420,
+      "new_target": "熟悉的豪华轿车白色顶棚映入葵眼帘。",
+      "source": "見慣れたリムジンの白い天井が、葵を見下ろしていた。",
+      "old_target": "熟悉的高级轿车那白色的车顶，正俯视着葵。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9422,
+      "new_target": "是梦。",
+      "source": "夢、だ。",
+      "old_target": "是梦，啊。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9423,
+      "new_target": "肩膀随着急促的呼吸起伏，披在身上的毛皮滑落下来。",
+      "source": "荒い呼吸に揺れる肩から、毛皮が滑り落ちた。",
+      "old_target": "从随着粗重呼吸而起伏的肩上，毛皮滑落了下来。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9424,
+      "new_target": "原来是在做梦。",
+      "source": "夢を、見ていたんだ。",
+      "old_target": "刚才，做了一个梦啊。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9425,
+      "new_target": "她睁大翡翠色的眼睛，攥紧被冷汗浸湿的双手。",
+      "source": "翡翠色の瞳を見開き、じっとりと汗をかいた両手を握り締める。",
+      "old_target": "睁大翡翠色的双眸，紧紧握住冷汗涔涔的双手。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9426,
+      "new_target": "空空如也的双手。",
+      "source": "からっぽの、両手。",
+      "old_target": "空无一物的，双手。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9427,
+      "new_target": "明明刚才还珍而重之地紧握着，如今却空空如也——",
+      "source": "確かに大事に握り締めていたのに、今は、からっぽ――",
+      "old_target": "明明刚才还无比珍视地紧握着，现在，却空无一物——",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9428,
+      "new_target": "『弄丢了。』",
+      "source": "【話者：葵／中文名：葵】『なくしてしまった。』",
+      "old_target": "【話者：葵／中文名：葵】『弄丢了。』",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9429,
+      "new_target": "只有那股撕心裂肺的失落感，即使梦醒之后，仍黏在几乎要尖叫出声的喉咙上。",
+      "source": "その凄まじい喪失感だけが、夢から覚めてもなお、叫び出しそうな喉にへばりついたまま。",
+      "old_target": "唯有那种剧烈的丧失感，即便从梦中醒来，依然紧紧贴在仿佛随时要尖叫出来的喉咙里。",
+      "status": "corrected",
+      "note": "人工校对。"
+    }
+  ]
+}
