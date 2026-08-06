@@ -1,0 +1,41 @@
+name: Prepare proofreading 10730-11229
+
+on:
+  push:
+    branches:
+      - translation-proofreading-10730-11229
+    paths:
+      - '.github/workflows/prepare-proofreading-10730-11229.yml'
+      - 'proofreading/request.json'
+
+permissions:
+  contents: write
+
+jobs:
+  prepare:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: translation-proofreading-10730-11229
+          fetch-depth: 0
+      - name: Install YAML parser
+        run: python -m pip install --quiet pyyaml
+      - name: Generate requested batch
+        run: |
+          python proofreading/expand_compact_manifests.py
+          python proofreading/sync_proofreading_v3.py
+          python proofreading/update_progress_with_skips.py
+          python proofreading/analyze_chapter_order.py
+          python proofreading/check_active_claims.py
+      - name: Commit generated batch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add proofreading/current-batch.tsv proofreading/current-batch.md proofreading/tsv-alignment-report.md proofreading/chapter-order-analysis.md PROOFREADING_PROGRESS.md satisfaction-scripts.zh.json satisfaction-scripts.zh.md satisfaction-scripts.zh.txt satisfaction-text.tsv
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m 'proofread: generate entries 10730-11229'
+          git push origin HEAD:translation-proofreading-10730-11229
