@@ -1,0 +1,530 @@
+{
+  "range": {
+    "start": 8530,
+    "end": 8629
+  },
+  "reviewed_at": "2026-08-06",
+  "format": "compact-v1",
+  "entries": [
+    {
+      "index": 8530,
+      "new_target": "她被飞舞的音色包围。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "舞い踊る音色に、包まれた。",
+      "old_target": "被那飞舞跳跃的音色，包围了。"
+    },
+    {
+      "index": 8531,
+      "new_target": "被它包围，也被它守护。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "包まれて、守られる。",
+      "old_target": "被包围着，守护着。"
+    },
+    {
+      "index": 8532,
+      "new_target": "空气渐渐染上了钢琴的色彩。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "空気がピアノに染められていく。",
+      "old_target": "空气正被钢琴声渐渐染上色彩。"
+    },
+    {
+      "index": 8533,
+      "new_target": "——这正是她一直渴求的温柔音乐。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "――これが、ずっと求めていた、優しい音楽。",
+      "old_target": "——这就是自己一直渴望的、温柔的音乐。"
+    },
+    {
+      "index": 8534,
+      "new_target": "救赎的音乐。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "救いの、音楽。",
+      "old_target": "救赎的，音乐。"
+    },
+    {
+      "index": 8536,
+      "new_target": "不知不觉间，她把头靠在理理随演奏摇晃的肩膀上。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "演奏に揺れる理理の肩に、無意識に頭を預けていた。",
+      "old_target": "不知不觉间，她把头靠在了随着弹奏而摇晃的理理肩上。"
+    },
+    {
+      "index": 8537,
+      "new_target": "她想起了蔚蓝的天空。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "思い出すのは、青い空。",
+      "old_target": "脑海中浮现出的，是蔚蓝的天空。"
+    },
+    {
+      "index": 8538,
+      "new_target": "那片透过校舍玻璃仰望、令她驻足失神的天空。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "見上げて立ちすくんだ、校舎のガラス越しのあの空。",
+      "old_target": "曾经仰头呆立着、透过校舍玻璃注视过的，那片天空。"
+    },
+    {
+      "index": 8540,
+      "new_target": "要是自己也能乘上这段旋律，与飞扬的音色一同翱翔就好了。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "このメロディに乗って、舞い上がる音色と一緒に、自分も飛べたらいいのに。",
+      "old_target": "要是能乘着这旋律，与那飞扬的音色一道飞翔就好了。"
+    },
+    {
+      "index": 8541,
+      "new_target": "一直飞到那片天空的彼方。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "あの空の彼方まで。",
+      "old_target": "飞向那片天空的彼方。"
+    },
+    {
+      "index": 8542,
+      "new_target": "高高地，飞向遥远的天穹——",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "高く、高く、はるかな天の高みまで――",
+      "old_target": "高高地、高高地，飞向那遥远的天空高处——"
+    },
+    {
+      "index": 8544,
+      "new_target": "——原来如此。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "――そうか。",
+      "old_target": "——是啊。"
+    },
+    {
+      "index": 8545,
+      "new_target": "一直以来，我都想听这架钢琴的声音。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "ずっと、私は、このピアノが聞きたかった。",
+      "old_target": "一直以来，我都想听这钢琴声。"
+    },
+    {
+      "index": 8548,
+      "new_target": "——她在颤抖。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "――震えていた。",
+      "old_target": "——身躯在颤抖。"
+    },
+    {
+      "index": 8550,
+      "new_target": "她颤抖着，视野渐渐模糊、摇晃。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "震えて、そして、視界が滲んだ。揺れた。",
+      "old_target": "颤抖着，随后，视线模糊了。摇曳了。"
+    },
+    {
+      "index": 8552,
+      "new_target": "「我……其实一直都想继续听雪野弹这首曲子。」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：吉川ノエル／中文名：吉川诺艾尔】「私は……もっとずっと、雪野が弾くこの曲を、聞いていたかったんだ」",
+      "old_target": "「我……其实一直、一直都想继续听雪野弹奏这首曲子啊。」"
+    },
+    {
+      "index": 8553,
+      "new_target": "她喜欢这首曲子。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "この曲が、好きだった。",
+      "old_target": "喜欢这首曲子。"
+    },
+    {
+      "index": 8554,
+      "new_target": "每次听见，她都觉得自己得到了拯救。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "聞くたび救われる気がしていた。",
+      "old_target": "每次听到，都觉得得到了救赎。"
+    },
+    {
+      "index": 8557,
+      "new_target": "——她终于明白了。可已经太迟。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "――わかってしまった。もう、遅いんだ。",
+      "old_target": "——彻底明白了。已经，太迟了。"
+    },
+    {
+      "index": 8558,
+      "new_target": "已经再也见不到她了。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "もう、会えないんだ。",
+      "old_target": "已经，再也见不到她了。"
+    },
+    {
+      "index": 8559,
+      "new_target": "她已经不在了。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "彼女はもう、いないんだ。",
+      "old_target": "她已经，不在了。"
+    },
+    {
+      "index": 8560,
+      "new_target": "她所向往的，是雪野寄托在琴声中的美好心意。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "憧れたのは、彼女がピアノに託した想いが美しかったから。",
+      "old_target": "之所以向往，是因为她寄托在钢琴上的情感太美了。"
+    },
+    {
+      "index": 8561,
+      "new_target": "雪野弹奏的这首曲子，是让她飞向天空的温柔羽翼。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "彼女が奏でるこの曲は、空を飛ぶための優しい羽根だったから。",
+      "old_target": "因为她弹奏的这首曲子，是飞向天空的温柔羽翼。"
+    },
+    {
+      "index": 8562,
+      "new_target": "她想要这双羽翼。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "この羽根が、欲しかった。",
+      "old_target": "想要这双羽翼。"
+    },
+    {
+      "index": 8563,
+      "new_target": "她也想这样飞翔。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "こんなふうに飛びたかった。",
+      "old_target": "想要像那样飞翔。"
+    },
+    {
+      "index": 8566,
+      "new_target": "事到如今才明白，已经太迟了。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "いまさらそんなことがわかっても、もう、遅い。",
+      "old_target": "事到如今才明白这些，已经，太晚了。"
+    },
+    {
+      "index": 8567,
+      "new_target": "「……可我明明……根本没有那种资格。」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：吉川ノエル／中文名：吉川诺艾尔】「……私には……そんな資格、ないのにね」",
+      "old_target": "「……明明我……根本就没有那种资格呢。」"
+    },
+    {
+      "index": 8569,
+      "new_target": "嘴唇却扭曲了。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "唇が歪んだ。",
+      "old_target": "唇角却扭曲了。"
+    },
+    {
+      "index": 8571,
+      "new_target": "透明的泪珠在理理眼前败给重力，坠落下来。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "透明の雫が、理理の目の前で、重力に負けた。",
+      "old_target": "透明的泪滴，在理理眼前，败给了重力。"
+    },
+    {
+      "index": 8573,
+      "new_target": "滚烫得仿佛鲜血的泪水滑过脸颊。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "とても熱い、血みたいな温度の涙が、頬に流れた。",
+      "old_target": "极其炽热、宛如鲜血温度般的泪水，顺着脸颊流下。"
+    },
+    {
+      "index": 8574,
+      "new_target": "泪水不断涌出、滑落，怎么也止不住。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "それは溢れ、零れ、止まらなかった。",
+      "old_target": "那泪水不断溢出、倾泻，止不住地流下。"
+    },
+    {
+      "index": 8575,
+      "new_target": "她知道自己没有资格为雪野哭泣，也觉得让人看到这副哭脸是一种罪过。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "彼女のために泣く資格など、自分にはないとわかっていた。こんな泣き顔を晒すのは、罪だと思った。",
+      "old_target": "自己心里明白，自己根本没有为她哭泣的资格。露出这样的哭脸，简直就是一种罪过。"
+    },
+    {
+      "index": 8576,
+      "new_target": "于是她用双手捂住脸，低下头。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "だから、両手で顔を覆って、俯いた。",
+      "old_target": "所以，用双手掩住脸，低下了头。"
+    },
+    {
+      "index": 8578,
+      "new_target": "『我为什么会做出那种事呢？』",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：天崎理理／中文名：天崎理理】『どうして、あんなこと、してしまったんだろう』",
+      "old_target": "『我为什么……要做出那种事呢』"
+    },
+    {
+      "index": 8579,
+      "new_target": "此刻她心中只有一个念头。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "今思うのは、ただひとつ。",
+      "old_target": "如今心中所想的，只有一件事。"
+    },
+    {
+      "index": 8581,
+      "new_target": "『为什么会做出那种事……』",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：天崎理理／中文名：天崎理理】『どうして、あんなこと』",
+      "old_target": "『为什么……要做出那种事』"
+    },
+    {
+      "index": 8582,
+      "new_target": "堵在胸口的，是罪孽深重的悔恨。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "この胸を塞ぐのは、罪深い後悔。",
+      "old_target": "充塞着这颗沉闷胸膛的，是深重的罪恶感与悔恨。"
+    },
+    {
+      "index": 8584,
+      "new_target": "鲜血染红的屋顶。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "血まみれの屋上。",
+      "old_target": "染满鲜血的屋顶。"
+    },
+    {
+      "index": 8589,
+      "new_target": "那句话是她亲口说的。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "自分が、そう言ったのだ。",
+      "old_target": "是自己，亲口说出这句话的。"
+    },
+    {
+      "index": 8590,
+      "new_target": "对方求她救救雪野，她却回答：拒绝。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "雪野を助けてくれ、と請われて、断る、と、答えたのだ。",
+      "old_target": "被哀求着「救救雪野」，却回答了「我拒绝」。"
+    },
+    {
+      "index": 8591,
+      "new_target": "她决定抛弃雪野。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "雪野を見捨てると決めたのだ。",
+      "old_target": "是自己决定抛弃雪野的。"
+    },
+    {
+      "index": 8593,
+      "new_target": "结果上，她确实保护了理理。可也许还有别的路。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "結果的に、理理は守れた。だけど、他に道があったかもしれなかった。",
+      "old_target": "结果上，确实保护了理理。但是，也许原本还有其他路可以走。"
+    },
+    {
+      "index": 8594,
+      "new_target": "她也认为自己的选择没有错。可也许本来还有救雪野的方法。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "これで正しかったのだとも思っている。だけど、雪野を救う方法があったかもしれなかった。",
+      "old_target": "我也认为这样做是正确的。但是，也许原本还有能救雪野的方法。"
+    },
+    {
+      "index": 8595,
+      "new_target": "『明明也许能救她……』",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：天崎理理／中文名：天崎理理】『助けられたかもしれないのに』",
+      "old_target": "『明明……或许本可以救她的』"
+    },
+    {
+      "index": 8596,
+      "new_target": "背过身去的人，是我。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "背を向けたのは、私。",
+      "old_target": "转身背对的人，是我。"
+    },
+    {
+      "index": 8598,
+      "new_target": "杀死雪野的哥哥并将尸体沉入海中的，也是我。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "雪野の兄を殺して、死体を海に沈めたのも、私。",
+      "old_target": "杀死雪野的哥哥、将尸体沉入大海的人，也是我。"
+    },
+    {
+      "index": 8600,
+      "new_target": "是我亲手背弃了拯救雪野的可能，决定转身离开。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "自分で、雪野を救える可能性に背を向け、立ち去ることを決めたのだ。",
+      "old_target": "是我自己背对着能救雪野的可能性，决定转身离去的。"
+    },
+    {
+      "index": 8604,
+      "new_target": "她一直都在后悔。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "ずっと、後悔していたんだ。",
+      "old_target": "一直以来，都在后悔着。"
+    },
+    {
+      "index": 8605,
+      "new_target": "『也许我错了。我……也许真的错了。』",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：天崎理理／中文名：天崎理理】『間違えたかもしれない。私、……まちがえたかもしれない』",
+      "old_target": "『我也许做错了。我……也许犯下了错误』"
+    },
+    {
+      "index": 8606,
+      "new_target": "从她背对雪野的那一刻起，就一直这样想着。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "雪野に背を向けたあの時から、あの瞬間から、ずっとそう思っていた。",
+      "old_target": "从背对着雪野的那时起，从那一瞬间起，就一直这么想着。"
+    },
+    {
+      "index": 8607,
+      "new_target": "也许其实还有一条能救她的路。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "本当は、彼女を救う道があったかもしれない、と。",
+      "old_target": "想着「其实，也许原本存在救她的道路」。"
+    },
+    {
+      "index": 8609,
+      "new_target": "她已经做错了。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "もう間違えてしまった。",
+      "old_target": "已经犯下了错误。"
+    },
+    {
+      "index": 8610,
+      "new_target": "事情已经变成这样了。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "こんなことになってしまった。",
+      "old_target": "事情已经变成了这样。"
+    },
+    {
+      "index": 8611,
+      "new_target": "「……很难过吧。是啊……可是、可是……」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：天崎理理／中文名：天崎理理】「……悲しいよね。そうだよね……でも、でも……」",
+      "old_target": "「……很难过对吧。也是呢……可是、可是……」"
+    },
+    {
+      "index": 8613,
+      "new_target": "她推开理理搂住自己肩膀的温暖双手。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "肩を抱いてくれる、暖かな理理の手を押し返す。",
+      "old_target": "推开理理试图拥抱自己肩膀的温暖双手。"
+    },
+    {
+      "index": 8614,
+      "new_target": "「……我没有资格悲伤。」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：吉川ノエル／中文名：吉川诺艾尔】「……私には、悲しむ資格なんて、ないのよ」",
+      "old_target": "「……我根本就没有，悲伤的资格啊」"
+    },
+    {
+      "index": 8616,
+      "new_target": "她无力地放下捂着脸的双手。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "顔を覆っていた手を、だらりと下ろした。",
+      "old_target": "将原本掩着脸的手，无力地耷拉下来。"
+    },
+    {
+      "index": 8617,
+      "new_target": "「你看吧。」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：吉川ノエル／中文名：吉川诺艾尔】「ほら、ね」",
+      "old_target": "「你看，对吧」"
+    },
+    {
+      "index": 8618,
+      "new_target": "因为我已经变成这样了。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "こんな、だもの。",
+      "old_target": "居然变成了，这种样子。"
+    },
+    {
+      "index": 8619,
+      "new_target": "我的手已经变成这样了。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "私の手はこんなだもの。",
+      "old_target": "我的手变成了这种样子。"
+    },
+    {
+      "index": 8622,
+      "new_target": "「……已经变成这样了。」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：吉川ノエル／中文名：吉川诺艾尔】「……こんなふうに、なっちゃったんだもん」",
+      "old_target": "「……已经，变成这种样子了啊」"
+    },
+    {
+      "index": 8623,
+      "new_target": "鲜血黏腻地浸湿双手。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "べったりと濡らす、血。",
+      "old_target": "黏稠地沾湿着的，鲜血。"
+    },
+    {
+      "index": 8625,
+      "new_target": "像浆糊一样紧紧黏着，散发出刺鼻的铁锈腥味，",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "糊のようにへばりつき、鉄錆の生臭さをプンプンと立て、",
+      "old_target": "像糊状物般紧紧黏附着，散发着扑鼻的生腥铁锈味，"
+    },
+    {
+      "index": 8627,
+      "new_target": "玷污着这双手。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "この手を汚している。",
+      "old_target": "污染着这双手。"
+    },
+    {
+      "index": 8628,
+      "new_target": "「……已经……变成这样了……」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：吉川ノエル／中文名：吉川诺艾尔】「……こんな……なんだもん……」",
+      "old_target": "「……变成……这种样子了啊……」"
+    }
+  ]
+}
