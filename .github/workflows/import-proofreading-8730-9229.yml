@@ -1,0 +1,120 @@
+name: Import proofreading 8730-9229
+
+on:
+  push:
+    branches:
+      - translation-proofreading-v2-import-8730
+    paths:
+      - '.github/workflows/import-proofreading-8730-9229.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: translation-proofreading-v2-import-8730
+          fetch-depth: 0
+      - name: Import reviewed batch
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          cp .proofreading-import-8730/corrections-1.json /tmp/corrections-1.json
+          cp .proofreading-import-8730/corrections-2.json /tmp/corrections-2.json
+          echo '59e92e4e349627a2513f228d0dac82508ffbbaadcab0b03a10cc84e3946d8e66  /tmp/corrections-1.json' | sha256sum -c -
+          echo '0a589be4f5f9fb458e6347819ec9e0f9a48abeb22ec5378390d18a0dbf77f623  /tmp/corrections-2.json' | sha256sum -c -
+          python -m pip install --quiet pyyaml
+
+          pushed=0
+          for attempt in $(seq 1 12); do
+            echo "Import attempt ${attempt}"
+            git fetch origin translation-proofreading-v2
+            git reset --hard origin/translation-proofreading-v2
+            git clean -fd
+
+            python - <<'PY'
+          import json
+          from pathlib import Path
+
+          root = Path('.')
+          out = root / 'proofreading'
+          corrections = {}
+          for path in [Path('/tmp/corrections-1.json'), Path('/tmp/corrections-2.json')]:
+              payload = json.loads(path.read_text(encoding='utf-8'))
+              for key, value in payload.items():
+                  index = int(key)
+                  if index in corrections:
+                      raise RuntimeError(f'duplicate correction index: {index}')
+                  corrections[index] = str(value)
+          if len(corrections) != 262:
+              raise RuntimeError(f'expected 262 corrections, got {len(corrections)}')
+          if any(index < 8730 or index > 9229 for index in corrections):
+              raise RuntimeError('correction outside target range')
+
+          reviewed = set()
+          for path in sorted(out.glob('reviewed-batch-*.json')):
+              payload = json.loads(path.read_text(encoding='utf-8'))
+              rp = payload.get('range')
+              if rp:
+                  indices = set(range(int(rp['start']), int(rp['end']) + 1))
+              else:
+                  indices = {int(entry['index']) for entry in payload.get('entries', [])}
+              reviewed |= indices
+          skipped_payload = json.loads((out / 'skipped-ranges.json').read_text(encoding='utf-8'))
+          skipped = set()
+          for item in skipped_payload.get('ranges', []):
+              skipped |= set(range(int(item['start']), int(item['end']) + 1))
+          overlap = sorted(set(range(8730, 9230)) & (reviewed | skipped))
+          if overlap:
+              raise RuntimeError(f'target range already handled: {overlap[:20]}')
+
+          for start in range(8730, 9230, 50):
+              end = start + 49
+              manifest = {
+                  'range': {'start': start, 'end': end},
+                  'reviewed_at': '2026-08-06',
+                  'format': 'compact-v1',
+                  'entries': [
+                      {'index': index, 'new_target': corrections[index]}
+                      for index in sorted(corrections)
+                      if start <= index <= end
+                  ],
+              }
+              path = out / f'reviewed-batch-{start:06d}-{end:06d}.json'
+              path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          claim = out / 'claims/active/008730-009229-openai-chatgpt-alternating.json'
+          if claim.exists():
+              claim.unlink()
+          print(f'Prepared 8730-9229 with {len(corrections)} corrections')
+          PY
+
+            python proofreading/expand_compact_manifests.py
+            python proofreading/sync_proofreading_v3.py
+            python proofreading/update_progress_with_skips.py
+            python proofreading/analyze_chapter_order.py
+            python proofreading/check_active_claims.py
+            git diff --check
+            git add -A
+            if git diff --cached --quiet; then
+              echo 'No changes remain to import.'
+              pushed=1
+              break
+            fi
+            git commit -m 'proofread: import reviewed entries 8730-9229'
+            if git push origin HEAD:translation-proofreading-v2; then
+              pushed=1
+              break
+            fi
+            echo 'Canonical branch moved; retrying from latest head.'
+            sleep 3
+          done
+
+          if [ "$pushed" -ne 1 ]; then
+            echo 'Failed to push after retries.' >&2
+            exit 1
+          fi
