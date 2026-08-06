@@ -8,87 +8,171 @@
   "entries": [
     {
       "index": 11930,
-      "new_target": "她不由得发出一声轻叹。"
+      "new_target": "她不由得发出一声轻叹。",
+      "source": "思わず、溜息をもらしていた。",
+      "old_target": "不由得泄出了叹息。",
+      "status": "corrected",
+      "note": "人工校对。"
     },
     {
       "index": 11937,
-      "new_target": "贴在她背上的，大概是理理的脸颊。"
+      "new_target": "贴在她背上的，大概是理理的脸颊。",
+      "source": "押し付けられたのは、理理の頬だろうか。",
+      "old_target": "贴上来的，是理理的脸颊吧。",
+      "status": "corrected",
+      "note": "人工校对。"
     },
     {
       "index": 11938,
-      "new_target": "这样一来，自己的心跳和呼吸声岂不是全会被她听见。"
+      "new_target": "这样一来，自己的心跳和呼吸声岂不是全会被她听见。",
+      "source": "これでは、心臓の鼓動も、呼吸の音も、全部彼女にわかってしまう。",
+      "old_target": "这样一来，心跳声也好、呼吸声也罢，就全都会被她知晓了。",
+      "status": "corrected",
+      "note": "人工校对。"
     },
     {
       "index": 11941,
-      "new_target": "这样简直像是在紧张——念头刚一闪过，身体便绷得更紧了——太蠢了。自己究竟在做什么。"
+      "new_target": "这样简直像是在紧张——念头刚一闪过，身体便绷得更紧了——太蠢了。自己究竟在做什么。",
+      "source": "これではまるで、緊張しているみたいだ――そう思うのと同時に、いっそう身体は強張っていって――愚かしい。一体なにをやっている。",
+      "old_target": "这样简直就像是在紧张一样——才刚这么想，身体就愈发紧绷起来——真愚蠢。自己到底在干什么啊。",
+      "status": "corrected",
+      "note": "人工校对。"
     },
     {
       "index": 11943,
-      "new_target": "声音里带着浅浅的笑意。"
+      "new_target": "声音里带着浅浅的笑意。",
+      "source": "小さな微笑を孕んだ声。",
+      "old_target": "带着微弱笑意的声音。",
+      "status": "corrected",
+      "note": "人工校对。"
     },
     {
       "index": 11946,
-      "new_target": "她果然还是发现了。"
+      "new_target": "她果然还是发现了。",
+      "source": "やっぱり、わかってしまうのだ。",
+      "old_target": "果然，全都被她看穿了。",
+      "status": "corrected",
+      "note": "人工校对。"
     },
     {
       "index": 11948,
-      "new_target": "「这份礼物……你喜欢吗？」"
+      "new_target": "「这份礼物……你喜欢吗？」",
+      "source": "【話者：天崎理理／中文名：天崎理理】「プレゼント、喜んでもらえたかな」",
+      "old_target": "「这份礼物，你有感到高兴吗？」",
+      "status": "corrected",
+      "note": "人工校对。"
     },
     {
       "index": 11952,
-      "new_target": "「……真的、真的喜欢？」"
+      "new_target": "「……真的、真的喜欢？」",
+      "source": "【話者：天崎理理／中文名：天崎理理】「……ほんとの、ほんとに？」",
+      "old_target": "「……千真万确的真的？」",
+      "status": "corrected",
+      "note": "人工校对。"
     },
     {
       "index": 11953,
-      "new_target": "同一句傻话被反复追问。"
+      "new_target": "同一句傻话被反复追问。",
+      "source": "繰り返される戯言。",
+      "old_target": "不断重复的玩笑话。",
+      "status": "corrected",
+      "note": "人工校对。"
     },
     {
       "index": 11954,
-      "new_target": "诺艾尔叹了口气，随后露出一丝微笑。"
+      "new_target": "诺艾尔叹了口气，随后露出一丝微笑。",
+      "source": "溜息と、それから、小さな笑みが零れた。",
+      "old_target": "伴随着叹息，接着泄出了一丝微小笑容。",
+      "status": "corrected",
+      "note": "人工校对。"
     },
     {
       "index": 11957,
-      "new_target": "迟迟没有回应，诺艾尔有些不安。"
+      "new_target": "迟迟没有回应，诺艾尔有些不安。",
+      "source": "返事がなくなって、ノエルはすこし、不安になる。",
+      "old_target": "没有听到回应，诺艾尔有些不安起来。",
+      "status": "corrected",
+      "note": "人工校对。"
     },
     {
       "index": 11958,
-      "new_target": "难道自己说了什么奇怪的话吗？"
+      "new_target": "难道自己说了什么奇怪的话吗？",
+      "source": "おかしなことを、言っただろうか。",
+      "old_target": "我是说了什么奇怪的话吗？",
+      "status": "corrected",
+      "note": "人工校对。"
     },
     {
       "index": 11962,
-      "new_target": "换作理理，确实很有可能。"
+      "new_target": "换作理理，确实很有可能。",
+      "source": "理理なら十分にありえることだ。",
+      "old_target": "如果是理理的话完全有可能发生。",
+      "status": "corrected",
+      "note": "人工校对。"
     },
     {
       "index": 11964,
-      "new_target": "「没事……我还醒着。」"
+      "new_target": "「没事……我还醒着。」",
+      "source": "【話者：天崎理理／中文名：天崎理理】「大丈夫……起きてる、よ」",
+      "old_target": "「没事……我还醒着，呢。」",
+      "status": "corrected",
+      "note": "人工校对。"
     },
     {
       "index": 11967,
-      "new_target": "「……想事情？在想吃的吗？刚才的蛋糕？还是明天的早餐？」"
+      "new_target": "「……想事情？在想吃的吗？刚才的蛋糕？还是明天的早餐？」",
+      "source": "【話者：吉川ノエル／中文名：吉川诺艾尔】「……考え事？　……食べ物のこと？　さっきのケーキのこと？　それとも、あしたの朝ご飯のこと？」",
+      "old_target": "「……想事情？……在想吃的？刚才的蛋糕？还是明天的早餐？」",
+      "status": "corrected",
+      "note": "人工校对。"
     },
     {
       "index": 11970,
-      "new_target": "理理笑出声来，用小拳头轻轻捶了捶她的肩头。"
+      "new_target": "理理笑出声来，用小拳头轻轻捶了捶她的肩头。",
+      "source": "理理は笑い声を立てながら、肩の辺りを小さな拳で軽く叩いてくる。",
+      "old_target": "理理发出笑声，用小小的拳头轻轻捶着她的肩膀附近。",
+      "status": "corrected",
+      "note": "人工校对。"
     },
     {
       "index": 11971,
-      "new_target": "「不是啦……我只是觉得……好小啊……」"
+      "new_target": "「不是啦……我只是觉得……好小啊……」",
+      "source": "【話者：天崎理理／中文名：天崎理理】「そうじゃなくて……ただ……小さいな、って……」",
+      "old_target": "「才不是啦……只是……觉得好小啊……」",
+      "status": "corrected",
+      "note": "人工校对。"
     },
     {
       "index": 11973,
-      "new_target": "「——你的背，好小啊……」"
+      "new_target": "「——你的背，好小啊……」",
+      "source": "【話者：天崎理理／中文名：天崎理理】「――小さな、背中だねえ、って……っ」",
+      "old_target": "「——好小的……后背呢……っ」",
+      "status": "corrected",
+      "note": "人工校对。"
     },
     {
       "index": 11974,
-      "new_target": "她的呼吸猛地一颤。"
+      "new_target": "她的呼吸猛地一颤。",
+      "source": "跳ねた呼吸。",
+      "old_target": "紊乱的呼吸。",
+      "status": "corrected",
+      "note": "人工校对。"
     },
     {
       "index": 11975,
-      "new_target": "那声音忽然变得沙哑。"
+      "new_target": "那声音忽然变得沙哑。",
+      "source": "唐突に、その声がかすれた。",
+      "old_target": "猝然间，那个声音哑了。",
+      "status": "corrected",
+      "note": "人工校对。"
     },
     {
       "index": 11976,
-      "new_target": "几乎听不清了。"
+      "new_target": "几乎听不清了。",
+      "source": "ほとんど聞き取れなくなる。",
+      "old_target": "变得几乎听不清。",
+      "status": "corrected",
+      "note": "人工校对。"
     }
   ]
 }
