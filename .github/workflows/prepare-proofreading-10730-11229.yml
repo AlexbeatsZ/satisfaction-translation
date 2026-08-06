@@ -7,6 +7,7 @@ on:
     paths:
       - '.github/workflows/prepare-proofreading-10730-11229.yml'
       - 'proofreading/request.json'
+      - 'proofreading/claims/active/010730-011229-openai-chatgpt.json'
 
 permissions:
   contents: write
