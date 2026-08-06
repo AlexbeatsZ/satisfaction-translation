@@ -1,0 +1,11 @@
+{
+  "owner": "openai-chatgpt-alternating-a",
+  "branch": "translation-proofreading-10730-11229",
+  "range": {
+    "start": 10730,
+    "end": 11229
+  },
+  "created_at": "2026-08-06",
+  "status": "active",
+  "coordination": "Alternating 500-entry allocation agreed by user. This worker handles 10730-11229, skips 10230-10729 and 11230-11729. Do not infer ownership from the owner field alone."
+}
