@@ -27,6 +27,27 @@ jobs:
       - name: Install YAML parser
         run: python -m pip install --quiet pyyaml
 
+      - name: Remove no-op entries
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          removed = []
+          for path in sorted(Path('proofreading').glob('reviewed-batch-009*.json')):
+              payload = json.loads(path.read_text(encoding='utf-8'))
+              entries = payload.get('entries', [])
+              kept = []
+              for entry in entries:
+                  if str(entry.get('new_target', '')) == str(entry.get('old_target', '')):
+                      removed.append(int(entry['index']))
+                  else:
+                      kept.append(entry)
+              payload['entries'] = kept
+              path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          print(f'removed no-op entries: {removed}')
+          PY
+
       - name: Expand and apply reviewed entries
         run: |
           python proofreading/expand_compact_manifests.py
@@ -51,5 +72,5 @@ jobs:
           if git diff --cached --quiet; then
             exit 0
           fi
-          git commit -m 'proofread: apply entries 9230-9729'
+          git commit -m 'proofread: remove no-op entries 9230-9729'
           git push origin HEAD:translation-proofreading-9230-9729
