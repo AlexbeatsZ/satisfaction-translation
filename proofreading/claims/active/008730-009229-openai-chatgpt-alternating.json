@@ -1,0 +1,13 @@
+{
+  "range": {
+    "start": 8730,
+    "end": 9229
+  },
+  "owner": "OpenAI ChatGPT（本对话，交错批次 B）",
+  "work_type": "translation-proofreading",
+  "branch": "translation-proofreading-8730-9229",
+  "status": "reviewing",
+  "started_at": "2026-08-06T19:27:00+08:00",
+  "updated_at": "2026-08-06T19:27:00+08:00",
+  "note": "固定交错分工 B：本对话处理 8730–9229；8230–8729 由另一位校对者处理。占用标识仅用于范围锁定，不据此推断人员身份。"
+}
