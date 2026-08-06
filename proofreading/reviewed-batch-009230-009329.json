@@ -47,14 +47,6 @@
       "note": "人工校对。"
     },
     {
-      "index": 9237,
-      "new_target": "是妈妈的声音。",
-      "source": "お母さんの声。",
-      "old_target": "是妈妈的声音。",
-      "status": "corrected",
-      "note": "人工校对。"
-    },
-    {
       "index": 9238,
       "new_target": "什么？",
       "source": "なに？",
@@ -75,14 +67,6 @@
       "new_target": "「班长！那边没有找到！」",
       "source": "【話者：男性端役（SOA）／中文名：男性端役（SOA）】「班長！　向こうにはいません！」",
       "old_target": "「班长！那边没有！」",
-      "status": "corrected",
-      "note": "人工校对。"
-    },
-    {
-      "index": 9242,
-      "new_target": "「仓库里好像也没有！」",
-      "source": "【話者：男性端役（SOB）／中文名：男性端役（SOB）】「倉庫にもいないようです！」",
-      "old_target": "「仓库里好像也没有！」",
       "status": "corrected",
       "note": "人工校对。"
     },
@@ -627,14 +611,6 @@
       "new_target": "被彻底击垮。",
       "source": "叩きのめされた。",
       "old_target": "被彻底击垮了。",
-      "status": "corrected",
-      "note": "人工校对。"
-    },
-    {
-      "index": 9322,
-      "new_target": "——然后。",
-      "source": "――そして。",
-      "old_target": "——然后。",
       "status": "corrected",
       "note": "人工校对。"
     },

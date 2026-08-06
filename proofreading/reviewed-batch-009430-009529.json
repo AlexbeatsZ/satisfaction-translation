@@ -279,14 +279,6 @@
       "note": "人工校对。"
     },
     {
-      "index": 9472,
-      "new_target": "O，是欧米伽。",
-      "source": "Ｏは、オメガ。",
-      "old_target": "O，是欧米伽。",
-      "status": "corrected",
-      "note": "人工校对。"
-    },
-    {
       "index": 9473,
       "new_target": "而 I——则是我。",
       "source": "そして、Ｉ――私。",
@@ -315,14 +307,6 @@
       "new_target": "那就是我。",
       "source": "それが、私。",
       "old_target": "那就是，我。",
-      "status": "corrected",
-      "note": "人工校对。"
-    },
-    {
-      "index": 9477,
-      "new_target": "那就是葵。",
-      "source": "それが葵。",
-      "old_target": "那就是葵。",
       "status": "corrected",
       "note": "人工校对。"
     },
