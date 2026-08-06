@@ -1,0 +1,184 @@
+name: Import proofreading 7730-8229
+
+on:
+  push:
+    branches:
+      - translation-proofreading-v2-import-7730-final10
+
+permissions:
+  contents: write
+
+concurrency:
+  group: proofreading-import-7730-8229
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Import reviewed batch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          cat .proofreading-import-7730/payload.part* | base64 -d | gzip -d > /tmp/proofreading-payload.json
+          python -m pip install --quiet pyyaml
+
+          pushed=0
+          for attempt in $(seq 1 12); do
+            echo "Import attempt ${attempt}"
+            git fetch origin translation-proofreading-v2
+            git reset --hard origin/translation-proofreading-v2
+            git clean -fd
+
+            python - <<'PY'
+          from __future__ import annotations
+
+          import json
+          from pathlib import Path
+
+          ROOT = Path(".")
+          OUT = ROOT / "proofreading"
+          payload = json.loads(Path("/tmp/proofreading-payload.json").read_text(encoding="utf-8"))
+          corrections = {int(k): str(v) for k, v in payload["corrections"].items()}
+
+          def compact(values: list[int]) -> list[tuple[int, int]]:
+              values = sorted(set(values))
+              if not values:
+                  return []
+              groups: list[tuple[int, int]] = []
+              start = previous = values[0]
+              for value in values[1:]:
+                  if value == previous + 1:
+                      previous = value
+                      continue
+                  groups.append((start, previous))
+                  start = previous = value
+              groups.append((start, previous))
+              return groups
+
+          reviewed: set[int] = set()
+          for path in sorted(OUT.glob("reviewed-batch-*.json")):
+              manifest = json.loads(path.read_text(encoding="utf-8"))
+              range_payload = manifest.get("range")
+              if range_payload:
+                  start = int(range_payload["start"])
+                  end = int(range_payload["end"])
+                  indices = set(range(start, end + 1))
+              else:
+                  indices = {int(entry["index"]) for entry in manifest.get("entries", [])}
+              overlap = reviewed & indices
+              if overlap:
+                  raise RuntimeError(f"Existing reviewed overlap in {path}: {sorted(overlap)[:10]}")
+              reviewed |= indices
+
+          skipped_path = OUT / "skipped-ranges.json"
+          skipped_payload = json.loads(skipped_path.read_text(encoding="utf-8"))
+          skipped: set[int] = set()
+          for item in skipped_payload.get("ranges", []):
+              skipped |= set(range(int(item["start"]), int(item["end"]) + 1))
+
+          handled = reviewed | skipped
+
+          for requested in payload["reviewed_ranges"]:
+              base_start = int(requested["start"])
+              base_end = int(requested["end"])
+              unhandled = [i for i in range(base_start, base_end + 1) if i not in handled]
+              for start, end in compact(unhandled):
+                  manifest_path = OUT / f"reviewed-batch-{start:06d}-{end:06d}.json"
+                  if manifest_path.exists():
+                      raise RuntimeError(f"Unexpected manifest collision: {manifest_path}")
+                  entries = [
+                      {"index": index, "new_target": corrections[index]}
+                      for index in range(start, end + 1)
+                      if index in corrections
+                  ]
+                  manifest = {
+                      "range": {"start": start, "end": end},
+                      "reviewed_at": payload["reviewed_at"],
+                      "format": "compact-v1",
+                      "entries": entries,
+                  }
+                  manifest_path.write_text(
+                      json.dumps(manifest, ensure_ascii=False, indent=2) + "\n",
+                      encoding="utf-8",
+                  )
+                  reviewed |= set(range(start, end + 1))
+                  handled |= set(range(start, end + 1))
+
+          skip = payload["skip_range"]
+          skip_start = int(skip["start"])
+          skip_end = int(skip["end"])
+          skip_unhandled = [i for i in range(skip_start, skip_end + 1) if i not in handled]
+          for start, end in compact(skip_unhandled):
+              skipped_payload.setdefault("ranges", []).append(
+                  {"start": start, "end": end, "reason": str(skip["reason"])}
+              )
+              skipped |= set(range(start, end + 1))
+              handled |= set(range(start, end + 1))
+          skipped_payload["ranges"] = sorted(
+              skipped_payload.get("ranges", []),
+              key=lambda item: (int(item["start"]), int(item["end"])),
+          )
+          skipped_path.write_text(
+              json.dumps(skipped_payload, ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8",
+          )
+
+          target = set(range(7730, 8230))
+          missing = sorted(target - handled)
+          if missing:
+              raise RuntimeError(f"Target range remains unhandled: {missing[:20]}")
+
+          for claim_name in payload.get("claim_paths", []):
+              claim_path = ROOT / claim_name
+              if claim_path.exists():
+                  claim_path.unlink()
+
+          processed_through = 0
+          while processed_through + 1 in handled:
+              processed_through += 1
+          request = {"start": processed_through + 1, "count": 500}
+          (OUT / "request.json").write_text(
+              json.dumps(request, ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8",
+          )
+          print(
+              f"Prepared target 7730-8229; reviewed={len(reviewed)}, "
+              f"skipped={len(skipped)}, next={request['start']}"
+          )
+          PY
+
+            python proofreading/expand_compact_manifests.py
+            python proofreading/sync_proofreading_v3.py
+            python proofreading/update_progress_with_skips.py
+            python proofreading/analyze_chapter_order.py
+            python proofreading/check_active_claims.py
+            git diff --check
+
+            git add -A
+            if git diff --cached --quiet; then
+              echo "No changes remain to import."
+              pushed=1
+              break
+            fi
+
+            git commit -m "proofread: import reviewed entries 7730-8229"
+            if git push origin HEAD:translation-proofreading-v2; then
+              pushed=1
+              break
+            fi
+            echo "Canonical branch moved; retrying from latest head."
+            sleep 3
+          done
+
+          if [ "$pushed" -ne 1 ]; then
+            echo "Failed to push after retries." >&2
+            exit 1
+          fi
