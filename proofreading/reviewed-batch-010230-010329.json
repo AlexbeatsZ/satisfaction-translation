@@ -1,0 +1,570 @@
+{
+  "range": {
+    "start": 10230,
+    "end": 10329
+  },
+  "reviewed_at": "2026-08-07",
+  "format": "compact-v1",
+  "entries": [
+    {
+      "index": 10230,
+      "new_target": "她轻轻握住那只手，在骨节分明的纤细手指上一遍遍落下轻吻。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "そっと握り締め、骨ばった細い指に、小さな口付けを繰り返す。",
+      "old_target": "悄悄握紧，在骨感纤细的手指上，重复落下一声声亲吻。"
+    },
+    {
+      "index": 10231,
+      "new_target": "她抚摸着诺艾尔的头发，轻抚脸颊，一次又一次贴着气息低声呢喃。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "髪を撫で、頬をさすり、幾度も幾度も吐息で囁く。",
+      "old_target": "抚摸着头发，抚摩着脸颊，一次又一次用吐息轻声呢喃。"
+    },
+    {
+      "index": 10235,
+      "new_target": "诺艾尔干裂的嘴唇颤了颤。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "ノエルの乾いた唇が、震えた。",
+      "old_target": "诺艾尔干裂的双唇，颤抖了起来。"
+    },
+    {
+      "index": 10238,
+      "new_target": "她是想说什么吗？",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "なにか言いたいのだろうか？",
+      "old_target": "是有什么想说的吗？"
+    },
+    {
+      "index": 10239,
+      "new_target": "大概只是烧糊涂后的呓语，可理理还是探身过去，把耳朵凑近诺艾尔的嘴边。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "熱に浮かされてのうわ言だろうが、理理は身を乗り出し、ノエルの口元に耳を寄せた。",
+      "old_target": "虽然大概只是发烧造成的呓语，但理理还是探出身子，把耳朵凑到诺艾尔的嘴边。"
+    },
+    {
+      "index": 10240,
+      "new_target": "无论什么事，她都想帮上诺艾尔。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "どんなことでも、ノエルの力になりたかった。",
+      "old_target": "无论什么事，她都想帮上诺艾尔的忙。"
+    },
+    {
+      "index": 10241,
+      "new_target": "「有什么想要的吗？要喝水吗？」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：天崎理理／中文名：天崎理理】「なにか、欲しい？　お水飲む？」",
+      "old_target": "「有什么……想要的东西吗？要喝水吗？」"
+    },
+    {
+      "index": 10244,
+      "new_target": "发烧让她声音沙哑，听不清楚，理理便把耳朵凑得更近。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "熱にかすれた声は、よく聞き取れず、理理はさらに耳を近づける。",
+      "old_target": "因发烧而沙哑的声音听不清，理理把耳朵凑得更近了。"
+    },
+    {
+      "index": 10245,
+      "new_target": "滚烫的气息轻拂耳垂，然后——",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "熱い吐息が耳朶をくすぐって、そして。",
+      "old_target": "滚烫的吐息拂过耳廓，然后。"
+    },
+    {
+      "index": 10247,
+      "new_target": "——理理猛地睁大了眼睛。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "――瞳を、見開いた。",
+      "old_target": "——睁大了眼睛。"
+    },
+    {
+      "index": 10248,
+      "new_target": "仿佛心脏被一把攥住。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "心臓が鷲掴みにされたような。",
+      "old_target": "心脏仿佛被狠狠抓紧了一般。"
+    },
+    {
+      "index": 10249,
+      "new_target": "刚才……那句话。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "今の、言葉。",
+      "old_target": "刚才的，那句话。"
+    },
+    {
+      "index": 10252,
+      "new_target": "那句话又重复了一遍。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "繰り返された、その言葉。",
+      "old_target": "重复着的，那句话。"
+    },
+    {
+      "index": 10253,
+      "new_target": "理理愣愣地听着，屏住了呼吸。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "呆然と受け止め、息を詰める。",
+      "old_target": "呆滞地接受了这个事实，屏住了呼吸。"
+    },
+    {
+      "index": 10255,
+      "new_target": "你是在对我这么说吗？",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "そう、言ってくれているの？",
+      "old_target": "她是在，对我这么说吗？"
+    },
+    {
+      "index": 10258,
+      "new_target": "「……」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：天崎理理／中文名：天崎理理】「……っ」",
+      "old_target": "「……呜」"
+    },
+    {
+      "index": 10260,
+      "new_target": "感觉就像自己变成了一块吸水的海绵。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "それはまるで、水を吸い込むスポンジになったような心地。",
+      "old_target": "那感觉就像自己变成了一块吸收水分的海绵。"
+    },
+    {
+      "index": 10261,
+      "new_target": "仿佛温热的水一点点渗进早已空洞干瘪的胸口深处。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "虚ろになってしぼんでいた胸の真中に、じんわりと、あたたかな水が染み込んでいくみたいな。",
+      "old_target": "仿佛在空虚干瘪的胸口中央，正缓缓渗入温热的水流。"
+    },
+    {
+      "index": 10262,
+      "new_target": "那片干涸之处渐渐染上鲜明的色彩。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "カラカラに乾いていたところが、鮮やかに色づいていくのだ。",
+      "old_target": "曾经干涸枯竭的地方，被染上了鲜艳的色彩。"
+    },
+    {
+      "index": 10265,
+      "new_target": "鲜活湿润的颜色。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "瑞々しい色。",
+      "old_target": "是润泽的水灵颜色。"
+    },
+    {
+      "index": 10267,
+      "new_target": "又是如燃烧般炽烈的颜色。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "燃えるみたいに、激しい色。",
+      "old_target": "像燃烧一样剧烈的颜色。"
+    },
+    {
+      "index": 10268,
+      "new_target": "——诺艾尔的颜色。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "――ノエルの、色。",
+      "old_target": "——诺艾尔的，颜色。"
+    },
+    {
+      "index": 10269,
+      "new_target": "她咬紧嘴唇。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "唇を噛み締めた。",
+      "old_target": "紧紧咬住了双唇。"
+    },
+    {
+      "index": 10271,
+      "new_target": "听见“不要哭”的那一刻，她反而想哭了。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "泣かないで、と言われた瞬間、泣きたくなっていた。",
+      "old_target": "被说了不要哭的瞬间，反而变得好想哭。"
+    },
+    {
+      "index": 10272,
+      "new_target": "快要干涸的眼角又沁出透明的泪珠。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "乾きかけていた目尻に、透明の雫。",
+      "old_target": "原本快要干涸的眼角，落下了透明的泪滴。"
+    },
+    {
+      "index": 10273,
+      "new_target": "自己真的莫名其妙，又笨又没出息，简直无可救药。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "本当に、自分は、わけがわからない。おばかで、情けなくて、どうしようもない。",
+      "old_target": "自己真的太莫名其妙了。又傻又窝囊，简直无可救药。"
+    },
+    {
+      "index": 10274,
+      "new_target": "为什么自己这么软弱呢。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "なんでこんなに弱虫なんだろう。",
+      "old_target": "为什么会这么爱哭呢。"
+    },
+    {
+      "index": 10275,
+      "new_target": "明明这么想，偏偏眼泪又立刻涌了出来。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "そう思うのに、思うそばから、熱い涙がにじみ出てくる。",
+      "old_target": "明明这么想着，可才刚产生这个念头，滚烫的泪水就涌了出来。"
+    },
+    {
+      "index": 10276,
+      "new_target": "她像要甩开眼泪似的笑了。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "それを振り払うみたいに笑った。",
+      "old_target": "像要摆脱那泪水似的笑了起来。"
+    },
+    {
+      "index": 10277,
+      "new_target": "就算诺艾尔看不见也没关系。真的，一点关系都没有。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "ノエルの目には、映らなくても。それでもいい。ぜんぜんいい。",
+      "old_target": "即使无法映照在诺艾尔的眼中。那样也没关系。完全没关系。"
+    },
+    {
+      "index": 10278,
+      "new_target": "理理把最灿烂的笑容朝向诺艾尔。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "理理は、思い切りの笑顔をノエルに向ける。",
+      "old_target": "理理向诺艾尔绽露出全心全意的笑容。"
+    },
+    {
+      "index": 10279,
+      "new_target": "因为那是理理保护心灵的铠甲。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "それが理理の、心の鎧だから。",
+      "old_target": "因为那是理理心灵的铠甲。"
+    },
+    {
+      "index": 10280,
+      "new_target": "「……我没事的。」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：天崎理理／中文名：天崎理理】「……私なら、大丈夫だよ」",
+      "old_target": "「……我的话，没关系的哦」"
+    },
+    {
+      "index": 10281,
+      "new_target": "她低声回应，握住那只滚烫的手。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "囁き返して、熱い手を握る。",
+      "old_target": "低声回应着，紧握住那只滚烫的手。"
+    },
+    {
+      "index": 10282,
+      "new_target": "「我又没哭。」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：天崎理理／中文名：天崎理理】「泣いてなんか、いないから」",
+      "old_target": "「我又没有在哭」"
+    },
+    {
+      "index": 10283,
+      "new_target": "诺艾尔空洞的眼神仿佛终于对准了理理。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "虚ろなノエルの瞳が、理理に焦点を合わせた気がした。",
+      "old_target": "诺艾尔那空洞的瞳孔，似乎聚焦在了理理身上。"
+    },
+    {
+      "index": 10284,
+      "new_target": "那目光像一颗缓缓融化的糖球，渐渐湿润起来。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "それが、ゆっくりと、溶けていく甘い飴玉みたいに潤んだ気がした。",
+      "old_target": "那眼神，仿佛渐渐融化的甜美糖果一般润湿了起来。"
+    },
+    {
+      "index": 10286,
+      "new_target": "「……我……不是……」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：吉川ノエル／中文名：吉川诺艾尔】「……わたし……ちがう……」",
+      "old_target": "「……我……不对……」"
+    },
+    {
+      "index": 10288,
+      "new_target": "「……不、是……我、不是……」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：吉川ノエル／中文名：吉川诺艾尔】「……ちが、う、よ……わたし、ちが……」",
+      "old_target": "「……不、对、的……我、不……」"
+    },
+    {
+      "index": 10289,
+      "new_target": "诺艾尔把陷在枕头里的头拼命左右摇动。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "ノエルは枕に沈めた頭を、必死に、横に振った。",
+      "old_target": "诺艾尔将沉在枕头里的脑袋，拼命地左右摇晃着。"
+    },
+    {
+      "index": 10290,
+      "new_target": "她反复说着：不是。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "繰り返すのは、違う、と。",
+      "old_target": "重复着说，不对。"
+    },
+    {
+      "index": 10291,
+      "new_target": "说着：我不是。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "私は違う、と。",
+      "old_target": "我不是，这样。"
+    },
+    {
+      "index": 10292,
+      "new_target": "「诺艾尔？怎么了？什么不是？」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：天崎理理／中文名：天崎理理】「ノエル？　どうしたの？　なにが違うの？」",
+      "old_target": "「诺艾尔？怎么了？什么不对？」"
+    },
+    {
+      "index": 10293,
+      "new_target": "理理握紧她的手，追问道。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "握った手に力を込め、問う。",
+      "old_target": "握住手的手掌暗暗用力，追问着。"
+    },
+    {
+      "index": 10294,
+      "new_target": "仿佛感觉到她微弱地回握了一下，接着诺艾尔花瓣般薄薄的嘴唇颤了颤。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "かすかに握り返されたような気がして、そして、ノエルの薄い花びらのような唇が震えた。",
+      "old_target": "感觉到对方似乎微弱地回握了一下，随后，诺艾尔那如薄薄花瓣般的双唇颤抖起来。"
+    },
+    {
+      "index": 10297,
+      "new_target": "诺艾尔的表情瞬间崩了。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "ノエルの表情が一瞬崩れた。",
+      "old_target": "诺艾尔的表情在一瞬间崩塌了。"
+    },
+    {
+      "index": 10298,
+      "new_target": "眼角扭曲得像马上就要哭出来，接着——",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "今にも泣き出しそうに目元が歪み、そして――",
+      "old_target": "眼角扭曲得仿佛随时都会哭出来，然后——"
+    },
+    {
+      "index": 10299,
+      "new_target": "「……我才不是……怪物。」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：吉川ノエル／中文名：吉川诺艾尔】「……ばけもの、じゃ……ない」",
+      "old_target": "「……才不是……怪物」"
+    },
+    {
+      "index": 10301,
+      "new_target": "理理身体一僵，反射般站起身，俯视诺艾尔的双眼骤然睁大。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "理理の身体が、強張った。反射的に立ち上がり、ノエルを見下ろした目が見開かれる。",
+      "old_target": "理理的身体僵硬了。反射性地站起身来，居高临下看着诺艾尔的眼睛睁得大大的。"
+    },
+    {
+      "index": 10302,
+      "new_target": "紧张得连呼吸都停住了。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "緊張して、息も止まる。",
+      "old_target": "紧张得连呼吸都停滞了。"
+    },
+    {
+      "index": 10303,
+      "new_target": "刚才那句话，究竟是什么意思？",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "今のは、一体、なんだ？",
+      "old_target": "刚才的，究竟是什么？"
+    },
+    {
+      "index": 10305,
+      "new_target": "诺艾尔刚才好像说了“怪物”。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "ノエルは、そう言ったような気がしたのだが。",
+      "old_target": "诺艾尔似乎是这么说的。"
+    },
+    {
+      "index": 10306,
+      "new_target": "「……我才不是……怪物啊……」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：吉川ノエル／中文名：吉川诺艾尔】「……ばけものじゃ、ない、よぉ……っ」",
+      "old_target": "「……才不是……怪物……呜……」"
+    },
+    {
+      "index": 10307,
+      "new_target": "她重复了一遍，证明理理并没有听错。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "繰り返された言葉が、それが聞き間違いではないと教えてくれた。",
+      "old_target": "重复说出的话语，告诉她那并不是听错。"
+    },
+    {
+      "index": 10309,
+      "new_target": "她的头仍不停左右摇着。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "横に振り続けられる首。",
+      "old_target": "依旧不断左右摇晃的头部。"
+    },
+    {
+      "index": 10310,
+      "new_target": "理理像喘不过气般张开嘴，猛地吸了一口气——",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "喘ぐように理理は口を開き、息を大きく吸い、",
+      "old_target": "理理如喘息般张开嘴，猛地吸了一口气，"
+    },
+    {
+      "index": 10311,
+      "new_target": "「……那种事……」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：天崎理理／中文名：天崎理理】「……そんな、の……」",
+      "old_target": "「……那种、事……」"
+    },
+    {
+      "index": 10312,
+      "new_target": "她喊了出来。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "叫んだ。",
+      "old_target": "喊了出来。"
+    },
+    {
+      "index": 10314,
+      "new_target": "一字一句，像要咬紧每个字。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "一言一言を、噛み締めるように。",
+      "old_target": "仿佛要把每一个字都咬碎品味一般。"
+    },
+    {
+      "index": 10315,
+      "new_target": "她像哭喊一般把话顶回去，想让每一个字都传到诺艾尔心底最深处。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "心の深いところに届くように、泣き叫ぶみたいに、言葉を返した。",
+      "old_target": "为了能传达到心灵的最深处，如同哭号一般，回应着她。"
+    },
+    {
+      "index": 10317,
+      "new_target": "她是有点奇怪，也像藏着一点秘密，可是——",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "ちょっと変だけど、ちょっとひみつがあるみたいだけど、だけど、",
+      "old_target": "虽然有点奇怪，虽然好像藏着一点秘密，但是，"
+    },
+    {
+      "index": 10318,
+      "new_target": "「诺艾尔是我的朋友！她才不是怪物！是谁——到底是谁这么说的！？诺艾尔绝对不是怪物！」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：天崎理理／中文名：天崎理理】「ノエルは私の友達だ！　ばけものなんかじゃない！　誰が――誰がそんなことを言うのよ！？　ノエルは絶対、ばけものなんかじゃない！」",
+      "old_target": "「诺艾尔是我的朋友！才不是什么怪物！是谁——谁会说出那种话啊！？诺艾尔绝对不是什么怪物！」"
+    },
+    {
+      "index": 10319,
+      "new_target": "「……我不要……再一个人了……」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：吉川ノエル／中文名：吉川诺艾尔】「……ひとりは……もぉ……いやだぁ……」",
+      "old_target": "「……一个人……已经……不要了啊……」"
+    },
+    {
+      "index": 10320,
+      "new_target": "「——！」",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "【話者：天崎理理／中文名：天崎理理】「――っ」",
+      "old_target": "「——唔」"
+    },
+    {
+      "index": 10321,
+      "new_target": "话已经……",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "言葉が、もう。",
+      "old_target": "话语，已经。"
+    },
+    {
+      "index": 10322,
+      "new_target": "再也说不下去了。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "もう、これ以上、出ない。",
+      "old_target": "已经，再也说不出口了。"
+    },
+    {
+      "index": 10323,
+      "new_target": "她像要倒下似的扑过去。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "倒れこむように。",
+      "old_target": "像是要倒下去一般。"
+    },
+    {
+      "index": 10324,
+      "new_target": "理理紧紧抱住诺艾尔，仿佛要把她整个包裹起来。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "包み込むように、覆い被さるように、理理はノエルを抱き締めていた。",
+      "old_target": "像是要将对方包裹住、覆上全身一般，理理紧紧抱住了诺艾尔。"
+    },
+    {
+      "index": 10327,
+      "new_target": "这么可怜的声音。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "こんな、かわいそうな、声。",
+      "old_target": "这样，可怜的，声音。"
+    },
+    {
+      "index": 10328,
+      "new_target": "不能让她发出这种声音。不能让她经历这种事、承受这种感受。",
+      "status": "corrected",
+      "note": "人工校对。",
+      "source": "出させてはいけない。こんなこと、こんな思い、させてはいけない。",
+      "old_target": "绝不能让她发出这样的声音。绝不能让她遭受这种事、怀有这种心情。"
+    }
+  ]
+}
