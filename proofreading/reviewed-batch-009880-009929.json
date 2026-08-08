@@ -1,0 +1,226 @@
+{
+  "range": {
+    "start": 9880,
+    "end": 9929
+  },
+  "reviewed_at": "2026-08-06",
+  "format": "compact-v1",
+  "entries": [
+    {
+      "index": 9882,
+      "new_target": "那和诺艾尔的泪水不同。",
+      "source": "ノエルのとは、違う。",
+      "old_target": "和诺艾尔的，不一样。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9883,
+      "new_target": "诺艾尔流的是悔恨之泪。",
+      "source": "ノエルの涙は、後悔の涙。",
+      "old_target": "诺艾尔的眼泪，是后悔的眼泪。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9884,
+      "new_target": "是为自己的痛苦而流的泪。",
+      "source": "自分の苦しみのために、流す涙。",
+      "old_target": "为了自己的痛苦，而流下的眼泪。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9886,
+      "new_target": "替那个再也无法流泪的人哭出的泪。",
+      "source": "もう涙を流せない誰かのため、代りに泣いてあげる涙。",
+      "old_target": "为已经无法再流泪的人，替其代为流下的眼泪。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9887,
+      "new_target": "和那个温柔又可怜的人一样。",
+      "source": "優しくて、かわいそうな、あのひとと同じ。",
+      "old_target": "和温柔的、可怜的，那个人一样。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9888,
+      "new_target": "与那一天那个人的泪水相同——",
+      "source": "あの日の、あのひとの涙と、同じ――",
+      "old_target": "与那一天的、那个人的眼泪，一模一样——",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9890,
+      "new_target": "『来，要珍惜着吃哦。』",
+      "source": "【話者：ノエルの母／中文名：诺艾尔的母亲】『はい。大事に食べるのよ』",
+      "old_target": "『来。要好好珍重地吃哦』",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9894,
+      "new_target": "那是体温的温暖。",
+      "source": "それは、体温のぬくもり。",
+      "old_target": "那是，体温的余热。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9895,
+      "new_target": "那是乳房柔软的触感。",
+      "source": "それは、乳房の弾力。",
+      "old_target": "那是，乳房的弹性。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9896,
+      "new_target": "那是光彩照人的面颊。",
+      "source": "それは、眩しく光る頬。",
+      "old_target": "那是，闪耀着璀璨光芒的面颊。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9900,
+      "new_target": "……她曾经那么喜欢。",
+      "source": "……大好きだった。",
+      "old_target": "……曾经最喜欢了。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9901,
+      "new_target": "如今仍在追寻、仍在祈求，不停渴望，不断呼唤——",
+      "source": "今でも求め、今でも願い、たゆまず欲し、呼び続け――",
+      "old_target": "至今仍在寻求，至今仍在祈愿，不懈地渴望，不断呼唤——",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9902,
+      "new_target": "她伸出手——",
+      "source": "手を、伸ばし、",
+      "old_target": "伸出，双手，",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9904,
+      "new_target": "声音只化作微弱的呻吟。",
+      "source": "声は、かすかな呻きにしかならなかった。",
+      "old_target": "声音，仅仅化为了微弱的呻吟。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9907,
+      "new_target": "它无处不在。",
+      "source": "どこにでも、いるのだ。",
+      "old_target": "无处，不在。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9912,
+      "new_target": "在黑暗淤积之处。",
+      "source": "闇の吹き溜まりに。",
+      "old_target": "在黑暗的沉淀之处。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9915,
+      "new_target": "指向诺艾尔的手指也染成了血色。",
+      "source": "ノエルを差す指も、血の色。",
+      "old_target": "指向诺艾尔的手指，也是鲜血的颜色。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9916,
+      "new_target": "——『那个』是我在那一天亲手毁掉的妈妈。",
+      "source": "――『ソレ』は、あの日の私が壊してしまった、私のママ。",
+      "old_target": "——『那个』，是那一天的我毁掉的，我的妈妈。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9918,
+      "new_target": "身体不断变化，连脑子也出了问题。",
+      "source": "変わっていく身体に、頭まで変になった。",
+      "old_target": "随着逐渐异化的身体，连大脑也变得古怪狂乱。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9919,
+      "new_target": "爪子和獠牙不断伸长，肌肉量持续增加，骨架也变成野兽的形态。",
+      "source": "爪が伸び、牙が伸び、筋肉は質量を増し、骨格は獣のそれになり。",
+      "old_target": "爪子长长，尖牙伸长，肌肉增加质量，骨骼演化为野兽的模样。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9920,
+      "new_target": "在脑海中肆虐的是猛烈的杀意。",
+      "source": "頭の中を吹き荒れたのは、猛烈な殺意だった。",
+      "old_target": "在脑海中狂暴席卷的，是极其猛烈的杀意。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9921,
+      "new_target": "甚至连控制的方法都没人教过我。",
+      "source": "コントロールの術さえ、誰も教えてはくれなかった。",
+      "old_target": "连控制的方法，也没有任何人教过我。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9922,
+      "new_target": "周围的大人七嘴八舌地说着。",
+      "source": "口々に、周りの大人たちが語った言葉。",
+      "old_target": "大人们在周围七嘴八舌说出的话。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9925,
+      "new_target": "「必须跨越的障碍。」",
+      "source": "【話者：男性端役（YUC）／中文名：男性端役（YUC）】「乗り越えるべき、壁。」",
+      "old_target": "「必须跨越的，高墙。」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9926,
+      "new_target": "「促使她突破。」",
+      "source": "【話者：男性端役（YUA）／中文名：男性端役（YUA）】「突破させる。」",
+      "old_target": "「让其突破。」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9928,
+      "new_target": "「为此。」",
+      "source": "【話者：男性端役（YUC）／中文名：男性端役（YUC）】「そのためには。」",
+      "old_target": "「为了实现这一点。」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9929,
+      "new_target": "——无数双眼睛俯视着我。",
+      "source": "――私を見下ろす、たくさんの、目。",
+      "old_target": "――俯视着我的，许许多多的，眼睛。",
+      "status": "corrected",
+      "note": "人工校对。"
+    }
+  ]
+}

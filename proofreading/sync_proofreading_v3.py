@@ -215,18 +215,45 @@ def main() -> None:
 
     json_to_tsv, alignment_report = build_tsv_mapping(data, tsv_rows)
 
-    manifests = sorted(OUT.glob("reviewed-batch-*.json"))
+    manifest_payloads = [
+        (path, json.loads(path.read_text(encoding="utf-8")))
+        for path in sorted(OUT.glob("reviewed-batch-*.json"))
+    ]
+    # Follow-up manifests deliberately revisit an already reviewed entry. Apply
+    # them after ordinary batches so old_target -> new_target remains a checked,
+    # reproducible correction chain even when the sync command is run repeatedly.
+    manifest_payloads.sort(key=lambda item: bool(item[1].get("followup")))
+    followup_targets: dict[int, set[str]] = defaultdict(set)
+    for _, manifest in manifest_payloads:
+        if manifest.get("followup"):
+            for entry in manifest.get("entries", []):
+                followup_targets[int(entry["index"])].add(str(entry["new_target"]))
     applied: list[dict[str, Any]] = []
     seen: set[int] = set()
+    reviewed_coverage: set[int] = set()
     terminology_changes: list[dict[str, Any]] = []
 
-    for manifest_path in manifests:
-        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    for manifest_path, manifest in manifest_payloads:
+        followup = bool(manifest.get("followup"))
+        if not followup:
+            range_payload = manifest.get("range")
+            if range_payload:
+                reviewed_coverage.update(
+                    range(int(range_payload["start"]), int(range_payload["end"]) + 1)
+                )
+            else:
+                reviewed_coverage.update(
+                    int(entry["index"]) for entry in manifest.get("entries", [])
+                )
         terminology_changes.extend(manifest.get("terminology_changes", []))
         for entry in manifest.get("entries", []):
             index = int(entry["index"])
-            if index in seen:
+            if index in seen and not followup:
                 raise ValueError(f"Duplicate reviewed entry: {index}")
+            if followup and index not in reviewed_coverage:
+                raise ValueError(
+                    f"Follow-up entry {index} has no earlier reviewed entry in {manifest_path.name}"
+                )
             seen.add(index)
             position = index - 1
             chapter_index, title, local_index, segment = flattened[position]
@@ -246,7 +273,10 @@ def main() -> None:
                 "TXT": txt_lines[txt_nonempty[position]],
             }
             for label, current in current_values.items():
-                if current not in (old, new):
+                accepted = {old, new}
+                if not followup:
+                    accepted.update(followup_targets.get(index, set()))
+                if current not in accepted:
                     raise ValueError(
                         f"{label} entry {index} mismatch: expected {old!r} or {new!r}, got {current!r}"
                     )
@@ -378,7 +408,12 @@ def main() -> None:
         "\n".join(term_report) + "\n", encoding="utf-8"
     )
 
-    corrected = sum(1 for entry in applied if entry.get("status") == "corrected")
+    corrected = sum(
+        1
+        for entry in applied
+        if entry.get("status") == "corrected"
+        and str(entry.get("old_target", "")) != str(entry.get("new_target", ""))
+    )
     summary = [
         "# 已应用校对批次", "",
         f"- 审阅条目：{len(applied)}",

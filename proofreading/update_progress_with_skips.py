@@ -42,10 +42,14 @@ def main() -> None:
     reviewed: set[int] = set()
     corrected = 0
     terminology_changes: list[dict[str, str]] = []
+    reviewed_dates: list[str] = []
 
     for path in sorted(OUT.glob("reviewed-batch-*.json")):
         payload = json.loads(path.read_text(encoding="utf-8"))
         terminology_changes.extend(payload.get("terminology_changes", []))
+        if payload.get("reviewed_at"):
+            reviewed_dates.append(str(payload["reviewed_at"]))
+        followup = bool(payload.get("followup"))
 
         range_payload = payload.get("range")
         if range_payload:
@@ -58,11 +62,19 @@ def main() -> None:
             batch_indices = {int(entry["index"]) for entry in payload.get("entries", [])}
 
         overlap = reviewed.intersection(batch_indices)
-        if overlap:
+        if overlap and not followup:
             raise ValueError(
                 f"Duplicate reviewed range/index in {path.name}: {sorted(overlap)[:10]}"
             )
-        reviewed.update(batch_indices)
+        if followup:
+            missing = batch_indices.difference(reviewed)
+            if missing:
+                raise ValueError(
+                    f"Follow-up entries were not reviewed earlier in {path.name}: "
+                    f"{sorted(missing)[:10]}"
+                )
+        else:
+            reviewed.update(batch_indices)
 
         seen_entries: set[int] = set()
         for entry in payload.get("entries", []):
@@ -74,7 +86,11 @@ def main() -> None:
                 raise ValueError(
                     f"Entry {index} is outside reviewed range {start}-{end} in {path.name}"
                 )
-            if entry.get("status") == "corrected":
+            if (
+                entry.get("status") == "corrected"
+                and str(entry.get("old_target", ""))
+                != str(entry.get("new_target", ""))
+            ):
                 corrected += 1
 
     skipped_payload = json.loads((OUT / "skipped-ranges.json").read_text(encoding="utf-8"))
@@ -120,7 +136,7 @@ def main() -> None:
         f"| 下次起点 | 第 {next_start} 条 |",
         "| 编号基准 | JSON 自然章节顺序 |",
         "| TSV 对齐 | 脚本文件名 + 文件内序号 |",
-        "| 最后更新 | 2026-08-05 |",
+        f"| 最后更新 | {max(reviewed_dates) if reviewed_dates else '未知'} |",
         "",
         "## 跳过说明",
         "",

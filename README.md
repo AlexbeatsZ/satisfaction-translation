@@ -4,6 +4,8 @@
 
 本译本由 [Wenyi Direct](https://github.com/AlexbeatsZ/wenyi-direct) 自动化文学/剧本翻译框架完成初译，并由人工与 AI 协作进行事实核对、术语维护和中文润色。
 
+历史 manifest 中的“人工校对”是通用批次说明，不代表每条都经过独立人工终审；除非另有明确审阅者记录，均应视为人工与 AI 协作校对结果。
+
 ---
 
 ## 当前翻译／校对状态
@@ -14,9 +16,9 @@
 |---|---|---|---|---|---|
 | 第 11,230–11,729 条 | 日中翻译校对 | OpenAI ChatGPT（本对话，交错批次 A） | `translation-proofreading-11230-11729` | 已占用，尚未开始 | 2026-08-07 |
 
-- 总进度：**7,729/21,204**
-- 实际校对：**8,768/21,204**
-- 跳过：**461/21,204**
+- 总进度：**11,229/21,204**
+- 实际校对：**10,655/21,204**
+- 跳过：**574/21,204**
 - 当前机器可读占用记录：[`011230-011729-openai-chatgpt.json`](proofreading/claims/active/011230-011729-openai-chatgpt.json)
 - 完整断点与统计：[`PROOFREADING_PROGRESS.md`](PROOFREADING_PROGRESS.md)
 
@@ -62,6 +64,7 @@ README 中的表格用于快速查看；发生差异时，以 `proofreading/clai
 ### 6. 修改必须可审计
 
 - 已校对范围必须写入 `proofreading/reviewed-batch-*.json`；`range` 表示整批已经检查，`entries` 记录实际修正项。
+- 已审条目的后续修正使用不带 `range` 的 `followup: true` manifest，保留旧译到新译的修订链，不改写历史记录。
 - 每个修正项应保留索引、原文、旧译、定稿、状态和简要原因；紧凑 manifest 会由工作流补齐原文与旧译。
 - 无法处理的范围必须写入 `proofreading/skipped-ranges.json`，不得伪装成已校对文本。
 - 完成一批后更新 `PROOFREADING_PROGRESS.md`，同步全部正文格式，并通过 PR 合并到 `main`。

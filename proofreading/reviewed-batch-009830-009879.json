@@ -1,0 +1,186 @@
+{
+  "range": {
+    "start": 9830,
+    "end": 9879
+  },
+  "reviewed_at": "2026-08-06",
+  "format": "compact-v1",
+  "entries": [
+    {
+      "index": 9830,
+      "new_target": "月光照亮的白色天花板。",
+      "source": "月が照らす、白い天井。",
+      "old_target": "灯火依旧熄灭着的，水晶吊灯。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9831,
+      "new_target": "灯光仍然熄灭的水晶吊灯。",
+      "source": "灯りは消えたままの、シャンデリア。",
+      "old_target": "月光照耀着的，白色天花板。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9833,
+      "new_target": "上学用的书包挂在衣柜把手上。",
+      "source": "通学鞄が、取っ手に引っ掛けてある。",
+      "old_target": "书包挂在门把手上。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9836,
+      "new_target": "她发现了『那个』。",
+      "source": "【話者：吉川ノエル／中文名：吉川诺艾尔】『ソレ』を見つけた。",
+      "old_target": "我看见了『那个』。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9838,
+      "new_target": "半透明地融进黑暗里似的。",
+      "source": "闇に透けて、溶けるみたいな。",
+      "old_target": "仿佛穿透黑暗，融于其中一般。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9840,
+      "new_target": "晕开的影子。",
+      "source": "滲む影。",
+      "old_target": "弥漫的影子。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9841,
+      "new_target": "气味，是血。",
+      "source": "臭いは、血。",
+      "old_target": "臭味，是血。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9842,
+      "new_target": "低垂的发丝间，露出一张染满鲜血的脸。",
+      "source": "俯いて垂れた髪の隙間から、血に塗れた顔が覗く。",
+      "old_target": "从低垂发丝的缝隙间，窥见一张染满鲜血的脸。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9844,
+      "new_target": "它指着诺艾尔，嘴唇翕动，呼唤着她。",
+      "source": "ノエルを指差し、口を動かし、呼ぶ。",
+      "old_target": "手指着诺艾尔，张合着嘴唇，呼唤着。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9850,
+      "new_target": "它滑向黑暗格外浓重的房间角落。",
+      "source": "闇がひときわ濃く集う、部屋の隅へ。",
+      "old_target": "走向黑暗汇聚得格外浓郁的房间角落。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9853,
+      "new_target": "轮廓仿佛融化般重叠在一起。",
+      "source": "溶けるように、重なった輪郭。",
+      "old_target": "仿佛融化般，重叠在一起的轮廓。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9854,
+      "new_target": "呼吸骤然停止。",
+      "source": "息が、止まった。",
+      "old_target": "呼吸，停滞了。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9855,
+      "new_target": "与蜷缩着抬起脸的『那个』重叠的轮廓——那张泪水打湿雪白脸颊的哭脸——",
+      "source": "うずくまって、顔を上げた『ソレ』と重る輪郭は――真っ白い頬を濡らした泣き顔は――",
+      "old_target": "蜷缩着、抬起头的『那个』重叠起的轮廓——湿润了雪白面颊的哭泣容颜——",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9859,
+      "new_target": "随着『那个』的轮廓融化般消失，藏在下方的温柔身影显露出来。",
+      "source": "溶けるように『ソレ』の輪郭が消えて、その下から露になった優しい人影。",
+      "old_target": "『那个』的轮廓犹如融化般消逝，显露出掩藏在其下的温柔人影。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9861,
+      "new_target": "她抱着膝盖，弓着背，孤零零地……哭着。",
+      "source": "膝を抱えて、背を丸めて、ひとりぼっちで……泣いている。",
+      "old_target": "抱紧双膝，蜷起后背，孤身一人……哭泣着。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9862,
+      "new_target": "她一声不响，只有微弱的呼吸散入夜色，在月光下静静落泪。",
+      "source": "声も出さず、かすかな息遣いだけを夜に零(こぼ)し、月光の下、涙を静かに流している。",
+      "old_target": "连声音也没有发出，只将微弱的喘息散落在夜色中，在月光下静静地流着眼泪。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9863,
+      "new_target": "她睁着眼望向黑暗，将仿佛一触即碎的纤细身体倚在墙上。",
+      "source": "目を闇に見開いたまま、今にも壊れそうな細い身体を壁にもたせて。",
+      "old_target": "双眼睁大凝视着黑暗，将仿佛随时都会碎裂的纤细身体靠在墙上。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9864,
+      "new_target": "她这样多久了？",
+      "source": "いつからそうしていたのだろう。",
+      "old_target": "是从什么时候开始这样的呢。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9865,
+      "new_target": "……她哭了多久了？",
+      "source": "……いつから、泣いていたのだろう。",
+      "old_target": "……是从什么时候开始，哭泣的呢。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9869,
+      "new_target": "她始终不曾落泪，坚强地撑着，还为了郁郁寡欢的诺艾尔弹琴给她听。",
+      "source": "涙を見せず、気丈に振る舞い、塞ぎこむノエルのために、ピアノを弾いて聞かせてくれた。",
+      "old_target": "她也没有流泪，表现得十分坚强，甚至为了郁郁寡欢的诺艾尔弹奏钢琴。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9871,
+      "new_target": "直到此刻，她才想到。",
+      "source": "今になって、思う。",
+      "old_target": "事到如今，我才想到。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9877,
+      "new_target": "——遥远的幻声轻拂耳畔。",
+      "source": "――遠い幻の声が、耳をくすぐった。",
+      "old_target": "——遥远幻觉的声音，抚过耳畔。",
+      "status": "corrected",
+      "note": "人工校对。"
+    }
+  ]
+}

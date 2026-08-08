@@ -1,0 +1,250 @@
+{
+  "range": {
+    "start": 9930,
+    "end": 9979
+  },
+  "reviewed_at": "2026-08-06",
+  "format": "compact-v1",
+  "entries": [
+    {
+      "index": 9931,
+      "new_target": "闻到了气味。",
+      "source": "においが、した。",
+      "old_target": "有气味，飘了过来。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9932,
+      "new_target": "浓烈的鲜味——肉的气味。",
+      "source": "猛烈な旨み――肉のにおい。",
+      "old_target": "猛烈的鲜美――肉的气味。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9935,
+      "new_target": "就是这股气味。",
+      "source": "においだ。",
+      "old_target": "是气味。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9936,
+      "new_target": "闻到了！",
+      "source": "においがする！",
+      "old_target": "有气味！",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9937,
+      "new_target": "欢喜的咆哮震得铁笼嗡嗡作响。",
+      "source": "叫びは、歓喜の咆哮となって、ビリビリと檻を震わせた。",
+      "old_target": "呐喊化为欢喜的咆哮，剧烈震动着铁笼。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9940,
+      "new_target": "抑制不住的欲望，抑制不住的冲动，一切都压不住、压不住、压不住。",
+      "source": "抑えきれない欲望、抑えきれない衝動、なにもかもが抑えきれない抑えきれない抑えきれない。",
+      "old_target": "无法抑制的欲望，无法抑制的冲动，一切都无法抑制无法抑制无法抑制。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9941,
+      "new_target": "身体随心所欲地动了起来。",
+      "source": "思った通りに、体が動いた。",
+      "old_target": "身体如随心意般动了起来。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9942,
+      "new_target": "身体轻盈得仿佛身处梦中。",
+      "source": "夢のような身の軽さ。",
+      "old_target": "梦幻般的轻盈身手。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9943,
+      "new_target": "她凌虐、戏弄四处逃窜的猎物，像跳舞般追赶，故意放走，再旋转、跳跃、踏步、转身。地板、墙壁、天花板，全都成了她的立足点。",
+      "source": "逃げ惑う獲物をいたぶって、からかって、踊るように追い、ふざけて逃がし、回転、跳躍、ステップ、ターン、床も壁も天井も、すべてがこの身の足場となった。",
+      "old_target": "虐弄、戏弄四处逃窜的猎物，如起舞般追赶，开玩笑般放跑，旋转、跳跃、滑步、转身，地板、墙壁、天花板，一切都成了这具身体的脚踏之处。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9945,
+      "new_target": "那是令人无法抗拒的快感。",
+      "source": "堪えられない快感だった。",
+      "old_target": "那是无法言喻的快感。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9946,
+      "new_target": "撕开皮肤的触感、鲜血喷涌的势头，一切都令我沉醉。",
+      "source": "皮膚を引きちぎる感覚、噴出す血の勢い、なにもかもが私を夢中にさせた。",
+      "old_target": "撕裂皮肤的感觉，喷涌而出的血势，一切都让我为之沉沦。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9950,
+      "new_target": "我忘我地啜饮，死死压住猎物，用獠牙凌虐般咬伤它。然后——",
+      "source": "夢中ですすり、押さえつけ、嬲るように牙で傷つけ、そして。",
+      "old_target": "忘我地吮吸，死死按住，如折磨般用尖牙伤害，然后。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9952,
+      "new_target": "第二阵风暴席卷全身肌肤。",
+      "source": "全身の肌を、二度目の嵐が薙いだ。",
+      "old_target": "第二场风暴扫过了全身的肌肤。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9954,
+      "new_target": "仿佛全身的血液都在蒸发，透过毛孔散尽。",
+      "source": "全身の血が、蒸発して毛穴から抜けていってしまう気がした。",
+      "old_target": "感觉全身的血液都在蒸发，从毛孔散逸而出。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9955,
+      "new_target": "一瞬间的疼痛。",
+      "source": "一瞬の、痛み。",
+      "old_target": "一瞬的，剧痛。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9957,
+      "new_target": "回过神来，刚才压在对方身上的强健四肢，已经变回惨白的双腿和双臂。",
+      "source": "気がつけば、圧し掛かっていた力強い四肢は、生白い二本の足と、二本の腕に。",
+      "old_target": "回过神来，刚才死死压住对方的强壮四肢，已变回惨白的两条腿和两条手臂。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9958,
+      "new_target": "我觉得自己就像故事里解除诅咒的公主。",
+      "source": "呪いがとけた、物語の姫のようだと思った。",
+      "old_target": "我觉得，自己就像解开了诅咒的童话公主。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9961,
+      "new_target": "她听见远处有人说：成功了。",
+      "source": "成功だ、と、それは聞こえた。",
+      "old_target": "听起来像是，成功了。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9963,
+      "new_target": "手和脸都黏糊糊地湿着，恶心得很。",
+      "source": "手も、顔も、ベタベタと気味悪く濡れていた。",
+      "old_target": "手上、脸上，都被黏糊糊、恶心地濡湿了。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9965,
+      "new_target": "口腔和胃里翻涌上来的气味，是血。",
+      "source": "口の中、胃の中、上がってくる臭いは、血。",
+      "old_target": "嘴里、胃里，涌上来的臭气是，血。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9966,
+      "new_target": "又咸又腥，令人作呕。",
+      "source": "しょっぱくて、生臭くて、気持ち悪い。",
+      "old_target": "咸涩的、生腥的，令人恶心。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9968,
+      "new_target": "她抬起手，想捂住嘴。",
+      "source": "口を押さえようと、手を持ち上げた。",
+      "old_target": "我为了捂住嘴，抬起了手。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9969,
+      "new_target": "那只手腕上——",
+      "source": "その手首。",
+      "old_target": "而那手腕。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9970,
+      "new_target": "缠住它的是一片红色。",
+      "source": "絡み付いたものは、赤。",
+      "old_target": "缠绕其上的，是红色。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9971,
+      "new_target": "是染得通红的手指。",
+      "source": "真っ赤に染まった指だ。",
+      "old_target": "是被染得通红的手指。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9973,
+      "new_target": "手腕被抓住了。",
+      "source": "握られた。",
+      "old_target": "被握住了。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9975,
+      "new_target": "她的手腕被紧紧攥住，力道大得生疼。",
+      "source": "痛みを感じるほどに、強く、強く握られた。",
+      "old_target": "甚至感到疼痛般，被紧紧、紧紧地握住了。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9976,
+      "new_target": "心有所感，她低头看去。",
+      "source": "予感がして、見下ろした。",
+      "old_target": "怀着某种预感，我俯视下去。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9978,
+      "new_target": "浑身是血、伤痕累累，已经无法一眼认出来，但——",
+      "source": "血に汚れて、ボロボロに傷ついて、一目ではもうわからなかったけれど。",
+      "old_target": "被鲜血弄脏，伤得体无完肤，虽然一眼已经认不出是谁了。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 9979,
+      "new_target": "她胯下压着的人，是妈妈。",
+      "source": "またがった尻の下にいたのは、ママだった。",
+      "old_target": "但跨坐的屁股下方的人，是妈妈。",
+      "status": "corrected",
+      "note": "人工校对。"
+    }
+  ]
+}

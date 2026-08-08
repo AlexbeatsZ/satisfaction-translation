@@ -1,0 +1,490 @@
+{
+  "range": {
+    "start": 7730,
+    "end": 7829
+  },
+  "reviewed_at": "2026-08-05",
+  "format": "compact-v1",
+  "entries": [
+    {
+      "index": 7730,
+      "new_target": "「……您、怎么了？」",
+      "source": "【話者：天崎理理／中文名：天崎理理】「……どう、なさったの？」",
+      "old_target": "「……您怎么、了？」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7731,
+      "new_target": "「天崎理理。冷静下来听我说。」",
+      "source": "【話者：小日向貴子／中文名：小日向贵子】「天崎理理。落ち着いて聞いてちょうだい」",
+      "old_target": "「天崎理理。请你冷静听我说。」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7732,
+      "new_target": "肩膀被她抓住。",
+      "source": "肩を、掴まれた。",
+      "old_target": "肩膀，被抓住了。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7733,
+      "new_target": "近得能感受到对方的呼吸。",
+      "source": "息がかかるほどの距離。",
+      "old_target": "距离近到甚至能感受到彼此的呼吸。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7734,
+      "new_target": "近在咫尺的贵子双眸很美。",
+      "source": "間近で見る貴子の瞳は、美しい。",
+      "old_target": "近距离看贵子的眼睛，很美。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7735,
+      "new_target": "看上去像是化了妆——可她应该没化妆吧。但是，",
+      "source": "化粧をしているようにも見えるが――していないのだろうか。でも、",
+      "old_target": "看起来像是化了妆――但好像又没化。不过，",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7737,
+      "new_target": "——她在说、什么，",
+      "source": "――なに、を、",
+      "old_target": "――在说，什，",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7738,
+      "new_target": "「刚才警察联系了学园。是交通事故。她再也回不来了。」",
+      "source": "【話者：小日向貴子／中文名：小日向贵子】「先ほど、警察から連絡があった。交通事故。もう、帰らないの」",
+      "old_target": "「刚才，警察那边联系过了。是交通事故。她已经，回不来了。」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7739,
+      "new_target": "——什、",
+      "source": "――な、",
+      "old_target": "――什、",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7740,
+      "new_target": "「啊？」",
+      "source": "【話者：天崎理理／中文名：天崎理理】「は？」",
+      "old_target": "「哈？」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7742,
+      "new_target": "——什么。",
+      "source": "――なんだ。",
+      "old_target": "――什么啊。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7743,
+      "new_target": "那是什么意思。",
+      "source": "なんだ、それは。",
+      "old_target": "那是什么啊。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7745,
+      "new_target": "时间停止了。",
+      "source": "時間が止まる。",
+      "old_target": "时间凝固了。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7746,
+      "new_target": "声音消失了。",
+      "source": "音が消える。",
+      "old_target": "声音消失了。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7747,
+      "new_target": "一切都消失了。",
+      "source": "なにもかもが、消える。",
+      "old_target": "一切的一切，都消失了。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7748,
+      "new_target": "全都结束了。",
+      "source": "終わる。",
+      "old_target": "结束了。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7749,
+      "new_target": "不断坠落。",
+      "source": "落ちる。",
+      "old_target": "坠落了。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7751,
+      "new_target": "不行了。",
+      "source": "もうだめだ。",
+      "old_target": "已经不行了。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7752,
+      "new_target": "脑中嗡地一麻。",
+      "source": "ジン、と、頭の中が、痺れた。",
+      "old_target": "嗡的一声，脑子里一片麻木。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7754,
+      "new_target": "仿佛脑中的线路烧断了。",
+      "source": "回路が、焼き切れたみたいだ。",
+      "old_target": "脑回路就像是被烧毁了一样。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7755,
+      "new_target": "眼前一片空白，脑中发热，什么都无法理解。",
+      "source": "真っ白く、熱く、なにも分からなくなる。",
+      "old_target": "一片空白，一片炽热，什么都搞不懂了。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7758,
+      "new_target": "我无法相信。",
+      "source": "信じられない。",
+      "old_target": "无法相信。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7761,
+      "new_target": "「那、那然后呢？」",
+      "source": "【話者：天崎理理／中文名：天崎理理】「そ、それで？」",
+      "old_target": "「那、然后呢？」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7763,
+      "new_target": "我不能慌乱。",
+      "source": "取り乱すなんていけないこと。",
+      "old_target": "慌乱是不对的。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7765,
+      "new_target": "「那个，是真的吗？通知她哥哥了吗？」",
+      "source": "【話者：天崎理理／中文名：天崎理理】「あの、本当ですか？　お兄様へのご連絡は？」",
+      "old_target": "「那个，是真的吗？联系过她哥哥了吗？」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7766,
+      "new_target": "这种时候保持冷静才合乎礼仪——",
+      "source": "落ち着いて、ふるまうのが、礼儀――",
+      "old_target": "表现得，沉着冷静，才是礼貌――",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7767,
+      "new_target": "「……松井同学的哥哥目前下落不明。详情还没有通知学园相关人员。她母亲正在四处奔走，请警方寻找他。」",
+      "source": "【話者：小日向貴子／中文名：小日向贵子】「……松井さんのお兄様は、現在、行方不明になっていらっしゃる。詳細は、今はまだ、学園の関係者には知らされていない。おばさまが必死に警察を駆けずり回っているけれど」",
+      "old_target": "「……松井同学的哥哥，目前正处于失踪状态。具体细节，现在还没有告知学园的相关人员。阿姨虽然在拼命奔波于警察局各处」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7769,
+      "new_target": "「这、这真是……不得了的事，对吧。」",
+      "source": "【話者：天崎理理／中文名：天崎理理】「すご、い、話、ですよね」",
+      "old_target": "「真是个，了不起的，故事呢。」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7771,
+      "new_target": "「我不相信。」",
+      "source": "【話者：天崎理理／中文名：天崎理理】「信じられない」",
+      "old_target": "「我无法相信。」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7772,
+      "new_target": "「听我说——」",
+      "source": "【話者：小日向貴子／中文名：小日向贵子】「あのね――」",
+      "old_target": "「我说――」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7773,
+      "new_target": "「像是假的。就像假的一样。我完全没有真实感，哥哥失踪了，接着雪野又……这种事很奇怪吧。」",
+      "source": "【話者：天崎理理／中文名：天崎理理】「嘘みたい。嘘みたいです。ぜんぜん実感がないし、お兄様が行方不明って、そして雪野が、って……そんなの変ですよね」",
+      "old_target": "「就像开玩笑一样。就像开玩笑一样啊。完全没有真实感，哥哥失踪了，然后雪野又……这种事太奇怪了吧。」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7774,
+      "new_target": "「不对。绝对不对。我不相信。太奇怪了。不正常。明明就不正常。」",
+      "source": "【話者：天崎理理／中文名：天崎理理】「変。ぜったい変。私信じない。変だもん。おかしい。おかしいもん」",
+      "old_target": "「很奇怪。绝对很奇怪。我才不信呢。明明就很奇怪嘛。太反常了。太反常了嘛。」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7775,
+      "new_target": "她会回来的。",
+      "source": "帰ってくるよ。",
+      "old_target": "她会回来的呀。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7776,
+      "new_target": "这一切都是假的。",
+      "source": "こんなのは嘘だよ。",
+      "old_target": "这种事情都是假的呀。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7778,
+      "new_target": "事情不可能变成这样。",
+      "source": "こんなふうになるわけがない。",
+      "old_target": "怎么可能会变成这样。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7780,
+      "new_target": "再也见不到那么有活力的雪野，",
+      "source": "あんなに元気だった雪野にもう会えないなんて、",
+      "old_target": "怎么可能再也见不到那么有活力的雪野呢，",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7781,
+      "new_target": "「啊……见不到她了？」",
+      "source": "【話者：天崎理理／中文名：天崎理理】「あ……会えないの？」",
+      "old_target": "「啊……见不到了吗？」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7783,
+      "new_target": "「再也……见不到她了？」",
+      "source": "【話者：天崎理理／中文名：天崎理理】「会えないの？　もう」",
+      "old_target": "「见不到了吗？再也」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7784,
+      "new_target": "死了以后，就再也见不到了吗？",
+      "source": "死んでしまったら、会えない？",
+      "old_target": "如果死了的话，就见不到了吗？",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7785,
+      "new_target": "我无法接受这种事。",
+      "source": "そんなの納得いかない。",
+      "old_target": "那种事情我无法接受。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7786,
+      "new_target": "因为我才不要嘛。",
+      "source": "だってやだもん。",
+      "old_target": "因为我不要嘛。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7787,
+      "new_target": "我不信。",
+      "source": "私、信じない。",
+      "old_target": "我，才不信。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7791,
+      "new_target": "一起步入中年，一起变成老奶奶，永远做朋友。",
+      "source": "一緒におばさんになって、一緒におばあさんになって、ずっと友達でいる。",
+      "old_target": "一起变成中年妇人，一起变成老奶奶，永远做朋友。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7792,
+      "new_target": "因为我需要她嘛。",
+      "source": "必要だもん。",
+      "old_target": "很有必要嘛。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7793,
+      "new_target": "我的未来里需要有她啊。",
+      "source": "私の未来に、あのこは、必要なんだもん。",
+      "old_target": "在我的未来里，那个女孩子是不可或缺的嘛。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7795,
+      "new_target": "大家合起伙来骗我，这只是玩笑，全部、全都是假的，",
+      "source": "みんなで私をだまして、冗談で、ぜんぶ、うそで、",
+      "old_target": "大家合伙来骗我，是在开玩笑，全都，是骗人的，",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7797,
+      "new_target": "对，一定是这样。",
+      "source": "そうだきっとそうだ。",
+      "old_target": "对了，一定是这样。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7799,
+      "new_target": "「诶，可、可是……」",
+      "source": "【話者：天崎理理／中文名：天崎理理】「え、だって、でも」",
+      "old_target": "「欸，可是，但是」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7802,
+      "new_target": "「明天会停课。我还会再来找你谈。」",
+      "source": "【話者：小日向貴子／中文名：小日向贵子】「明日は休校になります。また、話に来るから」",
+      "old_target": "「明天学校会停课。我之后还会找你谈的。」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7805,
+      "new_target": "「啊——天崎理理！抓紧我！能站起来吗？来！」",
+      "source": "【話者：小日向貴子／中文名：小日向贵子】「あ――天崎理理っ！　私に掴まって！　立てるか？　さあ！」",
+      "old_target": "「啊――天崎理理！抓住我！站得起来吗？快！」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7812,
+      "new_target": "可是，明明哪里都没有不对劲。",
+      "source": "だけど、別に、どこもおかしくなんかない。",
+      "old_target": "可是，明明，哪里都没有什么不正常啊。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7813,
+      "new_target": "眼睛看得见东西，也不觉得恶心。",
+      "source": "目も見えているし気持ち悪くもないし。",
+      "old_target": "眼睛看得见，也没觉得恶心。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7817,
+      "new_target": "诺艾尔就在那里。",
+      "source": "ノエルがいた。",
+      "old_target": "吉川诺艾尔在。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7818,
+      "new_target": "她回来了。",
+      "source": "帰ってきたんだ。",
+      "old_target": "她回来了啊。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7819,
+      "new_target": "怎么了，诺艾尔。",
+      "source": "なあに、ノエル。",
+      "old_target": "怎么了，吉川诺艾尔。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7820,
+      "new_target": "你为什么浑身湿透了？",
+      "source": "どうして全身びしょ濡れなの？",
+      "old_target": "为什么全身都湿透了呢？",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7821,
+      "new_target": "你去了哪里？",
+      "source": "どこに行っていたの？",
+      "old_target": "你跑去哪里了呢？",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7825,
+      "new_target": "呐，诺艾尔。",
+      "source": "ねえ、ノエル。",
+      "old_target": "呐，吉川诺艾尔。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7827,
+      "new_target": "事情变得不得了了。",
+      "source": "大変なことに、なっちゃったよ。",
+      "old_target": "变成不得了的大事了呀。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 7829,
+      "new_target": "呐，我跟你说……",
+      "source": "ねえ、あのね、",
+      "old_target": "呐，那个呀，",
+      "status": "corrected",
+      "note": "人工校对。"
+    }
+  ]
+}

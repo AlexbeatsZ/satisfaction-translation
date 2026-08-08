@@ -7,6 +7,9 @@ on:
     paths:
       - 'proofreading/claims/**'
       - 'proofreading/check_active_claims.py'
+      - 'proofreading/check_translation_quality.py'
+      - 'proofreading/reviewed-batch-*.json'
+      - 'proofreading/skipped-ranges.json'
       - 'satisfaction-scripts.zh.json'
       - '.github/workflows/check-translation-claims.yml'
   push:
@@ -15,6 +18,9 @@ on:
     paths:
       - 'proofreading/claims/**'
       - 'proofreading/check_active_claims.py'
+      - 'proofreading/check_translation_quality.py'
+      - 'proofreading/reviewed-batch-*.json'
+      - 'proofreading/skipped-ranges.json'
       - 'satisfaction-scripts.zh.json'
       - '.github/workflows/check-translation-claims.yml'
 
@@ -29,3 +35,6 @@ jobs:
 
       - name: Validate active translation ranges
         run: python proofreading/check_active_claims.py
+
+      - name: Validate reviewed translation quality
+        run: python proofreading/check_translation_quality.py

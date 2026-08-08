@@ -1,0 +1,298 @@
+{
+  "range": {
+    "start": 11130,
+    "end": 11179
+  },
+  "reviewed_at": "2026-08-06",
+  "format": "compact-v1",
+  "entries": [
+    {
+      "index": 11130,
+      "new_target": "「我也会变成那样。」",
+      "source": "【話者：吉川ノエル／中文名：吉川诺艾尔】「私もああなるのね」",
+      "old_target": "「我也早晚会变成那样吧。」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 11133,
+      "new_target": "和那个被我杀死的温柔女孩去了同一个地方？",
+      "source": "自分が殺した優しい女の子と同じところ？",
+      "old_target": "和那个被自己杀害的温柔女孩子同一个地方吗？",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 11134,
+      "new_target": "死后能见到他们吗？",
+      "source": "死んだら彼ら、彼女らに会えるのだろうか？",
+      "old_target": "死了之后，能见到他们、她们吗？",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 11135,
+      "new_target": "还能向他们道歉吗？",
+      "source": "謝ることも、できるのだろうか？",
+      "old_target": "也能向他们道歉吗？",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 11136,
+      "new_target": "「……不可能吧……」",
+      "source": "【話者：吉川ノエル／中文名：吉川诺艾尔】「……無理、か……」",
+      "old_target": "「……不可能，吗……」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 11137,
+      "new_target": "她自言自语，轻轻笑了。",
+      "source": "一人ごちて、小さく笑う。",
+      "old_target": "独自喃喃自语着，微微一笑。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 11138,
+      "new_target": "「不可能吧。因为我去不了同一个地方。」",
+      "source": "【話者：吉川ノエル／中文名：吉川诺艾尔】「無理よね。同じところには、行けないもの」",
+      "old_target": "「不可能的吧。毕竟不可能去往同一个地方的。」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 11139,
+      "new_target": "因为她去不了他们被召往的救赎之地。",
+      "source": "彼らが召された救済の場所に、自分は行けないから。",
+      "old_target": "因为他们被召往的救赎之地，自己是去不了的。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 11142,
+      "new_target": "目光渐渐飘远。",
+      "source": "眼差しが、遠くなる。",
+      "old_target": "眼神，变得空洞遥远。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 11143,
+      "new_target": "这空空如也的感情究竟是什么？",
+      "source": "このからっぽの感情は、一体なんだろう。",
+      "old_target": "这份空虚的感情，究竟是什么呢。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 11146,
+      "new_target": "绝望。虚无。放弃。",
+      "source": "絶望。虚無。諦念。",
+      "old_target": "绝望。虚无。死心。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 11148,
+      "new_target": "任何词都不贴切。",
+      "source": "どんな言葉もしっくりこない。",
+      "old_target": "无论用什么词汇都感觉不贴切。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 11150,
+      "new_target": "也没有任何留恋。",
+      "source": "残す思いも、なにもない。",
+      "old_target": "留存的执念，也一无所有。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 11151,
+      "new_target": "诺艾尔只会破碎，然后消失。",
+      "source": "ノエルは砕け、ただ消えるだけ。",
+      "old_target": "诺艾尔只会粉碎，而后悄然消逝罢了。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 11153,
+      "new_target": "会是后天，还是下周？",
+      "source": "あさってだろうか、来週だろうか。",
+      "old_target": "还是后天呢，亦或是下周呢。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 11154,
+      "new_target": "「……只要吃药，至少暂时——」",
+      "source": "【話者：吉川裕樹／中文名：吉川裕树】「……薬を、飲めば、しばらくは……」",
+      "old_target": "「……只要吃了药，暂时就能……」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 11155,
+      "new_target": "「延长寿命？」",
+      "source": "【話者：吉川ノエル／中文名：吉川诺艾尔】「延命？」",
+      "old_target": "「延命？」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 11157,
+      "new_target": "「明白了。以后我不会忘记服药。只要吃了药，就不会再昏倒了吧？」",
+      "source": "【話者：吉川ノエル／中文名：吉川诺艾尔】「わかった。これからは、忘れずに飲むわ。飲んでいれば倒れたりもしないんでしょう」",
+      "old_target": "「我知道了。以后我会按时吃的。只要吃了就不会倒下了吧。」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 11158,
+      "new_target": "一阵疼痛窜过。",
+      "source": "痛みが走る。",
+      "old_target": "一阵剧痛袭来。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 11159,
+      "new_target": "就在手臂上。",
+      "source": "腕に、だ。",
+      "old_target": "是在手臂上。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 11161,
+      "new_target": "她茫然地低头看去。",
+      "source": "ぼんやりと、見下ろした。",
+      "old_target": "茫然地，低头看去。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 11162,
+      "new_target": "裕树抓着她的手臂，摇晃诺艾尔的身体。",
+      "source": "裕樹が腕を掴んで、ノエルの身体を揺すぶっていた。",
+      "old_target": "裕树正抓着她的手臂，摇晃着诺艾尔的身体。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 11163,
+      "new_target": "她想让他停下。",
+      "source": "やめて、と思う。",
+      "old_target": "住手，她心里想着。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 11164,
+      "new_target": "很痛，而且头一被摇晃，头痛似乎又要发作——",
+      "source": "痛いし、頭が揺れると、また頭痛が始まりそうで、",
+      "old_target": "好痛，而且头一晃动，好像又要开始头痛了，",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 11165,
+      "new_target": "「不是这个意思……！」",
+      "source": "【話者：吉川裕樹／中文名：吉川裕树】「そういうことじゃ、ないんだ……！」",
+      "old_target": "「不是那么一回事啊……！」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 11166,
+      "new_target": "「……什么？很痛。」",
+      "source": "【話者：吉川ノエル／中文名：吉川诺艾尔】「……なに？　痛いわ」",
+      "old_target": "「……什么？好痛啊。」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 11167,
+      "new_target": "她讨厌疼痛。",
+      "source": "痛いのは、いや。",
+      "old_target": "讨厌疼痛。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 11169,
+      "new_target": "那个被我称作『它』的东西。",
+      "source": "【話者：吉川ノエル／中文名：吉川诺艾尔】『それ』と、私が呼ぶものが。",
+      "old_target": "『那个』，被我如此称呼的东西。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 11170,
+      "new_target": "那个站在血海中指着我、以诅咒般的名字呼唤我的东西。",
+      "source": "血の海に立ち、私を指差し、呪わしい名で呼ぶものが。",
+      "old_target": "伫立在血海之中，指着我，用诅咒般的名字呼唤我的东西。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 11171,
+      "new_target": "「别这样……你抓住的地方很痛。」",
+      "source": "【話者：吉川ノエル／中文名：吉川诺艾尔】「やめてよ……つかまれてるところ、痛いから」",
+      "old_target": "「住手啊……被抓着的地方，很痛。」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 11172,
+      "new_target": "「我不想让你死。」",
+      "source": "【話者：吉川裕樹／中文名：吉川裕树】「僕は、君を、死なせたくない」",
+      "old_target": "「我，不想让你，死掉。」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 11173,
+      "new_target": "裕树没有松开她的手臂。",
+      "source": "裕樹は掴んだ腕を離してはくれない。",
+      "old_target": "裕树并没有松开抓住她手臂的手。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 11174,
+      "new_target": "他凑近脸，把她拉向自己，从近处直视她的眼底。",
+      "source": "顔を近づけ、引き寄せるようにして、間近から瞳を覗き込んでくる。",
+      "old_target": "他贴近脸庞，像是要把她拉过来一般，近距离凝视着她的双眼。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 11175,
+      "new_target": "近得让视线无法对焦。",
+      "source": "近づきすぎて焦点が合わなくなるぐらいに。",
+      "old_target": "甚至近到了眼神无法对焦的程度。",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 11177,
+      "new_target": "「……有办法。只要不兽化，对身体的负担就能大幅减轻。」",
+      "source": "【話者：吉川裕樹／中文名：吉川裕树】「……方法は、あるんだ。獣化さえしなければ、肉体への負担はかなり軽減できる」",
+      "old_target": "「……是有方法的。只要不进行兽化，给肉体带来的负担就能减轻不少。」",
+      "status": "corrected",
+      "note": "人工校对。"
+    },
+    {
+      "index": 11178,
+      "new_target": "「不可能。只要还要与合成兽敌人作战，我就无法避免兽化。」",
+      "source": "【話者：吉川ノエル／中文名：吉川诺艾尔】「無理ね。合成獣の敵と戦う以上、私も獣化することは避けられない」",
+      "old_target": "「不可能的。既然要与合成兽敌人战斗，我也无法避免兽化。」",
+      "status": "corrected",
+      "note": "人工校对。"
+    }
+  ]
+}
