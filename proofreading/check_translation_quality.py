@@ -17,6 +17,7 @@ TSV_PATH = ROOT / "satisfaction-text.tsv"
 
 SPEAKER_PREFIX_RE = re.compile(r"^【話者[:：][^】]*】")
 JAPANESE_LETTER_RE = re.compile(r"[ぁ-ゖァ-ヺー]")
+RUBY_RE = re.compile(r"<([^<>\r\n]+)>")
 WHITESPACE_RE = re.compile(r"\s+")
 PAREN_RUBY_RE = re.compile(r"(?<=[\u3400-\u9fff々ヶ])\([ぁ-ゖァ-ヺー]+\)")
 ANGLE_RUBY_RE = re.compile(r"<[ぁ-ゖァ-ヺー]+>")
@@ -125,6 +126,22 @@ def main() -> None:
             fail(errors, f"reviewed target is empty at {index}")
         if JAPANESE_LETTER_RE.search(target):
             fail(errors, f"Japanese letter remains in reviewed target at {index}: {target}")
+        source_ruby_count = len(RUBY_RE.findall(source))
+        target_ruby = RUBY_RE.findall(target)
+        if len(target_ruby) != source_ruby_count:
+            fail(
+                errors,
+                f"Ruby annotation count differs at {index}: "
+                f"source={source_ruby_count}, target={len(target_ruby)}",
+            )
+        for reading in target_ruby:
+            try:
+                encoded = reading.encode("cp936")
+            except UnicodeEncodeError:
+                fail(errors, f"Ruby annotation is not CP936-encodable at {index}: {reading}")
+                continue
+            if len(encoded) != len(reading) * 2:
+                fail(errors, f"Ruby annotation is not entirely double-byte at {index}: {reading}")
         if visible_source.startswith("「") and visible_source.endswith("」"):
             if not (target.startswith("「") and target.endswith("」")):
                 fail(errors, f"dialogue quotes missing at {index}: {target}")
